@@ -242,7 +242,7 @@
             <li>Violent</li>
         </requiredWorkTags>
         <possessions>
-            <Gold>10</Gold>
+            <Gold>5~10</Gold>
             <VAE_Apparel_Gambeson MayRequire="VanillaExpanded.VARME">1</VAE_Apparel_Gambeson>
         </possessions>
         <forcedTraits><Brawler /></forcedTraits>

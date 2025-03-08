@@ -3,7 +3,7 @@
     <BackstoryDef>
         <slot>Adulthood</slot>
         <title>Zoo Interpreter</title>
-        <defName>ABR_ZooInt</defName>
+        <defName>Rosen_ZooInt</defName>
         <titleShort>Interpreter</titleShort>
         <description>[PAWN_nameDef] worked at a famous zoo as an educator, explaining the behavior of animals to guests. [PAWN_possessive] passion about wildlife was extremely contagious to everyone [PAWN_pronoun] met.</description>
         <spawnCategories>
@@ -37,7 +37,7 @@
     <BackstoryDef>
         <slot>Adulthood</slot>
         <title>Babel Curator</title>
-        <defName>ABR_BabelAgent</defName>
+        <defName>Rosen_BabelAgent</defName>
         <titleShort>Curator</titleShort>
         <description>From a transcendant world, [PAWN_nameDef] was tasked by an Archotech to collect as many written stories as possible, with the goal of building a library to hold every text that has been and will be written.</description>
         <spawnCategories>
@@ -65,7 +65,7 @@
     <BackstoryDef>
         <slot>Adulthood</slot>
         <title>Medieval Enthusiast</title>
-        <defName>ABR_SCA</defName>
+        <defName>Rosen_SCA</defName>
         <titleShort>Scadian</titleShort>
         <description>Teaching at a Glitterworld university, [PAWN_nameDef]'s research focused on the history of combat techniques from thousands of years ago.  This may just have been an excuse for [PAWN_objective] to get paid for [PAWN_possessive] hobby of dressing up in armor and pretending to be a knight.</description>
         <spawnCategories>
@@ -99,8 +99,8 @@
     
     <BackstoryDef>
         <slot>Adulthood</slot>
-        <title>Wasted Talent</title>
-        <defName>ABR_Slack</defName>
+        <title>Waste of Talent</title>
+        <defName>Rosen_Slack</defName>
         <titleShort>Slacker</titleShort>
         <description>[PAWN_nameDef] was naturally good at everything, but completely unmotivated to make anything of [PAWN_possessive] life.
         </description>
@@ -141,7 +141,7 @@
     <BackstoryDef>
         <slot>Adulthood</slot>
         <title>Food Chemist</title>
-        <defName>ABR_Chemist</defName>
+        <defName>Rosen_Chemist</defName>
         <titleShort>Chemist</titleShort>
         <description>[PAWN_nameDef] lived a life of luxury on a glitterworld.
         [PAWN_possessive] primary research involved creating new and exotic artificial flavors.
@@ -170,7 +170,7 @@
     <BackstoryDef>
         <slot>Adulthood</slot>
         <title>Glitterworld Librarian</title>
-        <defName>ABR_Librarian</defName>
+        <defName>Rosen_Librarian</defName>
         <titleShort>Librarian</titleShort>
         <description>[PAWN_nameDef] managed an enormous library on a glitterworld. [PAWN_possessive] ability to sift through billions of of entries and materials in a matter of seconds was matched only by their complete incompetence in crafts. 
         </description>
@@ -200,9 +200,9 @@
     <BackstoryDef>
         <slot>Adulthood</slot>
         <title>Inventive Janitor</title>
-        <defName>ABR_MST3K</defName>
+        <defName>Rosen_MST3K</defName>
         <titleShort>Janitor</titleShort>
-        <description>Held captive by mad scientists and forced to watch cheesy movies, the worst they could find, hoping to drive [PAWN_pronoun] mad. [PAWN_nameDef] kept his sanity by building robot friends.
+        <description>Held captive by mad scientists and forced to watch cheesy movies, the worst they could find, [PAWN_nameDef] was only able to keep [PAWN_possessive] sanity by building robot friends.
         </description>
         <spawnCategories>
             <li>Offworld</li>
@@ -221,4 +221,32 @@
             <Bloodlust />
         </disallowedTraits>
     </BackstoryDef>
+
+    <BackstoryDef>
+        <slot>Adulthood</slot>
+        <title>Knight in Powered Armor</title>
+        <defName>Rosen_PowerKnight</defName>
+        <titleShort>Knight</titleShort>
+        <description>[PAWN_nameDef] served in the army as a means to live the dream of being a knight. Wealthy, [PAWN_pronoun] could afford the the most advanced powered armor to protect [PAWN_objective] skin.
+        </description>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>ImperialFighter</li>
+            <li>ImperialRoyal</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Social>4</Social>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <possessions>
+            <Gold>10</Gold>
+            <VAE_Apparel_Gambeson MayRequire="VanillaExpanded.VARME">1</VAE_Apparel_Gambeson>
+        </possessions>
+        <forcedTraits><Brawler /></forcedTraits>
+    </BackstoryDef>
+
+
 </Defs>

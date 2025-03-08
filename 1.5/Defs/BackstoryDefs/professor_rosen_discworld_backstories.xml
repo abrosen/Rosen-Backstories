@@ -1,0 +1,56 @@
+<Defs>
+    <!-- Rincewind -->
+    <BackstoryDef>
+        <defName>Rosen_Rincewind</defName>
+        <title>Failed Psycaster</title>
+        <titleShort>Wizzard</titleShort>
+        <description>After attending a university for psycasters, [PAWN_nameDef] discovered [PAWN_pronoun] was uniquely unqualified.  [PAWN_possessive] professors described [PAWN_objective] as the "psychic equivalent of the number zero."\nDespite having the  spirit of a psycaster, [PAWN_possessive] survival was better atrributed to having the body of a long distance sprinter.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>-2</Melee> 
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>Scientist</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <forcedTraits>
+            <PsychicSensitivity>-2</PsychicSensitivity>
+            <SpeedOffset>2</SpeedOffset>
+        </forcedTraits>
+        <disallowedTraits>
+            <Psychopath />
+            <Bloodlust />
+            <VTE_Brave MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Brave>
+        </disallowedTraits>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+    <!-- Twoflower  (force wanderlust, gold, chest)-->
+    <BackstoryDef>
+        <defName>Rosen_Twoflower</defName>
+        <title>Rimworld Tourist</title>
+        <titleShort>Tourist</titleShort>
+        <description>[PAWN_nameDef] hailed from a world where gold was amazingly common.  [PAWN_pronoun] travelled to many worlds and recorded [PAWN_possessive] experiences in the famous novel "What I Did on my Holidays."</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>-2</Melee> 
+            <Social>6</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+        </spawnCategories>
+        <disallowedTraits>
+            <Psychopath />
+            <Bloodlust />
+        </disallowedTraits>
+        <possessions>
+            <Gold>50~100</Gold>
+            <Novel>1</Novel>
+        </possessions>
+    </BackstoryDef>
+</Defs>

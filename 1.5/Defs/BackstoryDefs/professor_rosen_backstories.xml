@@ -107,6 +107,7 @@
         <spawnCategories>
             <li>Offworld</li>
             <li>Outlander</li>
+            <li>ImperialRoyal</li>
         </spawnCategories>
         <skillGains>
             <Shooting>4</Shooting>

@@ -4,7 +4,7 @@
         <defName>Rosen_Rincewind</defName>
         <title>Failed Psycaster</title>
         <titleShort>Wizzard</titleShort>
-        <description>After attending a university for psycasters, [PAWN_nameDef] discovered [PAWN_pronoun] was uniquely unqualified.  [PAWN_possessive] professors described [PAWN_objective] as the "psychic equivalent of the number zero."\nDespite having the  spirit of a psycaster, [PAWN_possessive] survival was better atrributed to having the body of a long distance sprinter.</description>
+        <description>After attending a university for psycasters, [PAWN_nameDef] discovered [PAWN_pronoun] was uniquely unqualified.  [PAWN_possessive] professors described [PAWN_objective] as the "psychic equivalent of the number zero."\n\nDespite having the spirit of a psycaster, [PAWN_possessive] survival was better atrributed to having the body of a long distance sprinter.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Melee>-2</Melee> 
@@ -52,5 +52,7 @@
             <Gold>50~100</Gold>
             <Novel>1</Novel>
         </possessions>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
 </Defs>

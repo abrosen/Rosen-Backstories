@@ -248,5 +248,58 @@
         <forcedTraits><Brawler /></forcedTraits>
     </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>Rosen_QuarentineChild</defName>
+        <title>Quarentine Child</title>
+        <titleShort>shut-in</titleShort>
+        <description>Before [PAWN_nameDef] could even speak, [PAWN_possessive] world was ravaged by worldwide pandemic. The next few years of [PAWN_possessive] life were spent in isolation with only [PAWN_possessive] for company.\nHowever, [PAWN_possessive] parents kept [PAWN_objective] busy, nuturing a natural talent for the arts and sciences.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Melee>-2</Melee>
+            <Social>-4</Social>
+            <Artistic>4</Artistic>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
+        </spawnCategories>
+        <disallowedTraits>
+            <Pyromaniac />
+        </disallowedTraits>
+        <possessions>
+            <TextBook>1</TextBook>
+        </possessions>
+    </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>Rosen_NameOfTheWind</defName>
+        <title>Wind Chaser</title>
+        <titleShort>Namer</titleShort>
+        <description>[PAWN_nameDef] claims [PAWN_pronoun] once called upon the wind and the wind answered.  Since then, [PAWN_pronoun] has been travelling the world, searching for the name of the wind.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Artistic>4</Artistic>
+            <Social>4</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>Researcher</li>
+            <li>Tribal</li>
+        </spawnCategories>
+        <forcedTraits>
+            <PsychicSensitivity>1</PsychicSensitivity>
+            <VTE_Wanderlust MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Wanderlust>
+        </forcedTraits>
+        <possessions>
+            <CE_Melee_QuarterStaff MayRequire="CETeam.CombatExtendedArmory">1</CE_Melee_QuarterStaff>
+        </possessions>
+        <disallowedTraits>
+            <Pyromaniac />
+        </disallowedTraits>
+        
+    </BackstoryDef>
 </Defs>

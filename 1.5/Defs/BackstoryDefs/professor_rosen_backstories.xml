@@ -34,12 +34,13 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
 
+    <!-- Library of Babel-->
     <BackstoryDef>
         <slot>Adulthood</slot>
         <title>Babel Curator</title>
         <defName>Rosen_BabelAgent</defName>
         <titleShort>Curator</titleShort>
-        <description>From a transcendant world, [PAWN_nameDef] was tasked by an Archotech to collect as many written stories as possible, with the goal of building a library to hold every text that has been and will be written.</description>
+        <description>[PAWN_nameDef] claimed to be from a transcendant world, tasked by an Archotech to collect as many written stories as possible, with the goal of building a library to hold every text that has been and will be written.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>Scientist</li>
@@ -67,7 +68,7 @@
         <title>Medieval Enthusiast</title>
         <defName>Rosen_SCA</defName>
         <titleShort>Scadian</titleShort>
-        <description>Teaching at a Glitterworld university, [PAWN_nameDef]'s research focused on the history of combat techniques from thousands of years ago.  This may just have been an excuse for [PAWN_objective] to get paid for [PAWN_possessive] hobby of dressing up in armor and pretending to be a knight.</description>
+        <description>Teaching at a glitterworld university, [PAWN_nameDef]'s research focused on the history of combat techniques from thousands of years ago.  This may just have been an excuse for [PAWN_objective] to get paid for [PAWN_possessive] hobby of dressing up in armor and pretending to be a knight.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>Scientist</li>
@@ -141,7 +142,7 @@
     <BackstoryDef>
         <slot>Adulthood</slot>
         <title>Food Chemist</title>
-        <defName>Rosen_Chemist</defName>
+        <defName>Rosen_FoodChemist</defName>
         <titleShort>Chemist</titleShort>
         <description>[PAWN_nameDef] lived a life of luxury on a glitterworld.
         [PAWN_possessive] primary research involved creating new and exotic artificial flavors.
@@ -332,17 +333,73 @@
         </requiredWorkTags>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
+        <disallowedTraits>
+            <Psychopath />
+            <Bloodlust />
+        </disallowedTraits>
     </BackstoryDef>
 
-    
+    <BackstoryDef>
+        <defName>Rosen_Hippocratic</defName>
+        <title>Charitable Physician</title>
+        <titleShort>Physician</titleShort>
+        <description>[PAWN_nameDef] would travel to settlements without medical infrastucture to provide care for those who would otherwise be unable to receive it.  Despite the constant danger,[PAWN_pronoun] abided by a millenia old oath to do no harm./n/n[PAWN_possessive] patients would remember [PAWN_possessive]calm and kind demeanor years after.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Medicine>8</Medicine>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>Scientist</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Caring</li>
+        </requiredWorkTags>
+        <workDisables>
+            <li>Violent</li>
+        </workDisables>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <forcedTraits>
+            <Kind />
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+    <defName>Rosen_MedKnight</defName>
+    <title>Medieval Knight</title>
+    <titleShort>Knight</titleShort>
+    <description>[PAWN_nameDef] was drafted into [PAWN_possessive] lord's army. [PAWN_pronoun] was knighted for saving the life of the crown prince on the battlefield, at great personal risk.</description>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Social>3</Social>
+      <Melee>6</Melee>
+      <Shooting>3</Shooting>
+    </skillGains>
+    <spawnCategories><li>Offworld</li></spawnCategories>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <possessions>
+      <Apparel_Cape MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">1</Apparel_Cape>
+    </possessions>
+    <forcedTraits>
+    <VTE_Brave MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Brave>
+    </forcedTraits>
+  </BackstoryDef>
 
     <!--
 
     Other ideas
     
     Explosive Chemist (force pyro)
-    Quack Doctor (loves ducks pun?)
     Knight
-    Phsy
     -->
 </Defs>

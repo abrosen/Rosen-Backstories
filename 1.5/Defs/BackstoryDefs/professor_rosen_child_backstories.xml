@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <BackstoryDef>
+        <defName>Rosen_QuarentineChild</defName>
+        <title>Quarentine Child</title>
+        <titleShort>shut-in</titleShort>
+        <description>Before [PAWN_nameDef] could even speak, [PAWN_possessive] world was ravaged by worldwide pandemic. The next few years of [PAWN_possessive] life were spent in isolation with only [PAWN_possessive] parents for company.\nHowever, [PAWN_possessive] parents kept [PAWN_objective] busy, nuturing a natural talent for the arts and sciences.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Melee>-2</Melee>
+            <Social>-4</Social>
+            <Artistic>4</Artistic>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
+        </spawnCategories>
+        <possessions>
+            <TextBook>1</TextBook>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_TroubleChild</defName>
+        <title>Troublesome Child</title>
+        <titleShort>Troublemaker</titleShort>
+        <description>Born into an extremely large family, [PAWN_nameDef] was starved for attention.  [PAWN_pronoun] solved this problem by creating a number of contraptions that made noises, created messes, and were otherwise generally quite meddlesome.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Social>-2</Social>
+            <Construction>2</Construction>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Crafting</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <Abrasive />
+        </forcedTraits>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+</Defs>

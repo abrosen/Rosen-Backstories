@@ -251,33 +251,10 @@
     </BackstoryDef>
 
     <BackstoryDef>
-        <defName>Rosen_QuarentineChild</defName>
-        <title>Quarentine Child</title>
-        <titleShort>shut-in</titleShort>
-        <description>Before [PAWN_nameDef] could even speak, [PAWN_possessive] world was ravaged by worldwide pandemic. The next few years of [PAWN_possessive] life were spent in isolation with only [PAWN_possessive] for company.\nHowever, [PAWN_possessive] parents kept [PAWN_objective] busy, nuturing a natural talent for the arts and sciences.</description>
-        <slot>Childhood</slot>
-        <skillGains>
-            <Intellectual>4</Intellectual>
-            <Melee>-2</Melee>
-            <Social>-4</Social>
-            <Artistic>4</Artistic>
-        </skillGains>
-        <spawnCategories>
-            <li>Offworld</li>
-            <li>Outlander</li>
-            <li>ImperialCommon</li>
-            <li>ImperialFighter</li>
-        </spawnCategories>
-        <possessions>
-            <TextBook>1</TextBook>
-        </possessions>
-    </BackstoryDef>
-
-    <BackstoryDef>
         <defName>Rosen_NameOfTheWind</defName>
         <title>Wind Chaser</title>
         <titleShort>Namer</titleShort>
-        <description>[PAWN_nameDef] claimed [PAWN_pronoun] once called upon the wind and the wind answered.  Since that event, [PAWN_pronoun] travelled from world to world, searching for the name of the wind.</description>
+        <description>[PAWN_nameDef] claimed [PAWN_pronoun] once called upon the wind and the wind answered.  Since that event, [PAWN_pronoun] travelled far and wide, searching for the name of the wind.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Artistic>4</Artistic>
@@ -309,7 +286,7 @@
         <defName>Rosen_OccultResearcher</defName>
         <title>Occult Researcher</title>
         <titleShort>Occultist</titleShort>
-        <description>[PAWN_nameDef] studied occult and phenomena present in the folklore of various cultures on the Rim.However, encountering an apparent supernatural event left [PAWN_objective] shaken after [PAWN_pronoun] was unable to explain it.</description>
+        <description>[PAWN_nameDef] studied occult and phenomena present in the folklore of various cultures on the Rim.  However, encountering an apparent supernatural event left [PAWN_objective] shaken after [PAWN_pronoun] was unable to explain it.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Social>2</Social>
@@ -327,14 +304,35 @@
         <possessions>
             <Tome MayRequire="Ludeon.RimWorld.Anomaly">1</Tome>
         </possessions>
-        <disallowedTraits>
-            <Pyromaniac />
-        </disallowedTraits>
         <bodyTypeMale>Thin</bodyTypeMale>
         <bodyTypeFemale>Thin</bodyTypeFemale>
-        
     </BackstoryDef>
-
+    
+    <BackstoryDef>
+        <defName>Rosen_QuackDoctor</defName>
+        <title>Physician</title>
+        <titleShort>Physician</titleShort>
+        <description>[PAWN_nameDef] worked long hours in the emergency department of a hospital before [PAWN_pronoun] retired to a farm.  [PAWN_pronoun] was especially of ducks.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>-4</Shooting>
+            <Animals>4</Animals>
+            <Medicine>6</Medicine>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>Scientist</li>
+            <li>Researcher</li>
+            <li>Farmer</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Caring</li>
+            <li>Animals</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
 
     
 
@@ -345,5 +343,6 @@
     Explosive Chemist (force pyro)
     Quack Doctor (loves ducks pun?)
     Knight
+    Phsy
     -->
 </Defs>

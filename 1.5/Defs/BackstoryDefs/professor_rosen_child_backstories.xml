@@ -2,9 +2,9 @@
 <Defs>
     <BackstoryDef>
         <defName>Rosen_QuarentineChild</defName>
-        <title>Quarentine Child</title>
+        <title>quarentine child</title>
         <titleShort>shut-in</titleShort>
-        <description>Before [PAWN_nameDef] could even speak, [PAWN_possessive] world was ravaged by worldwide pandemic. The next few years of [PAWN_possessive] life were spent in isolation with only [PAWN_possessive] parents for company.\nHowever, [PAWN_possessive] parents kept [PAWN_objective] busy, nuturing a natural talent for the arts and sciences.</description>
+        <description>Before [PAWN_nameDef] could even speak, [PAWN_possessive] world was ravaged by worldwide pandemic. The next few years of [PAWN_possessive] life were spent in isolation with only [PAWN_possessive] parents for company. However, [PAWN_possessive] parents kept [PAWN_objective] busy, nuturing a natural talent for the arts and sciences.</description>
         <slot>Childhood</slot>
         <skillGains>
             <Intellectual>4</Intellectual>
@@ -25,8 +25,8 @@
 
     <BackstoryDef>
         <defName>Rosen_TroubleChild</defName>
-        <title>Troublesome Child</title>
-        <titleShort>Troublemaker</titleShort>
+        <title>troublesome child</title>
+        <titleShort>troublemaker</titleShort>
         <description>Born into an extremely large family, [PAWN_nameDef] was starved for attention.  [PAWN_pronoun] solved this problem by creating a number of contraptions that made noises, created messes, and were otherwise generally quite meddlesome.</description>
         <slot>Childhood</slot>
         <skillGains>

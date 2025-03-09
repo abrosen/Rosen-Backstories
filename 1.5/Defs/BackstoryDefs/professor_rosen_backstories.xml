@@ -2,7 +2,7 @@
 <Defs>
     <BackstoryDef>
         <slot>Adulthood</slot>
-        <title>Zoo Interpreter</title>
+        <title>Zoo interpreter</title>
         <defName>Rosen_ZooInt</defName>
         <titleShort>Interpreter</titleShort>
         <description>[PAWN_nameDef] worked at a famous zoo as an educator, explaining the behavior of animals to guests. [PAWN_possessive] passion about wildlife was extremely contagious to everyone [PAWN_pronoun] met.</description>
@@ -27,8 +27,8 @@
             <Bloodlust />
         </disallowedTraits>
         <forcedTraits>
-            <Nerves>1</Nerves>
             <VTE_Menagerist MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Menagerist>
+            <Nerves>1</Nerves>
         </forcedTraits>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -37,7 +37,7 @@
     <!-- Library of Babel-->
     <BackstoryDef>
         <slot>Adulthood</slot>
-        <title>Babel Curator</title>
+        <title>Babel curator</title>
         <defName>Rosen_BabelAgent</defName>
         <titleShort>Curator</titleShort>
         <description>[PAWN_nameDef] claimed to be from a transcendant world, tasked by an Archotech to collect as many written stories as possible, with the goal of building a library to hold every text that has been and will be written.</description>
@@ -65,7 +65,7 @@
 
     <BackstoryDef>
         <slot>Adulthood</slot>
-        <title>Medieval Enthusiast</title>
+        <title>Medieval enthusiast</title>
         <defName>Rosen_SCA</defName>
         <titleShort>Scadian</titleShort>
         <description>Teaching at a glitterworld university, [PAWN_nameDef]'s research focused on the history of combat techniques from thousands of years ago.  This may just have been an excuse for [PAWN_objective] to get paid for [PAWN_possessive] hobby of dressing up in armor and pretending to be a knight.</description>
@@ -100,9 +100,9 @@
     
     <BackstoryDef>
         <slot>Adulthood</slot>
-        <title>Waste of Talent</title>
+        <title>waste of talent</title>
         <defName>Rosen_Slack</defName>
-        <titleShort>Slacker</titleShort>
+        <titleShort>slacker</titleShort>
         <description>[PAWN_nameDef] was naturally good at everything, but completely unmotivated to make anything of [PAWN_possessive] life.
         </description>
         <spawnCategories>
@@ -141,11 +141,10 @@
 
     <BackstoryDef>
         <slot>Adulthood</slot>
-        <title>Food Chemist</title>
+        <title>food chemist</title>
         <defName>Rosen_FoodChemist</defName>
-        <titleShort>Chemist</titleShort>
-        <description>[PAWN_nameDef] lived a life of luxury on a glitterworld.
-        [PAWN_possessive] primary research involved creating new and exotic artificial flavors.
+        <titleShort>chemist</titleShort>
+        <description>[PAWN_nameDef] lived a life of luxury on a glitterworld. [PAWN_possessive] primary research involved creating new and exotic artificial flavors.
         </description>
         <spawnCategories>
             <li>Offworld</li>
@@ -170,9 +169,9 @@
 
     <BackstoryDef>
         <slot>Adulthood</slot>
-        <title>Glitterworld Librarian</title>
+        <title>glitterworld librarian</title>
         <defName>Rosen_Librarian</defName>
-        <titleShort>Librarian</titleShort>
+        <titleShort>librarian</titleShort>
         <description>[PAWN_nameDef] managed an enormous library on a glitterworld. [PAWN_possessive] ability to sift through billions of of entries and materials in a matter of seconds was matched only by their complete incompetence in crafts. 
         </description>
         <spawnCategories>
@@ -200,9 +199,9 @@
 
     <BackstoryDef>
         <slot>Adulthood</slot>
-        <title>Inventive Janitor</title>
+        <title>inventive janitor</title>
         <defName>Rosen_MST3K</defName>
-        <titleShort>Janitor</titleShort>
+        <titleShort>janitor</titleShort>
         <description>Held captive by mad scientists and forced to watch cheesy movies, the worst they could find, [PAWN_nameDef] was only able to keep [PAWN_possessive] sanity by building robot friends.
         </description>
         <spawnCategories>
@@ -225,9 +224,9 @@
 
     <BackstoryDef>
         <slot>Adulthood</slot>
-        <title>Knight in Powered Armor</title>
+        <title>knight in powered armor</title>
         <defName>Rosen_PowerKnight</defName>
-        <titleShort>Knight</titleShort>
+        <titleShort>knight</titleShort>
         <description>[PAWN_nameDef] served in the army as a means to live the dream of being a knight. Wealthy, [PAWN_pronoun] could afford the the most advanced powered armor to protect [PAWN_objective] skin.
         </description>
         <spawnCategories>
@@ -253,8 +252,8 @@
 
     <BackstoryDef>
         <defName>Rosen_NameOfTheWind</defName>
-        <title>Wind Chaser</title>
-        <titleShort>Namer</titleShort>
+        <title>wind chaser</title>
+        <titleShort>namer</titleShort>
         <description>[PAWN_nameDef] claimed [PAWN_pronoun] once called upon the wind and the wind answered.  Since that event, [PAWN_pronoun] travelled far and wide, searching for the name of the wind.</description>
         <slot>Adulthood</slot>
         <skillGains>
@@ -285,9 +284,9 @@
     <!-- Occult Researcher -->
     <BackstoryDef>
         <defName>Rosen_OccultResearcher</defName>
-        <title>Occult Researcher</title>
-        <titleShort>Occultist</titleShort>
-        <description>[PAWN_nameDef] studied occult and phenomena present in the folklore of various cultures on the Rim.  However, encountering an apparent supernatural event left [PAWN_objective] shaken after [PAWN_pronoun] was unable to explain it.</description>
+        <title>occult researcher</title>
+        <titleShort>occultist</titleShort>
+        <description>[PAWN_nameDef] studied the occult and the mysterious phenomena present in the folklore of various cultures on the Rim.  However, encountering an apparent supernatural event left [PAWN_objective] shaken after [PAWN_pronoun] was unable to explain it.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Social>2</Social>
@@ -311,8 +310,8 @@
     
     <BackstoryDef>
         <defName>Rosen_QuackDoctor</defName>
-        <title>Physician</title>
-        <titleShort>Physician</titleShort>
+        <title>retired physician</title>
+        <titleShort>physician</titleShort>
         <description>[PAWN_nameDef] worked long hours in the emergency department of a hospital before [PAWN_pronoun] retired to a farm.  [PAWN_pronoun] was especially of ducks.</description>
         <slot>Adulthood</slot>
         <skillGains>
@@ -337,13 +336,17 @@
             <Psychopath />
             <Bloodlust />
         </disallowedTraits>
+        <forcedTraits>
+            <VTE_AnimalLover MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_AnimalLover>
+        </forcedTraits>
     </BackstoryDef>
 
     <BackstoryDef>
         <defName>Rosen_Hippocratic</defName>
-        <title>Charitable Physician</title>
-        <titleShort>Physician</titleShort>
-        <description>[PAWN_nameDef] would travel to settlements without medical infrastucture to provide care for those who would otherwise be unable to receive it.  Despite the constant danger,[PAWN_pronoun] abided by a millenia old oath to do no harm./n/n[PAWN_possessive] patients would remember [PAWN_possessive]calm and kind demeanor years after.</description>
+        <title>charitable physician</title>
+        <titleShort>physician</titleShort>
+        <description>[PAWN_nameDef] would travel to settlements without medical infrastucture to provide care for those who would otherwise be unable to receive it.  Despite the constant danger, [PAWN_pronoun] abided by a millenia old oath to do no harm.
+\n[PAWN_possessive] patients would remember [PAWN_possessive] calm and kind demeanor years after.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Medicine>8</Medicine>
@@ -369,7 +372,7 @@
 
     <BackstoryDef>
     <defName>Rosen_MedKnight</defName>
-    <title>Medieval Knight</title>
+    <title>medieval knight</title>
     <titleShort>Knight</titleShort>
     <description>[PAWN_nameDef] was drafted into [PAWN_possessive] lord's army. [PAWN_pronoun] was knighted for saving the life of the crown prince on the battlefield, at great personal risk.</description>
     <slot>Adulthood</slot>

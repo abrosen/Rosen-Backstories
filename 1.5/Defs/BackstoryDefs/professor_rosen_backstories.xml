@@ -371,35 +371,92 @@
     </BackstoryDef>
 
     <BackstoryDef>
-    <defName>Rosen_MedKnight</defName>
-    <title>medieval knight</title>
-    <titleShort>Knight</titleShort>
-    <description>[PAWN_nameDef] was drafted into [PAWN_possessive] lord's army. [PAWN_pronoun] was knighted for saving the life of the crown prince on the battlefield, at great personal risk.</description>
-    <slot>Adulthood</slot>
-    <skillGains>
-      <Social>3</Social>
-      <Melee>6</Melee>
-      <Shooting>3</Shooting>
-    </skillGains>
-    <spawnCategories><li>Offworld</li></spawnCategories>
-    <workDisables>
-      <li>ManualDumb</li>
-    </workDisables>
-    <requiredWorkTags>
-      <li>Violent</li>
-    </requiredWorkTags>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-    <possessions>
-      <Apparel_Cape MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">1</Apparel_Cape>
-    </possessions>
-    <forcedTraits>
-    <VTE_Brave MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Brave>
-    </forcedTraits>
-  </BackstoryDef>
+        <defName>Rosen_MedKnight</defName>
+        <title>medieval knight</title>
+        <titleShort>Knight</titleShort>
+        <description>[PAWN_nameDef] was drafted into [PAWN_possessive] lord's army. [PAWN_pronoun] was knighted for saving the life of the crown prince on the battlefield, at great personal risk.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>3</Social>
+            <Melee>6</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <spawnCategories><li>Offworld</li></spawnCategories>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <possessions>
+        <Apparel_Cape MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">1</Apparel_Cape>
+        </possessions>
+        <forcedTraits>
+        <VTE_Brave MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Brave>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_KosherHalal</defName>
+        <title>Theological scholar</title>
+        <titleShort>Theologist</titleShort>
+        <description>[PAWN_nameDef] was a well respected scholar in [PAWN_possessive] ideoligion.  [PAWN_pronoun] served in a council to decide whether certain animals found on the Rim were acceptable to eat based on the existing dietary rules of their ideoligion.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>4</Social>
+            <Cooking>4</Cooking>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+            <li>ImperialRoyal</li>
+        </spawnCategories>
+        <workDisables>
+            <li>Mining</li>
+        </workDisables>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <forcedTraits>
+            <VTE_RefinedPalate MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_RefinedPalate>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Klutz</defName>
+        <title>Klutzy researcher</title>
+        <titleShort>Klutz</titleShort>
+        <description>Despite being quite adept at the scientific theory in [PAWN_possessive] field, [PAWN_nameDef]'s advancement was stymied by [PAWN_possessive] constant clumsiness ruining any experiment [PAWN_pronoun] came up with.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>-4</Melee>
+            <Intellectual>8</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Scientist</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <workDisables>
+            <li>Crafting</li>
+            <li>Construction</li>
+        </workDisables>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <forcedTraits>
+            <VTE_Clumsy MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Clumsy>
+        </forcedTraits>
+    </BackstoryDef>
 
     <!--
-
+    Static sufferer 
     Other ideas
     
     Explosive Chemist (force pyro)

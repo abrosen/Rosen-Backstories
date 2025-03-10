@@ -1,5 +1,5 @@
 # Rosen-Backstories
-![Preview Image](About/Preview_orig.jpg "Preview")
+![Preview Image](About/Preview.png "Preview")
 
 Part serious mod, part attempt to learn to mod RimWorld.  Many of the backstories are academically focused.  The mod does not require additional mods, but some backstories will take advantage of Vanilla Traits Expanded and Vanilla Armour Expanded if you have them.  Part of the motivation is to add more variety to the "Researcher" category of backstories.
 

@@ -37,7 +37,7 @@
         <defName>Rosen_Twoflower</defName>
         <title>rimworld tourist</title>
         <titleShort>tourist</titleShort>
-        <description>[PAWN_nameDef] hailed from a world where gold was amazingly common.  [PAWN_pronoun] travelled to many worlds and recorded [PAWN_possessive] experiences in the famous novel "What I Did on my Holidays."</description>
+        <description>[PAWN_nameDef] hailed from a world where gold was amazingly common. [PAWN_pronoun] travelled to many worlds and recorded [PAWN_possessive] experiences in the famous novel "What I Did on my Holidays."</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Melee>-2</Melee> 
@@ -47,6 +47,9 @@
             <li>Offworld</li>
             <li>Outlander</li>
         </spawnCategories>
+        <forcedTraits>
+            <VTE_Wanderlust MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Wanderlust>
+        </forcedTraits>
         <disallowedTraits>
             <Psychopath />
             <Bloodlust />

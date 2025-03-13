@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+
     <!-- GNU Terry Pratchett-->
+    <!-- Parts of backstories were lifted from the L-Space wiki-->
+    
+    
     <!-- Rincewind -->
     <BackstoryDef>
         <defName>Rosen_Rincewind</defName>
@@ -70,7 +75,7 @@
         <defName>Rosen_patrician</defName>
         <title>colony patrician</title>
         <titleShort>patrician</titleShort>
-        <description>[PAWN_nameDef] ruled a sizable colony on the Rim as dictator in all but name. [PAWN_possessive] colony thrived under [PAWN_possessive], as [PAWN_possessive] ruled with more of a velvet glove, rather than an iron fist, following [PAWN_possessive] family's motto of <i>si non confectus, non reficiat.</i></description>
+        <description>[PAWN_nameDef] ruled a sizable colony on the Rim as dictator in all but name. [PAWN_possessive] colony thrived under [PAWN_possessive], as [PAWN_possessive] ruled with more of a velvet glove, rather than an iron fist, following [PAWN_possessive] family's motto of "si non confectus, non reficiat."\n\n[PAWN_possessive] other great joy, besides ensuring the colony ran like clockwork, was pampering [PAWN_possessive] dog.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Shooting>2</Shooting>
@@ -93,12 +98,91 @@
         <bodyTypeMale>Thin</bodyTypeMale>
         <bodyTypeFemale>Thin</bodyTypeFemale>
     </BackstoryDef>
-    <!-- Assassin's Guild Child-->
-    <!-- Teatime's name pronunciation-->
 
-    <!-- Moist Conman (tycoon?) -->
+
+    <!-- Teatime's name pronunciation-->
+    <BackstoryDef>
+        <defName>Rosen_uncannyass</defName>
+        <title>Uncanny assassin</title>
+        <titleShort>assassin</titleShort>
+        <description>[PAWN_nameDef] was raised as an assassin from a young age and became near infamous in certain cricles for a series of particularly innovative and brutal murders. [PAWN_possessive] mind has been likened to a shattered mirror - something brilliant, sharp, and dazzling, but also fundamentally and irrevocably broken.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>6</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <forcedTraits>
+            <Psychopath />
+        </forcedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <!-- Moist -->
+    <BackstoryDef>
+        <defName>Rosen_swindler</defName>
+        <title>reformed conman</title>
+        <titleShort>swindler</titleShort>
+        <titleFemale>reformed conwoman</titleFemale>
+        <titleShortFemale>swindler</titleShortFemale>
+        <description>Wanted dead in multiple colonies for [PAWN_possessive] cons, [PAWN_nameDef] was finally caught and hung within a literal inch of [PAWN_possessive] life. Afterwards, [PAWN_pronoun] was given the chance to turn [PAWN_possessive] life around, applying [PAWN_possessive] skills at reparing some of the failing institutions of a large colony.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>4</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>ImperialCommon</li>
+        </spawnCategories>
+        <forcedTraits>
+            <VTE_Tycoon MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Tycoon>
+        </forcedTraits>
+        <requiredWorkTags>
+            <li>Social</li>
+        </requiredWorkTags>
+        <disallowedTraits>
+            <Bloodlust />
+        </disallowedTraits>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
     <!-- Vimes Teatotaller?-->
-    <!-- Sausage Salesman-->
+    <!-- Dibbler -->
+    <BackstoryDef>
+        <defName>Rosen_CMOT</defName>
+        <title>sausage salesman</title>
+        <titleShort>hawker</titleShort>
+        <titleFemale>sausage saleswoman</titleFemale>
+        <titleShortFemale>hawker</titleShortFemale>
+        <description>On every world along the rim and core, there would be someone like [PAWN_nameDef], someone who would be to sell sausages of suspicious origin and at such a low price [PAWN_pronoun] would insist "that it's cutting me own throat."\n\nPerhaps the most astonishing thing was that despite the fact that [PAWN_nameDef]'s sausages tasted objectively terrible, people would find themselves buying another some time later.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Cooking>-4</Cooking>
+            <Social>6</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>Pirate</li>
+            <li>ImperialCommon</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Social</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <VTE_IronStomach MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_IronStomach>
+        </forcedTraits>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
 
 
 </Defs>

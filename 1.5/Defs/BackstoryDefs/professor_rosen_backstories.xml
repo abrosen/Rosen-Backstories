@@ -68,7 +68,7 @@
         <title>Medieval enthusiast</title>
         <defName>Rosen_SCA</defName>
         <titleShort>Scadian</titleShort>
-        <description>Teaching at a glitterworld university, [PAWN_nameDef]'s research focused on the history of combat techniques from thousands of years ago.  This may just have been an excuse for [PAWN_objective] to get paid for [PAWN_possessive] hobby of dressing up in armor and pretending to be a knight.</description>
+        <description>Teaching at a glitterworld university, [PAWN_nameDef]'s research focused on the history of combat techniques from thousands of years ago.  This may just have been an excuse for [PAWN_objective] to get paid for [PAWN_possessive] hobby of dressing up in armor and pretending to be a knight.\n\nWhile [PAWN_nameDef] spent a considerable amount of time outdoors thanks to [PAWN_possessive] hobby, very little of it was spent in green spaces or wilderness.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>Scientist</li>
@@ -172,7 +172,7 @@
         <title>glitterworld librarian</title>
         <defName>Rosen_Librarian</defName>
         <titleShort>librarian</titleShort>
-        <description>[PAWN_nameDef] managed an enormous library on a glitterworld. [PAWN_possessive] ability to sift through billions of of entries and materials in a matter of seconds was matched only by their complete incompetence in crafts. 
+        <description>[PAWN_nameDef] managed an enormous library on a glitterworld. [PAWN_possessive] ability to sift through billions of of entries and materials in a matter of seconds was matched only by their complete incompetence in crafts.  There was nothing physical [PAWN_nameDef] could make that would not collapse in a matter of seconds.
         </description>
         <spawnCategories>
             <li>Offworld</li>
@@ -180,8 +180,7 @@
             <li>Researcher</li>
         </spawnCategories>
         <skillGains>
-            <Construction>-2</Construction>
-            <Intellectual>8</Intellectual>
+            <Intellectual>4</Intellectual>
         </skillGains>
         <requiredWorkTags>
             <li>Intellectual</li>
@@ -189,6 +188,7 @@
         <workDisables>
             <li>Artistic</li>
             <li>Crafting</li>
+            <li>Constructing</li>
         </workDisables>
         <forcedTraits>
             <VTE_Academian MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Academian>
@@ -202,7 +202,7 @@
         <title>inventive janitor</title>
         <defName>Rosen_MST3K</defName>
         <titleShort>janitor</titleShort>
-        <description>Held captive by mad scientists and forced to watch cheesy movies, the worst they could find, [PAWN_nameDef] was only able to keep [PAWN_possessive] sanity by building robot friends.
+        <description>Held captive on a space satellite and forced by mad scientists to watch cheesy movies (the worst they could find) [PAWN_nameDef] was only able to keep [PAWN_possessive] sanity with the help of [PAWN_possessive] robot friends. [PAWN_nameDef] crafted the aforementioned robots [PAWN_possessive]self, using spare parts from the satellite \n\nDespite the dire, dangerous, and utterly bizarre conditions [PAWN_pronoun] found [PAWN_possessive]self in, [PAWN_nameDef] maintained a positive attitude throughout it all. 
         </description>
         <spawnCategories>
             <li>Offworld</li>
@@ -214,12 +214,15 @@
         </skillGains>
         <requiredWorkTags>
             <li>Crafting</li>
+            <li>Social</li>
         </requiredWorkTags>
         <forcedTraits><NaturalMood>1</NaturalMood></forcedTraits>
         <disallowedTraits>
             <Psychopath />
             <Bloodlust />
         </disallowedTraits>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
 
     <BackstoryDef>
@@ -402,7 +405,7 @@
         <defName>Rosen_KosherHalal</defName>
         <title>Theological scholar</title>
         <titleShort>Theologist</titleShort>
-        <description>[PAWN_nameDef] was a well respected scholar in [PAWN_possessive] ideoligion.  [PAWN_pronoun] served in a council to decide whether certain animals found on the Rim were acceptable to eat based on the existing dietary rules of their ideoligion.</description>
+        <description>[PAWN_nameDef] was a well respected scholar in [PAWN_possessive] ideoligion.  [PAWN_pronoun] served in a council to decide whether certain animals found on the Rim were acceptable to eat based on their ideoligion's existing dietary restrictions.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Social>4</Social>
@@ -443,7 +446,7 @@
         </spawnCategories>
         <workDisables>
             <li>Crafting</li>
-            <li>Construction</li>
+            <li>Constructing</li>
         </workDisables>
         <requiredWorkTags>
             <li>Intellectual</li>

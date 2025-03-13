@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+    <!-- Pandemic was wild-->
     <BackstoryDef>
         <defName>Rosen_QuarentineChild</defName>
         <title>quarentine child</title>
@@ -10,7 +11,7 @@
             <Intellectual>4</Intellectual>
             <Melee>-2</Melee>
             <Social>-4</Social>
-            <Artistic>4</Artistic>
+            <Artistic>3</Artistic>
         </skillGains>
         <spawnCategories>
             <li>Offworld</li>
@@ -23,6 +24,7 @@
         </possessions>
     </BackstoryDef>
 
+    <!-- Some kids are chaos-->
     <BackstoryDef>
         <defName>Rosen_TroubleChild</defName>
         <title>troublesome child</title>
@@ -46,9 +48,79 @@
         </spawnCategories>
     </BackstoryDef>
 
-    <!-- Mission Child-->
+    <!-- This one is a reference to the LDS mission practice, made generic. -->
+    <BackstoryDef>
+        <defName>Rosen_MissionChild</defName>
+        <title>Missionary</title>
+        <titleShort>Missionary</titleShort>
+        <description>[PAWN_nameDef]'s spent over a year serving on a charitable mission on behalf of [PAWN_possessive] ideoligion. The combination of charity work and proselytizing left [PAWN_nameDef] with a smattering of useful skills.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Social>2</Social>
+            <Construction>2</Construction>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Social</li>
+        </requiredWorkTags>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>ImperialRoyal</li>
+            <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Weak stats, strong trait-->
+    <BackstoryDef>
+        <defName>Rosen_Daydream</defName>
+        <title>Daydreaming student</title>
+        <titleShort>Daydreamer</titleShort>
+        <description>[PAWN_nameDef]'s spent much of [PAWN_possessive] time in school daydreaming about exploring strange new worlds, preferably on a five-year mission.  While [PAWN_possessive] performance in school was less than stellar, [PAWN_nameDef] always maintained a positive outlook on their future.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Intellectual>-2</Intellectual>
+            <Crafting>-2</Crafting>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Artistic</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <NaturalMood>1</NaturalMood>
+        </forcedTraits>
+        <disallowedTraits>
+            <Psychopath />
+        </disallowedTraits>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>ImperialRoyal</li>
+            <li>ImperialCommon</li>
+        </spawnCategories>
+    </BackstoryDef>
+    <!--
+    <BackstoryDef>
+        <defName>Rosen_Unremarkable</defName>
+        <title>Unremarkable student</title>
+        <titleShort>student</titleShort>
+        <description>The most remarkable thing about[PAWN_nameDef]'s childhood was how unremarkable it was.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Intellectual>1</Intellectual>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>ImperialRoyal</li>
+            <li>ImperialCommon</li>
+        </spawnCategories>
+    </BackstoryDef>
+    -->
+
     <!-- Science Enthusiast-->
-    <!-- Daydreamer-->
     <!-- Generic Student-->
     <!-- 中二病 -->
 </Defs>

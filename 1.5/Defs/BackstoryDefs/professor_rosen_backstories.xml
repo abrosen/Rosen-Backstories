@@ -40,7 +40,7 @@
         <title>Babel curator</title>
         <defName>Rosen_BabelAgent</defName>
         <titleShort>Curator</titleShort>
-        <description>[PAWN_nameDef] claimed to be from a transcendant world, tasked by an Archotech to collect as many written stories as possible, with the goal of building a library to hold every text that has been and will be written.</description>
+        <description>[PAWN_nameDef] claimed to be from a transcendent world, tasked by an Archotech to collect as many written stories as possible, with the goal of building a library to hold every text that has been and will be written.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>Scientist</li>
@@ -103,8 +103,7 @@
         <title>waste of talent</title>
         <defName>Rosen_Slack</defName>
         <titleShort>slacker</titleShort>
-        <description>[PAWN_nameDef] was naturally good at everything, but completely unmotivated to make anything of [PAWN_possessive] life.
-        </description>
+        <description>[PAWN_nameDef] was naturally good at everything, but completely unmotivated to make anything of [PAWN_possessive] life.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>Outlander</li>
@@ -144,8 +143,7 @@
         <title>food chemist</title>
         <defName>Rosen_FoodChemist</defName>
         <titleShort>chemist</titleShort>
-        <description>[PAWN_nameDef] lived a life of luxury on a glitterworld. [PAWN_possessive] primary research involved creating new and exotic artificial flavors.
-        </description>
+        <description>[PAWN_nameDef] lived a life of luxury on a glitterworld. [PAWN_possessive] primary research involved creating new and exotic artificial flavors.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>Scientist</li>
@@ -172,8 +170,7 @@
         <title>glitterworld librarian</title>
         <defName>Rosen_Librarian</defName>
         <titleShort>librarian</titleShort>
-        <description>[PAWN_nameDef] managed an enormous library on a glitterworld. [PAWN_possessive] ability to sift through billions of of entries and materials in a matter of seconds was matched only by their complete incompetence in crafts.  There was nothing physical [PAWN_nameDef] could make that would not collapse in a matter of seconds.
-        </description>
+        <description>[PAWN_nameDef] managed an enormous library on a glitterworld. [PAWN_possessive] ability to sift through billions of of entries and materials in a matter of seconds was matched only by their complete incompetence in crafts.  There was nothing physical [PAWN_nameDef] could make that would not collapse in a matter of seconds.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>Scientist</li>
@@ -202,8 +199,7 @@
         <title>inventive janitor</title>
         <defName>Rosen_MST3K</defName>
         <titleShort>janitor</titleShort>
-        <description>Held captive on a space satellite and forced by mad scientists to watch cheesy movies (the worst they could find) [PAWN_nameDef] was only able to keep [PAWN_possessive] sanity with the help of [PAWN_possessive] robot friends. [PAWN_nameDef] crafted the aforementioned robots [PAWN_possessive]self, using spare parts from the satellite \n\nDespite the dire, dangerous, and utterly bizarre conditions [PAWN_pronoun] found [PAWN_possessive]self in, [PAWN_nameDef] maintained a positive attitude throughout it all. 
-        </description>
+        <description>Held captive on a space satellite and forced by mad scientists to watch cheesy movies (the worst they could find) [PAWN_nameDef] was only able to keep [PAWN_possessive] sanity with the help of [PAWN_possessive] robot friends. [PAWN_nameDef] crafted the aforementioned robots [PAWN_possessive]self, using spare parts from the satellite \n\nDespite the dire, dangerous, and utterly bizarre conditions [PAWN_pronoun] found [PAWN_possessive]self in, [PAWN_nameDef] maintained a positive attitude throughout it all.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>Researcher</li>
@@ -230,8 +226,7 @@
         <title>knight in powered armor</title>
         <defName>Rosen_PowerKnight</defName>
         <titleShort>knight</titleShort>
-        <description>[PAWN_nameDef] served in the army as a means to live the dream of being a knight. Wealthy, [PAWN_pronoun] could afford the the most advanced powered armor to protect [PAWN_objective] skin.
-        </description>
+        <description>[PAWN_nameDef] served in the army as a means to live the dream of being a knight. Wealthy, [PAWN_pronoun] could afford the the most advanced powered armor to protect [PAWN_objective] skin.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>ImperialFighter</li>
@@ -348,8 +343,7 @@
         <defName>Rosen_Hippocratic</defName>
         <title>charitable physician</title>
         <titleShort>physician</titleShort>
-        <description>[PAWN_nameDef] would travel to settlements without medical infrastucture to provide care for those who would otherwise be unable to receive it.  Despite the constant danger, [PAWN_pronoun] abided by a millenia old oath to do no harm.
-\n[PAWN_possessive] patients would remember [PAWN_possessive] calm and kind demeanor years after.</description>
+        <description>[PAWN_nameDef] would travel to settlements without medical infrastucture to provide care for those who would otherwise be unable to receive it.  Despite the constant danger, [PAWN_pronoun] abided by a millennia old oath to do no harm.\n\n[PAWN_possessive] patients would remember [PAWN_possessive] calm and kind demeanor years after.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Medicine>8</Medicine>

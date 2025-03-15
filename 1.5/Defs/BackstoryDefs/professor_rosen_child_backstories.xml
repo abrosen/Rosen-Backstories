@@ -122,29 +122,22 @@
         </spawnCategories>
     </BackstoryDef>
 
-
-
-    <!--BackstoryDef>
-        <defName>Rosen_Unremarkable</defName>
-        <title>Unremarkable student</title>
-        <titleShort>student</titleShort>
-        <description>The most remarkable thing about[PAWN_nameDef]'s childhood was how unremarkable it was.</description>
+    <BackstoryDef>
+        <defName>Rosen_ChosenOne</defName>
+        <title>Chosen one</title>
+        <titleShort>destined</titleShort>
+        <description>[PAWN_nameDef]'s birth was heralded as the arrival of the Chosen One, [PAWN_pronoun] who was destined to drive the steel beasts back to the black skies. [PAWN_nameDef]'s trained in ancient rites and battle tactics in preparation for the day [PAWN_pronoun] would called upon to fulfill their destiny.</description>
         <slot>Childhood</slot>
         <skillGains>
+            <Shooting>1</Shooting>
+            <Melee>3</Melee>
             <Intellectual>1</Intellectual>
-            <Crafting>1</Crafting>
         </skillGains>
         <spawnCategories>
-            <li>Offworld</li>
-            <li>Outlander</li>
-            <li>ImperialRoyal</li>
-            <li>ImperialCommon</li>
+            <li>Tribal</li>
         </spawnCategories>
     </BackstoryDef>
-    -->
 
-    <!-- Chosen One Child-->
-    <!-- Science Enthusiast-->
-    <!-- Generic Student-->
+
     
 </Defs>

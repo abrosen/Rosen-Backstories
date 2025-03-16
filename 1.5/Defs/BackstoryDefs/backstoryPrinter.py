@@ -10,9 +10,9 @@ def printBackstories(files):
         titles += re.findall(r"<title>(.*)</title>",text,re.MULTILINE)   
     for t,b in zip(titles,backstories):
         b = b.replace("[PAWN_nameDef]", "Jean Eric")
-        b = b.replace("[PAWN_possessive]", "their")
-        b = b.replace("[PAWN_pronoun]", "they")
-        b = b.replace("[PAWN_objective]", "them")
+        b = b.replace("[PAWN_possessive]", "his")
+        b = b.replace("[PAWN_pronoun]", "he")
+        b = b.replace("[PAWN_objective]", "him")
         
         print(t.strip().capitalize(),"-",b.strip(),"\n")
 

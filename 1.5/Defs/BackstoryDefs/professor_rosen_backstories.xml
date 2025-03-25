@@ -452,7 +452,7 @@
         </forcedTraits>
     </BackstoryDef>
 
-
+<!--
     <BackstoryDef>
         <defName>Rosen_Starship_Trooper</defName>
         <title>Mobile Infantry</title>
@@ -481,7 +481,7 @@
             <VTE_Clumsy MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Clumsy>
         </forcedTraits>
     </BackstoryDef>
-
+-->
 
     <!--
     Static sufferer 

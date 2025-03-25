@@ -452,11 +452,44 @@
         </forcedTraits>
     </BackstoryDef>
 
+
+    <BackstoryDef>
+        <defName>Rosen_Starship_Trooper</defName>
+        <title>Mobile Infantry</title>
+        <titleShort>Infantry</titleShort>
+        <description>Despite being quite adept at the scientific theory in [PAWN_possessive] field, [PAWN_nameDef]'s advancement was stymied by [PAWN_possessive] constant clumsiness ruining any experiment [PAWN_pronoun] came up with.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>-4</Melee>
+            <Intellectual>8</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Scientist</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <workDisables>
+            <li>Crafting</li>
+            <li>Constructing</li>
+        </workDisables>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <forcedTraits>
+            <VTE_Clumsy MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Clumsy>
+        </forcedTraits>
+    </BackstoryDef>
+
+
     <!--
     Static sufferer 
     Other ideas
     
     Explosive Chemist (force pyro)
     Knight
+
+    Use the long war and armor
     -->
 </Defs>

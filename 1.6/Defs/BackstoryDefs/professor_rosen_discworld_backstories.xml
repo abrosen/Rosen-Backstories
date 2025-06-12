@@ -178,6 +178,15 @@
             <Bloodlust />
             <VTE_Coward MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Coward>
         </disallowedTraits>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>2</Shooting>
+            <Social>6</Social>
+        </skillGains>
+
+        <possessions>
+            <MeleeWeapon_Club/>
+        </possessions>
         <bodyTypeMale>Male</bodyTypeMale> 
         <bodyTypeFemale>Female</bodyTypeFemale>  
     </BackstoryDef>

@@ -156,7 +156,7 @@
 
     <BackstoryDef>
         <defName>Rosen_Vimes</defName>
-        <title>Watch Commander</title>
+        <title>Watch commander</title>
         <titleShort>Commander</titleShort>
         <description>[PAWN_nameDef] served as the captain of a sprawling, chaotic colony's watch. [PAWN_pronoun] dragged the ramshackle force from a disreputable gang into a semblance of a real police unit, mostly through sheer grit and an uncanny understanding of the criminal mind. Cynical and world-weary, [PAWN_nameDef] was often described as two drinks short of sober. Nevertheless, [PAWN_pronoun] clung to a stubborn, street-level sense of justice.</description>
         <slot>Adulthood</slot>

@@ -310,7 +310,7 @@
         <defName>Rosen_QuackDoctor</defName>
         <title>retired physician</title>
         <titleShort>physician</titleShort>
-        <description>[PAWN_nameDef] worked long hours in the emergency department of a hospital before [PAWN_pronoun] retired to a farm.  [PAWN_pronoun] was especially of ducks.</description>
+        <description>[PAWN_nameDef] worked long hours in the emergency department of a hospital before [PAWN_pronoun] retired to a farm.  [PAWN_pronoun] was especially fond of ducks.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Shooting>-4</Shooting>
@@ -402,8 +402,9 @@
         <description>[PAWN_nameDef] was a well respected scholar in [PAWN_possessive] ideoligion.  [PAWN_pronoun] served in a council to decide whether certain animals found on the Rim were acceptable to eat based on their ideoligion's existing dietary restrictions.</description>
         <slot>Adulthood</slot>
         <skillGains>
-            <Social>4</Social>
+            <Social>2</Social>
             <Cooking>4</Cooking>
+            <Intellectual>4</Intellectual>
         </skillGains>
         <spawnCategories>
             <li>Offworld</li>
@@ -452,38 +453,72 @@
         </forcedTraits>
     </BackstoryDef>
 
-<!--
     <BackstoryDef>
-        <defName>Rosen_Starship_Trooper</defName>
-        <title>Mobile Infantry</title>
-        <titleShort>Infantry</titleShort>
-        <description>Despite being quite adept at the scientific theory in [PAWN_possessive] field, [PAWN_nameDef]'s advancement was stymied by [PAWN_possessive] constant clumsiness ruining any experiment [PAWN_pronoun] came up with.</description>
+        <defName>Rosen_Overseer</defName>
+        <title>Trial overseer</title>
+        <titleShort>Overseer</titleShort>
+        <description>[PAWN_nameDef] oversaw the coming-of-age trials of [PAWN_possessive] tribe, guiding them through the wasteland. [PAWN_nameDef] knew it would only be a matter of time before the blood machines returned to raze their homes, so [PAWN_pronoun] taught them how to survive in any harshest of environments.</description>
         <slot>Adulthood</slot>
         <skillGains>
-            <Melee>-4</Melee>
-            <Intellectual>8</Intellectual>
+            <Plants>4</Plants>
+            <Shooting>4</Shooting>
+            <Melee>2</Melee>
         </skillGains>
         <spawnCategories>
-            <li>Offworld</li>
-            <li>Scientist</li>
-            <li>Researcher</li>
+            <li>Tribal</li>
         </spawnCategories>
-        <workDisables>
-            <li>Crafting</li>
-            <li>Constructing</li>
-        </workDisables>
         <requiredWorkTags>
-            <li>Intellectual</li>
+            <li>Plants</li>
+            <li>Social</li>
         </requiredWorkTags>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
-        <forcedTraits>
-            <VTE_Clumsy MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Clumsy>
-        </forcedTraits>
     </BackstoryDef>
--->
+
+
+    <BackstoryDef>
+        <defName>Rosen_TribalPrometheus</defName>
+        <title>Promethean Thief</title>
+        <titleShort>Promethean</titleShort>
+        <description>[PAWN_nameDef] led many expeditions into the wastelands to steal the magic metal of the blood machines. Some of the things [PAWN_pronoun] brought back were magic torchs that would not go out and sticks that shot lightning.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>4</Melee>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <forcedTraits><SpeedOffset>2</SpeedOffset> </forcedTraits>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
 
     <!--
+    <BackstoryDef>
+        <defName>Rosen_TribalPyroInventor</defName>
+        <title>Promethean Thief</title>
+        <titleShort>Promethean</titleShort>
+        <description>[PAWN_nameDef] led many expeditions into the wastelands to steal the magic metal of the blood machines. Some of the things [PAWN_pronoun] brought back were magic torchs that would not go out and sticks that shot lightning.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>4</Melee>
+            <Intellectual>8</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <forcedTraits><SpeedOffset>2</SpeedOffset> </forcedTraits>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
     Static sufferer 
     Other ideas
     

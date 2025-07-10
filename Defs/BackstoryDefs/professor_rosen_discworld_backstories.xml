@@ -85,12 +85,15 @@
         <spawnCategories>
             <li>Offworld</li>
             <li>Outlander</li>
+            <li>Medieval</li>
+            <li>ImperialRoyal</li>
         </spawnCategories>
         <forcedTraits>
             <VTE_DogPerson MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_DogPerson>
         </forcedTraits>
         <requiredWorkTags>
             <li>Social</li>
+            <li>Animals</li>
         </requiredWorkTags>
         <disallowedTraits>
             <Bloodlust />

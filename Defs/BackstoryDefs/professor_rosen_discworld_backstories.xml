@@ -192,12 +192,12 @@
     </BackstoryDef>
 
 
-    <!--Carrot.  Taken from The Discworld Companion-->
+    <!--Carrot.  Description taken from The Discworld Companion-->
     <BackstoryDef>
         <defName>Rosen_CarrotAdult</defName>
         <title>watch captain</title>
         <titleShort>captain</titleShort>
-        <description>[PAWN_nameDef] served as the captain of a sprawling, chaotic colony's watch.  Despite the Rim's best efforts, [PAWN_pronoun] remained honest, good-natured, and honourable. Being able to punch the lights out of a Hussar bugged out on go-juice didn't hurt.</description>
+        <description>[PAWN_nameDef] served as the captain of a sprawling, chaotic colony's watch.  Despite the rim's best efforts, [PAWN_pronoun] remained honest, good-natured, and honourable. Being able to punch the lights out of a Hussar bugged out on go-juice didn't hurt.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Melee>6</Melee>

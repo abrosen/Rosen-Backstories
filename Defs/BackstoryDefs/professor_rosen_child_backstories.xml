@@ -155,10 +155,63 @@
             <li>Pirate</li>
             <li>Scientist</li>
             <li>Researcher</li>
+            <li>ImperialCommon</li>
         </spawnCategories>
         <possessions>
             <TextBook>1</TextBook>
         </possessions>
+    </BackstoryDef>
+
+
+    <!-- Claire.-->
+     <BackstoryDef>
+        <defName>Rosen_ExpeditionGuard</defName>
+        <title>expedition guard</title>  
+        <titleShort>guard</titleShort> 
+        <slot>Childhood</slot>
+        <description>Born to an impovershed class on a crowded but technically advanced urbworld, [PAWN_nameDef] took the first possible shuttle offworld, joining a research expedition as an armed guard. When not on duty, [PAWN_nameDef] occupied [PAWN_objective]self with cultivating numerous potted plants.</description>  
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Plants>2</Plants>
+            <Intellectual>1</Intellectual>
+            <Medicine>1</Medicine>
+        </skillGains>  
+        <requiredWorkTags>
+            <li>Violent</li>
+            <li>PlantWork</li>
+        </requiredWorkTags>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+            <li>Researcher</li>
+            <li>ImperialFighter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_RawRecruit</defName>
+        <title>raw recruit</title>  
+        <titleShort>recruit</titleShort> 
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] was born to an impovershed class on a crowded but technically advanced urbworld.  Many members of [PAWN_possessive] family choose military service as their best chance to improve their grim lot in life. [PAWN_nameDef] was no exception and joined as soon as [PAWN_pronoun] was of age.</description>  
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Intellectual>1</Intellectual>
+            <Melee>2</Melee>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+            <li>Researcher</li>
+            <li>ImperialFighter</li>
+        </spawnCategories>
+        <forcedTraits>
+           <NaturalMood>-1</NaturalMood>
+        </forcedTraits>
     </BackstoryDef>
 
 

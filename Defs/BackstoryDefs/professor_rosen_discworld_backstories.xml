@@ -217,7 +217,6 @@
         </requiredWorkTags>
         <forcedTraits>
            <Kind />
-           <Tough />
         </forcedTraits>
         <disallowedTraits>
             <Psychopath />
@@ -227,6 +226,38 @@
         <possessions>
             <MeleeWeapon_LongSword/>
         </possessions>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_CarrotChild</defName>
+        <title>adopted by dirtmoles</title>
+        <titleShort>dirtmole</titleShort>
+        <description>[PAWN_nameDef] was found and raised by a colony of dirtmoles.  [PAWN_possessive] above average height earned [PAWN_objective] the moniker Kzad-bhat, or "Head Banger."</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Mining>4</Mining>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>ImperialFighter</li>
+            <li>ImperialRoyal</li>
+        </spawnCategories>
+       <requiredWorkTags>
+            <li>Violent</li>
+            <li>Social</li>
+            <li>Mining</li>
+        </requiredWorkTags>
+        <forcedTraits>
+           <Tough />
+        </forcedTraits>
+        <disallowedTraits>
+            <Psychopath />
+            <Bloodlust />
+            <VTE_Coward MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Coward>
+        </disallowedTraits>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>

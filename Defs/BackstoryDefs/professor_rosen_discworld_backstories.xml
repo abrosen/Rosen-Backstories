@@ -103,9 +103,9 @@
     <!-- Teatime's name pronunciation-->
     <BackstoryDef>
         <defName>Rosen_uncannyass</defName>
-        <title>Uncanny assassin</title>
+        <title>uncanny assassin</title>
         <titleShort>assassin</titleShort>
-        <description>[PAWN_nameDef] was raised as an assassin from a young age and became near infamous in certain circles for a series of particularly innovative and brutal murders. [PAWN_possessive] mind has been likened to a shattered mirror - something brilliant, sharp, and dazzling, but also fundamentally and irrevocably broken.</description>
+        <description>[PAWN_nameDef] was raised as an assassin from a young age and became near infamous in certain circles for a series of particularly brutal murders. [PAWN_possessive] mind has been likened to a shattered mirror - something brilliant, sharp, and dazzling, but also fundamentally and irrevocably broken.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Melee>6</Melee>

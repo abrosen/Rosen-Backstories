@@ -138,6 +138,30 @@
         </spawnCategories>
     </BackstoryDef>
 
+    <!-- So we can have a shuffable medical student.-->
+    <BackstoryDef>
+        <defName>Rosen_GlitterMedicalStudent</defName>
+        <title>medical student</title>  
+        <titleShort>student</titleShort> 
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] studied at a prestigious medical academy.  Despite glitterworld technology being able to heal the most grevious of wounds with the push of a button, [PAWN_possessive] university emphasized the need for traditional hands-on skills so many physicians  had relied on over the millennia.</description>  
+        <skillGains>
+            <Crafting>1</Crafting>
+            <Intellectual>1</Intellectual>
+            <Medicine>3</Medicine>
+        </skillGains>  
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+            <li>Scientist</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <possessions>
+            <TextBook>1</TextBook>
+        </possessions>
+    </BackstoryDef>
+
+
 
     
 </Defs>

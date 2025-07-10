@@ -203,6 +203,7 @@
         <spawnCategories>
             <li>Offworld</li>
             <li>Researcher</li>
+            <li>Pirate</li>
         </spawnCategories>
         <skillGains>
             <Crafting>4</Crafting>
@@ -453,78 +454,39 @@
         </forcedTraits>
     </BackstoryDef>
 
+
     <BackstoryDef>
-        <defName>Rosen_Overseer</defName>
-        <title>Trial overseer</title>
-        <titleShort>Overseer</titleShort>
-        <description>[PAWN_nameDef] oversaw the coming-of-age trials of [PAWN_possessive] tribe, guiding them through the wasteland. [PAWN_nameDef] knew it would only be a matter of time before the blood machines returned to raze their homes, so [PAWN_pronoun] taught [PAWN_possessive] charges how to survive in the harshest of environments.</description>
+        <defName>Rosen_GlitterworldSurgeon</defName>
+        <title>glitterworld physician</title>
+        <titleShort>surgeon</titleShort>
+        <description>Even in a world mostly free of disease and human suffering, there were still accidents that required quick human intervention.  While not as lucrative a career as cosmetic alterations and much more stressful, [PAWN_nameDef] found [PAWN_possessive] time as a emergency physician much more worthwhile.</description>
         <slot>Adulthood</slot>
-        <skillGains>
-            <Plants>4</Plants>
-            <Shooting>4</Shooting>
-            <Melee>2</Melee>
-        </skillGains>
-        <spawnCategories>
-            <li>Tribal</li>
-        </spawnCategories>
         <requiredWorkTags>
-            <li>PlantWork</li>
+            <li>Caring</li>
             <li>Social</li>
-        </requiredWorkTags>
-        <forcedTraits>
-            <Ascetic/>
-        </forcedTraits>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-    </BackstoryDef>
-
-
-    <BackstoryDef>
-        <defName>Rosen_TribalPrometheus</defName>
-        <title>Promethean thief</title>
-        <titleShort>Promethean</titleShort>
-        <description>[PAWN_nameDef] led many expeditions into the wastelands to steal the magic metal of the blood machines. Some of the things [PAWN_pronoun] brought back were magic torchs that would not go out and sticks that shot lightning.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Crafting>4</Crafting>
-            <Intellectual>4</Intellectual>
-        </skillGains>
-        <spawnCategories>
-            <li>Tribal</li>
-        </spawnCategories>
-        <requiredWorkTags>
             <li>Intellectual</li>
         </requiredWorkTags>
-        <forcedTraits><SpeedOffset>2</SpeedOffset> </forcedTraits>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+            <li>Scientist</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <possessions>
-            <VWE_MeleeWeapon_StunBaton MayRequire="VanillaExpanded.VWENL">1</VWE_MeleeWeapon_StunBaton>
+            <MedicineUltratech>2</MedicineUltratech>
         </possessions>
-        
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
+    
 
+    
     <!--
-    <BackstoryDef>
-        <defName>Rosen_TribalPyroInventor</defName>
-        <title>Promethean Thief</title>
-        <titleShort>Promethean</titleShort>
-        <description>[PAWN_nameDef] led many expeditions into the wastelands to steal the magic metal of the blood machines. Some of the things [PAWN_pronoun] brought back were magic torchs that would not go out and sticks that shot lightning.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Melee>4</Melee>
-            <Intellectual>8</Intellectual>
-        </skillGains>
-        <spawnCategories>
-            <li>Tribal</li>
-        </spawnCategories>
-        <requiredWorkTags>
-            <li>Intellectual</li>
-        </requiredWorkTags>
-        <forcedTraits><SpeedOffset>2</SpeedOffset> </forcedTraits>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-    </BackstoryDef>
 
     Static sufferer 
     Other ideas

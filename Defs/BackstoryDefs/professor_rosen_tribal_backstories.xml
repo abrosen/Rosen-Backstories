@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <BackstoryDef>
+        <defName>Rosen_TribalOverseer</defName>
+        <title>trial overseer</title>
+        <titleShort>overseer</titleShort>
+        <description>[PAWN_nameDef] oversaw the coming-of-age trials of [PAWN_possessive] tribe, guiding them through the wasteland. [PAWN_nameDef] knew it would only be a matter of time before the blood machines returned to raze their homes, so [PAWN_pronoun] taught [PAWN_possessive] charges how to survive in the harshest of environments.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Plants>4</Plants>
+            <Shooting>4</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>PlantWork</li>
+            <li>Social</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <Ascetic/>
+        </forcedTraits>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_TribalPrometheus</defName>
+        <title>promethean thief</title>
+        <titleShort>promethean</titleShort>
+        <description>[PAWN_nameDef] led many expeditions into the wastelands to steal the magic metal of the blood machines. Some of the things [PAWN_pronoun] brought back were magic torchs that would not go out and sticks that shot lightning.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <forcedTraits><SpeedOffset>2</SpeedOffset> </forcedTraits>
+        <possessions>
+            <VWE_MeleeWeapon_StunBaton MayRequire="VanillaExpanded.VWENL">1</VWE_MeleeWeapon_StunBaton>
+        </possessions>
+        
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+</Defs>

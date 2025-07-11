@@ -485,6 +485,68 @@
     </BackstoryDef>
     
 
+    <!--Adapted from VBE_Catastrophe;
+    Added different flavor, tags, and balance
+    -->
+    <BackstoryDef>
+        <slot>Adulthood</slot>
+        <defName>Rosen_Survivor</defName>
+        <title>survivor</title>
+        <titleShort>survivor</titleShort>
+        <baseDesc>After an ill-fated expedition drew the ire of a particularly malevolent archotech, [PAWN_nameDef] has be on the run ever since.  [PAWN_nameDef] has jumped from colony to colony, pursued by mechanoids and horrid fleshbeasts. Despite the overwhelming odds, [PAWN_nameDef] has survived everything coming [PAWN_possessive] way and has become quite proficient at dispatching threats.</baseDesc>
+        <spawnCategories>
+            <li>Outlander</li>
+            <li>Pirate</li>
+            <li>Researcher</li>
+            <li>Offworld</li>
+        </spawnCategories><bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>4</Melee>
+            <Medicine>4</Medicine>
+        </skillGains>
+        <workDisables>
+            <li>Artistic</li>
+            <li>Crafting</li>
+        </workDisables>
+        <forcedTraits>
+            <Tough />
+        </forcedTraits>
+        <disallowedTraits>
+            <Kind />
+        </disallowedTraits>        
+    </BackstoryDef>
+
+
+    <!--Adapted from BiosphereManager95 in core
+    <BackstoryDef>
+    <defName>Rosen_NaturePreserveManager</defName>
+    <title>biosphere manager</title>
+    <titleShort>conservationist</titleShort>
+    <description>[PAWN_nameDef] lived on a peaceful glitterworld where all menial work was done by robots, while the people mostly devoted themselves to leisure. [PAWN_pronoun] managed the plant and animal life of a sprawling park, where citizens came to admire nature's beauty.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>Crafting</li>
+      <li>Cooking</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+      <li>Animals</li>
+      <li>Artistic</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Shooting>-4</Shooting>
+      <Animals>4</Animals>
+      <Plants>4</Plants>
+    </skillGains>
+    <spawnCategories>
+        <li>Offworld</li><li>Farmer</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+     -->
     
     <!--
 

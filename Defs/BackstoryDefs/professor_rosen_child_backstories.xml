@@ -194,7 +194,7 @@
         <title>raw recruit</title>  
         <titleShort>recruit</titleShort> 
         <slot>Childhood</slot>
-        <description>[PAWN_nameDef] was born to an impovershed class on a crowded but technically advanced urbworld.  Many members of [PAWN_possessive] family choose military service as their best chance to improve their grim lot in life. [PAWN_nameDef] was no exception and joined as soon as [PAWN_pronoun] was of age.</description>  
+        <description>[PAWN_nameDef] was born to an impovershed class on a crowded but technically advanced urbworld.  Many members of [PAWN_possessive] family choose military service as their best chance to improve their grim lot in life. [PAWN_nameDef] was no exception and joined as soon as [PAWN_pronoun] was of age.  Once there, [PAWN_pronoun] found [PAWN_pronoun] was an excellent shot.</description>  
         <skillGains>
             <Shooting>6</Shooting>
             <Intellectual>1</Intellectual>
@@ -210,7 +210,45 @@
             <li>ImperialFighter</li>
         </spawnCategories>
         <forcedTraits>
-           <NaturalMood>-1</NaturalMood>
+           <ShootingAccuracy>1</ShootingAccuracy>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!-- Adapted from VBE_NatureLover
+    Rebel is never loaded;
+    Iron willed makes sense, but I think adapting
+    story for kind meets an unmet need
+
+    Also added tags for more spawn categories
+  -->
+    <BackstoryDef>
+        <slot>Childhood</slot>
+        <defName>Rosen_NatureLover</defName>
+        <title>nature lover</title>
+        <titleShort>naturalist</titleShort>
+        <baseDesc>[PAWN_nameDef] had a love for learning about all natural things and had her family take [PAWN_objective] to every nature preserve on [PAWN_possessive] glitterworld. [PAWN_pronoun] adopted and cared for as many strays and [PAWN_pronoun] could, which left little time to learn the family trade of haute cuisine.</baseDesc>
+        <spawnCategories>
+            <li>Outlander</li>
+            <li>Offworld</li>
+            <li>Outsider</li>
+            <li>Farmer</li>
+        </spawnCategories><bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
+        <skillGains>
+            <Plants>2</Plants>
+            <Animals>2</Animals>
+            <Intellectual>1</Intellectual>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Animals</li>
+            <li>PlantWork</li>
+            <li>Caring</li>
+        </requiredWorkTags>
+        <workDisables>
+            <li>Cooking</li>
+        </workDisables>
+        <forcedTraits>
+            <Kind />
         </forcedTraits>
     </BackstoryDef>
     

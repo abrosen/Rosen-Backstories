@@ -137,6 +137,9 @@
         <description>Wanted dead in multiple colonies for [PAWN_possessive] cons, [PAWN_nameDef] was finally caught and hung within a literal inch of [PAWN_possessive] life. Afterwards, [PAWN_pronoun] was given the chance to turn [PAWN_possessive] life around, applying [PAWN_possessive] skills at repairing some of the failing institutions of a large colony.</description>
         <slot>Adulthood</slot>
         <skillGains>
+            <Shooting>-4</Shooting>
+            <Melee>-6</Melee>
+            <Artistic>4</Artistic>
             <Social>4</Social>
         </skillGains>
         <spawnCategories>
@@ -149,10 +152,14 @@
         </forcedTraits>
         <requiredWorkTags>
             <li>Social</li>
+            <li>Artistic</li>
         </requiredWorkTags>
         <disallowedTraits>
             <Bloodlust />
         </disallowedTraits>
+        <possessions>
+            <Silver>50~100</Silver>
+        </possessions>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>

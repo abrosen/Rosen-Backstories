@@ -496,7 +496,7 @@
         <defName>Rosen_Survivor</defName>
         <title>survivor</title>
         <titleShort>survivor</titleShort>
-        <baseDesc>After an ill-fated expedition drew the ire of a particularly malevolent archotech, [PAWN_nameDef] has be on the run ever since.  [PAWN_nameDef] has jumped from colony to colony, pursued by mechanoids and horrid fleshbeasts. Despite the overwhelming odds, [PAWN_nameDef] has survived everything coming [PAWN_possessive] way and has become quite proficient at dispatching threats.</baseDesc>
+        <description>After an ill-fated expedition drew the ire of a particularly malevolent archotech, [PAWN_nameDef] has be on the run ever since.  [PAWN_nameDef] has jumped from colony to colony, pursued by mechanoids and horrid fleshbeasts. Despite the overwhelming odds, [PAWN_nameDef] has survived everything coming [PAWN_possessive] way and has become quite proficient at dispatching threats.</description>
         <spawnCategories>
             <li>Outlander</li>
             <li>Pirate</li>
@@ -522,10 +522,10 @@
 
     <BackstoryDef>
         <slot>Adulthood</slot>
-        <defName>Rosen_Geneticist/defName>
-        <title>xenogenetics researcher</title>
+        <defName>Rosen_Geneticist</defName>
+        <title>xenogeneticist</title>
         <titleShort>geneticist</titleShort>
-        <baseDesc>While [PAWN_pronoun] could have easily made a living as a model, [PAWN_nameDef] found [PAWN_objective]self drawn towards more intellectual pursuits. The majority of [PAWN_nameDef]'s efforts were spent on the research and development of new xenogerms treatments of genetic disorders.  [PAWN_possessive] career was interrupted by the glitterworld's sudden decline.  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] and other followers were forced to flee the planet.</baseDesc>
+        <description>While [PAWN_pronoun] could have easily made a living as a model, [PAWN_nameDef] found [PAWN_objective]self drawn towards more intellectual pursuits. The majority of [PAWN_nameDef]'s efforts were spent on the research and development of new xenogerms treatments of genetic disorders.  [PAWN_possessive] career was interrupted by the glitterworld's sudden decline.  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] and other followers were forced to flee the planet.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>Scientist</li>
@@ -533,10 +533,6 @@
         </spawnCategories>
         <bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
         <skillGains>
-            <Shooting>-2<Shooting>
-            <Melee>-2<Melee>
-            <Plants>-2<Plants>
-            <Mining>-2<Mining>
             <Medicine>4</Medicine>
             <Intellectual>6</Intellectual>
         </skillGains>
@@ -550,13 +546,13 @@
     </BackstoryDef>
 
 
-    <!-- Adapted from the imperial fighter background-->
+    <!-- Adapted from the InfantryEngineer46 background-->
     <BackstoryDef>
         <slot>Adulthood</slot>
-        <defName>Rosen_InfantryEngineer/defName>
+        <defName>Rosen_InfantryEngineer</defName>
         <title>infantry engineer</title>
         <titleShort>engineer</titleShort>
-        <baseDesc>[PAWN_nameDef] served as an engineer in the army on a relatively peaceful urbworld. Most of [PAWN_possessive] active service was spent in disaster recovery efforts. Fortunately many of the same skills needed to sap walls or build bridges and defenses were easily transferable to rescue operations and building shelters.</baseDesc>
+        <description>[PAWN_nameDef] served as an engineer in the army on a relatively peaceful urbworld. Most of [PAWN_possessive] active service was spent in disaster recovery efforts. Fortunately many of the same skills needed to sap walls or build bridges and defenses were easily transferable to rescue operations and building shelters.  This was probably for the best, as [PAWN_pronoun] was barely able to take a punch from a genie.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>Outlander</li>
@@ -564,20 +560,78 @@
         </spawnCategories>
         <bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
         <skillGains>
-            <Shooting>3<Shooting>
-            <Plants>-4<Plants>
-            <Mining>4<Mining>
-            <Construction>4</Construction>
-            <Medicine>-2</Medicine>
+            <Shooting>2</Shooting>
+            <Mining>4</Mining>
+            <Construction>6</Construction>
         </skillGains>
         <requiredWorkTags>
             <li>Constructing</li>
             <li>Mining</li>
         </requiredWorkTags>
         <forcedTraits>
-            <VTE_Groundbreaker MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Groundbreaker>
+            <Delicate MayRequire="Ludeon.RimWorld.Biotech">0</Delicate>
         </forcedTraits>        
     </BackstoryDef>
+
+    <!-- Starship Troopers (the book, not the movie)-->
+    <BackstoryDef>
+        <slot>Adulthood</slot>
+        <defName>Rosen_StarshipTrooper</defName>
+        <title>mobile infantry</title>
+        <titleShort>trooper</titleShort>
+        <description>[PAWN_nameDef]'s planet made some form of military or government service a requirement of gaining the right to vote. [PAWN_pronoun] joined the mobile infantry and took to maneuvering in powered armor like a fish to water.  The majority of his deployment was spent fighting against an incursion of the Sorne geneline on his and nearby planets.  Despite the horrors of war, [PAWN_nameDef] maintained an unshakable confidence that [PAWN_pronoun] would pull through no matter what.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+        </spawnCategories>
+        <bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>4</Melee>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+            
+        </requiredWorkTags>
+        <forcedTraits>
+            <NaturalMood>2</NaturalMood>
+        </forcedTraits>
+        <possessions>
+            <Gun_Autopistol />
+        </possessions>
+    </BackstoryDef>
+
+    <!-- https://en.wikipedia.org/wiki/Armor_(novel) -->
+    <BackstoryDef>
+        <slot>Adulthood</slot>
+        <defName>Rosen_Armor</defName>
+        <title>mobile infantry</title>
+        <titleShort>armored</titleShort>
+        <description>[PAWN_nameDef] joined the mobile infantry to fight the Sorne geneline's incursion on a nearby world.  [PAWN_possessive] first drop against the bugs ended in disaster, with [PAWN_nameDef] being the only survivor.  However, due to a computer glitch, [PAWN_pronoun] was sent on drops again and again without time for rest. By [PAWN_possessive] 20th drop, the glitch was discovered, but not before [PAWN_pronoun] had transformed into an emotionally damaged and highly capable killing machine.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
+        <skillGains>
+            <Shooting>8</Shooting>
+            <Melee>6</Melee>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <possessions>
+            <Weapon_GrenadeFrag/>
+            <Gun_PumpShotgun />
+        </possessions>
+        <forcedTraits>
+            <VTE_Desensitized MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Desensitized>
+        </forcedTraits>
+
+
+    </BackstoryDef>
+
 
     <!--Adapted from BiosphereManager95 in core
     <BackstoryDef>

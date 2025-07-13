@@ -375,9 +375,9 @@
         <description>[PAWN_nameDef] was drafted into [PAWN_possessive] lord's army. [PAWN_pronoun] was knighted for saving the life of the crown prince on the battlefield, at great personal risk.</description>
         <slot>Adulthood</slot>
         <skillGains>
-            <Social>3</Social>
+            <Social>4</Social>
             <Melee>6</Melee>
-            <Shooting>3</Shooting>
+            <Shooting>2</Shooting>
         </skillGains>
         <spawnCategories><li>Offworld</li></spawnCategories>
         <workDisables>
@@ -389,7 +389,8 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <possessions>
-        <Apparel_Cape MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">1</Apparel_Cape>
+            <Apparel_Cape MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">1</Apparel_Cape>
+            <MeleeWeapon_LongSword />
         </possessions>
         <forcedTraits>
         <VTE_Brave MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Brave>

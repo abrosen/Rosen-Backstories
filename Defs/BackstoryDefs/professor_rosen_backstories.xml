@@ -459,7 +459,7 @@
         <defName>Rosen_GlitterworldSurgeon</defName>
         <title>glitterworld physician</title>
         <titleShort>surgeon</titleShort>
-        <description>Even in a world mostly free of disease and human suffering, there were still accidents that required quick human intervention.  While not as lucrative a career as cosmetic alterations and much more stressful, [PAWN_nameDef] found the long hours as a emergency physician much more worthwhile.</description>
+        <description>Even in a world mostly free of disease and human suffering, there were still accidents that required quick human intervention.  While not as lucrative a career as cosmetic alterations and much more stressful, [PAWN_nameDef] found [PAWN_possessive] time as a emergency physician much more worthwhile.  Eventually, [PAWN_nameDef] adapted to the long hours without resorting to wake-up or caffeine.</description>
         <slot>Adulthood</slot>
         <requiredWorkTags>
             <li>Caring</li>
@@ -520,6 +520,64 @@
         </disallowedTraits>        
     </BackstoryDef>
 
+    <BackstoryDef>
+        <slot>Adulthood</slot>
+        <defName>Rosen_Geneticist/defName>
+        <title>xenogenetics researcher</title>
+        <titleShort>geneticist</titleShort>
+        <baseDesc>While [PAWN_pronoun] could have easily made a living as a model, [PAWN_nameDef] found [PAWN_objective]self drawn towards more intellectual pursuits. The majority of [PAWN_nameDef]'s efforts were spent on the research and development of new xenogerms treatments of genetic disorders.  [PAWN_possessive] career was interrupted by the glitterworld's sudden decline.  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] and other followers were forced to flee the planet.</baseDesc>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Scientist</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
+        <skillGains>
+            <Shooting>-2<Shooting>
+            <Melee>-2<Melee>
+            <Plants>-2<Plants>
+            <Mining>-2<Mining>
+            <Medicine>4</Medicine>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+            <li>Caring</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <Beauty>2</Beauty>
+        </forcedTraits>        
+    </BackstoryDef>
+
+
+    <!-- Adapted from the imperial fighter background-->
+    <BackstoryDef>
+        <slot>Adulthood</slot>
+        <defName>Rosen_InfantryEngineer/defName>
+        <title>infantry engineer</title>
+        <titleShort>engineer</titleShort>
+        <baseDesc>[PAWN_nameDef] served as an engineer in the army on a relatively peaceful urbworld. Most of [PAWN_possessive] active service was spent in disaster recovery efforts. Fortunately many of the same skills needed to sap walls or build bridges and defenses were easily transferable to rescue operations and building shelters.</baseDesc>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
+        <skillGains>
+            <Shooting>3<Shooting>
+            <Plants>-4<Plants>
+            <Mining>4<Mining>
+            <Construction>4</Construction>
+            <Medicine>-2</Medicine>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Constructing</li>
+            <li>Mining</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <VTE_Groundbreaker MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Groundbreaker>
+        </forcedTraits>        
+    </BackstoryDef>
 
     <!--Adapted from BiosphereManager95 in core
     <BackstoryDef>
@@ -550,15 +608,4 @@
     <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
      -->
-    
-    <!--
-
-    Static sufferer 
-    Other ideas
-    
-    Explosive Chemist (force pyro)
-    Knight
-
-    Use the long war and armor (focus on continual forced deployed)
-    -->
 </Defs>

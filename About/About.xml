@@ -6,14 +6,14 @@
         <li>1.6</li>
     </supportedVersions>
     <author>Professor Rosen</author>
-    <description>Part serious mod, part attempt to learn to mod RimWorld.  My initial goal was to add  more variety to the "Researcher" category of backstories, since "The Anomaly" backstories felt unvaried.  As such things happen, this mod has expanded in scope to add some book and media references, add additional generic childhood backstories, and add some knights.
+    <description>Part serious mod, part attempt to learn to mod RimWorld.  My initial goal was to add more variety to the "Researcher" category of backstories, since "The Anomaly" backstories felt unvaried.  As such things happen, this mod has expanded in scope to add some book and media references, add additional generic childhood backstories, and add some knights.
 
 I've also taken backstories from the base game and DLC and adapted them to my liking.
 Some, because I've become attached to that backstory and wanted to expand on it.
-Others were not tagged as "offworld," so would not show up in the crashlanded pool.
+Others were not tagged as "offworld," so would not show up in the crashlanded pool, but filled a niche that only occured in "solid" backstories.
 
     
-The mod does not require additional mods, but some backstories will take advantage of Vanilla Traits Expanded and Vanilla Armour Expanded if you have them. Most of the backstories have a thematically appropriate forced trait, which makes debugging a bit easier for me.  For example, the "Waste of Talent" backstory forces the Slowpoke and Slothful traits.
+The mod does not require additional mods, but some backstories will take advantage of Vanilla Traits Expanded and Vanilla Armour Expanded if you have them. Most of the backstories have a thematically appropriate forced trait, which makes debugging a bit easier for me.  For example, the "Waste of Talent" backstory forces the Slowpoke and Slothful traits, and I can use RandomPlus's filter to force spawn a valid pawn.
 
 GNU Terry Pratchett.
     </description>

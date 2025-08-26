@@ -101,12 +101,14 @@
         </spawnCategories>
     </BackstoryDef>
 
+    <!-- A literal generic background with a completely hidden benefit: this pawn is always capable of everything.-->
+
     <!-- 中二病 -->
     <BackstoryDef>
         <defName>Rosen_Chuunibyou</defName>
         <title>Daydreaming student</title>
         <titleShort>Chuunibyou</titleShort>
-        <description>[PAWN_nameDef]'s was convinced they were special and had hidden, yet to be unleashed, secret powers. [PAWN_pronoun] trained with sticks as if they were legendary weapons and invented ancient-sounding spells. Although psycaster powers never manifested themselves, [PAWN_possessive] fantasies were an outlet for [PAWN_possessive] considerable imagination.</description>
+        <description>[PAWN_nameDef] was convinced they were special and had hidden, yet to be unleashed, secret powers. [PAWN_pronoun] trained with sticks as if they were legendary weapons and invented ancient-sounding spells. Although psycaster powers never manifested themselves, [PAWN_possessive] fantasies were an outlet for [PAWN_possessive] considerable imagination.</description>
         <slot>Childhood</slot>
         <skillGains>
             <Artistic>3</Artistic>

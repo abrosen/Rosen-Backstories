@@ -497,7 +497,7 @@
         <defName>Rosen_Survivor</defName>
         <title>survivor</title>
         <titleShort>survivor</titleShort>
-        <description>After an ill-fated expedition drew the ire of a particularly malevolent archotech, [PAWN_nameDef] has be on the run ever since.  [PAWN_nameDef] has jumped from colony to colony, pursued by mechanoids and horrid fleshbeasts. Despite the overwhelming odds, [PAWN_nameDef] has survived everything coming [PAWN_possessive] way and has become quite proficient at dispatching threats.</description>
+        <description>After an ill-fated expedition drew the ire of a particularly malevolent archotech, [PAWN_nameDef] has been on the run ever since.  [PAWN_nameDef] jumped from colony to colony, pursued by mechanoids and horrid fleshbeasts. Despite the overwhelming odds, [PAWN_nameDef] has survived everything coming [PAWN_possessive] way and has become quite proficient at dispatching threats.</description>
         <spawnCategories>
             <li>Outlander</li>
             <li>Pirate</li>
@@ -526,7 +526,7 @@
         <defName>Rosen_Geneticist</defName>
         <title>xenogeneticist</title>
         <titleShort>geneticist</titleShort>
-        <description>While [PAWN_pronoun] could have easily made a living as a model, [PAWN_nameDef] found [PAWN_objective]self drawn towards more intellectual pursuits. The majority of [PAWN_nameDef]'s efforts were spent on the research and development of new xenogerms treatments of genetic disorders.  [PAWN_possessive] career was interrupted by the glitterworld's sudden decline.  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] and other followers were forced to flee the planet.</description>
+        <description>While [PAWN_pronoun] could have easily made a living as a model, [PAWN_nameDef] found [PAWN_objective]self drawn towards more intellectual pursuits. The majority of [PAWN_nameDef]'s efforts were spent on the research and development of new xenogerms treatments of genetic disorders.  [PAWN_possessive] career was interrupted by the sudden decline of their glitterworld .  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>Scientist</li>
@@ -578,7 +578,7 @@
     <BackstoryDef>
         <slot>Adulthood</slot>
         <defName>Rosen_StarshipTrooper</defName>
-        <title>mobile infantry</title>
+        <title>mobile infantryman</title>
         <titleShort>trooper</titleShort>
         <description>[PAWN_nameDef]'s planet made some form of military or government service a requirement of gaining the right to vote. [PAWN_pronoun] joined the mobile infantry and took to maneuvering in powered armor like a fish to water.  The majority of his deployment was spent fighting against an incursion of the Sorne geneline on his and nearby planets.  Despite the horrors of war, [PAWN_nameDef] maintained an unshakable confidence that [PAWN_pronoun] would pull through no matter what.</description>
         <spawnCategories>
@@ -606,9 +606,9 @@
     <BackstoryDef>
         <slot>Adulthood</slot>
         <defName>Rosen_Armor</defName>
-        <title>mobile infantry</title>
-        <titleShort>armored</titleShort>
-        <description>[PAWN_nameDef] joined the mobile infantry to fight the Sorne geneline's incursion on a nearby world.  [PAWN_possessive] first drop against the bugs ended in disaster, with [PAWN_nameDef] being the only survivor.  However, due to a computer glitch, [PAWN_pronoun] was sent on drops again and again without time for rest. By [PAWN_possessive] 20th drop, the glitch was discovered, but not before [PAWN_pronoun] had transformed into an emotionally damaged and highly capable killing machine.</description>
+        <title>mobile infantryman</title>
+        <titleShort>soldier</titleShort>
+        <description>[PAWN_nameDef] joined the mobile infantry to fight the Sorne geneline's incursion on a nearby world.  [PAWN_possessive] first drop against the bugs ended in disaster, with [PAWN_nameDef] being the only survivor.  However, due to a computer glitch, [PAWN_pronoun] was sent on drops again and again without time for rest. By [PAWN_possessive] 20th drop, the glitch was discovered, but not before [PAWN_pronoun] had transformed into an emotionally damaged, but highly capable, killing machine.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>Outlander</li>
@@ -643,17 +643,17 @@
         <defName>Rosen_NaturePreserveManager</defName>
         <title>biosphere manager</title>
         <titleShort>conservationist</titleShort>
-        <description>[PAWN_nameDef] lived on a section of a peaceful glitterworld where people lived in harmony with nature. [PAWN_pronoun] was in charge of maintaining one of the extremely large nature preserves on the planet's surface.  Drones and mechanoids handled most of the menial labor, which left [PAWN_nameDef] with plenty of time to study plant and animal life.</description>
+        <description>[PAWN_nameDef] lived on a section of a peaceful glitterworld where people lived in harmony with nature. [PAWN_pronoun] was in charge of maintaining one of the extremely large nature preserves on the planet's surface.  Drones and mechanoids handled most of the menial labor, which left [PAWN_nameDef] with plenty of time to study plant and animal life in the field.</description>
         <slot>Adulthood</slot>
         <workDisables>
-        <li>Cleaning</li>
-        <li>Crafting</li>
-        <li>Cooking</li>
+            <li>Cleaning</li>
+            <li>Crafting</li>
+            <li>Cooking</li>
         </workDisables>
         <requiredWorkTags>
-        <li>PlantWork</li>
-        <li>Animals</li>
-        <li>Artistic</li>
+            <li>PlantWork</li>
+            <li>Animals</li>
+            <li>Artistic</li>
         </requiredWorkTags>
         <skillGains>
         <Shooting>-4</Shooting>

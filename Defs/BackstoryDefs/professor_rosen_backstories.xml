@@ -517,7 +517,10 @@
         </forcedTraits>
         <disallowedTraits>
             <Kind />
-        </disallowedTraits>        
+        </disallowedTraits> 
+        <possessions>
+            <MeleeWeapon_Knife />
+        </possessions>     
     </BackstoryDef>
 
     <BackstoryDef>

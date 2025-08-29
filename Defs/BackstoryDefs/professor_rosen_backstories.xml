@@ -460,7 +460,7 @@
         <defName>Rosen_GlitterworldSurgeon</defName>
         <title>glitterworld physician</title>
         <titleShort>surgeon</titleShort>
-        <description>Even in a world mostly free of disease and human suffering, there were still accidents that required quick human intervention.  While not as lucrative a career as cosmetic alterations and much more stressful, [PAWN_nameDef] found [PAWN_possessive] time as a emergency physician much more worthwhile.  Eventually, [PAWN_nameDef] adapted to the long hours without resorting to wake-up or caffeine.</description>
+        <description>Even in a world mostly free of disease and human suffering, there were still accidents that required quick human intervention.  While not as lucrative a career as cosmetic alterations and much more stressful, [PAWN_nameDef] found [PAWN_possessive] time as a emergency physician much more worthwhile.  Eventually, [PAWN_nameDef] adapted to the long hours without resorting to wake-up or copious amounts of caffeine.</description>
         <slot>Adulthood</slot>
         <requiredWorkTags>
             <li>Caring</li>

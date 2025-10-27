@@ -56,7 +56,9 @@
             <VTE_Academian MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Academian>
         </forcedTraits>
         <possessions>
-            <Novel>5</Novel>
+            <Novel>1</Novel>
+            <TextBook>1</TextBook>
+            <Tome MayRequire="Ludeon.RimWorld.Anomaly">1</Tome>
         </possessions>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -224,7 +226,7 @@
 
     <BackstoryDef>
         <slot>Adulthood</slot>
-        <title>knight in powered armor</title>
+        <title>knight</title>
         <defName>Rosen_PowerKnight</defName>
         <titleShort>knight</titleShort>
         <description>[PAWN_nameDef] served in the army as a means to live the dream of being a knight. Wealthy, [PAWN_pronoun] could afford the the most advanced powered armor to protect [PAWN_objective] skin.</description>
@@ -698,5 +700,6 @@
             <Gun_Revolver />
         </possessions>
     </BackstoryDef>
+
      
 </Defs>

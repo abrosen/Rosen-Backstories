@@ -508,16 +508,14 @@
             <Shooting>4</Shooting>
             <Melee>4</Melee>
             <Medicine>4</Medicine>
+            <Artistic>-4</Artistic>
         </skillGains>
-        <workDisables>
-            <li>Artistic</li>
-        </workDisables>
         <forcedTraits>
             <Tough />
         </forcedTraits>
         <disallowedTraits>
             <Kind />
-        </disallowedTraits> 
+        </disallowedTraits>
         <possessions>
             <MeleeWeapon_Knife />
         </possessions>     
@@ -558,13 +556,12 @@
         <description>[PAWN_nameDef] served as an engineer in the army on a relatively peaceful urbworld. Most of [PAWN_possessive] active service was spent in disaster recovery efforts. Fortunately many of the same skills needed to sap walls or build bridges and defenses were easily transferable to rescue operations and building shelters.  This was probably for the best, as [PAWN_pronoun] was barely able to take a punch from a genie.</description>
         <spawnCategories>
             <li>Offworld</li>
-            <li>Outlander</li>
             <li>Pirate</li>
         </spawnCategories>
         <bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
         <skillGains>
-            <Shooting>2</Shooting>
-            <Mining>4</Mining>
+            <Shooting>3</Shooting>
+            <Mining>3</Mining>
             <Construction>6</Construction>
         </skillGains>
         <requiredWorkTags>
@@ -585,7 +582,6 @@
         <description>[PAWN_nameDef]'s planet made some form of military or government service a requirement of gaining the right to vote. [PAWN_pronoun] joined the mobile infantry and took to maneuvering in powered armor like a fish to water.  The majority of his deployment was spent fighting against an incursion of the Sorne geneline on his and nearby planets.  Despite the horrors of war, [PAWN_nameDef] maintained an unshakable confidence that [PAWN_pronoun] would pull through no matter what.</description>
         <spawnCategories>
             <li>Offworld</li>
-            <li>Outlander</li>
         </spawnCategories>
         <bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
         <skillGains>
@@ -613,7 +609,6 @@
         <description>[PAWN_nameDef] joined the mobile infantry to fight the Sorne geneline's incursion on a nearby world.  [PAWN_possessive] first drop against the bugs ended in disaster, with [PAWN_nameDef] being the only survivor.  However, due to a computer glitch, [PAWN_pronoun] was sent on drops again and again without time for rest. By [PAWN_possessive] 20th drop, the glitch was discovered, but not before [PAWN_pronoun] had transformed into an emotionally damaged, but highly capable, killing machine.</description>
         <spawnCategories>
             <li>Offworld</li>
-            <li>Outlander</li>
             <li>Pirate</li>
         </spawnCategories>
         <bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
@@ -673,5 +668,29 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
+
+    <BackstoryDef>
+    <defName>Rosen_Spy</defName>
+    <title>spy</title>
+    <titleShort>spy</titleShort>
+    <description>[PAWN_nameDef] was an extremely accomplished spy, specializing in impersonation and long-term infiltration.  [PAWN_possessive] career was interrupted by the sudden decline of their glitterworld.  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet when their loyalty was called into question.</description>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    
+    <spawnCategories>
+        <li>Offworld</li>
+        <li>Pirate</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>4</Intellectual>
+      <Social>6</Social>
+      <Artistic>4</Artistic>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+  </BackstoryDef>
      
 </Defs>

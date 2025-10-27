@@ -171,7 +171,7 @@
         <title>expedition guard</title>  
         <titleShort>guard</titleShort> 
         <slot>Childhood</slot>
-        <description>Born to an impovershed class on a crowded but technically advanced urbworld, [PAWN_nameDef] took the first possible shuttle offworld, joining a research expedition as an armed guard. When not on duty, [PAWN_nameDef] occupied [PAWN_objective]self with cultivating numerous potted plants.</description>  
+        <description>Born to an impovershed class on a crowded but technically advanced urbworld, [PAWN_nameDef] took the first possible shuttle offworld, joining a research expedition as an armed guard. When not on duty, [PAWN_nameDef] occupied [PAWN_objective]self with cultivating numerous potted plants and helping out in the hydroponics bay.</description>  
         <skillGains>
             <Shooting>3</Shooting>
             <Plants>2</Plants>

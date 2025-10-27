@@ -56,7 +56,7 @@
             <VTE_Academian MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Academian>
         </forcedTraits>
         <possessions>
-            <Novel>1</Novel>
+            <Novel>5</Novel>
         </possessions>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -670,27 +670,33 @@
     </BackstoryDef>
 
     <BackstoryDef>
-    <defName>Rosen_Spy</defName>
-    <title>spy</title>
-    <titleShort>spy</titleShort>
-    <description>[PAWN_nameDef] was an extremely accomplished spy, specializing in impersonation and long-term infiltration.  [PAWN_possessive] career was interrupted by the sudden decline of their glitterworld.  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet when their loyalty was called into question.</description>
-    <slot>Adulthood</slot>
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
-    
-    <spawnCategories>
-        <li>Offworld</li>
-        <li>Pirate</li>
-    </spawnCategories>
-    <skillGains>
-      <Intellectual>4</Intellectual>
-      <Social>6</Social>
-      <Artistic>4</Artistic>
-    </skillGains>
-    <requiredWorkTags>
-      <li>Social</li>
-      <li>Intellectual</li>
-    </requiredWorkTags>
-  </BackstoryDef>
+        <defName>Rosen_Spy</defName>
+        <title>spy</title>
+        <titleShort>spy</titleShort>
+        <description>[PAWN_nameDef] was an extremely accomplished spy, specializing in impersonation and long-term infiltration.  [PAWN_possessive] career was interrupted by the sudden decline of their glitterworld.  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet when their loyalty was called into question.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Social>6</Social>
+            <Artistic>4</Artistic>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Social</li>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <SpeedOffset>2</SpeedOffset>
+        </forcedTraits>
+        <possessions>
+            <Gun_Revolver />
+        </possessions>
+    </BackstoryDef>
      
 </Defs>

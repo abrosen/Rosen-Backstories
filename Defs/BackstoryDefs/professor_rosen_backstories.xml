@@ -712,6 +712,7 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
             <li>Offworld</li>
+            <li>Researcher</li>
         </spawnCategories>
         <skillGains>
             <Intellectual>4</Intellectual>

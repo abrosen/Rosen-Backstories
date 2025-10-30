@@ -301,24 +301,22 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
 
-    <!--
+
     <BackstoryDef>
         <defName>Rosen_Nobbs</defName>
-        <title>sausage salesman</title>
-        <titleShort>hawker</titleShort>
-        <titleFemale>sausage saleswoman</titleFemale>
-        <titleShortFemale>hawker</titleShortFemale>
-        <description>[PAWN_nameDef] insists [PAWN_pronoun] is human, despite every </description>
+        <title>quartermaster</title>
+        <titleShort>quartermaster</titleShort>
+        <description>[PAWN_nameDef] served as quartermaster for a number of different losing militaries and was probably the only human ever needing a signed document that read: "following affidavits from the midwife and a doctor, I confirm that the bearer is, in all probability, human."</description>
         <slot>Adulthood</slot>
         <skillGains>
-            <Cooking>-4</Cooking>
             <Social>6</Social>
+            <Melee>4</Melee>
+            <Construction>2</Construction>
         </skillGains>
         <spawnCategories>
             <li>Offworld</li>
-            <li>Outlander</li>
             <li>Pirate</li>
-            <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
         </spawnCategories>
         <requiredWorkTags>
             <li>Social</li>
@@ -329,7 +327,7 @@
         <bodyTypeMale>Thin</bodyTypeMale>
         <bodyTypeFemale>Thin</bodyTypeFemale>
     </BackstoryDef>
-    -->
+
     
 
 

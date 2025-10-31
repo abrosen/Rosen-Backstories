@@ -306,7 +306,7 @@
         <defName>Rosen_Nobbs</defName>
         <title>quartermaster</title>
         <titleShort>quartermaster</titleShort>
-        <description>[PAWN_nameDef] served as quartermaster for a number of different losing militaries and was probably the only human ever needing a signed document that read: "following affidavits from the midwife and a doctor, I confirm that the bearer is, in all probability, human."</description>
+        <description>[PAWN_nameDef] served as quartermaster for a number of different losing militaries and was probably the only human who ever needed a signed document that read: "following affidavits from the midwife and a doctor, I confirm that the bearer is, in all probability, human."</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Social>6</Social>

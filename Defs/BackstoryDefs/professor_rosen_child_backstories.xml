@@ -276,7 +276,6 @@
         </spawnCategories>
         <forcedTraits>
             <Beauty>2</Beauty>
-            <FastLearner />
         </forcedTraits>
     </BackstoryDef>
     

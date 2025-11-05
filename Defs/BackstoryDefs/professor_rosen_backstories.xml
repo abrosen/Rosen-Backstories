@@ -255,7 +255,7 @@
         <defName>Rosen_NameOfTheWind</defName>
         <title>wind chaser</title>
         <titleShort>namer</titleShort>
-        <description>[PAWN_nameDef] claimed [PAWN_pronoun] once called upon the wind and the wind answered.  Since that event, [PAWN_pronoun] travelled far and wide, searching for the name of the wind.</description>
+        <description>[PAWN_nameDef] claimed [PAWN_pronoun] once called upon the wind and the wind answered.  Since that event, [PAWN_pronoun] traveled far and wide, searching for the name of the wind.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Artistic>4</Artistic>

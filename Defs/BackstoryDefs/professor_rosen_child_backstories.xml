@@ -45,6 +45,7 @@
         <spawnCategories>
             <li>Offworld</li>
             <li>Outlander</li>
+            <li>Tribal</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -101,8 +102,6 @@
         </spawnCategories>
     </BackstoryDef>
 
-    <!-- A literal generic background with a completely hidden benefit: this pawn is always capable of everything.-->
-
     <!-- 中二病 -->
     <BackstoryDef>
         <defName>Rosen_Chuunibyou</defName>
@@ -119,6 +118,7 @@
         <spawnCategories>
             <li>Offworld</li>
             <li>Outlander</li>
+            <li>Cult</li>
             <li>ImperialRoyal</li>
             <li>ImperialCommon</li>
         </spawnCategories>

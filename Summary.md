@@ -12,13 +12,15 @@ Glitterworld librarian - [PAWN_nameDef] managed an enormous library on a glitter
 
 Inventive janitor - Held captive on a space satellite and forced by mad scientists to watch cheesy movies (the worst they could find) [PAWN_nameDef] was only able to keep [PAWN_possessive] sanity with the help of [PAWN_possessive] robot friends. [PAWN_nameDef] crafted the aforementioned robots [PAWN_possessive]self, using spare parts from the satellite \n\nDespite the dire, dangerous, and utterly bizarre conditions [PAWN_pronoun] found [PAWN_possessive]self in, [PAWN_nameDef] maintained a positive attitude throughout it all.
 
-Knight - [PAWN_nameDef] served in the army as a means to live the dream of being a knight. Wealthy, [PAWN_pronoun] could afford the the most advanced powered armor to protect [PAWN_objective] skin.
+Knight - [PAWN_nameDef] served in the army as a means to live the dream of being a knight. Wealthy, [PAWN_pronoun] could afford the most advanced powered armor to protect [PAWN_possessive] skin.
 
 Wind chaser - [PAWN_nameDef] claimed [PAWN_pronoun] once called upon the wind and the wind answered.  Since that event, [PAWN_pronoun] traveled far and wide, searching for the name of the wind.
 
 Occult researcher - [PAWN_nameDef] studied the occult and the mysterious phenomena present in the folklore of various cultures on the Rim.  However, encountering an apparent supernatural event left [PAWN_objective] shaken after [PAWN_pronoun] was unable to explain it.
 
-Retired physician - [PAWN_nameDef] worked long hours in the emergency department of a hospital before [PAWN_pronoun] retired to a farm.  [PAWN_pronoun] was especially fond of ducks.       
+Retired physician - [PAWN_nameDef] worked long hours in the emergency department of a hospital before [PAWN_pronoun] retired to a farm.  [PAWN_pronoun] was especially fond of ducks.
+
+Retired programmer - [PAWN_nameDef] worked as a programmer for a number years a programmer for a large corporation before abruptly quitting to work [PAWN_possessive] own farm, a surprisingly common occurrence on many an urbworld and midworld.
 
 Charitable physician - [PAWN_nameDef] would travel to settlements without medical infrastucture to provide care for those who would otherwise be unable to receive it.  Despite the constant danger, [PAWN_pronoun] abided by a millennia old oath to do no harm.\n\n[PAWN_possessive] patients would remember [PAWN_possessive] calm and kind demeanor years after.
 
@@ -32,7 +34,7 @@ Glitterworld physician - Even in a world mostly free of disease and human suffer
 
 Expedition survivor - After an ill-fated expedition drew the ire of a particularly malevolent archotech, [PAWN_nameDef] has been on the run ever since.  [PAWN_nameDef] jumped from colony to colony, pursued by mechanoids and horrid fleshbeasts. Despite the overwhelming odds, [PAWN_nameDef] has survived everything coming [PAWN_possessive] way and has become quite proficient at dispatching threats.
 
-Xenogeneticist - While [PAWN_pronoun] could have easily made a living as a model, [PAWN_nameDef] found [PAWN_objective]self drawn towards more intellectual pursuits. The majority of [PAWN_nameDef]'s efforts were spent on the research and development of new xenogerms treatments of genetic disorders.  [PAWN_possessive] career was interrupted by the sudden decline of their glitterworld.  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet.
+Xenogeneticist - While [PAWN_pronoun] could have easily made a living as a model, [PAWN_nameDef] found [PAWN_objective]self drawn towards more intellectual pursuits. The majority of [PAWN_nameDef]'s efforts were spent on the research and development of new xenogerms treatments of genetic disorders.  [PAWN_possessive] career was interrupted by the sudden decline of their glitterworld;  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet.
 
 Infantry engineer - [PAWN_nameDef] served as an engineer in the army on a relatively peaceful urbworld. Most of [PAWN_possessive] active service was spent in disaster recovery efforts. Fortunately many of the same skills needed to sap walls or build bridges and defenses were easily transferable to rescue operations and building shelters.  This was probably for the best, as [PAWN_pronoun] was barely able to take a punch from a genie.
 
@@ -44,62 +46,66 @@ Biosphere manager - [PAWN_nameDef] lived on a section of a peaceful glitterworld
 
 Spy - [PAWN_nameDef] was an extremely accomplished spy, specializing in impersonation and long-term infiltration.  [PAWN_possessive] career was interrupted by the sudden decline of their glitterworld.  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet when their loyalty was called into question.
 
-Expedition recruiter - Almost nothing is known about [PAWN_nameDef] or [PAWN_possessive] role in recruiting members of an ill-fated expedition.  But [PAWN_nameDef] never made a promise [PAWN_pronoun] couldn't keep and [PAWN_pronoun] never forgot a debt [PAWN_pronoun] owed.
+Dealmaker - Almost nothing is known about [PAWN_nameDef] or [PAWN_possessive] role in recruiting members of an ill-fated expedition to study an apparently dormant archotech.  Records describing [PAWN_objective] have all been expunged; tales describing [PAWN_objective] end without warning.  But two things are certain: [PAWN_nameDef] never made a promise [PAWN_pronoun] couldn't keep and [PAWN_pronoun] never forgot a debt [PAWN_pronoun] owed.
 
-Quarantine child - Before [PAWN_nameDef] could even speak, [PAWN_possessive] world was ravaged by worldwide pandemic. The next few years of [PAWN_possessive] life were spent in isolation with only [PAWN_possessive] parents for company. However, [PAWN_possessive] parents kept [PAWN_objective] busy, nurturing a natural talent for the arts and sciences.
+Glitterworld president - [PAWN_nameDef] served as the democratically elected leader of a prosperous glitterworld.  While [PAWN_possessive] tenure was originally seen as a time of prosperity, [PAWN_possessive] immediate successor implemented radical policies that led to the rapid decline of [PAWN_possessive] home planet. [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet.
 
-Troublesome child - Born into an extremely large family, [PAWN_nameDef] was starved for attention.  [PAWN_pronoun] solved this problem by creating a number of contraptions that made noises, created messes, and were otherwise generally quite meddlesome.
+Archotech salvager - [PAWN_nameDef] made a living hunting for ruined or dormant archotech relics and ship parts, extracting their vanometric power cells and other such technologies.  This took [PAWN_objective] both to the deep depths of planets and the far reaches of [PAWN_possessive] solar system.
 
-Missionary - [PAWN_nameDef]'s spent over a year serving on a charitable mission on behalf of [PAWN_possessive] ideoligion. The combination of charity work and proselytizing left [PAWN_nameDef] with a smattering of useful skills.
+Duelist - Before [PAWN_nameDef] could even speak, [PAWN_possessive] world was ravaged by worldwide pandemic. The next few years of [PAWN_possessive] life were spent in isolation with only [PAWN_possessive] parents for company. However, [PAWN_possessive] parents kept [PAWN_objective] busy, nurturing a natural talent for the arts and sciences.
 
-Daydreaming student - [PAWN_nameDef]'s spent much of [PAWN_possessive] time in school daydreaming about exploring strange new worlds, preferably on a five-year mission.  While [PAWN_possessive] performance in school was less than stellar, [PAWN_nameDef] always maintained a positive outlook on their future.
+Quarantine child - Born into an extremely large family, [PAWN_nameDef] was starved for attention.  [PAWN_pronoun] solved this problem by creating a number of contraptions that made noises, created messes, and were otherwise generally quite meddlesome.
 
-Daydreaming student - [PAWN_nameDef] was convinced they were special and had hidden, yet to be unleashed, secret powers. [PAWN_pronoun] trained with sticks as if they were legendary weapons and invented ancient-sounding spells. Although psycaster powers never manifested themselves, [PAWN_possessive] fantasies were an outlet for [PAWN_possessive] considerable imagination.   
+Troublesome child - [PAWN_nameDef]'s spent over a year serving on a charitable mission on behalf of [PAWN_possessive] ideoligion. The combination of charity work and proselytizing left [PAWN_nameDef] with a smattering of useful skills.
 
-Chosen one - [PAWN_nameDef]'s birth was heralded as the arrival of the Chosen One, [PAWN_pronoun] who was destined to drive the steel beasts back to the black skies. [PAWN_nameDef]'s trained in ancient rites and battle tactics in preparation for the day [PAWN_pronoun] would called upon to fulfill their destiny.
+Missionary - [PAWN_nameDef]'s spent much of [PAWN_possessive] time in school daydreaming about exploring strange new worlds, preferably on a five-year mission.  While [PAWN_possessive] performance in school was less than stellar, [PAWN_nameDef] always maintained a positive outlook on their future.
 
-Medical student - [PAWN_nameDef] studied at a prestigious medical academy.  Despite glitterworld technology being able to heal the most grevious of wounds with the push of a button, [PAWN_possessive] university emphasized the need for traditional hands-on skills so many physicians  had relied on over the millennia.
+Daydreaming student - [PAWN_nameDef] was convinced they were special and had hidden, yet to be unleashed, secret powers. [PAWN_pronoun] trained with sticks as if they were legendary weapons and invented ancient-sounding spells. Although psycaster powers never manifested themselves, [PAWN_possessive] fantasies were an outlet for [PAWN_possessive] considerable imagination.
 
-Expedition guard - Born to an impovershed class on a crowded but technically advanced urbworld, [PAWN_nameDef] took the first possible shuttle offworld, joining a research expedition as an armed guard. When not on duty, [PAWN_nameDef] occupied [PAWN_objective]self with cultivating numerous potted plants and helping out in the hydroponics bay.
+Daydreaming student - [PAWN_nameDef]'s birth was heralded as the arrival of the Chosen One, [PAWN_pronoun] who was destined to drive the steel beasts back to the black skies. [PAWN_nameDef] trained in ancient rites and battle tactics in preparation for the day [PAWN_pronoun] would called upon to fulfill their destiny.
 
-Raw recruit - [PAWN_nameDef] was born to an impovershed class on a crowded but technically advanced urbworld.  Many members of [PAWN_possessive] family choose military service as their best chance to improve their grim lot in life. [PAWN_nameDef] was no exception and joined as soon as [PAWN_pronoun] was of age.  Once there, [PAWN_pronoun] found [PAWN_pronoun] was an excellent shot.
+Chosen one - [PAWN_nameDef] studied at a prestigious medical academy.  Despite glitterworld technology being able to heal the most grevious of wounds with the push of a button, [PAWN_possessive] university emphasized the need for the traditional, hands-on skills so many physicians had relied on over the millennia.
 
-Nature lover - [PAWN_nameDef] had a love for learning about all natural things and had her family take [PAWN_objective] to every nature preserve on [PAWN_possessive] glitterworld. [PAWN_pronoun] adopted and cared for as many strays and [PAWN_pronoun] could, which left little time to learn the family trade of haute cuisine.
+Medical student - Born to an impovershed class on a crowded but technically advanced urbworld, [PAWN_nameDef] took the first possible shuttle offworld, joining a research expedition as an armed guard. When not on duty, [PAWN_nameDef] occupied [PAWN_objective]self with cultivating numerous potted plants and helping out in the hydroponics bay.
 
-Enigma - Systems have almost no records of [PAWN_nameDef]'s childhood, nor any explanation of how [PAWN_pronoun] rose to such a high rank at such an early age.  The only thing sparse accounts can agree on is the [PAWN_nameDef] has always been preternaturally beautiful and always able to convince others to do what [PAWN_pronoun] needed.
+Expedition guard - [PAWN_nameDef] was born to an impovershed class on a crowded but technically advanced urbworld.  Many members of [PAWN_possessive] family choose military service as their best chance to improve their grim lot in life. [PAWN_nameDef] was no exception and joined as soon as [PAWN_pronoun] was of age.  Once there, [PAWN_pronoun] found [PAWN_pronoun] was an excellent shot.
 
-Prepper kid - [PAWN_nameDef] was raised by parents who were convinced that the apocalypse was coming any day now and were determined to survive it.  [PAWN_possessive] upbringing made [PAWN_objective] quite prepared for life on the Rim, but left [PAWN_possessive] social skills quite atrophied.
+Raw recruit - [PAWN_nameDef] had a love for learning about all natural things and had her family take [PAWN_objective] to every nature preserve on [PAWN_possessive] glitterworld. [PAWN_pronoun] adopted and cared for as many strays and [PAWN_pronoun] could, which left little time to learn the family trade of haute cuisine.
 
-Scrapper - [PAWN_nameDef] found [PAWN_objective]self supporting [PAWN_possessive] sick father at an early age.  [PAWN_pronoun] managed to scrape together a meager income joining teams that dug up and deconstructed ancient shipwrecks.
+Nature lover - Systems have almost no records of [PAWN_nameDef]'s childhood, nor any explanation of how [PAWN_pronoun] rose to such a high rank at such an early age.  The only thing sparse accounts can agree on is the [PAWN_nameDef] has always been preternaturally beautiful and always able to convince others to do exactly what [PAWN_pronoun] needed.
 
-Failed psycaster - After attending a university for psycasters, [PAWN_nameDef] discovered [PAWN_pronoun] was uniquely unqualified.  [PAWN_possessive] professors described [PAWN_objective] as the "psychic equivalent of the number zero."\n\nDespite having the spirit of a psycaster, [PAWN_possessive] survival was better attributed to having the body of a long distance sprinter.
+Enigma - [PAWN_nameDef] was raised by parents who were convinced that the apocalypse was coming any day now and were determined to survive it.  [PAWN_possessive] upbringing made [PAWN_objective] quite prepared for life on the Rim, but left [PAWN_possessive] social skills quite atrophied.
 
-Rimworld tourist - [PAWN_nameDef] hailed from a world where gold was amazingly common. [PAWN_pronoun] travelled to many worlds and recorded [PAWN_possessive] experiences in the famous novel "What I Did on my Holidays."
+Prepper kid - [PAWN_nameDef] found [PAWN_objective]self supporting [PAWN_possessive] sick father at an early age.  [PAWN_pronoun] managed to scrape together a meager income joining teams that dug up and deconstructed ancient shipwrecks.
 
-Colony patrician - [PAWN_nameDef] ruled a sizable colony on the Rim as dictator in all but name. [PAWN_possessive] colony thrived under [PAWN_possessive], as [PAWN_possessive] ruled with more of a velvet glove, rather than an iron fist, following [PAWN_possessive] family's motto of "si non confectus, non reficiat."\n\n[PAWN_possessive] other great joy, besides ensuring the colony ran like clockwork, was pampering [PAWN_possessive] dog.
+Scrapper - After attending a university for psycasters, [PAWN_nameDef] discovered [PAWN_pronoun] was uniquely unqualified.  [PAWN_possessive] professors described [PAWN_objective] as the "psychic equivalent of the number zero."\n\nDespite having the spirit of a psycaster, [PAWN_possessive] survival was better attributed to having the body of a long distance sprinter.
 
-Uncanny assassin - [PAWN_nameDef] was raised as an assassin from a young age and became near infamous in certain circles for a series of particularly brutal murders. [PAWN_possessive] mind has been likened to a shattered mirror - something brilliant, sharp, and dazzling, but also fundamentally and irrevocably broken.
+Failed psycaster - [PAWN_nameDef] hailed from a world where gold was amazingly common. [PAWN_pronoun] travelled to many worlds and recorded [PAWN_possessive] experiences in the famous novel "What I Did on my Holidays."
 
-Reformed conman - Wanted dead in multiple colonies for [PAWN_possessive] cons, [PAWN_nameDef] was finally caught and hung within a literal inch of [PAWN_possessive] life. Afterwards, [PAWN_pronoun] was given the chance to turn [PAWN_possessive] life around, applying [PAWN_possessive] skills at repairing some of the failing institutions of a large colony.
+Rimworld tourist - [PAWN_nameDef] ruled a sizable colony on the Rim as dictator in all but name. [PAWN_possessive] colony thrived under [PAWN_possessive], as [PAWN_possessive] ruled with more of a velvet glove, rather than an iron fist, following [PAWN_possessive] family's motto of "si non confectus, non reficiat."\n\n[PAWN_possessive] other great joy, besides ensuring the colony ran like clockwork, was pampering [PAWN_possessive] dog.
 
-Watch commander - [PAWN_nameDef] served as the commander of a sprawling, chaotic colony's watch. [PAWN_pronoun] dragged the ramshackle force from a disreputable gang into a semblance of a real police unit, mostly through sheer grit and an uncanny understanding of the criminal mind. Cynical and world-weary, [PAWN_nameDef] was often described as two drinks short of sober. Nevertheless, [PAWN_pronoun] clung to a stubborn, street-level sense of justice.
+Colony patrician - [PAWN_nameDef] was raised as an assassin from a young age and became near infamous in certain circles for a series of particularly brutal murders. [PAWN_possessive] mind has been likened to a shattered mirror - something brilliant, sharp, and dazzling, but also fundamentally and irrevocably broken.
 
-Watch captain - [PAWN_nameDef] served as the captain of a sprawling, chaotic colony's watch.  Despite the rim's best efforts, [PAWN_pronoun] remained honest, good-natured, and honourable. Being able to punch the lights out of a Hussar bugged out on go-juice didn't hurt.
+Uncanny assassin - Wanted dead in multiple colonies for [PAWN_possessive] cons, [PAWN_nameDef] was finally caught and hung within a literal inch of [PAWN_possessive] life. Afterwards, [PAWN_pronoun] was given the chance to turn [PAWN_possessive] life around, applying [PAWN_possessive] skills at repairing some of the failing institutions of a large colony.
 
-Adopted by dirtmoles - [PAWN_nameDef] was found and raised by a colony of dirtmoles.  [PAWN_possessive] above average height earned [PAWN_objective] the moniker Kzad-bhat, or "Head Banger."
+Reformed conman - [PAWN_nameDef] served as the commander of a sprawling, chaotic colony's watch. [PAWN_pronoun] dragged the ramshackle force from a disreputable gang into a semblance of a real police unit, mostly through sheer grit and an uncanny understanding of the criminal mind. Cynical and world-weary, [PAWN_nameDef] was often described as two drinks short of sober. Nevertheless, [PAWN_pronoun] clung to a stubborn, street-level sense of justice.
 
-Sausage salesman - On every world along the rim and core, there would be someone like [PAWN_nameDef], someone who would be selling sausages of suspicious origin and at such a low price that [PAWN_pronoun] would insist "that it's cutting me own throat."\n\nPerhaps the most astonishing thing was that despite the fact that [PAWN_nameDef]'s sausages tasted objectively worse than nutrient paste, people would find themselves buying another some time later.
+Watch commander - [PAWN_nameDef] served as the captain of a sprawling, chaotic colony's watch.  Despite the rim's best efforts, [PAWN_pronoun] remained honest, good-natured, and honourable. Being able to punch the lights out of a Hussar bugged out on go-juice didn't hurt.
 
-Quartermaster - [PAWN_nameDef] served as quartermaster for a number of different losing militaries and was probably the only human who ever needed a signed document that read: "following affidavits from the midwife and a doctor, I confirm that the bearer is, in all probability, human."
+Watch captain - [PAWN_nameDef] was found and raised by a colony of dirtmoles.  [PAWN_possessive] above average height earned [PAWN_objective] the moniker Kzad-bhat, or "Head Banger."
 
-Trial overseer - [PAWN_nameDef] oversaw the coming-of-age trials of [PAWN_possessive] tribe, guiding them through the wasteland. [PAWN_nameDef] knew it would only be a matter of time before the blood machines returned to raze their homes, so [PAWN_pronoun] taught [PAWN_possessive] charges how to survive in the harshest of environments.
+Adopted by dirtmoles - On every world along the rim and core, there would be someone like [PAWN_nameDef], someone who would be selling sausages of suspicious origin and at such a low price that [PAWN_pronoun] would insist "that it's cutting me own throat."\n\nPerhaps the most astonishing thing was that despite the fact that [PAWN_nameDef]'s sausages tasted objectively worse than nutrient paste, people would find themselves buying another some time later.
 
-Promethean thief - [PAWN_nameDef] led many expeditions into the wastelands to steal the magic metal of the blood machines. Some of the things [PAWN_pronoun] brought back were magic torchs that would not go out and sticks that shot lightning.
+Sausage salesman - [PAWN_nameDef] served as quartermaster for a number of different losing militaries and was probably the only human who ever needed a signed document that read: "following affidavits from the midwife and a doctor, I confirm that the bearer is, in all probability, human."
 
-Steelslayer - A skilled warrior with the spear, [PAWN_nameDef] attained great honor the say [PAWN_pronoun] single-handedly slew a twinbladed blood machine.
+Quartermaster - [PAWN_nameDef] oversaw the coming-of-age trials of [PAWN_possessive] tribe, guiding them through the wasteland. [PAWN_nameDef] knew it would only be a matter of time before the blood machines returned to raze their homes, so [PAWN_pronoun] taught [PAWN_possessive] charges how to survive in the harshest of environments.
 
-Banished warrior - Despite being [PAWN_possessive] original tribe's most skilled warrior, [PAWN_nameDef] was banished for the grave offense of having two lovers, rather than the one permitted by tradition and law.
+Trial overseer - [PAWN_nameDef] led many expeditions into the wastelands to steal the magic metal of the blood machines. Some of the things [PAWN_pronoun] brought back were magic torchs that would not go out and sticks that shot lightning.
 
-Mushroom farmer - Hailing from the frozen north, [PAWN_nameDef] helped sustain [PAWN_possessive] tribe by digging large underground caves where they cultivated large quantities of fungus. 
+Promethean thief - A skilled warrior with the spear, [PAWN_nameDef] attained great honor the say [PAWN_pronoun] single-handedly slew a twinbladed blood machine.
 
-Total: 52
+Steelslayer - Despite being [PAWN_possessive] original tribe's most skilled warrior, [PAWN_nameDef] was banished for the grave offense of having two lovers, rather than the one permitted by tradition and law.
+
+Banished warrior - Hailing from the frozen north, [PAWN_nameDef] helped sustain [PAWN_possessive] tribe by digging large underground caves where they cultivated large quantities of fungus.
+
+Total: 56

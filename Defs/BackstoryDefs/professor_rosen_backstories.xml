@@ -229,7 +229,7 @@
         <title>knight</title>
         <defName>Rosen_PowerKnight</defName>
         <titleShort>knight</titleShort>
-        <description>[PAWN_nameDef] served in the army as a means to live the dream of being a knight. Wealthy, [PAWN_pronoun] could afford the the most advanced powered armor to protect [PAWN_objective] skin.</description>
+        <description>[PAWN_nameDef] served in the army as a means to live the dream of being a knight. Wealthy, [PAWN_pronoun] could afford the most advanced powered armor to protect [PAWN_possessive] skin.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>ImperialFighter</li>
@@ -323,7 +323,6 @@
         <spawnCategories>
             <li>Offworld</li>
             <li>Outlander</li>
-            <li>Scientist</li>
             <li>Researcher</li>
             <li>Farmer</li>
         </spawnCategories>
@@ -337,6 +336,35 @@
             <Psychopath />
             <Bloodlust />
         </disallowedTraits>
+        <forcedTraits>
+            <VTE_AnimalLover MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_AnimalLover>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_RetiredProgrammer</defName>
+        <title>retired programmer</title>
+        <titleShort>programmer</titleShort>
+        <description>[PAWN_nameDef] worked as a programmer for a number years a programmer for a large corporation before abruptly quitting to work [PAWN_possessive] own farm, a surprisingly common occurrence on many an urbworld and midworld.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Animals>2</Animals>
+            <Plants>2</Plants>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Scientist</li>
+            <li>Researcher</li>
+            <li>Farmer</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+            <li>Animals</li>
+            <li>PlantWork</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <forcedTraits>
             <VTE_AnimalLover MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_AnimalLover>
         </forcedTraits>
@@ -789,7 +817,8 @@
         <defName>Rosen_Duelist</defName>
         <title>duelist</title>
         <titleShort>duelist</titleShort>
-        <description>While outlawed on some worlds, dueling remained a popular way to settle disputes on many others, especially among the nobility and upper classes of various urbworlds and midworlds.  [PAWN_nameDef] gained renown on one such world for [PAWN_possessive] skill with the blade.  [PAWN_pronoun] spent much of their spare time honing their skills and studying ancient treatises.</description>
+        <description>While outlawed on some worlds, dueling remained a popular way to settle disputes on many others, especially among the nobility and upper classes.  
+\n[PAWN_nameDef] gained renown on one such world for [PAWN_possessive] skill with the blade.  [PAWN_pronoun] spent much of their spare time honing their skills and studying ancient treatises.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -799,6 +828,7 @@
             <li>Pirate</li>
             <li>ImperialRoyal</li>
             <li>ImperialFighter</li>
+            <li>MedievalHigh</li>
         </spawnCategories>
         <skillGains>
             <Melee>8</Melee>
@@ -807,6 +837,9 @@
         </skillGains>
         <requiredWorkTags>
             <li>Violent</li>
+            <li>Social</li>
+            <li>Intellectual</li>
+            <li>Caring</li>
         </requiredWorkTags>
         <workDisables>
             <li>ManualSkilled</li>

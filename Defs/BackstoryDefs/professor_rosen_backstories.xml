@@ -855,6 +855,7 @@
     
     <!--
     Other Ideas:
+    Hobbyist Composer 
     Ship Mechanic
     Ship Captain
     Ship Engineer
@@ -865,13 +866,17 @@
     Extraction Expert/Soldier
     Archeologist
     Wise Rebbe
-    Rashi (Theological Scholar/Vinter)
+    Rashi (Theological Scholar/vintner) - [PAWN_nameDef] became well known for [PAWN_possessive] extensive commentaries on [PAWN_possessive] ideoligion's sacred texts.  However, few knew that [PAWN_possessive] scholarship was merely a hobby, and that [PAWN_pronoun] made a living as a vintner. 
     Sage
     Refugee
     Prophet
     Priest/Priestess
     Cult Enforcer
     Cult Troubleshooter
-    Troubleshooter
+    Seeker of the King- A high ranking member of a cult, [PAWN_nameDef] sought to find [PAWN_possessive] king.  Worse, [PAWN_pronoun] knew where to find him.\n\nAlong the shores the cloud waves break,\nthe twin suns sink behind the lake, \nthe shadows lengthen\n\tin Carcosa.
+    Troubleshooter  
+    Gunner - [PAWN_nameDef] was a firm believer that any problem could be solved with the judicious application of more firepwower.  
+
+
     -->
 </Defs>

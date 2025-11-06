@@ -256,7 +256,7 @@
         <title>enigma</title>  
         <titleShort>enigma</titleShort> 
         <slot>Childhood</slot>
-        <description>Systems have almost no records of [PAWN_nameDef]'s childhood, nor any explanation of how [PAWN_pronoun] rose to such a high rank at such an early age.  The only thing sparse accounts can agree on is the [PAWN_nameDef] has always been preternaturally beautiful and always able to convince others to do what [PAWN_pronoun] needed.</description>  
+        <description>Systems have almost no records of [PAWN_nameDef]'s childhood, nor any explanation of how [PAWN_pronoun] rose to such a high rank at such an early age.  The only thing sparse accounts can agree on is the [PAWN_nameDef] has always been preternaturally beautiful and always able to convince others to do exactly what [PAWN_pronoun] needed.</description>  
         <skillGains>
             <Social>6</Social>
             <Intellectual>2</Intellectual>

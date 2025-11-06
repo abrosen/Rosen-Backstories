@@ -36,11 +36,11 @@
 
     <!-- Library of Babel-->
     <BackstoryDef>
+        <defName>Rosen_BabelAgent</defName>
         <slot>Adulthood</slot>
         <title>Babel curator</title>
-        <defName>Rosen_BabelAgent</defName>
         <titleShort>Curator</titleShort>
-        <description>[PAWN_nameDef] claimed to be from a transcendent world, tasked by an Archotech to collect as many written stories as possible, with the goal of building a library to hold every text that has been and will be written.</description>
+        <description>[PAWN_nameDef] claimed to be from a transcendent world, tasked by an archotech to collect as many written stories as possible, with the goal of building a library to hold every text that has been and will be written.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>Scientist</li>
@@ -845,6 +845,10 @@
             <li>ManualSkilled</li>
             <li>ManualDumb</li>
         </workDisables>
+        <possessions>
+            <MeleeWeapon_LongSword>1</MeleeWeapon_LongSword>
+            <MeleeWeapon_Gladius>1</MeleeWeapon_Gladius>
+        </possessions>
         <forcedTraits>
             <VTE_Snob MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Snob>
         </forcedTraits>

@@ -784,7 +784,7 @@
     </BackstoryDef>
     
 
-    BackstoryDef>
+    <BackstoryDef>
         <defName>Rosen_Duelist</defName>
         <title>duelist</title>
         <titleShort>duelist</titleShort>
@@ -800,7 +800,7 @@
             <li>ImperialFighter</li>
         </spawnCategories>
         <skillGains>
-            <Melee>8</<Melee>
+            <Melee>8</Melee>
             <Social>6</Social>
             <Intellectual>4</Intellectual>
         </skillGains>

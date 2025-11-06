@@ -763,7 +763,7 @@
         <defName>Rosen_Archosalvager</defName>
         <title>archotech salvager</title>
         <titleShort>salvager</titleShort>
-        <description>TODO</description>
+        <description>[PAWN_nameDef] made a living hunting for ruined or dormant archotech relics and ship parts, extracting their vanometric power cells and other such technologies.  This took [PAWN_objective] both to the deep depths of planets and the far reaches of [PAWN_possessive] solar system.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -774,7 +774,7 @@
         </spawnCategories>
         <skillGains>
             <Mining>4</Mining>
-            <Crafting>4</Crafting>
+            <Crafting>2</Crafting>
             <Construction>4</Construction>
         </skillGains>
         <requiredWorkTags>

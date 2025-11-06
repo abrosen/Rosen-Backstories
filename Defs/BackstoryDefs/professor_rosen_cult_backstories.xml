@@ -1,9 +1,93 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <!-- Child -->
+
+    <!-- Adult -->
+    <BackstoryDef>
+        <defName>Rosen_CultEnforcer</defName>
+        <title>cult enforcer</title>
+        <titleShort>cultist</titleShort>
+        <description>[PAWN_nameDef] served as part of the enforcement arm of a large cult, maintaining dicipline and "motivating" members to keep the faith.  [PAWN_possessive] higher-ups, for their part, found [PAWN_objective] the perfect follower, loyal and always willing to follow orders.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Cult</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Medicine>2</Medicine>
+            <Social>2</Social>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+            <li>Caring</li>
+        </requiredWorkTags>
+        <possessions>
+            <MeleeWeapon_Club>1</MeleeWeapon_Club>
+        </possessions>
+        <forcedTraits>
+            <VTE_Submissive MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Submissive>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_CultTroubleshooter</defName>
+        <title>cult troubleshooter</title>
+        <titleShort>cultist</titleShort>
+        <description>[PAWN_nameDef] served as part of the enforcement arm of a large cult, discretely removing threats and opponents of the true faith.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Cult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <ShootingAccuracy>1</ShootingAccuracy>
+        </forcedTraits>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_YellowKingProphet</defName>
+        <title>seeker of the king</title>
+        <titleShort>cult prophet</titleShort>
+        <description>A high ranking member of a cult, [PAWN_nameDef] sought to find [PAWN_possessive] king.  Worse, [PAWN_pronoun] knew where to find him:\n\nAlong the shores the cloud waves break,\nthe twin suns sink behind the lake, \nthe shadows lengthen\nin Carcosa.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Cult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Intellectual>8</Intellectual>
+            <Social>4</Social>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <VTE_Vengeful MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Vengeful>
+        </forcedTraits>
+    </BackstoryDef>
 <!--
 Seeker of the King- A high ranking member of a cult, [PAWN_nameDef] sought to find [PAWN_possessive] king.  Worse, [PAWN_pronoun] knew where to find him.\n\nAlong the shores the cloud waves break,\nthe twin suns sink behind the lake, \nthe shadows lengthen\n\tin Carcosa.
     Troubleshooter  
+    Cult Enforcer
+    Cult Troubleshooter
 -->
     
 </Defs>

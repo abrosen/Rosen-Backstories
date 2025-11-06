@@ -231,7 +231,6 @@
         <titleShort>naturalist</titleShort>
         <description>[PAWN_nameDef] had a love for learning about all natural things and had her family take [PAWN_objective] to every nature preserve on [PAWN_possessive] glitterworld. [PAWN_pronoun] adopted and cared for as many strays and [PAWN_pronoun] could, which left little time to learn the family trade of haute cuisine.</description>
         <spawnCategories>
-            <li>Outlander</li>
             <li>Offworld</li>
             <li>Outsider</li>
             <li>Farmer</li>
@@ -264,7 +263,6 @@
         <spawnCategories>
             <li>Offworld</li>
             <li>Researcher</li>
-            <li>Cult</li>
             <li>ImperialRoyal</li>
         </spawnCategories>
         <forcedTraits>

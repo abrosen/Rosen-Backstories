@@ -1,6 +1,6 @@
 Zoo interpreter - [PAWN_nameDef] worked at a famous zoo as an educator, explaining the behavior of animals to guests. [PAWN_possessive] passion about wildlife was extremely contagious to everyone [PAWN_pronoun] met. 
 
-Babel curator - [PAWN_nameDef] claimed to be from a transcendent world, tasked by an Archotech to collect as many written stories as possible, with the goal of building a library to hold every text that has been and will be written. 
+Babel curator - [PAWN_nameDef] claimed to be from a transcendent world, tasked by an archotech to collect as many written stories as possible, with the goal of building a library to hold every text that has been and will be written.
 
 Medieval enthusiast - Teaching at a glitterworld university, [PAWN_nameDef]'s research focused on the history of combat techniques from thousands of years ago.  This may just have been an excuse for [PAWN_objective] to get paid for [PAWN_possessive] hobby of dressing up in armor and pretending to be a knight.\n\nWhile [PAWN_nameDef] spent a considerable amount of time outdoors thanks to [PAWN_possessive] hobby, very little of it was spent in green spaces or wilderness.
 
@@ -34,7 +34,7 @@ Glitterworld physician - Even in a world mostly free of disease and human suffer
 
 Expedition survivor - After an ill-fated expedition drew the ire of a particularly malevolent archotech, [PAWN_nameDef] has been on the run ever since.  [PAWN_nameDef] jumped from colony to colony, pursued by mechanoids and horrid fleshbeasts. Despite the overwhelming odds, [PAWN_nameDef] has survived everything coming [PAWN_possessive] way and has become quite proficient at dispatching threats.
 
-Xenogeneticist - While [PAWN_pronoun] could have easily made a living as a model, [PAWN_nameDef] found [PAWN_objective]self drawn towards more intellectual pursuits. The majority of [PAWN_nameDef]'s efforts were spent on the research and development of new xenogerms treatments of genetic disorders.  [PAWN_possessive] career was interrupted by the sudden decline of their glitterworld;  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet.
+Xenogeneticist - While [PAWN_pronoun] could have easily made a living as a model, [PAWN_nameDef] found [PAWN_objective]self drawn towards more intellectual pursuits. The majority of [PAWN_nameDef]'s efforts were spent on the research and development of new xenogerms treatments of genetic disorders.\n\n[PAWN_possessive] career was interrupted by the sudden decline of their glitterworld;  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet.
 
 Infantry engineer - [PAWN_nameDef] served as an engineer in the army on a relatively peaceful urbworld. Most of [PAWN_possessive] active service was spent in disaster recovery efforts. Fortunately many of the same skills needed to sap walls or build bridges and defenses were easily transferable to rescue operations and building shelters.  This was probably for the best, as [PAWN_pronoun] was barely able to take a punch from a genie.
 
@@ -52,7 +52,11 @@ Glitterworld president - [PAWN_nameDef] served as the democratically elected lea
 
 Archotech salvager - [PAWN_nameDef] made a living hunting for ruined or dormant archotech relics and ship parts, extracting their vanometric power cells and other such technologies.  This took [PAWN_objective] both to the deep depths of planets and the far reaches of [PAWN_possessive] solar system.
 
-Duelist - Before [PAWN_nameDef] could even speak, [PAWN_possessive] world was ravaged by worldwide pandemic. The next few years of [PAWN_possessive] life were spent in isolation with only [PAWN_possessive] parents for company. However, [PAWN_possessive] parents kept [PAWN_objective] busy, nurturing a natural talent for the arts and sciences.
+Duelist - [PAWN_nameDef] was a firm believer that any problem could be solved with the judicious application of more firepwower.  Unfortunately, [PAWN_possessive] passion for destruction left very little room any interest in construction.
+
+Gunner - [PAWN_nameDef] became well known for [PAWN_possessive] extensive commentaries on [PAWN_possessive] ideoligion's sacred texts.  However, few knew that [PAWN_possessive] scholarship was merely a hobby, and that [PAWN_pronoun] made a living as a vintner.
+
+Theologian - Before [PAWN_nameDef] could even speak, [PAWN_possessive] world was ravaged by worldwide pandemic. The next few years of [PAWN_possessive] life were spent in isolation with only [PAWN_possessive] parents for company. However, [PAWN_possessive] parents kept [PAWN_objective] busy, nurturing a natural talent for the arts and sciences.
 
 Quarantine child - Born into an extremely large family, [PAWN_nameDef] was starved for attention.  [PAWN_pronoun] solved this problem by creating a number of contraptions that made noises, created messes, and were otherwise generally quite meddlesome.
 
@@ -78,7 +82,13 @@ Enigma - [PAWN_nameDef] was raised by parents who were convinced that the apocal
 
 Prepper kid - [PAWN_nameDef] found [PAWN_objective]self supporting [PAWN_possessive] sick father at an early age.  [PAWN_pronoun] managed to scrape together a meager income joining teams that dug up and deconstructed ancient shipwrecks.
 
-Scrapper - After attending a university for psycasters, [PAWN_nameDef] discovered [PAWN_pronoun] was uniquely unqualified.  [PAWN_possessive] professors described [PAWN_objective] as the "psychic equivalent of the number zero."\n\nDespite having the spirit of a psycaster, [PAWN_possessive] survival was better attributed to having the body of a long distance sprinter.
+Scrapper - [PAWN_nameDef] served as part of the enforcement arm of a large cult, maintaining dicipline and "motivating" members to keep the faith.  [PAWN_possessive] higher-ups, for their part, found [PAWN_objective] the perfect follower, loyal and always willing to follow orders.
+
+Cult enforcer - [PAWN_nameDef] served as part of the enforcement arm of a large cult, discretely removing threats and opponents of the true faith.
+
+Cult troubleshooter - A high ranking member of a cult, [PAWN_nameDef] sought to find [PAWN_possessive] king.  Worse, [PAWN_pronoun] knew where to find him:\n\nAlong the shores the cloud waves break,\nthe twin suns sink behind the lake, \nthe shadows lengthen\nin Carcosa.
+
+Seeker of the king - After attending a university for psycasters, [PAWN_nameDef] discovered [PAWN_pronoun] was uniquely unqualified.  [PAWN_possessive] professors described [PAWN_objective] as the "psychic equivalent of the number zero."\n\nDespite having the spirit of a psycaster, [PAWN_possessive] survival was better attributed to having the body of a long distance sprinter.
 
 Failed psycaster - [PAWN_nameDef] hailed from a world where gold was amazingly common. [PAWN_pronoun] travelled to many worlds and recorded [PAWN_possessive] experiences in the famous novel "What I Did on my Holidays."
 
@@ -108,4 +118,4 @@ Steelslayer - Despite being [PAWN_possessive] original tribe's most skilled warr
 
 Banished warrior - Hailing from the frozen north, [PAWN_nameDef] helped sustain [PAWN_possessive] tribe by digging large underground caves where they cultivated large quantities of fungus.
 
-Total: 56
+Total: 61

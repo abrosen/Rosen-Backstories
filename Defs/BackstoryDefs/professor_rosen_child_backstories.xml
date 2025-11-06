@@ -128,7 +128,7 @@
         <defName>Rosen_ChosenOne</defName>
         <title>chosen one</title>
         <titleShort>destined</titleShort>
-        <description>[PAWN_nameDef]'s birth was heralded as the arrival of the Chosen One, [PAWN_pronoun] who was destined to drive the steel beasts back to the black skies. [PAWN_nameDef]'s trained in ancient rites and battle tactics in preparation for the day [PAWN_pronoun] would called upon to fulfill their destiny.</description>
+        <description>[PAWN_nameDef]'s birth was heralded as the arrival of the Chosen One, [PAWN_pronoun] who was destined to drive the steel beasts back to the black skies. [PAWN_nameDef] trained in ancient rites and battle tactics in preparation for the day [PAWN_pronoun] would called upon to fulfill their destiny.</description>
         <slot>Childhood</slot>
         <skillGains>
             <Shooting>1</Shooting>
@@ -137,6 +137,7 @@
         </skillGains>
         <spawnCategories>
             <li>Tribal</li>
+            <li>TribalHunter</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -146,7 +147,7 @@
         <title>medical student</title>  
         <titleShort>student</titleShort> 
         <slot>Childhood</slot>
-        <description>[PAWN_nameDef] studied at a prestigious medical academy.  Despite glitterworld technology being able to heal the most grevious of wounds with the push of a button, [PAWN_possessive] university emphasized the need for traditional hands-on skills so many physicians  had relied on over the millennia.</description>  
+        <description>[PAWN_nameDef] studied at a prestigious medical academy.  Despite glitterworld technology being able to heal the most grevious of wounds with the push of a button, [PAWN_possessive] university emphasized the need for the traditional, hands-on skills so many physicians had relied on over the millennia.</description>  
         <skillGains>
             <Crafting>1</Crafting>
             <Intellectual>1</Intellectual>
@@ -263,6 +264,7 @@
         <spawnCategories>
             <li>Offworld</li>
             <li>Researcher</li>
+            <li>Cult</li>
             <li>ImperialRoyal</li>
         </spawnCategories>
         <forcedTraits>
@@ -287,6 +289,7 @@
         <spawnCategories>
             <li>Offworld</li>
             <li>Outlander</li>
+            <li>Cult</li>
             <li>Researcher</li>
         </spawnCategories>
         <workDisables>

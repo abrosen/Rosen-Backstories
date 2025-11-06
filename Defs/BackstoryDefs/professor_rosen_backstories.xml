@@ -824,8 +824,7 @@
         <defName>Rosen_Duelist</defName>
         <title>duelist</title>
         <titleShort>duelist</titleShort>
-        <description>While outlawed on some worlds, dueling remained a popular way to settle disputes on many others, especially among the nobility and upper classes.  
-\n[PAWN_nameDef] gained renown on one such world for [PAWN_possessive] skill with the blade.  [PAWN_pronoun] spent much of their spare time honing their skills and studying ancient treatises.</description>
+        <description>While outlawed on some worlds, dueling remained a popular way to settle disputes on many others, especially among the nobility and upper classes.\n\n[PAWN_nameDef] gained renown on one such world for [PAWN_possessive] skill with the blade.  [PAWN_pronoun] spent much of their spare time honing their skills and studying ancient treatises.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>

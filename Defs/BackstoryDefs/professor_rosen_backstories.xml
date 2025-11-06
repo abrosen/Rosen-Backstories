@@ -837,9 +837,7 @@
         </skillGains>
         <requiredWorkTags>
             <li>Violent</li>
-            <li>Social</li>
             <li>Intellectual</li>
-            <li>Caring</li>
         </requiredWorkTags>
         <workDisables>
             <li>ManualSkilled</li>
@@ -857,14 +855,23 @@
     
     <!--
     Other Ideas:
+    Ship Mechanic
+    Ship Captain
+    Ship Engineer
+    Ship Pilot
+    Hydroponics Operator
+    Fungus Scientist
+    Programmer
+    Extraction Expert/Soldier
     Archeologist
     Wise Rebbe
+    Rashi (Theological Scholar/Vinter)
     Sage
     Refugee
     Prophet
     Priest/Priestess
     Cult Enforcer
     Cult Troubleshooter
-    Retired Programmer
+    Troubleshooter
     -->
 </Defs>

@@ -685,9 +685,9 @@
             <li>Pirate</li>
         </spawnCategories>
         <skillGains>
-            <Intellectual>4</Intellectual>
+            <Intellectual>2</Intellectual>
             <Social>6</Social>
-            <Artistic>4</Artistic>
+            <Artistic>2</Artistic>
         </skillGains>
         <requiredWorkTags>
             <li>Social</li>
@@ -724,10 +724,8 @@
             <li>Social</li>
             <li>Intellectual</li>
             <li>Artistic</li>
-            <li>Constructing</li>
-            <li>Crafting</li>
-            <li>Mining</li>
-            <li>Violent</li>
+            <li>ManualDumb</li>
+            <li>ManualSkilled</li>
         </requiredWorkTags>
         <forcedTraits>
             <GreatMemory />
@@ -738,10 +736,57 @@
             <VAE_Apparel_Trousers MayRequire="VanillaExpanded.VARME">1</VAE_Apparel_Trousers>
         </possessions>
     </BackstoryDef>
-     
+    
+
+
+    <BackstoryDef>
+        <defName>Rosen_President</defName>
+        <title>glitterworld president</title>
+        <titleShort>president</titleShort>
+        <description>[PAWN_nameDef] served as the democratically elected leader of a prosperous glitterworld.  While [PAWN_possessive] tenure was originally seen as a time of prosperity, [PAWN_possessive] immediate successor implemented radical policies that led to the rapid decline of [PAWN_possessive] home planet. [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>8</Social>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Social</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_Archosalvager</defName>
+        <title>archotech salvager</title>
+        <titleShort>salvager</titleShort>
+        <description>TODO</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+            <li>Miner</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>4</<Mining>
+            <Crafting>4</Crafting>
+            <Construction>4</Construction>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Constructing</li>
+            <li>Mining</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+    
+    
     <!--
     Other Ideas:
-    President
+    Duelist
     Archeologist
     Archotech Salvager
     Wise Rebbe

@@ -54,8 +54,8 @@
 
     <BackstoryDef>
         <defName>Rosen_Steelslayer</defName>
-        <title>Steelslayer</title>
-        <titleShort>Steelslayer</titleShort>
+        <title>steelslayer</title>
+        <titleShort>steelslayer</titleShort>
         <description>A skilled warrior with the spear, [PAWN_nameDef] attained great honor the say [PAWN_pronoun] single-handedly slew a twinbladed blood machine.</description>
         <slot>Adulthood</slot>
         <skillGains>
@@ -78,8 +78,8 @@
 
     <BackstoryDef>
         <defName>Rosen_BanishedWarriorLover</defName>
-        <title>Banished Warrior</title>
-        <titleShort>Warrior</titleShort>
+        <title>banished warrior</title>
+        <titleShort>warrior</titleShort>
         <description>Despite being [PAWN_possessive] original tribe's most skilled warrior, [PAWN_nameDef] was banished for the grave offense of having two lovers, rather than the one permitted by tradition and law.</description>
         <slot>Adulthood</slot>
         <skillGains>
@@ -109,8 +109,8 @@
 
     <BackstoryDef>
         <defName>Rosen_MushroomFarmer</defName>
-        <title>Mushroom Farmer</title>
-        <titleShort>Fungiculturist</titleShort>
+        <title>mushroom farmer</title>
+        <titleShort>fungiculturist</titleShort>
         <description>Hailing from the frozen north, [PAWN_nameDef] helped sustain [PAWN_possessive] tribe by digging large underground caves where they cultivated large quantities of fungus.</description>
         <slot>Adulthood</slot>
         <skillGains>

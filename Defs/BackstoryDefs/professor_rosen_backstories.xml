@@ -704,9 +704,9 @@
 
      <BackstoryDef>
         <defName>Rosen_Dealmaker</defName>
-        <title>expedition recruiter</title>
+        <title>dealmaker</title>
         <titleShort>dealmaker</titleShort>
-        <description>Almost nothing is known about [PAWN_nameDef] or [PAWN_possessive] role in recruiting members of an ill-fated expedition.  But [PAWN_nameDef] never made a promise [PAWN_pronoun] couldn't keep and [PAWN_pronoun] never forgot a debt [PAWN_pronoun] owed.</description>
+        <description>Almost nothing is known about [PAWN_nameDef] or [PAWN_possessive] role in recruiting members of an ill-fated expedition to study an apparently dormant archotech.  Records describing [PAWN_objective] have all been expunged; tales describing [PAWN_objective] end without warning.  But two things are certain: [PAWN_nameDef] never made a promise [PAWN_pronoun] couldn't keep and [PAWN_pronoun] never forgot a debt [PAWN_pronoun] owed.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>

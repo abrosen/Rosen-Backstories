@@ -11,8 +11,14 @@ GNU Terry Pratchett.
 
 ### Lore
 - Backstories should be lore friendly. 
-  - Backstories from other media franchises are fine, but should be adapted to be as lore friendly as possible, such at discworld dwarves becoming dirtmoles. 
+  - Backstories from other media franchises are fine, but should be adapted to be as lore friendly as possible, such at discworld dwarves becoming dirtmoles.
+- Most backstories are meant for players and their pawns.
+  - Almost all backstories will have the "offworld" to generate pawns for crashlanded.
+  - Science and spooky backstories come with the "researcher" tag for Anomaly DLC.
+  - Military backstories will have "ImperialFighter" when it would make sense to find this backstory in the Empire faction. 
+  - Most backstories with "cult" don't work as anything but as Servants of Horax
 
 ### Mechanics
-- Most adult backstories are balanced around a +6/+4/+2 bonus with a positive trait.
+- I tend to avoid too many restrictive backstories as that is not what most players are looking for.
+- Many adult backstories are balanced around a +6/+4/+2 bonus with a positive trait.
 - Backstories are allowed to be stronger, but definitely need some drawback or must be extremely compelling.

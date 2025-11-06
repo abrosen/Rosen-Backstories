@@ -2,6 +2,50 @@
 <Defs>
 
     <!-- Child -->
+    <BackstoryDef>
+        <defName>Rosen_CultChild1</defName>
+        <title>cult child</title>
+        <titleShort>cultist</titleShort>
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] was born into a large cult.  What time that was not spent keeping the faith was spent in betterment of one of the cult's many self-sufficient compounds.</description>  
+        <skillGains>
+            <Construction>2</Construction>
+            <Plants>2</Plants>
+        </skillGains>
+        <spawnCategories>
+            <li>Cult</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_CultChild2</defName>
+        <title>cult child</title>
+        <titleShort>cultist</titleShort>
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] was born into a large cult.  What time that was not spent keeping the faith was spent training to combat the faithless.</description>  
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>Cult</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_CultChild3</defName>
+        <title>cult child</title>
+        <titleShort>cultist</titleShort>
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] was born into a large cult.  What time that was not spent keeping the faith was spent training to convert the faithless.</description>  
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Cult</li>
+        </spawnCategories>
+    </BackstoryDef>
 
     <!-- Adult -->
     <BackstoryDef>

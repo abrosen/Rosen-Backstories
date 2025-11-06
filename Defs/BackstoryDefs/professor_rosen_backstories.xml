@@ -773,7 +773,7 @@
             <li>Miner</li>
         </spawnCategories>
         <skillGains>
-            <Mining>4</<Mining>
+            <Mining>4</Mining>
             <Crafting>4</Crafting>
             <Construction>4</Construction>
         </skillGains>
@@ -783,6 +783,39 @@
         </requiredWorkTags>
     </BackstoryDef>
     
+
+    BackstoryDef>
+        <defName>Rosen_Duelist</defName>
+        <title>duelist</title>
+        <titleShort>duelist</titleShort>
+        <description>While outlawed on some worlds, dueling remained a popular way to settle disputes on many others, especially among the nobility and upper classes of various urbworlds and midworlds.  [PAWN_nameDef] gained renown on one such world for [PAWN_possessive] skill with the blade.  [PAWN_pronoun] spent much of their spare time honing their skills and studying ancient treatises.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>Pirate</li>
+            <li>ImperialRoyal</li>
+            <li>ImperialFighter</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>8</<Melee>
+            <Social>6</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <workDisables>
+            <li>ManualSkilled</li>
+            <li>ManualDumb</li>
+        </workDisables>
+        <forcedTraits>
+            <VTE_Snob MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Snob>
+        </forcedTraits>
+        
+    </BackstoryDef>
     
     <!--
     Other Ideas:

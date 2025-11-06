@@ -276,7 +276,7 @@
         <title>prepper kid</title>  
         <titleShort>prepper</titleShort> 
         <slot>Childhood</slot>
-        <description>[PAWN_nameDef] was raised by parents who were convinced that the apocalypse was coming any day now and were determined to survive it.  [PAWN_possesive] upbringing made  [PAWN_objective] quite prepared for life on the Rim, but left [PAWN_possesive] social skills quite atrophied.</description>  
+        <description>[PAWN_nameDef] was raised by parents who were convinced that the apocalypse was coming any day now and were determined to survive it.  [PAWN_possessive] upbringing made [PAWN_objective] quite prepared for life on the Rim, but left [PAWN_possessive] social skills quite atrophied.</description>  
         <skillGains>
             <Social>-4</Social>
             <Shooting>2</Shooting>

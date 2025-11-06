@@ -51,6 +51,94 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
 
-    
+
+    <BackstoryDef>
+        <defName>Rosen_Steelslayer</defName>
+        <title>Steelslayer</title>
+        <titleShort>Steelslayer</titleShort>
+        <description>A skilled warrior with the spear, [PAWN_nameDef] attained great honor the say [PAWN_pronoun] single-handedly slew a twinbladed blood machine.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>8</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <forcedTraits><Nimble/></forcedTraits>
+        <possessions>
+            <MeleeWeapon_Spear/>
+        </possessions>  
+        
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_BanishedWarriorLover</defName>
+        <title>Banished Warrior</title>
+        <titleShort>Warrior</titleShort>
+        <description>Despite being [PAWN_possessive] original tribe's most skilled warrior, [PAWN_nameDef] was banished for the grave offense of having two lovers, rather than the one permitted by tradition and law.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>4</Melee>
+            <Social>4</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Tribal</li>
+            <li>TribalHunter</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Violent</li>
+            <li>Social</li>
+        </requiredWorkTags>
+        <forcedTraits>
+             <VTE_Insatiable MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Insatiable>
+        </forcedTraits>
+        <possessions>
+            <MeleeWeapon_Spear/>
+        </possessions>  
+        
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_MushroomFarmer</defName>
+        <title>Mushroom Farmer</title>
+        <titleShort>Fungiculturist</titleShort>
+        <description>Hailing from the frozen north, [PAWN_nameDef] helped sustain [PAWN_possessive] tribe by digging large underground caves where they cultivated large quantities of fungus.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Plants>4</Plants>
+            <Mining>4</Mining>
+        </skillGains>
+        <spawnCategories>
+            <li>Tribal</li>
+            <li>TribalFarmer</li>
+            <li>TribalMiner</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Mining</li>
+            <li>PlantWork</li>
+        </requiredWorkTags>
+        <forcedTraits>
+             <Undergrounder>0</Undergrounder>
+        </forcedTraits>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+
+    <!-- Possible future tribal backstories:
+    Exile
+    Wanderer
+    Kinslayer
+    Wise Sage
+    -->
 
 </Defs>

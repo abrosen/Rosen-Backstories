@@ -484,73 +484,7 @@
             <VTE_Clumsy MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Clumsy>
         </forcedTraits>
     </BackstoryDef>
-
-
-    <BackstoryDef>
-        <defName>Rosen_GlitterworldSurgeon</defName>
-        <title>glitterworld physician</title>
-        <titleShort>surgeon</titleShort>
-        <description>Even in a world mostly free of disease and human suffering, there were still accidents that required quick human intervention.  While not as lucrative a career as cosmetic alterations and much more stressful, [PAWN_nameDef] found [PAWN_possessive] time as a emergency physician much more worthwhile.  Eventually, [PAWN_nameDef] adapted to the long hours without resorting to wake-up or copious amounts of caffeine.</description>
-        <slot>Adulthood</slot>
-        <requiredWorkTags>
-            <li>Caring</li>
-            <li>Social</li>
-            <li>Intellectual</li>
-        </requiredWorkTags>
-        <skillGains>
-            <Medicine>6</Medicine>
-            <Social>2</Social>
-            <Intellectual>2</Intellectual>
-        </skillGains>
-        <spawnCategories>
-            <li>Offworld</li>
-            <li>Pirate</li>
-            <li>Scientist</li>
-            <li>Researcher</li>
-        </spawnCategories>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <forcedTraits>
-            <QuickSleeper />
-        </forcedTraits>
-        <possessions>
-            <MedicineUltratech>2</MedicineUltratech>
-        </possessions>
-    </BackstoryDef>
     
-
-    <!--Adapted from VBE_Catastrophe;
-    Added different flavor, tags, and balance
-    First of our lore in for an archotech expedition.
-    -->
-    <BackstoryDef>
-        <slot>Adulthood</slot>
-        <defName>Rosen_Survivor</defName>
-        <title>expedition survivor</title>
-        <titleShort>survivor</titleShort>
-        <description>After an ill-fated expedition drew the ire of a particularly malevolent archotech, [PAWN_nameDef] has been on the run ever since.  [PAWN_nameDef] jumped from colony to colony, pursued by mechanoids and horrid fleshbeasts. Despite the overwhelming odds, [PAWN_nameDef] has survived everything coming [PAWN_possessive] way and has become quite proficient at dispatching threats.</description>
-        <spawnCategories>
-            <li>Outlander</li>
-            <li>Pirate</li>
-            <li>Researcher</li>
-            <li>Offworld</li>
-        </spawnCategories><bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
-        <skillGains>
-            <Shooting>4</Shooting>
-            <Melee>4</Melee>
-            <Medicine>4</Medicine>
-            <Artistic>-4</Artistic>
-        </skillGains>
-        <forcedTraits>
-            <Tough />
-        </forcedTraits>
-        <disallowedTraits>
-            <Kind />
-        </disallowedTraits>
-        <possessions>
-            <MeleeWeapon_Knife />
-        </possessions>     
-    </BackstoryDef>
 
     <BackstoryDef>
         <slot>Adulthood</slot>
@@ -631,6 +565,11 @@
         <forcedTraits>
             <NaturalMood>2</NaturalMood>
         </forcedTraits>
+        <disallowedTraits>
+            <Bloodlust />
+            <Psychopath />
+            <Cannibal />
+        </disallowedTraits>
         <possessions>
             <Gun_Autopistol />
         </possessions>
@@ -646,6 +585,7 @@
         <spawnCategories>
             <li>Offworld</li>
             <li>Pirate</li>
+            <li>ImperialFighter</li>
         </spawnCategories>
         <skillGains>
             <Shooting>8</Shooting>
@@ -736,44 +676,6 @@
         </possessions>
     </BackstoryDef>
 
-
-     <BackstoryDef>
-        <defName>Rosen_Dealmaker</defName>
-        <title>dealmaker</title>
-        <titleShort>dealmaker</titleShort>
-        <description>Almost nothing is known about [PAWN_nameDef] or [PAWN_possessive] role in recruiting members of an ill-fated expedition to study an apparently dormant archotech.  Records describing [PAWN_objective] have all been expunged; tales describing [PAWN_objective] end without warning.  But two things are certain: [PAWN_nameDef] never made a promise [PAWN_pronoun] couldn't keep and [PAWN_pronoun] never forgot a debt [PAWN_pronoun] owed.</description>
-        <slot>Adulthood</slot>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <spawnCategories>
-            <li>Offworld</li>
-            <li>Researcher</li>
-            <li>Cult</li>
-        </spawnCategories>
-        <skillGains>
-            <Intellectual>4</Intellectual>
-            <Social>4</Social>
-            <Shooting>4</Shooting>
-        </skillGains>
-        <requiredWorkTags>
-            <li>Social</li>
-            <li>Intellectual</li>
-            <li>Artistic</li>
-            <li>ManualDumb</li>
-            <li>ManualSkilled</li>
-        </requiredWorkTags>
-        <forcedTraits>
-            <GreatMemory />
-        </forcedTraits>
-        <possessions>
-            <Gun_Revolver />
-            <VAE_Apparel_SuitJacket MayRequire="VanillaExpanded.VARME">1</VAE_Apparel_SuitJacket>
-            <VAE_Apparel_Trousers MayRequire="VanillaExpanded.VARME">1</VAE_Apparel_Trousers>
-        </possessions>
-    </BackstoryDef>
-    
-
-
     <BackstoryDef>
         <defName>Rosen_President</defName>
         <title>glitterworld president</title>
@@ -792,33 +694,6 @@
             <li>Social</li>
         </requiredWorkTags>
     </BackstoryDef>
-
-
-    <BackstoryDef>
-        <defName>Rosen_Archosalvager</defName>
-        <title>archotech salvager</title>
-        <titleShort>salvager</titleShort>
-        <description>[PAWN_nameDef] made a living hunting for ruined or dormant archotech relics and ship parts, extracting their vanometric power cells and other such technologies.  This took [PAWN_objective] both to the deep depths of planets and the far reaches of [PAWN_possessive] solar system.</description>
-        <slot>Adulthood</slot>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <spawnCategories>
-            <li>Offworld</li>
-            <li>Researcher</li>
-            <li>Miner</li>
-        </spawnCategories>
-        <skillGains>
-            <Mining>2</Mining>
-            <Crafting>2</Crafting>
-            <Construction>2</Construction>
-            <Intellectual>2</Intellectual>
-        </skillGains>
-        <requiredWorkTags>
-            <li>Intellectual</li>
-            <li>ManualSkilled</li>
-        </requiredWorkTags>
-    </BackstoryDef>
-    
 
     <BackstoryDef>
         <defName>Rosen_Duelist</defName>
@@ -864,7 +739,7 @@
         <defName>Rosen_MoreDakka</defName>
         <title>gunner</title>
         <titleShort>gunner</titleShort>
-        <description>[PAWN_nameDef] was a firm believer that any problem could be solved with the judicious application of more firepwower.  Unfortunately, [PAWN_possessive] passion for destruction left very little room any interest in construction.</description>
+        <description>[PAWN_nameDef] firmly believed that any problem could be solved with the judicious application of more firepwower.  Unfortunately, [PAWN_possessive] passion for destruction left very little room any interest in construction.</description>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>Offworld</li>
@@ -915,6 +790,30 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
     
+    <BackstoryDef>
+        <defName>Rosen_Unremarkble</defName>
+        <title>ordinary colonist</title>
+        <titleShort>colonist</titleShort>
+        <description>[PAWN_nameDef] records are startlingly unremarkable and contain no data of interest or importance.  It is not suspicious in the slightest.</description>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+            <li>Cult</li>
+            <li>ImperialRoyal</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>AllWork</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <FastLearner />
+        </forcedTraits>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+    
+
+
     <!--
     Other Ideas:
     Hobbyist Composer 

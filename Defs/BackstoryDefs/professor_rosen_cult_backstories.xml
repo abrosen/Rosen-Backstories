@@ -106,7 +106,7 @@
     <BackstoryDef>
         <defName>Rosen_YellowKingProphet</defName>
         <title>seeker of the king</title>
-        <titleShort>cult prophet</titleShort>
+        <titleShort>cultist</titleShort>
         <description>A high ranking member of a cult, [PAWN_nameDef] sought to find [PAWN_possessive] king.  Worse, [PAWN_pronoun] knew where to find him:\n\nAlong the shores the cloud waves break,\nthe twin suns sink behind the lake, \nthe shadows lengthen\nin Carcosa.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -127,11 +127,5 @@
             <VTE_Vengeful MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Vengeful>
         </forcedTraits>
     </BackstoryDef>
-<!--
-Seeker of the King- A high ranking member of a cult, [PAWN_nameDef] sought to find [PAWN_possessive] king.  Worse, [PAWN_pronoun] knew where to find him.\n\nAlong the shores the cloud waves break,\nthe twin suns sink behind the lake, \nthe shadows lengthen\n\tin Carcosa.
-    Troubleshooter  
-    Cult Enforcer
-    Cult Troubleshooter
--->
-    
+
 </Defs>

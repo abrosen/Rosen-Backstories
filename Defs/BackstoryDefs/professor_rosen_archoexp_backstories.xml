@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Child -->
+    <!-- Claire.-->
+     <BackstoryDef>
+        <defName>Rosen_ExpeditionGuard</defName>
+        <title>expedition guard</title>  
+        <titleShort>guard</titleShort> 
+        <slot>Childhood</slot>
+        <description>Born to an impovershed class on a crowded but technically advanced urbworld, [PAWN_nameDef] took the first possible shuttle offworld, joining a research expedition as an armed guard. When not on duty, [PAWN_nameDef] occupied [PAWN_objective]self with cultivating numerous potted plants and helping out in the hydroponics bay.</description>  
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Plants>2</Plants>
+            <Intellectual>1</Intellectual>
+            <Medicine>1</Medicine>
+        </skillGains>  
+        <requiredWorkTags>
+            <li>Violent</li>
+            <li>PlantWork</li>
+        </requiredWorkTags>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+            <li>Researcher</li>
+            <li>ImperialFighter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Enigma</defName>
+        <title>enigma</title>  
+        <titleShort>enigma</titleShort> 
+        <slot>Childhood</slot>
+        <description>Systems have almost no records of [PAWN_nameDef]'s childhood, nor any explanation of how [PAWN_pronoun] rose to such a high rank at such an early age.  The only thing sparse accounts can agree on is the [PAWN_nameDef] has always been preternaturally beautiful and always able to convince others to do exactly what [PAWN_pronoun] needed.</description>  
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+            <li>ImperialRoyal</li>
+        </spawnCategories>
+        <forcedTraits>
+            <Beauty>2</Beauty>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_ShipbornEngineer</defName>
+        <title>shipborn engineer</title>  
+        <titleShort>engineer</titleShort> 
+        <slot>Childhood</slot>
+        <description>Despite all the cautions, regulations, and prophylactics intended to prevent shipborn pregnancies, it is not uncommon for a child to be born on a ship during a long transit.\n\n[PAWN_nameDef] spent [PAWN_possessive] childhood aboard one such ship, obesssively learning the ins and outs of the engine room and all the maintenance required to keep [PAWN_possessive] home among the stars going.</description>  
+        <skillGains>
+            <Intellectual>1</Intellectual>
+            <Crafting>2</Crafting>
+            <Construction>2</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+            <li>ImperialCommon</li>
+        </spawnCategories>
+        <forcedTraits>
+            <FastLearner />
+        </forcedTraits>
+    </BackstoryDef>
+
+
+    <!-- Adult -->
+    <!--Adapted from VBE_Catastrophe;
+    Added different flavor, tags, and balance
+    First of our lore in for an archotech expedition.
+    -->
+    <BackstoryDef>
+        <slot>Adulthood</slot>
+        <defName>Rosen_Survivor</defName>
+        <title>expedition survivor</title>
+        <titleShort>survivor</titleShort>
+        <description>After an ill-fated expedition drew the ire of a particularly malevolent archotech, [PAWN_nameDef] has been on the run ever since.  [PAWN_nameDef] jumped from colony to colony, pursued by mechanoids and horrid fleshbeasts. Despite the overwhelming odds, [PAWN_nameDef] has survived everything coming [PAWN_possessive] way and has become quite proficient at dispatching threats.</description>
+        <spawnCategories>
+            <li>Outlander</li>
+            <li>Pirate</li>
+            <li>Researcher</li>
+            <li>Offworld</li>
+        </spawnCategories><bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>4</Melee>
+            <Medicine>4</Medicine>
+            <Artistic>-4</Artistic>
+        </skillGains>
+        <forcedTraits>
+            <Tough />
+        </forcedTraits>
+        <disallowedTraits>
+            <Kind />
+        </disallowedTraits>
+        <possessions>
+            <MeleeWeapon_Knife />
+        </possessions>     
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_GlitterworldSurgeon</defName>
+        <title>glitterworld physician</title>
+        <titleShort>surgeon</titleShort>
+        <description>Even in a world mostly free of disease and human suffering, there were still accidents that required quick human intervention.  While not as lucrative a career as cosmetic alterations and much more stressful, [PAWN_nameDef] found [PAWN_possessive] time as a emergency physician much more worthwhile.  Eventually, [PAWN_nameDef] adapted to the long hours without resorting to wake-up or copious amounts of caffeine.</description>
+        <slot>Adulthood</slot>
+        <requiredWorkTags>
+            <li>Caring</li>
+            <li>Social</li>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+            <li>Scientist</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <forcedTraits>
+            <QuickSleeper />
+        </forcedTraits>
+        <possessions>
+            <MedicineUltratech>2</MedicineUltratech>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Dealmaker</defName>
+        <title>dealmaker</title>
+        <titleShort>dealmaker</titleShort>
+        <description>Almost nothing is known about [PAWN_nameDef] or [PAWN_possessive] role in recruiting members of an ill-fated expedition to study an apparently dormant archotech.  Records describing [PAWN_objective] have all been expunged; tales describing [PAWN_objective] end without warning.  But two things are certain: [PAWN_nameDef] never made a promise [PAWN_pronoun] couldn't keep and [PAWN_pronoun] never forgot a debt [PAWN_pronoun] owed.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+            <li>Cult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Social>4</Social>
+            <Shooting>4</Shooting>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Social</li>
+            <li>Intellectual</li>
+            <li>Artistic</li>
+            <li>ManualDumb</li>
+            <li>ManualSkilled</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <GreatMemory />
+        </forcedTraits>
+        <possessions>
+            <Gun_Revolver />
+            <VAE_Apparel_SuitJacket MayRequire="VanillaExpanded.VARME">1</VAE_Apparel_SuitJacket>
+            <VAE_Apparel_Trousers MayRequire="VanillaExpanded.VARME">1</VAE_Apparel_Trousers>
+        </possessions>
+    </BackstoryDef>
+    
+
+    <BackstoryDef>
+        <defName>Rosen_Archosalvager</defName>
+        <title>archotech salvager</title>
+        <titleShort>salvager</titleShort>
+        <description>[PAWN_nameDef] made a living hunting for ruined or dormant archotech relics and ship parts, extracting their vanometric power cells and other such technologies.  This took [PAWN_objective] both to the deep depths of planets and the far reaches of [PAWN_possessive] solar system.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+            <li>Miner</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>2</Mining>
+            <Crafting>2</Crafting>
+            <Construction>2</Construction>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+            <li>ManualSkilled</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+</Defs>

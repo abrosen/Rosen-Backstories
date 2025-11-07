@@ -678,9 +678,9 @@
 
     <BackstoryDef>
         <defName>Rosen_President</defName>
-        <title>glitterworld president</title>
-        <titleShort>president</titleShort>
-        <description>[PAWN_nameDef] served as the democratically elected leader of a prosperous glitterworld.  While [PAWN_possessive] tenure was originally seen as a time of prosperity, [PAWN_possessive] immediate successor implemented radical policies that led to the rapid decline of [PAWN_possessive] home planet. [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet.</description>
+        <title>glitterworld politician</title>
+        <titleShort>politician</titleShort>
+        <description>[PAWN_nameDef] served as a democratically elected leader in a prosperous glitterworld.  While [PAWN_possessive] tenure was originally seen as a time of prosperity, [PAWN_possessive] immediate successor implemented radical policies that led to the rapid decline of [PAWN_possessive] home planet. [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -806,6 +806,33 @@
         </requiredWorkTags>
         <forcedTraits>
             <FastLearner />
+        </forcedTraits>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Bloodluster</defName>
+        <title>blood knight</title>
+        <titleShort>slayer</titleShort>
+        <description>[PAWN_nameDef] wanted nothing more in life than a small farm to call [PAWN_possessive] own and a partner to settle down with.  Or so [PAWN_nameDef] believed until [PAWN_possessive] small village was attacked by a group of sanguophages.  After beheading three of them with nothing more than a farming implement, something awoke within [PAWN_objective].\n\nSince that day, [PAWN_nameDef] has been seeking out any excuse to get into danger, to feel that thrill of being on the knife's edge between life and death.</description>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Farmer</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Violent</li>
+            <li>PlantWork</li>
+        </requiredWorkTags>
+        <skillGains>
+            <Melee>6</Melee>
+            <Plants>4</Plants>
+            <Social>2</Social>
+        </skillGains>
+        <forcedTraits>
+            <Bloodlust />
         </forcedTraits>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>

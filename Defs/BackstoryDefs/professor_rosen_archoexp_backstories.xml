@@ -2,8 +2,28 @@
 <Defs>
 
     <!-- Child -->
-    <!-- Claire.-->
-     <BackstoryDef>
+    <BackstoryDef>
+        <defName>Rosen_ScrapKid</defName>
+        <title>scrapper</title>  
+        <titleShort>scrapper</titleShort> 
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] found [PAWN_objective]self supporting [PAWN_possessive] sick father at an early age.  [PAWN_pronoun] managed to scrape together a meager income joining teams that dug up and deconstructed ancient shipwrecks.</description>  
+        <skillGains>
+            <Mining>4</Mining>
+            <Construction>2</Construction>
+            <Intellectual>-2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+        </spawnCategories>
+        <forcedTraits>
+            <Industriousness>1</Industriousness>
+        </forcedTraits>
+    </BackstoryDef>
+
+    
+     <BackstoryDef> <!-- Claire.-->
         <defName>Rosen_ExpeditionGuard</defName>
         <title>expedition guard</title>  
         <titleShort>guard</titleShort> 

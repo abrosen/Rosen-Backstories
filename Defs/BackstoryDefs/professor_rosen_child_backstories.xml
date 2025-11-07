@@ -54,7 +54,7 @@
         <defName>Rosen_MissionChild</defName>
         <title>Missionary</title>
         <titleShort>Missionary</titleShort>
-        <description>[PAWN_nameDef]'s spent over a year serving on a charitable mission on behalf of [PAWN_possessive] ideoligion. The combination of charity work and proselytizing left [PAWN_nameDef] with a smattering of useful skills.</description>
+        <description>[PAWN_nameDef] spent over a year serving on a charitable mission on behalf of [PAWN_possessive] ideoligion. The combination of charity work and proselytizing left [PAWN_nameDef] with a smattering of useful skills.</description>
         <slot>Childhood</slot>
         <skillGains>
             <Crafting>2</Crafting>
@@ -85,9 +85,6 @@
             <Intellectual>-2</Intellectual>
             <Crafting>-2</Crafting>
         </skillGains>
-        <requiredWorkTags>
-            <li>Artistic</li>
-        </requiredWorkTags>
         <forcedTraits>
             <NaturalMood>1</NaturalMood>
         </forcedTraits>
@@ -172,13 +169,10 @@
         <slot>Childhood</slot>
         <description>[PAWN_nameDef] was born to an impovershed class on a crowded but technically advanced urbworld.  Many members of [PAWN_possessive] family choose military service as their best chance to improve their grim lot in life. [PAWN_nameDef] was no exception and joined as soon as [PAWN_pronoun] was of age.  Once there, [PAWN_pronoun] found [PAWN_pronoun] was an excellent shot.</description>  
         <skillGains>
-            <Shooting>6</Shooting>
+            <Shooting>3</Shooting>
             <Intellectual>1</Intellectual>
             <Melee>2</Melee>
         </skillGains>
-        <requiredWorkTags>
-            <li>Violent</li>
-        </requiredWorkTags>
         <spawnCategories>
             <li>Offworld</li>
             <li>Pirate</li>
@@ -253,25 +247,5 @@
     </BackstoryDef>
 
 
-    <BackstoryDef>
-        <defName>Rosen_ScrapKid</defName>
-        <title>scrapper</title>  
-        <titleShort>scrapper</titleShort> 
-        <slot>Childhood</slot>
-        <description>[PAWN_nameDef] found [PAWN_objective]self supporting [PAWN_possessive] sick father at an early age.  [PAWN_pronoun] managed to scrape together a meager income joining teams that dug up and deconstructed ancient shipwrecks.</description>  
-        <skillGains>
-            <Mining>4</Mining>
-            <Construction>2</Construction>
-            <Intellectual>-2</Intellectual>
-        </skillGains>
-        <spawnCategories>
-            <li>Offworld</li>
-            <li>Outlander</li>
-        </spawnCategories>
-        <forcedTraits>
-            <Industriousness>1</Industriousness>
-        </forcedTraits>
-    </BackstoryDef>
-    
     
 </Defs>

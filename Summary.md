@@ -1,3 +1,5 @@
+Scrapper - [PAWN_nameDef] found [PAWN_objective]self supporting [PAWN_possessive] sick father at an early age.  [PAWN_pronoun] managed to scrape together a meager income joining teams that dug up and deconstructed ancient shipwrecks. 
+
 Expedition guard - Born to an impovershed class on a crowded but technically advanced urbworld, [PAWN_nameDef] took the first possible shuttle offworld, joining a research expedition as an armed guard. When not on duty, [PAWN_nameDef] occupied [PAWN_objective]self with cultivating numerous potted plants and helping out in the hydroponics bay.
 
 Enigma - Systems have almost no records of [PAWN_nameDef]'s childhood, nor any explanation of how [PAWN_pronoun] rose to such a high rank at such an early age.  The only thing sparse accounts can agree on is the [PAWN_nameDef] has always been preternaturally beautiful and always able to convince others to do exactly what [PAWN_pronoun] needed.
@@ -8,7 +10,7 @@ Expedition survivor - After an ill-fated expedition drew the ire of a particular
 
 Glitterworld physician - Even in a world mostly free of disease and human suffering, there were still accidents that required quick human intervention.  While not as lucrative a career as cosmetic alterations and much more stressful, [PAWN_nameDef] found [PAWN_possessive] time as a emergency physician much more worthwhile.  Eventually, [PAWN_nameDef] adapted to the long hours without resorting to wake-up or copious amounts of caffeine.
 
-Dealmaker - Almost nothing is known about [PAWN_nameDef] or [PAWN_possessive] role in recruiting members of an ill-fated expedition to study an apparently dormant archotech.  Records describing [PAWN_objective] have all been expunged; tales describing [PAWN_objective] end without warning.  But two things are certain: [PAWN_nameDef] never made a promise [PAWN_pronoun] couldn't keep and [PAWN_pronoun] never forgot a debt [PAWN_pronoun] owed.
+Dealmaker - Almost nothing is known about [PAWN_nameDef] save that [PAWN_pronoun] has some role in recruiting members of an ill-fated expedition to study an apparently dormant archotech.  All other records describing [PAWN_objective] have all been expunged; tales describing [PAWN_objective] end without warning.  But two things are certain: [PAWN_nameDef] never made a promise [PAWN_pronoun] couldn't keep and [PAWN_pronoun] never forgot a debt [PAWN_pronoun] owed.
 
 Archotech salvager - [PAWN_nameDef] made a living hunting for ruined or dormant archotech relics and ship parts, extracting their vanometric power cells and other such technologies.  This took [PAWN_objective] both to the deep depths of planets and the far reaches of [PAWN_possessive] solar system.
 
@@ -56,7 +58,7 @@ Biosphere manager - [PAWN_nameDef] lived on a section of a peaceful glitterworld
 
 Spy - [PAWN_nameDef] was an extremely accomplished spy, specializing in impersonation and long-term infiltration.  [PAWN_possessive] career was interrupted by the sudden decline of their glitterworld.  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet when their loyalty was called into question.
 
-Glitterworld president - [PAWN_nameDef] served as the democratically elected leader of a prosperous glitterworld.  While [PAWN_possessive] tenure was originally seen as a time of prosperity, [PAWN_possessive] immediate successor implemented radical policies that led to the rapid decline of [PAWN_possessive] home planet. [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet.
+Glitterworld politician - [PAWN_nameDef] served as a democratically elected leader in a prosperous glitterworld.  While [PAWN_possessive] tenure was originally seen as a time of prosperity, [PAWN_possessive] immediate successor implemented radical policies that led to the rapid decline of [PAWN_possessive] home planet. [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet.
 
 Duelist - While outlawed on some worlds, dueling remained a popular way to settle disputes on many others, especially among the nobility and upper classes.\n\n[PAWN_nameDef] gained renown on one such world for [PAWN_possessive] skill with the blade.  [PAWN_pronoun] spent much of their spare time honing their skills and studying ancient treatises.
 
@@ -66,11 +68,13 @@ Theologian - [PAWN_nameDef] became well known for [PAWN_possessive] extensive co
 
 Ordinary colonist - [PAWN_nameDef] records are startlingly unremarkable and contain no data of interest or importance.  It is not suspicious in the slightest.
 
+Blood knight - [PAWN_nameDef] wanted nothing more in life than a small farm to call [PAWN_possessive] own and a partner to settle down with.  Or so [PAWN_nameDef] believed until [PAWN_possessive] small village was attacked by a group of sanguophages.  After beheading three of them with nothing more than a farming implement, something awoke within [PAWN_objective].\n\nSince that day, [PAWN_nameDef] has been seeking out any excuse to get into danger, to feel that thrill of being on the knife's edge between life and death.
+
 Quarantine child - Before [PAWN_nameDef] could even speak, [PAWN_possessive] world was ravaged by worldwide pandemic. The next few years of [PAWN_possessive] life were spent in isolation with only [PAWN_possessive] parents for company. However, [PAWN_possessive] parents kept [PAWN_objective] busy, nurturing a natural talent for the arts and sciences.
 
 Troublesome child - Born into an extremely large family, [PAWN_nameDef] was starved for attention.  [PAWN_pronoun] solved this problem by creating a number of contraptions that made noises, created messes, and were otherwise generally quite meddlesome.
 
-Missionary - [PAWN_nameDef]'s spent over a year serving on a charitable mission on behalf of [PAWN_possessive] ideoligion. The combination of charity work and proselytizing left [PAWN_nameDef] with a smattering of useful skills.
+Missionary - [PAWN_nameDef] spent over a year serving on a charitable mission on behalf of [PAWN_possessive] ideoligion. The combination of charity work and proselytizing left [PAWN_nameDef] with a smattering of useful skills.
 
 Daydreaming student - [PAWN_nameDef]'s spent much of [PAWN_possessive] time in school daydreaming about exploring strange new worlds, preferably on a five-year mission.  While [PAWN_possessive] performance in school was less than stellar, [PAWN_nameDef] always maintained a positive outlook on their future.
 
@@ -86,8 +90,6 @@ Nature lover - [PAWN_nameDef] had a love for learning about all natural things a
 
 Prepper kid - [PAWN_nameDef] was raised by parents who were convinced that the apocalypse was coming any day now and were determined to survive it.  [PAWN_possessive] upbringing made [PAWN_objective] quite prepared for life on the Rim, but left [PAWN_possessive] social skills quite atrophied.
 
-Scrapper - [PAWN_nameDef] found [PAWN_objective]self supporting [PAWN_possessive] sick father at an early age.  [PAWN_pronoun] managed to scrape together a meager income joining teams that dug up and deconstructed ancient shipwrecks.
-
 Cult child - [PAWN_nameDef] was born into a large cult.  What time that was not spent keeping the faith was spent in betterment of one of the cult's many self-sufficient compounds.        
 
 Cult child - [PAWN_nameDef] was born into a large cult.  What time that was not spent keeping the faith was spent training to combat the faithless.
@@ -97,6 +99,14 @@ Cult child - [PAWN_nameDef] was born into a large cult.  What time that was not 
 Cult enforcer - [PAWN_nameDef] served as part of the enforcement arm of a large cult, maintaining dicipline and "motivating" members to keep the faith.  [PAWN_possessive] higher-ups, for their part, found [PAWN_objective] the perfect follower, loyal and always willing to follow orders.
 
 Cult troubleshooter - [PAWN_nameDef] served as part of the enforcement arm of a large cult, discretely removing threats and opponents of the true faith.
+
+Cult scholar - [PAWN_nameDef] initially came into contact with a large cult to study their belief system.  It wasn't long before [PAWN_pronoun] was enlightened to the true faith.
+
+Cult scholar - A scholar of ancient folklore, [PAWN_nameDef] discovered the texts buried deep in the university archives described a belief system remarkably similar to that which the new ideoligion [PAWN_pronoun] had seen was preaching.  [PAWN_nameDef] quickly switched [PAWN_possessive] doctoral work to study this similarity, but abandoned such frivolities upon being enlightened to the true faith.
+
+Cult initiate - [PAWN_nameDef] was a lower level initiate in a large cult, a position which was no small source of insecurity. To prove [PAWN_possessive] loyality and worth to the true faith, [PAWN_nameDef] volunteered for many dangerous missions [PAWN_pronoun] was less than qualified for.
+
+Cult initiate - [PAWN_nameDef] was a lower level initiate in a large cult and totally loyal to the true faith.  After all, [PAWN_possessive] masters provided for all [PAWN_pronoun] would ask for.  Importantly, [PAWN_pronoun] knew what [PAWN_pronoun] was allowed to ask for.
 
 Seeker of the king - A high ranking member of a cult, [PAWN_nameDef] sought to find [PAWN_possessive] king.  Worse, [PAWN_pronoun] knew where to find him:\n\nAlong the shores the cloud waves break,\nthe twin suns sink behind the lake, \nthe shadows lengthen\nin Carcosa.
 
@@ -130,4 +140,4 @@ Banished warrior - Despite being [PAWN_possessive] original tribe's most skilled
 
 Mushroom farmer - Hailing from the frozen north, [PAWN_nameDef] helped sustain [PAWN_possessive] tribe by digging large underground caves where they cultivated large quantities of fungus. 
 
-Total: 66
+Total: 71

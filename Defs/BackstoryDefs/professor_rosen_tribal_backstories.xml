@@ -56,7 +56,7 @@
         <defName>Rosen_Steelslayer</defName>
         <title>steelslayer</title>
         <titleShort>steelslayer</titleShort>
-        <description>A skilled warrior with the spear, [PAWN_nameDef] attained great honor the say [PAWN_pronoun] single-handedly slew a twinbladed blood machine.</description>
+        <description>A skilled warrior with the spear, [PAWN_nameDef] attained great honor the day [PAWN_pronoun] single-handedly slew a twinbladed blood machine.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Melee>8</Melee>

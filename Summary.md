@@ -4,13 +4,13 @@ Expedition guard - Born to an impovershed class on a crowded but technically adv
 
 Enigma - Systems have almost no records of [PAWN_nameDef]'s childhood, nor any explanation of how [PAWN_pronoun] rose to such a high rank at such an early age.  The only thing sparse accounts can agree on is the [PAWN_nameDef] has always been preternaturally beautiful and always able to convince others to do exactly what [PAWN_pronoun] needed.
 
-Shipborn engineer - Despite all the cautions, regulations, and prophylactics intended to prevent shipborn pregnancies, it is not uncommon for a child to be born on a ship during a long transit.\n\n[PAWN_nameDef] spent [PAWN_possessive] childhood aboard one such ship, obesssively learning the ins and outs of the engine room and all the maintenance required to keep [PAWN_possessive] home among the stars going.        
+Shipborn engineer - Despite all the cautions, regulations, and prophylactics intended to prevent shipborn pregnancies, it is not uncommon for a child to be born on a ship during a long transit.\n\n[PAWN_nameDef] spent [PAWN_possessive] childhood aboard one such ship, obesssively learning the ins and outs of the engine room and all the maintenance required to keep [PAWN_possessive] home among the stars going.
 
 Expedition survivor - After an ill-fated expedition drew the ire of a particularly malevolent archotech, [PAWN_nameDef] has been on the run ever since.  [PAWN_nameDef] jumped from colony to colony, pursued by mechanoids and horrid fleshbeasts. Despite the overwhelming odds, [PAWN_nameDef] has survived everything coming [PAWN_possessive] way and has become quite proficient at dispatching threats.
 
 Glitterworld physician - Even in a world mostly free of disease and human suffering, there were still accidents that required quick human intervention.  While not as lucrative a career as cosmetic alterations and much more stressful, [PAWN_nameDef] found [PAWN_possessive] time as a emergency physician much more worthwhile.  Eventually, [PAWN_nameDef] adapted to the long hours without resorting to wake-up or copious amounts of caffeine.
 
-Dealmaker - Almost nothing is known about [PAWN_nameDef] save that [PAWN_pronoun] has some role in recruiting members of an ill-fated expedition to study an apparently dormant archotech.  All other records describing [PAWN_objective] have all been expunged. Two things, however, are certain: [PAWN_nameDef] never made a promise [PAWN_pronoun] couldn't keep and [PAWN_pronoun] never forgot a debt [PAWN_pronoun] owed.   
+Dealmaker - Almost nothing is known about [PAWN_nameDef] save that [PAWN_pronoun] has some role in recruiting members of an ill-fated expedition to study an apparently dormant archotech.  All other records describing [PAWN_objective] have all been expunged. Two things, however, are certain: [PAWN_nameDef] never made a promise [PAWN_pronoun] couldn't keep and [PAWN_pronoun] never forgot a debt [PAWN_pronoun] owed.
 
 Archotech salvager - [PAWN_nameDef] made a living hunting for ruined or dormant archotech relics and ship parts, extracting their vanometric power cells and other such technologies.  This took [PAWN_objective] both to the deep depths of planets and the far reaches of [PAWN_possessive] solar system.
 
@@ -52,7 +52,7 @@ Infantry engineer - [PAWN_nameDef] served as an engineer in the army on a relati
 
 Mobile infantryman - [PAWN_nameDef]'s planet made some form of military or government service a requirement of gaining the right to vote. [PAWN_pronoun] joined the mobile infantry and took to maneuvering in powered armor like a fish to water.  The majority of his deployment was spent fighting against an incursion of the Sorne geneline on his and nearby planets.  Despite the horrors of war, [PAWN_nameDef] maintained an unshakable confidence that [PAWN_pronoun] would pull through no matter what.
 
-Mobile infantryman - [PAWN_nameDef] joined the mobile infantry to fight the Sorne geneline's incursion on a nearby world.  [PAWN_possessive] first drop against the bugs ended in disaster, with [PAWN_nameDef] being the only survivor.  However, due to a computer glitch, [PAWN_pronoun] was sent on drops again and again without time for rest. By [PAWN_possessive] 20th drop, the glitch was discovered, but not before [PAWN_pronoun] had transformed into an emotionally damaged, but highly capable, killing machine.
+Mobile infantryman - [PAWN_nameDef] joined the mobile infantry to fight the Sorne geneline's incursion on a nearby world.  [PAWN_possessive] first drop against the bugs ended in disaster, with [PAWN_nameDef] being the only survivor.  However, due to a computer glitch, [PAWN_pronoun] was sent on drops again and again without time for rest. By [PAWN_possessive] 20th drop, the glitch was discovered, but not before [PAWN_pronoun] had transformed into an emotionally damaged, but highly capable, killing machine.  
 
 Biosphere manager - [PAWN_nameDef] lived on a section of a peaceful glitterworld where people lived in harmony with nature. [PAWN_pronoun] was in charge of maintaining one of the extremely large nature preserves on the planet's surface.  Drones and mechanoids handled most of the menial labor, which left [PAWN_nameDef] with plenty of time to study plant and animal life in the field.
 
@@ -112,21 +112,31 @@ Cult enforcer - [PAWN_nameDef] served as part of the enforcement arm of a large 
 
 Cult enforcer - [PAWN_nameDef] served as part of the enforcement arm of a large cult, protecting the faithful from prying eyes of the law and facilitating unfortunate accidents for prying academics and dogged journalists who refused to stop asking questions.
 
+Cult enforcer - [PAWN_nameDef] served as part of the enforcement arm of a large cult.  After [PAWN_pronoun] failed to complete a mission, [PAWN_possessive] superiors made an example of [PAWN_objective] to inspire the other faithful.  [PAWN_possessive] mind never truly recovered.
+
 Cult troubleshooter - [PAWN_nameDef] served as part of the enforcement arm of a large cult, discretely removing threats and opponents of the true faith.
 
 Cult scholar - [PAWN_nameDef] initially came into contact with a large cult to study their belief system.  It wasn't long before [PAWN_pronoun] was enlightened to the true faith.
 
-Cult scholar - A scholar of ancient folklore, [PAWN_nameDef] discovered the texts buried deep in the university archives described a belief system remarkably similar to that which the new ideoligion [PAWN_pronoun] had seen was preaching.  [PAWN_nameDef] quickly switched [PAWN_possessive] doctoral work to study this similarity, but abandoned such frivolities upon being enlightened to the true faith.
+Cult scholar - A scholar of ancient folklore, [PAWN_nameDef] discovered the texts buried deep in the university archives described a belief system remarkably similar to that which the new ideoligion [PAWN_pronoun] had seen was preaching.  [PAWN_nameDef] quickly focused [PAWN_possessive] studies on this similarity, but abandoned such frivolities upon being enlightened to the true faith.
 
 Cult scholar - [PAWN_nameDef] discovered a number of ancient tomes in a hidden chamber of [PAWN_possessive] father's estate.  Through years of study, [PAWN_pronoun] learned [PAWN_possessive] house had turned its back on the old ways.  After a series of unfortunate accidents left [PAWN_nameDef] in control of [PAWN_possessive] house, the cult found a powerful ally already enlightened to the true faith.
+
+Cult ritualist - [PAWN_nameDef] was already enlightened to the true faith.  [PAWN_pronoun] studied ancient rituals, pouring over the subtle variations listed archaic tomes, looking to reduce the cost various rites had on human resources.
 
 Cult initiate - [PAWN_nameDef] was a lower level initiate in a large cult, a position which was no small source of insecurity. To prove [PAWN_possessive] loyality and worth to the true faith, [PAWN_nameDef] volunteered for many dangerous missions [PAWN_pronoun] was less than qualified for.
 
 Cult initiate - [PAWN_nameDef] was a lower level initiate in a large cult and totally loyal to the true faith.  After all, [PAWN_possessive] masters provided for all [PAWN_pronoun] would ask for.  Importantly, [PAWN_pronoun] knew what [PAWN_pronoun] was allowed to ask for.
 
+Cult initiate - [PAWN_nameDef] was a lower level initiate in a large cult and less than totally loyal to the true faith.  When [PAWN_pronoun] had joined, the promises had been so sweet, but [PAWN_pronoun] quickly soured after seeing a disasterous ritual.  Still, [PAWN_pronoun] knew what happened to those who showed less than absolute devotion.
+
+Cult initiate - [PAWN_nameDef] was a lower level initiate in a large cult and finally totally loyal to the true faith.  Yes, [PAWN_pronoun] had wavered in the past, but [PAWN_pronoun] had since been appropriately "diciplined."
+
+Cult prosyltizer - [PAWN_nameDef] recruited many believers into the true faith.  Many were initially attracted by promises of power, euphoria, or pleasure, but once [PAWN_nameDef] had [PAWN_possessive] hooks in [PAWN_possessive] target, it wasn't long before they were truly enlightened.
+
 Seeker of the king - A high ranking member of a cult, [PAWN_nameDef] sought to find [PAWN_possessive] king.  Worse, [PAWN_pronoun] knew where to find him:\n\nAlong the shores the cloud waves break,\nthe twin suns sink behind the lake, \nthe shadows lengthen\nin Carcosa.
 
-Nemesis of reason - Words describing [PAWN_nameDef] fail. Tales recounting [PAWN_objective] end without warning. Data s̶̢̢̺̜̦̠̭̩̼͚̯͇̦̫̀̊̇̌͛ͅṫ̵̡̞̘̳̹͚̦̞̩͈͕͈͒́̾̂͌͛̄͑̕̕o̷̼͈̙̬͌́̀̄͋̀͋͊̓̊̈́̓̎̇̈͒ŗ̷̨͈̬̯͓͖͈̺̮̫̳͕̾̈́͛̍̔͊̏̐̅̆̌̑̄̉͘ȅ̶͚̯̬̿̽̽̍̂̏͘͘͝d̵̛̤̑̀̍̋̄̈́ ̶͕̝̺̓̿̽̔̀̋̈̽͝ͅb̴̢̧̰̳͉͚͈̮͙̗͍͍̲̟́̏͊͒͒͜͠͝e̶͙͙̹̝͇̖̔̓c̶̨̬͖̙̲̰̝̪̠̳̭̟̠̹̹̼̪͑o̵̪̿͝m̴̢̙͕̜̤̗͓̙͖̣̥̹̮͈̽͌͂̇̀̚e̶̢̛͎̝̳̫̜̦̟̖̙̲̘͑͒̍̀̾̿͆̑̀͗̅͠͝ͅş̷̡̮̪̺̹̼͈͚̯͑́̈̃̐͒̏̚ ̵̜̠̣̦͉͉̹̤̊̓̾͛́̌̓̒̕ć̴͌̌̄̔͒̽̈́̿̔̕                                                                                                                                                                                                                                                                                            ̨̧̹̗̥̖̯̯̫̭̪̆̀ô̵̳̫̫͚̪͆̆͆͗̃͜r̶̢̢̡͍̟͇̳͇̺͈͈̻͇͒̔̑͒̀̍͜͜͝r̷̨͚̹̐̿̀̓̊̐̆̕ư̶͕̖̪̱̥̭̪̩̬͔̪͙̲̲͖͌͊̉̽ͅͅp̴̢̩̟̺͓̟̥̭͚̙̺̓͗̂́̒͐͌̔̿͂̿̐̄͘͘ẗ̷̲̮̟̮͎̣͉̜̹͚̹́̓̂͘͜ę̵̛͕̭̥͈͚̘͈̼̰͕͚͉͔̔̄̓̒͊̉̋͐̇̓̀̑̕͠͝d̸̥́́̂̃̓̔̆́̏͐͛͝.̷̡̯̲̿̅͊͒̈̈́͊̋̽͂̄̚̕
+Nemesis of reason - Words describing [PAWN_nameDef] fail. Tales recounting [PAWN_objective] end without warning. Data s̶̢̢̺̜̦̠̭̩̼͚̯͇̦̫̀̊̇̌͛ͅṫ̵̡̞̘̳̹͚̦̞̩͈͕͈͒́̾̂͌͛̄͑̕̕o̷͌́̀̄                                                 ̼͈̙̬̀͋͊̓̊̈́̓̎̇̈͒ŗ̷̨͈̬̯͓͖͈̺̮̫̳͕̾̈́͛̍̔͊̏̐̅̆̌̑̄̉͘ȅ̶͚̯̬̿̽̽̍̂̏͘͘͝d̵̛̤̑̀̍̋̄̈́ ̶͕̝̺̓̿̽̔̀̋̈̽͝ͅb̴̢̧̰̳͉͚͈̮͙̗͍͍̲̟́̏͊͒͒͜͠͝e̶͙͙̹̝͇̖̔̓c̶̨̬͖̙̲̰̝̪̠̳̭̟̠̹̹̼̪͑o̵̪̿͝m̴̢̙͕̜̤̗͓̙͖̣̥̹̮͈̽͌͂̇̀̚e̶͑͒                                                                                                                                                 ̢̛͎̝̳̫̜̦̟̖̙̲̘̍̀̾̿͆̑̀͗̅͝ͅş̷̡̮̪̺̹̼͈͚̯͑́̈̃̐͒̏̚ ̵̜̠̣̦͉͉̹̤̊̓̾͛́̌̓̒̕ć̴̨̧̹̗̥̖̯̯̫̭̪͌̌̄̔͒̽̈́̿̔̀̆̀̕ô̵̳̫̫͚̪͆̆͆͗̃͜r̶̢̢̡͍̟͇̳͇̺͈͈̻͇͒̔̑͒̀̍͜͜͝r̷̨͚̹̐̿̀̓̊̐̆̕ư̶͕̖̪̱̥̭̪̩̬͔̪͙̲̲͖͌͊̉̽ͅͅp̴̓͗̂                                                                                                                                          ̢̩̟̺͓̟̥̭͚̙̺̒͐͌̔̿͂̿̐̄͘͘ẗ̷̲̮̟̮͎̣͉̜̹͚̹́̓̂͘͜ę̵̛͕̭̥͈͚̘͈̼̰͕͚͉͔̔̄̓̒͊̉̋͐̇̓̀̑̕͠͝d̸̥́́̂̃̓̔̆́̏͐͛͝.̷̡̯̲̿̅͊͒̈̈́͊̋̽͂̄̚̕
 
 Failed psycaster - After attending a university for psycasters, [PAWN_nameDef] discovered [PAWN_pronoun] was uniquely unqualified.  [PAWN_possessive] professors described [PAWN_objective] as the "psychic equivalent of the number zero."\n\nDespite having the spirit of a psycaster, [PAWN_possessive] survival was better attributed to having the body of a long distance sprinter.
 
@@ -148,14 +158,14 @@ Sausage salesman - On every world along the rim and core, there would be someone
 
 Quartermaster - [PAWN_nameDef] served as quartermaster for a number of different losing militaries and was probably the only human who ever needed a signed document that read: "following affidavits from the midwife and a doctor, I confirm that the bearer is, in all probability, human."
 
-Trial overseer - [PAWN_nameDef] oversaw the coming-of-age trials of [PAWN_possessive] tribe, guiding them through the wasteland. [PAWN_nameDef] knew it would only be a matter of time before the blood machines returned to raze their homes, so [PAWN_pronoun] taught [PAWN_possessive] charges how to survive in the harshest of environments.
+Trial overseer - [PAWN_nameDef] oversaw the coming-of-age trials of [PAWN_possessive] tribe, guiding them through the wasteland. [PAWN_nameDef] knew it would only be a matter of time before the blood machines returned to raze their homes, so [PAWN_pronoun] taught [PAWN_possessive] charges how to survive in the harshest of environments.     
 
 Promethean thief - [PAWN_nameDef] led many expeditions into the wastelands to steal the magic metal of the blood machines. Some of the things [PAWN_pronoun] brought back were magic torchs that would not go out and sticks that shot lightning.
 
-Steelslayer - A skilled warrior with the spear, [PAWN_nameDef] attained great honor the day [PAWN_pronoun] single-handedly slew a twinbladed blood machine.
+Steelslayer - A brave warrior skilled with the spear, [PAWN_nameDef] attained great honor defeating a Bladed End in single combat: a monster made of shining teeth and claws, sent by the gods to test [PAWN_possessive] tribe.
 
 Banished warrior - Despite being [PAWN_possessive] original tribe's most skilled warrior, [PAWN_nameDef] was banished for the grave offense of having two lovers, rather than the one permitted by tradition and law.
 
 Mushroom farmer - Hailing from the frozen north, [PAWN_nameDef] helped sustain [PAWN_possessive] tribe by digging large underground caves where they cultivated large quantities of fungus.
 
-Total: 80
+Total: 85

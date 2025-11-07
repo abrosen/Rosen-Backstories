@@ -166,7 +166,6 @@
         <spawnCategories>
             <li>Offworld</li>
             <li>Researcher</li>
-            <li>Cult</li>
         </spawnCategories>
         <skillGains>
             <Intellectual>4</Intellectual>

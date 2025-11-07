@@ -142,6 +142,9 @@
         <forcedTraits>
             <VTE_Submissive MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Submissive>
         </forcedTraits>
+        <disallowedTraits>
+            <Kind />
+        </disallowedTraits>
     </BackstoryDef>
 
     <BackstoryDef>
@@ -173,8 +176,8 @@
         <titleShort>cultist</titleShort>
         <description>[PAWN_nameDef] served as part of the enforcement arm of a large cult, protecting the faithful from prying eyes of the law and facilitating unfortunate accidents for prying academics and dogged journalists who refused to stop asking questions.</description>
         <slot>Adulthood</slot>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
         <spawnCategories>
             <li>Cult</li>
         </spawnCategories>
@@ -186,7 +189,34 @@
         <requiredWorkTags>
             <li>Violent</li>
         </requiredWorkTags>
+        <disallowedTraits>
+            <Kind />
+        </disallowedTraits>
     </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_CultEnforcer4</defName>
+        <title>cult enforcer</title>
+        <titleShort>cultist</titleShort>
+        <description>[PAWN_nameDef] served as part of the enforcement arm of a large cult.  After [PAWN_pronoun] failed to complete a mission, [PAWN_possessive] superiors made an example of [PAWN_objective] to inspire the other faithful.  [PAWN_possessive] mind never truly recovered.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <spawnCategories>
+            <li>Cult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>5</Melee>
+        </skillGains>
+        <workDisables>
+            <li>ManualSkilled</li>
+        </workDisables>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
 
     <BackstoryDef>
         <defName>Rosen_CultTroubleshooter</defName>
@@ -233,7 +263,7 @@
         <defName>Rosen_CultScholar2</defName>
         <title>cult scholar</title>
         <titleShort>cultist</titleShort>
-        <description>A scholar of ancient folklore, [PAWN_nameDef] discovered the texts buried deep in the university archives described a belief system remarkably similar to that which the new ideoligion [PAWN_pronoun] had seen was preaching.  [PAWN_nameDef] quickly switched [PAWN_possessive] doctoral work to study this similarity, but abandoned such frivolities upon being enlightened to the true faith.</description>
+        <description>A scholar of ancient folklore, [PAWN_nameDef] discovered the texts buried deep in the university archives described a belief system remarkably similar to that which the new ideoligion [PAWN_pronoun] had seen was preaching.  [PAWN_nameDef] quickly focused [PAWN_possessive] studies on this similarity, but abandoned such frivolities upon being enlightened to the true faith.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Thin</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -274,6 +304,26 @@
     </BackstoryDef>
 
     <BackstoryDef>
+        <defName>Rosen_CultScholar4</defName>
+        <title>cult ritualist</title>
+        <titleShort>ritualist</titleShort>
+        <description>[PAWN_nameDef] was already enlightened to the true faith.  [PAWN_pronoun] studied ancient rituals, pouring over the subtle variations listed archaic tomes, looking to reduce the cost various rites had on human resources.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <spawnCategories>
+            <li>Cult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
         <defName>Rosen_CultInitiate1</defName>
         <title>cult initiate</title>
         <titleShort>cultist</titleShort>
@@ -302,8 +352,8 @@
         <titleShort>cultist</titleShort>
         <description>[PAWN_nameDef] was a lower level initiate in a large cult and totally loyal to the true faith.  After all, [PAWN_possessive] masters provided for all [PAWN_pronoun] would ask for.  Importantly, [PAWN_pronoun] knew what [PAWN_pronoun] was allowed to ask for.</description>
         <slot>Adulthood</slot>
-        <bodyTypeMale>Thin</bodyTypeMale>
-        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
             <li>Cult</li>
         </spawnCategories>
@@ -314,6 +364,71 @@
         </skillGains>
         <requiredWorkTags>
             <li>Violent</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_CultInitiate3</defName>
+        <title>cult initiate</title>
+        <titleShort>cultist</titleShort>
+        <description>[PAWN_nameDef] was a lower level initiate in a large cult and less than totally loyal to the true faith.  When [PAWN_pronoun] had joined, the promises had been so sweet, but [PAWN_pronoun] quickly soured after seeing a disasterous ritual.  Still, [PAWN_pronoun] knew what happened to those who showed less than absolute devotion.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Cult</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+        </skillGains>
+        <forcedTraits>
+            <VTE_Anxious MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Anxious>
+        </forcedTraits>
+    </BackstoryDef>
+    
+
+    <BackstoryDef>
+        <defName>Rosen_CultInitiate4</defName>
+        <title>cult initiate</title>
+        <titleShort>cultist</titleShort>
+        <description>[PAWN_nameDef] was a lower level initiate in a large cult and finally totally loyal to the true faith.  Yes, [PAWN_pronoun] had wavered in the past, but [PAWN_pronoun] had since been appropriately "diciplined."</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Cult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>3</Melee>
+        </skillGains>
+        <workDisables>
+            <li>ManualSkilled</li>
+        </workDisables>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    
+
+    <BackstoryDef>
+        <defName>Rosen_CultProsyltizer</defName>
+        <title>cult prosyltizer</title>
+        <titleShort>prosyltizer</titleShort>
+        <description>[PAWN_nameDef] recruited many believers into the true faith.  Many were initially attracted by promises of power, euphoria, or pleasure, but once [PAWN_nameDef] had [PAWN_possessive] hooks in [PAWN_possessive] target, it wasn't long before they were truly enlightened.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Cult</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Social</li>
         </requiredWorkTags>
     </BackstoryDef>
 

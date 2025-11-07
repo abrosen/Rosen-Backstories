@@ -799,7 +799,6 @@
         <spawnCategories>
             <li>Offworld</li>
             <li>Researcher</li>
-            <li>Cult</li>
             <li>ImperialRoyal</li>
         </spawnCategories>
         <requiredWorkTags>

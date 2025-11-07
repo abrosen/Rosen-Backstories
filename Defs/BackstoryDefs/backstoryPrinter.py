@@ -5,7 +5,7 @@ def printBackstories(files):
     titles = []
     backstories = [] 
     for file in files:
-        text = open("./Defs/BackstoryDefs/"+file,"r").read()
+        text = open("./Defs/BackstoryDefs/"+file,"r",encoding="utf8").read()
         backstories += re.findall(r"<description>(.*)</description>",text, re.MULTILINE)
         titles += re.findall(r"<title>(.*)</title>",text,re.MULTILINE) 
     for t,b in zip(titles,backstories):

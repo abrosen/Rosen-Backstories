@@ -62,6 +62,23 @@
         </spawnCategories>
     </BackstoryDef>
 
+
+    <BackstoryDef>
+        <defName>Rosen_CultChild5</defName>
+        <title>cult child</title>
+        <titleShort>cultist</titleShort>
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] was born into a large cult.  What time that was not spent keeping the faith was spent cultivating the holy incenses that would reveal the truth to the faithless.</description>  
+        <skillGains>
+            <Plants>2</Plants>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <spawnCategories>
+            <li>Cult</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+
     <!-- Adult -->
     <BackstoryDef>
         <defName>Rosen_CultEnforcer</defName>
@@ -242,5 +259,32 @@
             <li>Intellectual</li>
         </requiredWorkTags>
     </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_NemesisOfReason</defName> 
+        <!-- homage to https://gatherer.wizards.com/ARB/en-us/28/nemesis-of-reason -->
+        <title>nemesis of reason</title>
+        <titleShort>nemesis</titleShort>
+        <description>Words describing [PAWN_nameDef] fail. Tales recounting [PAWN_objective] end without warning. Data s̶̢̢̺̜̦̠̭̩̼͚̯͇̦̫̀̊̇̌͛ͅṫ̵̡̞̘̳̹͚̦̞̩͈͕͈͒́̾̂͌͛̄͑̕̕o̷̼͈̙̬͌́̀̄͋̀͋͊̓̊̈́̓̎̇̈͒ŗ̷̨͈̬̯͓͖͈̺̮̫̳͕̾̈́͛̍̔͊̏̐̅̆̌̑̄̉͘ȅ̶͚̯̬̿̽̽̍̂̏͘͘͝d̵̛̤̑̀̍̋̄̈́ ̶͕̝̺̓̿̽̔̀̋̈̽͝ͅb̴̢̧̰̳͉͚͈̮͙̗͍͍̲̟́̏͊͒͒͜͠͝e̶͙͙̹̝͇̖̔̓c̶̨̬͖̙̲̰̝̪̠̳̭̟̠̹̹̼̪͑o̵̪̿͝m̴̢̙͕̜̤̗͓̙͖̣̥̹̮͈̽͌͂̇̀̚e̶̢̛͎̝̳̫̜̦̟̖̙̲̘͑͒̍̀̾̿͆̑̀͗̅͠͝ͅş̷̡̮̪̺̹̼͈͚̯͑́̈̃̐͒̏̚ ̵̜̠̣̦͉͉̹̤̊̓̾͛́̌̓̒̕ć̴̨̧̹̗̥̖̯̯̫̭̪͌̌̄̔͒̽̈́̿̔̀̆̀̕ô̵̳̫̫͚̪͆̆͆͗̃͜r̶̢̢̡͍̟͇̳͇̺͈͈̻͇͒̔̑͒̀̍͜͜͝r̷̨͚̹̐̿̀̓̊̐̆̕ư̶͕̖̪̱̥̭̪̩̬͔̪͙̲̲͖͌͊̉̽ͅͅp̴̢̩̟̺͓̟̥̭͚̙̺̓͗̂́̒͐͌̔̿͂̿̐̄͘͘ẗ̷̲̮̟̮͎̣͉̜̹͚̹́̓̂͘͜ę̵̛͕̭̥͈͚̘͈̼̰͕͚͉͔̔̄̓̒͊̉̋͐̇̓̀̑̕͠͝d̸̥́́̂̃̓̔̆́̏͐͛͝.̷̡̯̲̿̅͊͒̈̈́͊̋̽͂̄̚̕</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Cult</li>
+            <li>ImperialRoyal</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Social>4</Social>
+            <Melee>4</Melee>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+            <li>Intellectual</li>
+            <li>Social</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+
 
 </Defs>

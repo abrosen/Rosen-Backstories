@@ -345,7 +345,7 @@
         <defName>Rosen_RetiredProgrammer</defName>
         <title>retired programmer</title>
         <titleShort>programmer</titleShort>
-        <description>[PAWN_nameDef] worked as a programmer for a number years a programmer for a large corporation before abruptly quitting to work [PAWN_possessive] own farm, a surprisingly common occurrence on many an urbworld and midworld.</description>
+        <description>[PAWN_nameDef] worked as a programmer for a number years at a large corporation before abruptly quitting to cultivate [PAWN_possessive] own farm, a surprisingly common occurrence on many an urbworld and midworld.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Animals>2</Animals>
@@ -365,9 +365,6 @@
         </requiredWorkTags>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
-        <forcedTraits>
-            <VTE_AnimalLover MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_AnimalLover>
-        </forcedTraits>
     </BackstoryDef>
 
     <BackstoryDef>

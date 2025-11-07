@@ -835,7 +835,28 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
     
-
+    <BackstoryDef>
+        <defName>Rosen_ShipStealer</defName>
+        <title>ship stealer</title>
+        <titleShort>stealer</titleShort>
+        <description>Despite being absolutely sickened by the idea of hurting another human, [PAWN_nameDef] became one of the most notorius and successful pirates of [PAWN_possessive] generation.  Once, alone, [PAWN_pronoun] even stole a large destroyer that required a thrity person crew.</description>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <skillGains>
+            <Intellectual>8</Intellectual>
+            <Social>4</Social>
+        </skillGains>
+        <workDisables>
+            <li>Violent</li>
+        </workDisables>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
 
     <!--
     Other Ideas:

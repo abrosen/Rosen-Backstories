@@ -78,6 +78,42 @@
         </spawnCategories>
     </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>Rosen_VatbornCultist1</defName>
+        <title>vatborn cultist</title>
+        <titleShort>vatborn</titleShort>
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] was artficially grown to be an initiate of a large cult.  This was a not uncommon practice on many worlds where cults needed to secretly expand their size.</description>  
+        <skillGains>
+            <Plants>1</Plants>
+            <Construction>1</Construction>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Cult</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_VatbornCultist2</defName>
+        <title>vatborn cultist</title>
+        <titleShort>escapee</titleShort>
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] was artficially grown to be an initiate of a large cult.  However, a love of literature and learning allowed doubt to enter [PAWN_possessive] mind and shake the indoctrination.  [PAWN_possessive] eyes opened, [PAWN_pronoun] escaped the first chance [PAWN_pronoun] got.</description>  
+        <skillGains>
+            <Social>1</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <forcedTraits>
+            <Nerves>1</Nerves>
+        </forcedTraits>
+    </BackstoryDef>
+
+
 
     <!-- Adult -->
     <BackstoryDef>
@@ -128,6 +164,28 @@
         <forcedTraits>
             <Bloodlust />
         </forcedTraits>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_CultEnforcer3</defName>
+        <title>cult enforcer</title>
+        <titleShort>cultist</titleShort>
+        <description>[PAWN_nameDef] served as part of the enforcement arm of a large cult, protecting the faithful from prying eyes of the law and facilitating unfortunate accidents for prying academics and dogged journalists who refused to stop asking questions.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Cult</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Crafting>2</Crafting>
+            <Melee>2</Melee>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
     </BackstoryDef>
 
     <BackstoryDef>
@@ -186,6 +244,28 @@
             <Artistic>3</Artistic>
             <Crafting>3</Crafting>
             <Intellectual>3</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_CultScholar3</defName>
+        <title>cult scholar</title>
+        <titleShort>cultist</titleShort>
+        <description>[PAWN_nameDef] discovered a number of ancient tomes in a hidden chamber of [PAWN_possessive] father's estate.  Through years of study, [PAWN_pronoun] learned [PAWN_possessive] house had turned its back on the old ways.  After a series of unfortunate accidents left [PAWN_nameDef] in control of [PAWN_possessive] house, the cult found a powerful ally already enlightened to the true faith.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Cult</li>
+            <li>ImperialRoyal</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Intellectual>4</Intellectual>
         </skillGains>
         <requiredWorkTags>
             <li>Violent</li>

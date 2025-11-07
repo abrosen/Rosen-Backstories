@@ -47,7 +47,7 @@
         </spawnCategories>
     </BackstoryDef>
 
-    BackstoryDef>
+    <BackstoryDef>
         <defName>Rosen_CultChild4</defName>
         <title>cult child</title>
         <titleShort>cultist</titleShort>

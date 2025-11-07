@@ -16,7 +16,12 @@ GNU Terry Pratchett.
   - Almost all backstories will have the "offworld" to generate pawns for crashlanded.
   - Science and spooky backstories come with the "researcher" tag for Anomaly DLC.
   - Military backstories will have "ImperialFighter" when it would make sense to find this backstory in the Empire faction. 
-  - Most backstories with "cult" don't work as anything but as Servants of Horax
+  - Most backstories with "cult" don't work as anything but as Servants of Horax or some other large cult.
+    - Cult backstories are written assuming that they are Horax's cultists, but are generic enough for another mod to use the.
+    - Cult backstories have intentionally identical descriptions and cadence.  
+      - They aren't a hivemind, they are the true faith, united in the glory of the true master(s).
+      - Hopefully, this will add a nice creepy ambiance to any player who starts looking at the pawn bios during a raid.
+
 
 ### Mechanics
 - I tend to avoid too many restrictive backstories as that is not what most players are looking for.

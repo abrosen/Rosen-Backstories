@@ -47,6 +47,21 @@
         </spawnCategories>
     </BackstoryDef>
 
+    BackstoryDef>
+        <defName>Rosen_CultChild4</defName>
+        <title>cult child</title>
+        <titleShort>cultist</titleShort>
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] was born into a large cult.  What time that was not spent keeping the faith was spent creating works to glorify the true faith.</description>  
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Cult</li>
+        </spawnCategories>
+    </BackstoryDef>
+
     <!-- Adult -->
     <BackstoryDef>
         <defName>Rosen_CultEnforcer</defName>
@@ -73,6 +88,28 @@
         </possessions>
         <forcedTraits>
             <VTE_Submissive MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Submissive>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_CultEnforcer2</defName>
+        <title>cult enforcer</title>
+        <titleShort>cultist</titleShort>
+        <description>[PAWN_nameDef] served as part of the enforcement arm of a large cult, maintaining dicipline and "motivating" members to keep the faith.  This suited [PAWN_objective] well, as the screams of the faithful were as birdsong to their master.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Cult</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <Bloodlust />
         </forcedTraits>
     </BackstoryDef>
 

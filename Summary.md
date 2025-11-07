@@ -12,7 +12,7 @@ Glitterworld physician - Even in a world mostly free of disease and human suffer
 
 Dealmaker - Almost nothing is known about [PAWN_nameDef] save that [PAWN_pronoun] has some role in recruiting members of an ill-fated expedition to study an apparently dormant archotech.  All other records describing [PAWN_objective] have all been expunged; tales describing [PAWN_objective] end without warning.  But two things are certain: [PAWN_nameDef] never made a promise [PAWN_pronoun] couldn't keep and [PAWN_pronoun] never forgot a debt [PAWN_pronoun] owed.
 
-Archotech salvager - [PAWN_nameDef] made a living hunting for ruined or dormant archotech relics and ship parts, extracting their vanometric power cells and other such technologies.  This took [PAWN_objective] both to the deep depths of planets and the far reaches of [PAWN_possessive] solar system.
+Archotech salvager - [PAWN_nameDef] made a living hunting for ruined or dormant archotech relics and ship parts, extracting their vanometric power cells and other such technologies.  This took [PAWN_objective] both to the deep depths of planets and the far reaches of [PAWN_possessive] solar system.       
 
 Zoo interpreter - [PAWN_nameDef] worked at a famous zoo as an educator, explaining the behavior of animals to guests. [PAWN_possessive] passion about wildlife was extremely contagious to everyone [PAWN_pronoun] met.
 
@@ -34,7 +34,7 @@ Wind chaser - [PAWN_nameDef] claimed [PAWN_pronoun] once called upon the wind an
 
 Occult researcher - [PAWN_nameDef] studied the occult and the mysterious phenomena present in the folklore of various cultures on the Rim.  However, encountering an apparent supernatural event left [PAWN_objective] shaken after [PAWN_pronoun] was unable to explain it.
 
-Retired physician - [PAWN_nameDef] worked long hours in the emergency department of a hospital before [PAWN_pronoun] retired to a farm.  [PAWN_pronoun] was especially fond of ducks.       
+Retired physician - [PAWN_nameDef] worked long hours in the emergency department of a hospital before [PAWN_pronoun] retired to a farm.  [PAWN_pronoun] was especially fond of ducks.
 
 Retired programmer - [PAWN_nameDef] worked as a programmer for a number years a programmer for a large corporation before abruptly quitting to work [PAWN_possessive] own farm, a surprisingly common occurrence on many an urbworld and midworld.
 
@@ -78,7 +78,7 @@ Missionary - [PAWN_nameDef] spent over a year serving on a charitable mission on
 
 Daydreaming student - [PAWN_nameDef]'s spent much of [PAWN_possessive] time in school daydreaming about exploring strange new worlds, preferably on a five-year mission.  While [PAWN_possessive] performance in school was less than stellar, [PAWN_nameDef] always maintained a positive outlook on their future.
 
-Daydreaming student - [PAWN_nameDef] was convinced they were special and had hidden, yet to be unleashed, secret powers. [PAWN_pronoun] trained with sticks as if they were legendary weapons and invented ancient-sounding spells. Although psycaster powers never manifested themselves, [PAWN_possessive] fantasies were an outlet for [PAWN_possessive] considerable imagination.   
+Daydreaming student - [PAWN_nameDef] was convinced they were special and had hidden, yet to be unleashed, secret powers. [PAWN_pronoun] trained with sticks as if they were legendary weapons and invented ancient-sounding spells. Although psycaster powers never manifested themselves, [PAWN_possessive] fantasies were an outlet for [PAWN_possessive] considerable imagination.
 
 Chosen one - [PAWN_nameDef]'s birth was heralded as the arrival of the Chosen One, [PAWN_pronoun] who was destined to drive the steel beasts back to the black skies. [PAWN_nameDef] trained in ancient rites and battle tactics in preparation for the day [PAWN_pronoun] would called upon to fulfill their destiny.
 
@@ -90,19 +90,23 @@ Nature lover - [PAWN_nameDef] had a love for learning about all natural things a
 
 Prepper kid - [PAWN_nameDef] was raised by parents who were convinced that the apocalypse was coming any day now and were determined to survive it.  [PAWN_possessive] upbringing made [PAWN_objective] quite prepared for life on the Rim, but left [PAWN_possessive] social skills quite atrophied.
 
-Cult child - [PAWN_nameDef] was born into a large cult.  What time that was not spent keeping the faith was spent in betterment of one of the cult's many self-sufficient compounds.        
+Cult child - [PAWN_nameDef] was born into a large cult.  What time that was not spent keeping the faith was spent in betterment of one of the cult's many self-sufficient compounds.
 
 Cult child - [PAWN_nameDef] was born into a large cult.  What time that was not spent keeping the faith was spent training to combat the faithless.
 
 Cult child - [PAWN_nameDef] was born into a large cult.  What time that was not spent keeping the faith was spent training to convert the faithless.
 
+Cult child - [PAWN_nameDef] was born into a large cult.  What time that was not spent keeping the faith was spent creating works to glorify the true faith.
+
 Cult enforcer - [PAWN_nameDef] served as part of the enforcement arm of a large cult, maintaining dicipline and "motivating" members to keep the faith.  [PAWN_possessive] higher-ups, for their part, found [PAWN_objective] the perfect follower, loyal and always willing to follow orders.
+
+Cult enforcer - [PAWN_nameDef] served as part of the enforcement arm of a large cult, maintaining dicipline and "motivating" members to keep the faith.  This suited [PAWN_objective] well, as the screams of the faithful were birdsong to their master.
 
 Cult troubleshooter - [PAWN_nameDef] served as part of the enforcement arm of a large cult, discretely removing threats and opponents of the true faith.
 
 Cult scholar - [PAWN_nameDef] initially came into contact with a large cult to study their belief system.  It wasn't long before [PAWN_pronoun] was enlightened to the true faith.
 
-Cult scholar - A scholar of ancient folklore, [PAWN_nameDef] discovered the texts buried deep in the university archives described a belief system remarkably similar to that which the new ideoligion [PAWN_pronoun] had seen was preaching.  [PAWN_nameDef] quickly switched [PAWN_possessive] doctoral work to study this similarity, but abandoned such frivolities upon being enlightened to the true faith.
+Cult scholar - A scholar of ancient folklore, [PAWN_nameDef] discovered the texts buried deep in the university archives described a belief system remarkably similar to that which the new ideoligion [PAWN_pronoun] had seen was preaching.  [PAWN_nameDef] quickly switched [PAWN_possessive] doctoral work to study this similarity, but abandoned such frivolities upon being enlightened to the true faith.       
 
 Cult initiate - [PAWN_nameDef] was a lower level initiate in a large cult, a position which was no small source of insecurity. To prove [PAWN_possessive] loyality and worth to the true faith, [PAWN_nameDef] volunteered for many dangerous missions [PAWN_pronoun] was less than qualified for.
 
@@ -134,10 +138,8 @@ Trial overseer - [PAWN_nameDef] oversaw the coming-of-age trials of [PAWN_posses
 
 Promethean thief - [PAWN_nameDef] led many expeditions into the wastelands to steal the magic metal of the blood machines. Some of the things [PAWN_pronoun] brought back were magic torchs that would not go out and sticks that shot lightning.
 
-Steelslayer - A skilled warrior with the spear, [PAWN_nameDef] attained great honor the say [PAWN_pronoun] single-handedly slew a twinbladed blood machine.
+Steelslayer - A skilled warrior with the spear, [PAWN_nameDef] attained great honor the day [PAWN_pronoun] single-handedly slew a twinbladed blood machine.
 
 Banished warrior - Despite being [PAWN_possessive] original tribe's most skilled warrior, [PAWN_nameDef] was banished for the grave offense of having two lovers, rather than the one permitted by tradition and law.
 
-Mushroom farmer - Hailing from the frozen north, [PAWN_nameDef] helped sustain [PAWN_possessive] tribe by digging large underground caves where they cultivated large quantities of fungus. 
-
-Total: 71
+Mushroom farmer - Hailing from the frozen north, [PAWN_nameDef] helped sustain [PAWN_possessive] tribe by digging large underground caves where they cultivated large quantities of fungus.

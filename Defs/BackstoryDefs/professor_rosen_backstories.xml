@@ -749,7 +749,7 @@
 			<li>SEX_MachinistBackstories</li>
         </spawnCategories>
         <skillGains>
-            <Shooting>8</Shooting>
+            <Shooting>4</Shooting>
             <Melee>2</Melee>
         </skillGains>
         <workDisables>

@@ -247,5 +247,20 @@
     </BackstoryDef>
 
 
+    <BackstoryDef>
+        <defName>Rosen_FencerChild</defName>
+        <title>fencing club member</title>  
+        <titleShort>fencer</titleShort> 
+        <slot>Childhood</slot>
+        <description>While others were out partying, going to the gym, and forming romances, [PAWN_nameDef] was studying the blade.  [PAWN_pronoun] was also doing all those other things, since being an active member of [PAWN_possessive] school's martial arts club was an extremely social affair.</description>  
+        <skillGains>
+            <Social>2</Social>
+            <Melee>2</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+    </BackstoryDef>
+
     
 </Defs>

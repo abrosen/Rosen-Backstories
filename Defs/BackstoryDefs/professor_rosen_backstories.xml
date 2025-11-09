@@ -858,8 +858,34 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>Rosen_ShipMechanic</defName>
+        <title>ship's mechanic</title>
+        <titleShort>mechanic</titleShort>
+        <description>[PAWN_nameDef] worked as a ships mechanic, repairing faulty equipment and doing general maintenance on long-haul trade ships between star systems.  The ship's cook was rarely out of cryosleep during the maintenance cycles, so [PAWN_nameDef] had to learn to cook their own food if they wanted to avoid the nutrient paste.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+            <li>Miner</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Construction>4</Construction>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <requiredWorkTags>
+            <li>ManualSkilled</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
     <!--
     Other Ideas:
+    Eden Seeker
+    Holy Land Seeker
+    Torah Sofer
     Hobbyist Composer 
     Ship Mechanic
     Ship Captain

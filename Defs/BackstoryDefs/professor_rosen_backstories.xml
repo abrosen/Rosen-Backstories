@@ -881,6 +881,72 @@
         </requiredWorkTags>
     </BackstoryDef>
 
+    <BackstoryDef>
+        <!-- Source: Sources\astronomer.jpg -->
+        <defName>Rosen_SelfishAstronmer</defName>
+        <title>astronomer</title>
+        <titleShort>astronomer</titleShort>
+        <description>[PAWN_nameDef] worked as an astronomer.  One day, during an analysis of prior routine observations, [PAWN_nameDef] decided to abruptly quit [PAWN_possessive] job and booked the first ticket offworld available.  Hours later, [PAWN_possessive] home planet was reportedly destroyed by a previously undetected mass travelling at a relativistic speed.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>-4</Social>
+            <Intellectual>8</Intellectual>
+        </skillGains>
+        <forcedTraits>
+            <TooSmart/> 
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_TheoreticalPhysicist1</defName>
+        <title>theoretical physicist</title>
+        <titleShort>physicist</titleShort>
+        <description>[PAWN_nameDef] was one of many scientists who devoted [PAWN_possessive] life to studying Physics's most pressing question: is there a way for humanity to attain faster-than-light travel?</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Botanist1</defName>
+        <title>blazebulb researcher</title>
+        <titleShort>botanist</titleShort>
+        <description>[PAWN_nameDef] worked on trying to develop a more stable strain of blazebulb that wouldn't ignite at room temperature.  Or from the mere hint of fire.  Or becuase [PAWN_pronoun] looked at it wrong.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+            <li>Farmer</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>4</Plants>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
     <!--
     Other Ideas:
     Eden Seeker
@@ -902,5 +968,9 @@
     Prophet
     Priest/Priestess  
     bloodluster
+
+    Clerk
+    Selfish Astonomer
+    AnnoyingVoice/Beauty Pairing
     -->
 </Defs>

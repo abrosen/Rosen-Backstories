@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--
+    <TraitDef>
+    <defName>RosenADHDTest</defName>
+    <commonality>0.5</commonality>
+    <degreeDatas>
+      <li>
+        <label>ADHD</label>
+        <description>{PAWN_nameDef} has difficulties with executive functioning and maintaining focus.</description>
+        <statOffsets>
+          <JoyFallRateFactor>1</JoyFallRateFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+
+
+
+    <TraitDef>
+    <defName>RosenPassionTest</defName>
+        <commonality>0.0</commonality>
+        <forcedPassions>
+            <li>Shooting</li>
+            <li>Melee</li>
+            <li>Construction</li>
+            <li>Mining</li>
+            <li>Cooking</li>
+            <li>Plants</li>
+            <li>Animals</li>
+            <li>Crafting</li>
+            <li>Social</li>
+            <li>Medical</li>
+            <li>Intellectual</li>
+            <li>Artistic</li>
+        </forcedPassions>
+        <degreeDatas>
+            <li>
+            <label>Passionate</label>
+            <description>{PAWN_nameDef} is a god pawn.</description>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+      -->
+</Defs>

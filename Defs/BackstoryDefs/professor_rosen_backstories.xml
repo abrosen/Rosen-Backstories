@@ -47,7 +47,7 @@
             <li>Researcher</li>
         </spawnCategories>
         <skillGains>
-            <Intellectual>8</Intellectual>
+            <Intellectual>4</Intellectual>
         </skillGains>
         <requiredWorkTags>
             <li>Intellectual</li>
@@ -59,6 +59,7 @@
             <Novel>1</Novel>
             <TextBook>1</TextBook>
             <Tome MayRequire="Ludeon.RimWorld.Anomaly">1</Tome>
+            <Schematic>1</Schematic>
         </possessions>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -908,7 +909,7 @@
         <defName>Rosen_TheoreticalPhysicist1</defName>
         <title>theoretical physicist</title>
         <titleShort>physicist</titleShort>
-        <description>[PAWN_nameDef] was one of many scientists who devoted [PAWN_possessive] life to studying Physics's most pressing question: is there a way for humanity to attain faster-than-light travel?</description>
+        <description>[PAWN_nameDef] was one of many scientists who devoted [PAWN_possessive] life to studying Physics's most pressing question: was there a way for humanity to attain faster-than-light travel?</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Thin</bodyTypeMale>
         <bodyTypeFemale>Thin</bodyTypeFemale>
@@ -947,6 +948,79 @@
         </requiredWorkTags>
     </BackstoryDef>
 
+
+    <BackstoryDef>
+        <defName>Rosen_Comedian</defName>
+        <title>comedian</title>
+        <titleShort>comedian</titleShort>
+        <description>[PAWN_nameDef] made a living as a comedian. [PAWN_pronoun] was noted for [PAWN_possessive] quick wit, insightful humor, and ability to liven up any situation</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Social</li>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <VTE_FunLoving MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_FunLoving>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Hacker1</defName>
+        <title>professional hacker</title>
+        <titleShort>hacker</titleShort>
+        <description>[PAWN_nameDef] made a living subtly extracting information from people and systems. [PAWN_pronoun] often found a guileless smile and forged work order opened many more doors than the most powerful suite of exploits.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Social</li>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <possessions>
+            <Schematic>1</Schematic>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Hacker2</defName>
+        <title>urbworld hacker</title>
+        <titleShort>hacker</titleShort>
+        <description>[PAWN_nameDef] made a living infiltrating and disrupting computer systems to supplement [PAWN_pronoun] income, but lacked the social nuances to truly excel in the field.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <Abrasive />
+        </forcedTraits>
+    </BackstoryDef>
+
     <!--
     Other Ideas:
     Eden Seeker
@@ -957,9 +1031,7 @@
     Ship Captain
     Ship Engineer
     Ship Pilot
-    Hydroponics Operator
     Fungus Scientist
-    Programmer
     Extraction Expert/Soldier
     Archeologist
     Wise Rebbe
@@ -967,10 +1039,7 @@
     Refugee
     Prophet
     Priest/Priestess  
-    bloodluster
-
     Clerk
-    Selfish Astonomer
     AnnoyingVoice/Beauty Pairing
     -->
 </Defs>

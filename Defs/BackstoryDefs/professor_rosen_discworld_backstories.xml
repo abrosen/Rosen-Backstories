@@ -10,7 +10,7 @@
     <BackstoryDef>
         <defName>Rosen_Rincewind</defName>
         <title>failed psycaster</title>
-        <titleShort>Wizzard</titleShort>
+        <titleShort>wizzard</titleShort>
         <description>After attending a university for psycasters, [PAWN_nameDef] discovered [PAWN_pronoun] was uniquely unqualified.  [PAWN_possessive] professors described [PAWN_objective] as the "psychic equivalent of the number zero."\n\nDespite having the spirit of a psycaster, [PAWN_possessive] survival was better attributed to having the body of a long distance sprinter.</description>
         <slot>Adulthood</slot>
         <skillGains>
@@ -75,7 +75,7 @@
         <defName>Rosen_patrician</defName>
         <title>colony patrician</title>
         <titleShort>patrician</titleShort>
-        <description>[PAWN_nameDef] ruled a sizable colony on the Rim as dictator in all but name. [PAWN_possessive] colony thrived under [PAWN_possessive], as [PAWN_possessive] ruled with more of a velvet glove, rather than an iron fist, following [PAWN_possessive] family's motto of "si non confectus, non reficiat."\n\n[PAWN_possessive] other great joy, besides ensuring the colony ran like clockwork, was pampering [PAWN_possessive] dog.</description>
+        <description>[PAWN_nameDef] ruled a sizable colony on the Rim as dictator in all but name. [PAWN_possessive] colony thrived under [PAWN_objective], as [PAWN_possessive] ruled with more of a velvet glove than an iron fist, following [PAWN_possessive] family's motto of "si non confectus, non reficiat."\n\n[PAWN_possessive] other great joy, besides ensuring the colony ran like clockwork, was pampering [PAWN_possessive] dog.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Shooting>2</Shooting>

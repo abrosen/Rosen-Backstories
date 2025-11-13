@@ -173,7 +173,7 @@
         <title>glitterworld librarian</title>
         <defName>Rosen_Librarian</defName>
         <titleShort>librarian</titleShort>
-        <description>[PAWN_nameDef] managed an enormous library on a glitterworld. [PAWN_possessive] ability to sift through billions of of entries and materials in a matter of seconds was matched only by their complete incompetence in crafts.  There was nothing physical [PAWN_nameDef] could make that would not collapse in a matter of seconds.</description>
+        <description>[PAWN_nameDef] managed an enormous library on a glitterworld. [PAWN_possessive] ability to sift through billions of entries and materials in a matter of seconds was matched only by their complete incompetence in crafts.  There was nothing physical [PAWN_nameDef] could make that would not collapse in a matter of seconds.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>Scientist</li>
@@ -429,7 +429,7 @@
         <defName>Rosen_KosherHalal</defName>
         <title>Theological scholar</title>
         <titleShort>Theologist</titleShort>
-        <description>[PAWN_nameDef] was a well respected scholar in [PAWN_possessive] ideoligion.  [PAWN_pronoun] served in a council to decide whether certain animals found on the Rim were acceptable to eat based on their ideoligion's existing dietary restrictions.</description>
+        <description>[PAWN_nameDef] was a well respected scholar in [PAWN_possessive] ideoligion.  [PAWN_pronoun] served on a council to decide whether certain animals found on the Rim were acceptable to eat based on their ideoligion's existing dietary restrictions.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Social>2</Social>
@@ -489,7 +489,7 @@
         <defName>Rosen_Geneticist</defName>
         <title>xenogeneticist</title>
         <titleShort>geneticist</titleShort>
-        <description>While [PAWN_pronoun] could have easily made a living as a model, [PAWN_nameDef] found [PAWN_objective]self drawn towards more intellectual pursuits. The majority of [PAWN_nameDef]'s efforts were spent on the research and development of new xenogerms treatments of genetic disorders.\n\n[PAWN_possessive] career was interrupted by the sudden decline of their glitterworld;  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet.</description>
+        <description>While [PAWN_pronoun] could have easily made a living as a model, [PAWN_nameDef] found [PAWN_objective]self drawn towards more intellectual pursuits. The majority of [PAWN_nameDef]'s efforts were spent on the research and development of new xenogerms and treatments of genetic disorders.\n\n[PAWN_possessive] career was interrupted by the sudden decline of their glitterworld;  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>Scientist</li>
@@ -547,7 +547,7 @@
         <defName>Rosen_StarshipTrooper</defName>
         <title>mobile infantryman</title>
         <titleShort>trooper</titleShort>
-        <description>[PAWN_nameDef]'s planet made some form of military or government service a requirement of gaining the right to vote. [PAWN_pronoun] joined the mobile infantry and took to maneuvering in powered armor like a fish to water.  The majority of his deployment was spent fighting against an incursion of the Sorne geneline on his and nearby planets.  Despite the horrors of war, [PAWN_nameDef] maintained an unshakable confidence that [PAWN_pronoun] would pull through no matter what.</description>
+        <description>[PAWN_nameDef]'s planet made some form of military or government service a requirement of gaining the right to vote. [PAWN_pronoun] joined the mobile infantry and took to maneuvering in powered armor like a fish to water.  The majority of [PAWN_possessive] deployment was spent fighting against an incursion of the Sorne geneline on nearby planets.  Despite the horrors of war, [PAWN_nameDef] maintained an unshakable confidence that [PAWN_pronoun] would pull through no matter what.</description>
         <spawnCategories>
             <li>Offworld</li>
         </spawnCategories>
@@ -558,7 +558,6 @@
         </skillGains>
         <requiredWorkTags>
             <li>Violent</li>
-            
         </requiredWorkTags>
         <forcedTraits>
             <NaturalMood>2</NaturalMood>
@@ -652,7 +651,6 @@
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
-        
         <spawnCategories>
             <li>Offworld</li>
             <li>Pirate</li>
@@ -678,7 +676,7 @@
         <defName>Rosen_President</defName>
         <title>glitterworld politician</title>
         <titleShort>politician</titleShort>
-        <description>[PAWN_nameDef] served as a democratically elected leader in a prosperous glitterworld.  While [PAWN_possessive] tenure was originally seen as a time of prosperity, [PAWN_possessive] immediate successor implemented radical policies that led to the rapid decline of [PAWN_possessive] home planet. [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet.</description>
+        <description>[PAWN_nameDef] served as a democratically elected leader on a prosperous glitterworld.  While [PAWN_possessive] tenure was originally seen as a time of prosperity, [PAWN_possessive] immediate successor implemented radical policies that led to the rapid decline of [PAWN_possessive] home planet. [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -887,7 +885,7 @@
         <defName>Rosen_SelfishAstronmer</defName>
         <title>astronomer</title>
         <titleShort>astronomer</titleShort>
-        <description>[PAWN_nameDef] worked as an astronomer.  One day, during an analysis of prior routine observations, [PAWN_nameDef] decided to abruptly quit [PAWN_possessive] job and booked the first ticket offworld available.  Hours later, [PAWN_possessive] home planet was reportedly destroyed by a previously undetected mass travelling at a relativistic speed.</description>
+        <description>[PAWN_nameDef] worked as an astronomer.  One day, during an analysis of prior routine observations, [PAWN_nameDef] abruptly quit [PAWN_possessive] job and booked the first ticket offworld available.  Hours later, [PAWN_possessive] home planet was reportedly destroyed by a previously undetected mass travelling at a relativistic speed.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Fat</bodyTypeMale>
         <bodyTypeFemale>Fat</bodyTypeFemale>
@@ -909,7 +907,7 @@
         <defName>Rosen_TheoreticalPhysicist1</defName>
         <title>theoretical physicist</title>
         <titleShort>physicist</titleShort>
-        <description>[PAWN_nameDef] was one of many scientists who devoted [PAWN_possessive] life to studying Physics's most pressing question: was there a way for humanity to attain faster-than-light travel?</description>
+        <description>[PAWN_nameDef] was one of many scientists who devoted [PAWN_possessive] life looking for a way to achieve faster-than-light travel.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Thin</bodyTypeMale>
         <bodyTypeFemale>Thin</bodyTypeFemale>
@@ -1002,7 +1000,7 @@
         <defName>Rosen_Hacker2</defName>
         <title>urbworld hacker</title>
         <titleShort>hacker</titleShort>
-        <description>[PAWN_nameDef] made a living infiltrating and disrupting computer systems to supplement [PAWN_pronoun] income, but lacked the social nuances to truly excel in the field.</description>
+        <description>[PAWN_nameDef] made a living infiltrating and disrupting computer systems to supplement [PAWN_possessive] income, but lacked the social nuances to truly excel in the field.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Fat</bodyTypeMale>
         <bodyTypeFemale>Fat</bodyTypeFemale>
@@ -1020,6 +1018,54 @@
             <Abrasive />
         </forcedTraits>
     </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Chemist1</defName>
+        <title>explosives chemist</title>
+        <titleShort>chemist</titleShort>
+        <description>[PAWN_nameDef] viewed chemistry as an outlet for [PAWN_possessive] creative impulses and joined a company that developed new and exciting types of fireworks.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Crafting>2</Crafting>
+            <Artistic>2</Artistic>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+            <li>Artistic</li>
+            <li>Crafting</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Composer1</defName>
+        <title>composer</title>
+        <titleShort>composer</titleShort>
+        <description>[PAWN_nameDef] made a living creating moving works of classical music.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Artistic>6</Artistic>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+            <li>Artistic</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
 
     <!--
     Other Ideas:

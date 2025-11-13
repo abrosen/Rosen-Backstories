@@ -65,6 +65,33 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>Rosen_Sofer</defName>
+        <slot>Adulthood</slot>
+        <title>scribe</title>
+        <titleShort>scribe</titleShort>
+        <description>[PAWN_nameDef] served as a scribe and copyist for their ideoligion.  [PAWN_pronoun]  was responsible for faithfully reproducing [PAWN_possessive] sacred texts by hand and without alteration or blemish.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>4</Artistic>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Artistic</li>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <possessions>
+            <Novel>1</Novel>
+            <TextBook>1</TextBook>
+            <Tome MayRequire="Ludeon.RimWorld.Anomaly">1</Tome>
+            <Schematic>1</Schematic>
+        </possessions>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
 
     <BackstoryDef>
         <slot>Adulthood</slot>
@@ -209,11 +236,13 @@
             <li>Pirate</li>
         </spawnCategories>
         <skillGains>
-            <Crafting>4</Crafting>
-            <Social>4</Social>
+            <Crafting>3</Crafting>
+            <Artistic>3</Artistic>
+            <Social>3</Social>
         </skillGains>
         <requiredWorkTags>
             <li>Crafting</li>
+            <li>Artistic</li>
             <li>Social</li>
         </requiredWorkTags>
         <forcedTraits><NaturalMood>1</NaturalMood></forcedTraits>

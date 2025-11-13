@@ -32,9 +32,10 @@
         <description>Born into an extremely large family, [PAWN_nameDef] was starved for attention.  [PAWN_pronoun] solved this problem by creating a number of contraptions that made noises, created messes, and were otherwise generally quite meddlesome.</description>
         <slot>Childhood</slot>
         <skillGains>
-            <Crafting>4</Crafting>
+            <Crafting>2</Crafting>
             <Social>-2</Social>
             <Construction>2</Construction>
+            <Artistic>2</Artistic>
         </skillGains>
         <requiredWorkTags>
             <li>Crafting</li>

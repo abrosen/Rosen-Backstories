@@ -1,22 +1,24 @@
 Scrapper - [PAWN_nameDef] found [PAWN_objective]self supporting [PAWN_possessive] sick father at an early age.  [PAWN_pronoun] managed to scrape together a meager income joining teams that dug up and deconstructed ancient shipwrecks. 
 
-Expedition guard - Born to an impovershed class on a crowded but technically advanced urbworld, [PAWN_nameDef] took the first possible shuttle offworld, joining a research expedition as an armed guard. When not on duty, [PAWN_nameDef] occupied [PAWN_objective]self with cultivating numerous potted plants and helping out in the hydroponics bay.
+Expedition guard - Born to an impovershed class on a crowded but technically advanced urbworld, [PAWN_nameDef] took the first possible shuttle offworld, joining a research expedition as an armed guard. When not on duty, [PAWN_nameDef] occupied [PAWN_objective]self with cultivating numerous potted plants and helping out in the hydroponics bay. 
 
-Enigma - Systems have almost no records of [PAWN_nameDef]'s childhood, nor any explanation of how [PAWN_pronoun] rose to such a high rank at such an early age.  The only thing sparse accounts can agree on is the [PAWN_nameDef] has always been preternaturally beautiful and always able to convince others to do exactly what [PAWN_pronoun] needed.
+Enigma - Systems have almost no records of [PAWN_nameDef]'s childhood, nor any explanation of how [PAWN_pronoun] rose to such a high rank at such an early age.  The only thing sparse accounts can agree on is the [PAWN_nameDef] has always been preternaturally beautiful and always able to convince others to do exactly what [PAWN_pronoun] needed. 
 
-Shipborn engineer - Despite all the cautions, regulations, and prophylactics intended to prevent shipborn pregnancies, it is not uncommon for a child to be born on a ship during a long transit.\n\n[PAWN_nameDef] spent [PAWN_possessive] childhood aboard one such ship, obesssively learning the ins and outs of the engine room and all the maintenance required to keep [PAWN_possessive] home among the stars going.
+Shipborn engineer - Despite all the cautions, regulations, and prophylactics intended to prevent shipborn pregnancies, it is not uncommon for a child to be born on a ship during a long transit.\n\n[PAWN_nameDef] spent [PAWN_possessive] childhood aboard one such ship, obesssively learning the ins and outs of the engine room and all the maintenance required to keep [PAWN_possessive] home among the stars going.      
 
 Expedition survivor - After an ill-fated expedition drew the ire of a particularly malevolent archotech, [PAWN_nameDef] has been on the run ever since, pursued by mechanoids and horrid fleshbeasts. Despite the overwhelming odds, [PAWN_nameDef] has survived everything coming [PAWN_possessive] way and has become quite proficient at dispatching threats.
 
 Glitterworld physician - Even in a world mostly free of disease and human suffering, there were still accidents that required quick human intervention.  While not as lucrative a career as cosmetic alterations and much more stressful, [PAWN_nameDef] found [PAWN_possessive] time as a emergency physician much more worthwhile.  Eventually, [PAWN_nameDef] adapted to the long hours without resorting to wake-up or copious amounts of caffeine.
 
-Dealmaker - Almost nothing is known about [PAWN_nameDef] save that [PAWN_pronoun] had some role in recruiting members of an ill-fated expedition to study an apparently dormant archotech.  All other records describing [PAWN_objective] have all been expunged. Two things, however, are certain: [PAWN_nameDef] never made a promise [PAWN_pronoun] couldn't keep and [PAWN_pronoun] never forgot a debt [PAWN_pronoun] owed.
+Dealmaker - Almost nothing is known about [PAWN_nameDef] save that [PAWN_pronoun] had some role in recruiting members of an ill-fated expedition to study an apparently dormant archotech.  All other records describing [PAWN_objective] have all been expunged. Two things, however, are certain: [PAWN_nameDef] never made a promise [PAWN_pronoun] couldn't keep and [PAWN_pronoun] never forgot a debt [PAWN_pronoun] owed. 
 
 Archotech salvager - [PAWN_nameDef] made a living hunting for ruined or dormant archotech relics and ship parts, extracting their vanometric power cells and other such technologies.  This took [PAWN_objective] both to the deep depths of planets and the far reaches of [PAWN_possessive] solar system.
 
 Zoo interpreter - [PAWN_nameDef] worked at a famous zoo as an educator, explaining the behavior of animals to guests. [PAWN_possessive] passion about wildlife was extremely contagious to everyone [PAWN_pronoun] met.
 
 Babel curator - [PAWN_nameDef] claimed to be from a transcendent world, tasked by an archotech to collect as many written stories as possible, with the goal of building a library to hold every text that has been and will be written.
+
+Scribe - [PAWN_nameDef] served as a scribe and copyist for their ideoligion.  [PAWN_pronoun]  was responsible for faithfully reproducing [PAWN_possessive] sacred texts by hand and without alteration or blemish.
 
 Medieval enthusiast - Teaching at a glitterworld university, [PAWN_nameDef]'s research focused on the history of combat techniques from thousands of years ago.  This may just have been an excuse for [PAWN_objective] to get paid for [PAWN_possessive] hobby of dressing up in armor and pretending to be a knight.\n\nWhile [PAWN_nameDef] spent a considerable amount of time outdoors thanks to [PAWN_possessive] hobby, very little of it was spent in green spaces or wilderness.
 
@@ -46,11 +48,11 @@ Theological scholar - [PAWN_nameDef] was a well respected scholar in [PAWN_posse
 
 Klutzy researcher - Despite being quite adept at the scientific theory in [PAWN_possessive] field, [PAWN_nameDef]'s advancement was stymied by [PAWN_possessive] constant clumsiness ruining any experiment [PAWN_pronoun] came up with.
 
-Xenogeneticist - While [PAWN_pronoun] could have easily made a living as a model, [PAWN_nameDef] found [PAWN_objective]self drawn towards more intellectual pursuits. The majority of [PAWN_nameDef]'s efforts were spent on the research and development of new xenogerms and treatments of genetic disorders.\n\n[PAWN_possessive] career was interrupted by the sudden decline of their glitterworld;  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet.        
+Xenogeneticist - While [PAWN_pronoun] could have easily made a living as a model, [PAWN_nameDef] found [PAWN_objective]self drawn towards more intellectual pursuits. The majority of [PAWN_nameDef]'s efforts were spent on the research and development of new xenogerms and treatments of genetic disorders.\n\n[PAWN_possessive] career was interrupted by the sudden decline of their glitterworld;  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet.
 
 Infantry engineer - [PAWN_nameDef] served as an engineer in the army on a relatively peaceful urbworld. Most of [PAWN_possessive] active service was spent in disaster recovery efforts. Fortunately many of the same skills needed to sap walls or build bridges and defenses were easily transferable to rescue operations and building shelters.  This was probably for the best, as [PAWN_pronoun] was barely able to take a punch from a genie.
 
-Mobile infantryman - [PAWN_nameDef]'s planet made some form of military or government service a requirement of gaining the right to vote. [PAWN_pronoun] joined the mobile infantry and took to maneuvering in powered armor like a fish to water.  The majority of [PAWN_possessive] deployment was spent fighting against an incursion of the Sorne geneline on nearby planets.  Despite the horrors of war, [PAWN_nameDef] maintained an unshakable confidence that [PAWN_pronoun] would pull through no matter what.   
+Mobile infantryman - [PAWN_nameDef]'s planet made some form of military or government service a requirement of gaining the right to vote. [PAWN_pronoun] joined the mobile infantry and took to maneuvering in powered armor like a fish to water.  The majority of [PAWN_possessive] deployment was spent fighting against an incursion of the Sorne geneline on nearby planets.  Despite the horrors of war, [PAWN_nameDef] maintained an unshakable confidence that [PAWN_pronoun] would pull through no matter what.
 
 Mobile infantryman - [PAWN_nameDef] joined the mobile infantry to fight the Sorne geneline's incursion on a nearby world.  [PAWN_possessive] first drop against the bugs ended in disaster, with [PAWN_nameDef] being the only survivor.  However, due to a computer glitch, [PAWN_pronoun] was sent on drops again and again without time for rest. By [PAWN_possessive] 20th drop, the glitch was discovered, but not before [PAWN_pronoun] had transformed into an emotionally damaged, but highly capable, killing machine.
 
@@ -74,14 +76,13 @@ Ship stealer - Despite being absolutely sickened by the idea of hurting another 
 
 Ship's mechanic - [PAWN_nameDef] worked as a ships mechanic, repairing faulty equipment and doing general maintenance on long-haul trade ships between star systems.  The ship's cook was rarely out of cryosleep during the maintenance cycles, so [PAWN_nameDef] had to learn to cook their own food if they wanted to avoid the nutrient paste.
 
-
 Astronomer - [PAWN_nameDef] worked as an astronomer.  One day, during an analysis of prior routine observations, [PAWN_nameDef] abruptly quit [PAWN_possessive] job and booked the first ticket offworld available.  Hours later, [PAWN_possessive] home planet was reportedly destroyed by a previously undetected mass travelling at a relativistic speed.
 
 Theoretical physicist - [PAWN_nameDef] was one of many scientists who devoted [PAWN_possessive] life looking for a way to achieve faster-than-light travel.
 
 Blazebulb researcher - [PAWN_nameDef] worked on trying to develop a more stable strain of blazebulb that wouldn't ignite at room temperature.  Or from the mere hint of fire.  Or becuase [PAWN_pronoun] looked at it wrong.
 
-Comedian - [PAWN_nameDef] made a living as a comedian. [PAWN_pronoun] was noted for [PAWN_possessive] quick wit, insightful humor, and ability to liven up any situation 
+Comedian - [PAWN_nameDef] made a living as a comedian. [PAWN_pronoun] was noted for [PAWN_possessive] quick wit, insightful humor, and ability to liven up any situation
 
 Professional hacker - [PAWN_nameDef] made a living subtly extracting information from people and systems. [PAWN_pronoun] often found a guileless smile and forged work order opened many more doors than the most powerful suite of exploits.
 
@@ -90,6 +91,8 @@ Urbworld hacker - [PAWN_nameDef] made a living infiltrating and disrupting compu
 Explosives chemist - [PAWN_nameDef] viewed chemistry as an outlet for [PAWN_possessive] creative impulses and joined a company that developed new and exciting types of fireworks.
 
 Composer - [PAWN_nameDef] made a living creating moving works of classical music.
+
+Urbworld prosecutor - There was no shortage of criminals on hideously crowded urbworlds and the legal apparatus to handle crime was always just as correspondingly vast.\n\n[PAWN_nameDef] worked tirelessly on one such world as a prosecutor, making sure that those arrested by the enforcers stayed behind bars and received the appropriate punishment.
 
 Quarantine child - Before [PAWN_nameDef] could even speak, [PAWN_possessive] world was ravaged by worldwide pandemic. The next few years of [PAWN_possessive] life were spent in isolation with only [PAWN_possessive] parents for company. However, [PAWN_possessive] parents kept [PAWN_objective] busy, nurturing a natural talent for the arts and sciences.
 
@@ -112,6 +115,10 @@ Nature lover - [PAWN_nameDef] had a love for learning about all natural things a
 Prepper kid - [PAWN_nameDef] was raised by parents who were convinced that the apocalypse was coming any day now and were determined to survive it.  [PAWN_possessive] upbringing made [PAWN_objective] quite prepared for life on the Rim, but left [PAWN_possessive] social skills quite atrophied.
 
 Fencing club member - While others were out partying, going to the gym, and forming romances, [PAWN_nameDef] was studying the blade.  [PAWN_pronoun] was also doing those other things, since being an active member of [PAWN_possessive] school's martial arts club was an extremely social affair.
+
+Novice programmer - [PAWN_nameDef] spent a good deal of free time messing around with computer systems and taught [PAWN_objective]self to create simple programs in ancient languages, like muffaloscript, 4ktran, and C#.
+
+Refugee - All the young people in [PAWN_nameDef]'s town, including [PAWN_objective] were rounded up and send to forced labor camps for the crime of belonging to the wrong ideoligion. [PAWN_nameDef] barely managed to survive the grueling conditions;  when asked how, [PAWN_pronoun] would only reply "by my wits."
 
 Cult child - [PAWN_nameDef] was born into a large cult.  What time that was not spent keeping the faith was spent in betterment of one of the cult's many self-sufficient compounds.
 
@@ -145,7 +152,7 @@ Cult scholar - [PAWN_nameDef] discovered a number of ancient tomes in a hidden c
 
 Cult ritualist - [PAWN_nameDef] was already enlightened to the true faith.  [PAWN_pronoun] studied ancient rituals, pouring over the subtle variations listed archaic tomes, looking to reduce the cost various rites had on human resources.
 
-Cult initiate - [PAWN_nameDef] was a lower level initiate in a large cult, a position which was no small source of insecurity. To prove [PAWN_possessive] loyality and worth to the true faith, [PAWN_nameDef] volunteered for many dangerous missions [PAWN_pronoun] was less than qualified for.
+Cult initiate - [PAWN_nameDef] was a lower level initiate in a large cult, a position which was no small source of insecurity. To prove [PAWN_possessive] loyality and worth to the true faith, [PAWN_nameDef] volunteered for many dangerous missions [PAWN_pronoun] was less than qualified for. 
 
 Cult initiate - [PAWN_nameDef] was a lower level initiate in a large cult and totally loyal to the true faith.  After all, [PAWN_possessive] masters provided for all [PAWN_pronoun] would ask for.  Importantly, [PAWN_pronoun] knew what [PAWN_pronoun] was allowed to ask for.
 
@@ -157,7 +164,7 @@ Cult prosyltizer - [PAWN_nameDef] recruited many believers into the true faith. 
 
 Seeker of the king - A high ranking member of a cult, [PAWN_nameDef] sought to find [PAWN_possessive] king.  Worse, [PAWN_pronoun] knew where to find him:\n\nAlong the shores the cloud waves break,\nthe twin suns sink behind the lake, \nthe shadows lengthen\nin Carcosa.
 
-Nemesis of reason - Words describing [PAWN_nameDef] fail. Tales recounting [PAWN_objective] end without warning. Data s̶̢̢̺̜̦̠̭̩̼͚̯͇̦̫̀̊̇̌͛ͅṫ̵̡̞̘̳̹͚̦̞̩͈͕͈͒́̾̂͌͛̄͑̕̕o̷͌́                                               ̼͈̙̬̄͋̀͋͊̓̊̈́̓̎̇̈͒ŗ̷̨͈̬̯͓͖͈̺̮̫̳͕̾̈́͛̍̔͊̏̐̅̆̌̑̄̉͘ȅ̶͚̯̬̿̽̽̍̂̏͘͘͝d̵̛̤̑̀̍̋̄̈́ ̶͕̝̺̓̿̽̔̀̋̈̽͝ͅb̴̢̧̰̳͉͚͈̮͙̗͍͍̲̟́̏͊͒͒͜͠͝e̶͙͙̹̝͇̖̔̓c̶̨̬͖̙̲̰̝̪̠̳̭̟̠̹̹̼̪͑o̵̪̿͝m̴̢̙͕̜̤̗͓̙͖̣̥̹̮͈̽͌͂̇̀̚                                                                                                                                              e̶̢̛͎̝̳̫̜̦̟̖̙̲̘͑͒̍̀̾̿͆̑̀͗̅͠͝ͅş̷̡̮̪̺̹̼͈͚̯͑́̈̃̐͒̏̚ ̵̜̠̣̦͉͉̹̤̊̓̾͛́̌̓̒̕ć̴̨̧̹̗̥̖̯̯̫̭̪͌̌̄̔͒̽̈́̿̔̀̆̀̕ô̵̳̫̫͚̪͆̆͆͗̃͜r̶̢̢̡͍̟͇̳͇̺͈͈̻͇͒̔̑͒̀̍͜͜͝r̷̨͚̹̐̿̀̓̊̐̆̕ư̶͕̖̪̱̥̭̪̩̬͔̪͙̲̲͌͊̉̽ͅͅ                                                                                                                                                                p̴̢̩̟̺͓̟̥̭͚̙̺̓͗̂́̒͐͌̔̿͂̿̐̄͘͘ẗ̷̲̮̟̮͎̣͉̜̹͚̹́̓̂͘͜ę̵̛͕̭̥͈͚̘͈̼̰͕͚͉͔̔̄̓̒͊̉̋͐̇̓̀̑̕͠͝d̸̥́́̂̃̓̔̆́̏͐͛͝.̷̡̯̲̿̅͊͒̈̈́͊̋̽͂̄̚̕
+Nemesis of reason - Words describing [PAWN_nameDef] fail. Tales recounting [PAWN_objective] end without warning. Data s̶̢̢̺̜̦̠̭̩̼͚̯͇̦̫̀̊̇̌͛ͅṫ̵̡̞̘̳̹͚̦̞̩͈͕͈͒́̾̂͌͛̄͑̕̕o̷̼͈̙̬͌́̀̄͋̀͋͊̓̊̈́̓̎̇̈͒ŗ̷̨͈̬̯͓͖͈̺̮̫̳͕̾̈́͛̍̔͊̏̐̅̆̌̑̄̉͘ȅ̶͚̯̬̿̽̽̍̂̏͘͘͝d̵̛̤̑̀̍̋̄̈́ ̶͕̝̺̓̿̽̔̀̋̈̽͝ͅb̴̢̧̰̳͉͚͈̮͙̗͍͍̲̟́̏͊͒͒͜͠͝e̶͙͙̹̝͇̖̔̓c̶̨̬͖̙̲̰̝̪̠̳̭̟̠̹̹̼̪͑o̵̪̿͝m̴̢̙͕̜̤̗͓̙͖̣̥̹̮͈̽͌͂̇̀̚e̶̢̛͎̝̳̫̜̦̟̖̙̲̘͑͒̍̀̾̿͆̑̀͗̅͠͝ͅş̷̡̮̪̺̹̼͈͚̯͑́̈̃̐͒̏̚ ̵̜̠̣̦͉͉̹̤̊̓̾͛́̌̓̒̕ć̴͌̌̄̔͒̽̈́̿                                                                                                                                                                                                                                                                                          ̨̧̹̗̥̖̯̯̫̭̪̀̆̀̕ô̵̳̫̫͚̪͆̆͆͗̃͜r̶̢̢̡͍̟͇̳͇̺͈͈̻͇͒̔̑͒̀̍͜͜͝r̷̨͚̹̐̿̀̓̊̐̆̕ư̶͕̖̪̱̥̭̪̩̬͔̪͙̲̲͖͌͊̉̽ͅͅp̴̢̩̟̺͓̟̥̭͚̙̺̓͗̂́̒͐͌̔̿͂̿̐̄͘͘ẗ̷̲̮̟̮͎̣͉̜̹͚̹́̓̂͘͜ę̵̛͕̭̥͈͚̘͈̼̰͕͚͉͔̔̄̓̒͊̉̋͐̇̓̀̑̕͠͝d̸̥́́̂̃̓̔̆́̏͐͛͝.̷̡̯̲̿̅͊͒̈̈́͊̋̽͂̄̚̕
 
 Failed psycaster - After attending a university for psycasters, [PAWN_nameDef] discovered [PAWN_pronoun] was uniquely unqualified.  [PAWN_possessive] professors described [PAWN_objective] as the "psychic equivalent of the number zero."\n\nDespite having the spirit of a psycaster, [PAWN_possessive] survival was better attributed to having the body of a long distance sprinter.
 
@@ -179,7 +186,7 @@ Sausage salesman - On every world along the rim and core, there would be someone
 
 Quartermaster - [PAWN_nameDef] served as quartermaster for a number of different losing militaries and was probably the only human who ever needed a signed document that read: "following affidavits from the midwife and a doctor, I confirm that the bearer is, in all probability, human."
 
-Trial overseer - [PAWN_nameDef] oversaw the coming-of-age trials of [PAWN_possessive] tribe, guiding them through the wasteland. [PAWN_nameDef] knew it would only be a matter of time before the blood machines returned to raze their homes, so [PAWN_pronoun] taught [PAWN_possessive] charges how to survive in the harshest of environments. 
+Trial overseer - [PAWN_nameDef] oversaw the coming-of-age trials of [PAWN_possessive] tribe, guiding them through the wasteland. [PAWN_nameDef] knew it would only be a matter of time before the blood machines returned to raze their homes, so [PAWN_pronoun] taught [PAWN_possessive] charges how to survive in the harshest of environments.
 
 Promethean thief - [PAWN_nameDef] led many expeditions into the wastelands to steal the magic metal of the blood machines. Some of the things [PAWN_pronoun] brought back were magic torchs that would not go out and sticks that shot lightning.
 
@@ -189,4 +196,6 @@ Banished warrior - Despite being [PAWN_possessive] original tribe's most skilled
 
 Mushroom farmer - Hailing from the frozen north, [PAWN_nameDef] helped sustain [PAWN_possessive] tribe by digging large underground caves where they cultivated large quantities of fungus.
 
-Total: 95
+Tribal hacker - Through extensive trial and error, [PAWN_nameDef] discovered many sealed iron doors could be opened by interacting with the glowscreen and gently pressing the upwards pointing glyph enough times, followed by a vigorous smash to the big red button.
+
+Total: 100

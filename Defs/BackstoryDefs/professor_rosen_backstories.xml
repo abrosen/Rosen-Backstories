@@ -1096,11 +1096,36 @@
     </BackstoryDef>
 
 
+    <BackstoryDef>
+        <defName>Rosen_Lawyer1</defName>
+        <title>urbworld prosecutor</title>
+        <titleShort>prosecutor</titleShort>
+        <description>There was no shortage of criminals on hideously crowded urbworlds and the legal apparatus to handle crime was always just as correspondingly vast.\n\n[PAWN_nameDef] worked tirelessly on one such world as a prosecutor, making sure that those arrested by the enforcers stayed behind bars and received the appropriate punishment.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+            <li>Artistic</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <Industriousness>1</Industriousness>
+        </forcedTraits>
+    </BackstoryDef>
+
+    
+
+
     <!--
     Other Ideas:
     Eden Seeker
     Holy Land Seeker
-    Torah Sofer
     Hobbyist Composer 
     Ship Mechanic
     Ship Captain

@@ -134,6 +134,27 @@
     </BackstoryDef>
 
 
+    <BackstoryDef>
+        <!-- https://programmerhumor.io/linux-memes/the-up-arrow-treasure-hunt-i8w4 -->
+        <defName>Rosen_TribalHacker</defName>
+        <title>tribal hacker</title>
+        <titleShort>hacker</titleShort>
+        <description>Through extensive trial and error, [PAWN_nameDef] discovered many sealed iron doors could be opened by interacting with the glowscreen and gently pressing the upwards pointing glyph enough times, followed by a vigorous smash to the big red button.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+
     <!-- Possible future tribal backstories:
     Exile
     Wanderer

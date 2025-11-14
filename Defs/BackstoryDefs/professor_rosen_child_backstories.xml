@@ -260,9 +260,48 @@
         </skillGains>
         <spawnCategories>
             <li>Offworld</li>
+            <li>Pirate</li>
             <li>Cult</li>
         </spawnCategories>
     </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_NoviceProgrammer</defName>
+        <title>novice programmer</title>  
+        <titleShort>programmer</titleShort> 
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] spent a good deal of free time messing around with computer systems and taught [PAWN_objective]self to create simple programs in ancient languages, like muffaloscript, 4ktran, and C#.</description>  
+        <skillGains>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+            <li>Researcher</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <!-- My uncle Abe-->
+        <defName>Rosen_RefugeeChild1</defName>
+        <title>refugee</title>  
+        <titleShort>programmer</titleShort> 
+        <slot>Childhood</slot>
+        <description>All the young people in [PAWN_nameDef]'s town, including [PAWN_objective] were rounded up and send to forced labor camps for the crime of belonging to the wrong ideoligion. [PAWN_nameDef] barely managed to survive the grueling conditions;  when asked how, [PAWN_pronoun] would only reply "by my wits."</description>  
+        <skillGains>
+            <Construction>2</Construction>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <forcedTraits>
+            <Nerves>2</Nerves>
+        </forcedTraits>
+    </BackstoryDef>
+
 
     
 </Defs>

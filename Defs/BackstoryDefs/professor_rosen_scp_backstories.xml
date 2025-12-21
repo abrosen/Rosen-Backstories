@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <BackstoryDef Name="RosenSCPOperative" Abstract="True">
+        <slot>Adulthood</slot>
+        <titleShort>Operative</titleShort>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef ParentName="RosenSCPOperative">
+        <defName>RosenSCPTest1</defName>
+        <title>Test 1</title>
+        <description>Test1</description>
+    </BackstoryDef>
+
+    <BackstoryDef ParentName="RosenSCPOperative">
+        <defName>RosenSCPTest2</defName>
+        <title>Test 2</title>
+        <description>Test2</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+        </skillGains>
+    </BackstoryDef>
+</Defs>

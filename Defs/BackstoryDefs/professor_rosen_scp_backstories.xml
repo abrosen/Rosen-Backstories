@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Defs>
+<Defs MayRequire="Ludeon.RimWorld.Anomaly">
 
-    <BackstoryDef Name="RosenSCPOperative" Abstract="True">
+    <BackstoryDef Name="RosenSCPOperative" Abstract="True" MayRequire="Ludeon.RimWorld.Anomaly">
         <slot>Adulthood</slot>
         <titleShort>Operative</titleShort>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -19,18 +19,32 @@
         </requiredWorkTags>
     </BackstoryDef>
 
-    <BackstoryDef ParentName="RosenSCPOperative">
-        <defName>RosenSCPTest1</defName>
-        <title>Test 1</title>
-        <description>Test1</description>
-    </BackstoryDef>
-
-    <BackstoryDef ParentName="RosenSCPOperative">
-        <defName>RosenSCPTest2</defName>
-        <title>Test 2</title>
-        <description>Test2</description>
+    <BackstoryDef ParentName="RosenSCPOperative" MayRequire="Ludeon.RimWorld.Anomaly">
+        <defName>Rosen_MTFMinuteMan</defName>
+        <title>task force operative</title>
+        <titleShort>minuteman</titleShort>
+        <description>[PAWN_nameDef] served on a team that provided rapid response to anomalous threats.</description>
+        <forcedTraits>
+            <SpeedOffset>1</SpeedOffset>
+        </forcedTraits>
         <skillGains>
-            <Shooting>5</Shooting>
+            <Shooting>4</Shooting>
+            <Melee>2</Melee>
         </skillGains>
     </BackstoryDef>
+
+    <BackstoryDef ParentName="RosenSCPOperative" MayRequire="Ludeon.RimWorld.Anomaly">
+        <defName>Rosen_MTFAnalyst</defName>
+        <title>field analyst</title>
+        <titleShort>analyst</titleShort>
+        <description>[PAWN_nameDef] served on a rapid response team as a field researcher and technician.  [PAWN_possessive] role required [PAWN_objective] to analyze and document anomalous phenomena encountered in the field.</description>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+            <li>Social</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
 </Defs>

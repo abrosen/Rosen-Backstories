@@ -866,7 +866,7 @@
     <BackstoryDef>
         <defName>Rosen_ShipStealer</defName>
         <title>ship stealer</title>
-        <titleShort>stealer</titleShort>
+        <titleShort>hijacker</titleShort>
         <description>Despite being absolutely sickened by the idea of hurting another human, [PAWN_nameDef] became one of the most notorius and successful pirates of [PAWN_possessive] generation.  Once, alone, [PAWN_pronoun] even stole a large destroyer that required a thrity person crew.</description>
         <slot>Adulthood</slot>
         <spawnCategories>

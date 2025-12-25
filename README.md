@@ -34,3 +34,7 @@ GNU Terry Pratchett.
 - I tend to avoid too many restrictive backstories as that is not what most players are looking for.
 - Many adult backstories are balanced around a +6/+4/+2 bonus with a positive trait.
 - Backstories are allowed to be stronger, but definitely need some drawback or must be extremely compelling.
+
+### Traits
+
+- 2 rare traits have been added for my personal pawns.  Their weight is 0.2 and 0.1, so they have a very very low chance of occurring naturally.  They are quite, but not obscenely strong, which naturally means Cassandra will send a drop pop raid directly on top of that pawn the minute you recruit them. 

@@ -71,15 +71,16 @@
 
 
     <TraitDef>
-    <defName>Rosen_Trait_Perfect</defName>
+    <defName>Rosen_Trait_Paragon</defName>
         <commonality>0.01</commonality>
         <forcedPassions>
+            <li>Artistic</li>
             <li>Crafting</li>
             <li>Intellectual</li>
         </forcedPassions>
         <degreeDatas>
             <li>
-            <label>perfect</label>
+            <label>paragon</label>    
             <description>{PAWN_nameDef} has been genetically engineered to be {PAWN_possessive} parent's or society's idea of perfection.</description>
             <statOffsets>
               <MentalBreakThreshold>-0.03</MentalBreakThreshold>

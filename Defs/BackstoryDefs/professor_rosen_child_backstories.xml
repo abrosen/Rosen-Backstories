@@ -286,7 +286,7 @@
         <!-- My uncle Abe-->
         <defName>Rosen_RefugeeChild1</defName>
         <title>refugee</title>  
-        <titleShort>programmer</titleShort> 
+        <titleShort>refugee</titleShort> 
         <slot>Childhood</slot>
         <description>All the young people in [PAWN_nameDef]'s town, including [PAWN_objective] were rounded up and send to forced labor camps for the crime of belonging to the wrong ideoligion. [PAWN_nameDef] barely managed to survive the grueling conditions;  when asked how, [PAWN_pronoun] would only reply "by my wits."</description>  
         <skillGains>
@@ -302,6 +302,110 @@
         </forcedTraits>
     </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>Rosen_Apprentice1</defName>
+        <title>apprentice</title>  
+        <titleShort>apprentice</titleShort> 
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] began their craft at an early age, and apprenticed under a skilled artisan.</description>  
+        <skillGains>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>ImperialCommon</li>
+            <li>Researcher</li>
+            <li>MedievalCommon</li>
+            <li>MedievalHigh</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Apprentice2</defName>
+        <title>art apprentice</title>  
+        <titleShort>artist</titleShort> 
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] began their craft at an early age, and apprenticed under a skilled artist.</description>  
+        <skillGains>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>ImperialCommon</li>
+            <li>Researcher</li>
+            <li>MedievalCommon</li>
+            <li>MedievalHigh</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Apprentice3</defName>
+        <title>apprentice blacksmith</title>  
+        <titleShort>blacksmith</titleShort> 
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef]'s parents recognized [PAWN_pronoun] had an affinity for metalwork and sent [PAWN_objective] to work under a blacksmith at an early age.</description>  
+        <skillGains>
+            <Crafting>1</Crafting>
+            <Melee>1</Melee>
+            <Construction>1</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>ImperialCommon</li>
+            <li>Researcher</li>
+            <li>MedievalCommon</li>
+            <li>MedievalHigh</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_Apprentice4</defName>
+        <title>apprentice carpenter</title>  
+        <titleShort>carpenter</titleShort> 
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef]'s parents recognized [PAWN_pronoun] had an affinity for woodworking and sent [PAWN_objective] to work under a carpenter at an early age.</description>  
+        <skillGains>
+            <Crafting>1</Crafting>
+            <Construction>1</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>ImperialCommon</li>
+            <li>Researcher</li>
+            <li>MedievalCommon</li>
+            <li>MedievalHigh</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_PlagueSurvivor</defName>
+        <title>plague survivor</title>  
+        <titleShort>survivor</titleShort> 
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef]'s home was ravaged by a planet-wide plague. [PAWN_pronoun] survived, but [PAWN_possessive] immune system never truly recovered.</description>  
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <forcedTraits>
+            <Immunity>-1</Immunity>
+        </forcedTraits>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
+            <li>ImperialRoyal</li>
+            <li>Researcher</li>
+            <li>MedievalCommon</li>
+            <li>MedievalHigh</li>
+        </spawnCategories>
+    </BackstoryDef>
 
     
 </Defs>

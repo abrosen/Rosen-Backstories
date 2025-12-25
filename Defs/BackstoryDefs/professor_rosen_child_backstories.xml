@@ -162,6 +162,29 @@
             <TextBook>1</TextBook>
         </possessions>
     </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_UrbworldMedicalStudent</defName>
+        <title>medical student</title>  
+        <titleShort>student</titleShort> 
+        <slot>Childhood</slot>
+        <description>The crowded and impoverished conditions of many an Urbworld meant the medical practice was always a way out of the lower rungs.  [PAWN_nameDef] spent much of [PAWN_possessive] childhood studying and applied to a medical school at the first opportunity.</description>  
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Medicine>2</Medicine>
+        </skillGains>  
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+            <li>Scientist</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <possessions>
+            <TextBook>1</TextBook>
+        </possessions>
+    </BackstoryDef>
+
     
     <BackstoryDef>
         <defName>Rosen_RawRecruit</defName>
@@ -383,7 +406,26 @@
     </BackstoryDef>
 
     <BackstoryDef>
-        <defName>Rosen_PlagueSurvivor</defName>
+        <defName>Rosen_ChildScribe1</defName>
+        <title>scribe</title>  
+        <titleShort>scribe</titleShort> 
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] was fascinated [PAWN_possessive] collection of illuminated manuscripts. That and [PAWN_possessive] affinity for the arts were quickly noticed by the local leaders of [PAWN_possessive] ideoligion, leading [PAWN_objective] to work as a scribe from an early age.</description>  
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>ImperialRoyal</li>
+            <li>Researcher</li>
+            <li>MedievalHigh</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_PlagueSurvivor1</defName>
         <title>plague survivor</title>  
         <titleShort>survivor</titleShort> 
         <slot>Childhood</slot>

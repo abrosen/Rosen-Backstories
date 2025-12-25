@@ -72,7 +72,7 @@
 
     <TraitDef>
     <defName>Rosen_Trait_Paragon</defName>
-        <commonality>0.01</commonality>
+        <commonality>0.1</commonality>
         <forcedPassions>
             <li>Artistic</li>
             <li>Crafting</li>
@@ -88,6 +88,10 @@
               <PawnBeauty>2</PawnBeauty>
               <ImmunityGainSpeed>0.1</ImmunityGainSpeed>
             </statOffsets>
+            <statFactors>
+                <RestFallRateFactor>0.9</RestFallRateFactor>
+                <GlobalLearningFactor>1.1</GlobalLearningFactor>
+            </statFactors>
             </li>
         </degreeDatas>
         <conflictingTraits>

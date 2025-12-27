@@ -449,5 +449,23 @@
         </spawnCategories>
     </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>Rosen_Deathgame1</defName>
+        <title>deathgame survivor</title>  
+        <titleShort>survivor</titleShort> 
+        <slot>Childhood</slot>
+        <description>The government of [PAWN_nameDef]'s planet ran an annual deathgame, where random children were sent to a remote location to face off against each other in a brutal contest. [PAWN_nameDef] was one of the few survivors, but [PAWN_possessive] was scarred.</description>  
+        <skillGains>
+            <Melee>2</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+        <forcedTraits>
+            <VTE_Desensitized MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Desensitized>
+        </forcedTraits>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+    </BackstoryDef>
+
     
 </Defs>

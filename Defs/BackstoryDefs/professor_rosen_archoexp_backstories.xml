@@ -167,12 +167,9 @@
             <Artistic>-4</Artistic>
         </skillGains>
         <forcedTraits>
-            <Rosen_Trait_Survivor />
             <Transhumanist />
+            <Rosen_Trait_Survivor />
         </forcedTraits>
-        <disallowedTraits>
-            <Kind />
-        </disallowedTraits>
         <requiredWorkTags>
             <li>Violent</li>
             <li>Caring</li>

@@ -702,6 +702,33 @@
     </BackstoryDef>
 
     <BackstoryDef>
+        <defName>Rosen_Spy2</defName>
+        <title>spy</title>
+        <titleShort>spy</titleShort>
+        <description>[PAWN_nameDef] worked for a governmental intelligence agency, specializing in tailing and infiltration.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Social>2</Social>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <possessions>
+            <Gun_Revolver />
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
         <defName>Rosen_President</defName>
         <title>glitterworld politician</title>
         <titleShort>politician</titleShort>

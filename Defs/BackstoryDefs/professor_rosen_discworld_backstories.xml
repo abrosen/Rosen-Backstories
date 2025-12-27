@@ -328,6 +328,32 @@
         <bodyTypeFemale>Thin</bodyTypeFemale>
     </BackstoryDef>
 
+    <!--https://wiki.lspace.org/Seamstresses%27_Guild-->
+    <BackstoryDef>
+        <defName>Rosen_DiscworldSeamstress</defName>
+        <title>seamster</title>
+        <titleShort>seamster</titleShort>
+        <titleFemale>seamstress</titleFemale>
+        <titleShortFemale>seamstress</titleShortFemale>
+        <description>[PAWN_nameDef] was a member of the Seamstresses' Guild in a large city.  However, anyone calling upon the guild to have their clothing mended would be disappointed, as the members of the guild were better known for performing services that didn't require any garments.
+        </description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>6</Social>
+            <Melee>2</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+            <li>ImperialCommon</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Social</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
     
 
 

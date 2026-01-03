@@ -3,7 +3,7 @@
 
     <BackstoryDef Name="RosenSCPOperative" Abstract="True" MayRequire="Ludeon.RimWorld.Anomaly">
         <slot>Adulthood</slot>
-        <titleShort>Operative</titleShort>
+        <titleShort>operative</titleShort>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
@@ -30,6 +30,19 @@
         <skillGains>
             <Shooting>4</Shooting>
             <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+     <BackstoryDef ParentName="RosenSCPOperative" MayRequire="Ludeon.RimWorld.Anomaly">
+        <defName>Rosen_MTFNineTailedFox1</defName>
+        <title>Nine-tailed fox</title>
+        <description>[PAWN_nameDef] was a member of an elite mobile task force that was dispatched to deal with containment breaches of anomalous entities.</description>
+        <forcedTraits>
+            <VTE_Brave MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Brave>
+        </forcedTraits>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>6</Melee>
         </skillGains>
     </BackstoryDef>
 

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs MayRequire="Ludeon.RimWorld.Anomaly">
+
+    <BackstoryDef>
+        <defName>Rosen_EdenSeeker1</defName>
+        <title>eden seeker</title>
+        <titleShort>pilgrim</titleShort>
+        <description>After years of meticulous study, [PAWN_nameDef] became convinced that [PAWN_possessive] ideoligion's holy land was a distant rimworld and left on a pilgrimage to settle on it. </description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <disallowedTraits>
+            <Greedy />
+            <Jealous />
+        </disallowedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Sofer</defName>
+        <slot>Adulthood</slot>
+        <title>scribe</title>
+        <titleShort>scribe</titleShort>
+        <description>[PAWN_nameDef] served as a scribe and copyist for their ideoligion.  [PAWN_pronoun]  was responsible for faithfully reproducing [PAWN_possessive] sacred texts by hand and without alteration or blemish.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>4</Artistic>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Artistic</li>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <possessions>
+            <Novel>1</Novel>
+            <TextBook>1</TextBook>
+            <Tome MayRequire="Ludeon.RimWorld.Anomaly">1</Tome>
+            <Schematic>1</Schematic>
+        </possessions>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_KosherHalal</defName>
+        <title>Theological scholar</title>
+        <titleShort>Theologist</titleShort>
+        <description>[PAWN_nameDef] was a well respected scholar in [PAWN_possessive] ideoligion.  [PAWN_pronoun] served on a council to decide whether certain animals found on the Rim were acceptable to eat based on their ideoligion's existing dietary restrictions.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>2</Social>
+            <Cooking>4</Cooking>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+            <li>ImperialRoyal</li>
+        </spawnCategories>
+        <workDisables>
+            <li>Mining</li>
+        </workDisables>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <forcedTraits>
+            <VTE_RefinedPalate MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_RefinedPalate>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Rashi</defName> <!-- kinda, the vintner bit is tradition -->
+        <title>theologian</title>
+        <titleShort>theologian</titleShort>
+        <description>[PAWN_nameDef] became well known for [PAWN_possessive] extensive commentaries on [PAWN_possessive] ideoligion's sacred texts.  However, few knew that [PAWN_possessive] scholarship was merely a hobby, and that [PAWN_pronoun] made a living as a vintner.</description>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+            <li>Farmer</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Plants>6</Plants>
+        </skillGains>
+        <requiredWorkTags>
+            <li>PlantWork</li>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+</Defs>

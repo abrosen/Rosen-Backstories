@@ -66,34 +66,6 @@
     </BackstoryDef>
 
     <BackstoryDef>
-        <defName>Rosen_Sofer</defName>
-        <slot>Adulthood</slot>
-        <title>scribe</title>
-        <titleShort>scribe</titleShort>
-        <description>[PAWN_nameDef] served as a scribe and copyist for their ideoligion.  [PAWN_pronoun]  was responsible for faithfully reproducing [PAWN_possessive] sacred texts by hand and without alteration or blemish.</description>
-        <spawnCategories>
-            <li>Offworld</li>
-        </spawnCategories>
-        <skillGains>
-            <Artistic>4</Artistic>
-            <Intellectual>4</Intellectual>
-        </skillGains>
-        <requiredWorkTags>
-            <li>Artistic</li>
-            <li>Intellectual</li>
-        </requiredWorkTags>
-        <possessions>
-            <Novel>1</Novel>
-            <TextBook>1</TextBook>
-            <Tome MayRequire="Ludeon.RimWorld.Anomaly">1</Tome>
-            <Schematic>1</Schematic>
-        </possessions>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-    </BackstoryDef>
-
-
-    <BackstoryDef>
         <slot>Adulthood</slot>
         <title>Medieval enthusiast</title>
         <defName>Rosen_SCA</defName>
@@ -455,35 +427,6 @@
     </BackstoryDef>
 
     <BackstoryDef>
-        <defName>Rosen_KosherHalal</defName>
-        <title>Theological scholar</title>
-        <titleShort>Theologist</titleShort>
-        <description>[PAWN_nameDef] was a well respected scholar in [PAWN_possessive] ideoligion.  [PAWN_pronoun] served on a council to decide whether certain animals found on the Rim were acceptable to eat based on their ideoligion's existing dietary restrictions.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Social>2</Social>
-            <Cooking>4</Cooking>
-            <Intellectual>4</Intellectual>
-        </skillGains>
-        <spawnCategories>
-            <li>Offworld</li>
-            <li>Researcher</li>
-            <li>ImperialRoyal</li>
-        </spawnCategories>
-        <workDisables>
-            <li>Mining</li>
-        </workDisables>
-        <requiredWorkTags>
-            <li>Intellectual</li>
-        </requiredWorkTags>
-        <bodyTypeMale>Fat</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <forcedTraits>
-            <VTE_RefinedPalate MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_RefinedPalate>
-        </forcedTraits>
-    </BackstoryDef>
-
-    <BackstoryDef>
         <defName>Rosen_Klutz</defName>
         <title>Klutzy researcher</title>
         <titleShort>Klutz</titleShort>
@@ -818,30 +761,6 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
     
-
-    <BackstoryDef>
-        <defName>Rosen_Rashi</defName> <!-- kinda, the vintner bit is tradition -->
-        <title>theologian</title>
-        <titleShort>theologian</titleShort>
-        <description>[PAWN_nameDef] became well known for [PAWN_possessive] extensive commentaries on [PAWN_possessive] ideoligion's sacred texts.  However, few knew that [PAWN_possessive] scholarship was merely a hobby, and that [PAWN_pronoun] made a living as a vintner.</description>
-        <slot>Adulthood</slot>
-        <spawnCategories>
-            <li>Offworld</li>
-            <li>Researcher</li>
-            <li>Farmer</li>
-        </spawnCategories>
-        <skillGains>
-            <Intellectual>4</Intellectual>
-            <Plants>6</Plants>
-        </skillGains>
-        <requiredWorkTags>
-            <li>PlantWork</li>
-            <li>Intellectual</li>
-        </requiredWorkTags>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-    </BackstoryDef>
-    
     <BackstoryDef>
         <defName>Rosen_Unremarkble</defName>
         <title>ordinary colonist</title>
@@ -1007,7 +926,7 @@
         <defName>Rosen_Comedian</defName>
         <title>comedian</title>
         <titleShort>comedian</titleShort>
-        <description>[PAWN_nameDef] made a living as a comedian. [PAWN_pronoun] was noted for [PAWN_possessive] quick wit, insightful humor, and ability to liven up any situation</description>
+        <description>[PAWN_nameDef] made a living as a comedian. [PAWN_pronoun] was noted for [PAWN_possessive] quick wit, insightful humor, and ability to liven up any situation.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -1122,7 +1041,6 @@
         </requiredWorkTags>
     </BackstoryDef>
 
-
     <BackstoryDef>
         <defName>Rosen_Lawyer1</defName>
         <title>urbworld prosecutor</title>
@@ -1186,15 +1104,183 @@
 
     </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>Rosen_Clerk1</defName>
+        <title>clerk</title>
+        <titleShort>clerk</titleShort>
+        <description>[PAWN_nameDef] worked a thankless job as a tiny cog in a large bureaucratic machine.   [PAWN_pronoun] spent much of [PAWN_possessive] time discreetly listening to audiobooks while mindlessly plugging away at spreadsheets.  [PAWN_pronoun] learned surprising breadth of material from all that reading.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Crafting>2</Crafting>
+            <Artistic>2</Artistic>
+            <Social>2</Social>
+            <Medicine>1</Medicine>
+            <Plants>1</Plants>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Social</li>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Clerk2</defName>
+        <title>clerk</title>
+        <titleShort>clerk</titleShort>
+        <description>[PAWN_nameDef] worked a thankless job as a tiny cog in a large bureaucratic machine.   However, [PAWN_pronoun] had learned a smattering of programming and managed to automate most of [PAWN_possessive] work, allowing [PAWN_objective] spend most of their working hours looking at cat videos and arguing about politics with strangers.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Crafting>2</Crafting>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Social</li>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Clerk3</defName>
+        <title>clerk</title>
+        <titleShort>clerk</titleShort>
+        <description>[PAWN_nameDef] worked a thankless job as a tiny cog in a large bureaucratic machine.   [PAWN_pronoun] overcompensated for spending most of [PAWN_possessive] day at a desk by keeping a vigorous exercise regimen. </description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Social>2</Social>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <forcedTraits>
+            <Tough />
+        </forcedTraits>
+        <requiredWorkTags>
+            <li>Social</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_Clerk4</defName>
+        <title>clerk</title>
+        <titleShort>clerk</titleShort>
+        <description>[PAWN_nameDef] was one of a faceless team of software engineers in a large and extremely powerful urbworld corporation. [PAWN_pronoun] was extremely well paid, but hated [PAWN_possessive] job.\n\nOne day, [PAWN_nameDef] realized that [PAWN_pronoun] could pay a programmer from the lower levels of the urbworld to do [PAWN_possessive] work for [PAWN_objective], leaving [PAWN_objective]self free to do as [PAWN_pronoun] pleased.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>3</Social>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <forcedTraits>
+            <Industriousness>-1</Industriousness>
+        </forcedTraits>
+        <requiredWorkTags>
+            <li>Social</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Manager1</defName>
+        <title>manager</title>
+        <titleShort>manager</titleShort>
+        <description>[PAWN_nameDef] was rapidly promoted up the management chain due to a combination of charm, ruthlessness, and a talent for getting things done. [PAWN_pronoun] was particularily driven to get what [PAWN_pronoun] deserved, and wasn't above getting [PAWN_possessive] hands dirty if [PAWN_possessive] underlings were not up to the task at hand.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Social>6</Social>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <forcedTraits>
+            <Greedy />
+            <Industriousness>2</Industriousness>
+        </forcedTraits>
+        <requiredWorkTags>
+            <li>Social</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Manager2</defName>
+        <title>manager</title>
+        <titleShort>manager</titleShort>
+        <description>[PAWN_nameDef] was rapidly promoted until, as per the Peter Principle, found themselves in a role [PAWN_pronoun] were completely unqualified for.  [PAWN_pronoun] never seemed to understand whey so many of [PAWN_possessive] subordinates quit their jobs.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+        </skillGains>
+        <forcedTraits>
+            <Abrasive />
+        </forcedTraits>
+        <requiredWorkTags>
+            <li>Social</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Uwu1</defName>
+        <title>silent model</title>
+        <titleShort>model</titleShort>
+        <description>[PAWN_nameDef] was considered to be incredibly attractive, at least until [PAWN_pronoun] opened [PAWN_possessive] mouth. [PAWN_pronoun] made the most of it and made a living as a model and acting roles that didn't require [PAWN_pronoun] to speak.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Artistic>6</Artistic>
+        </skillGains>
+        <forcedTraits>
+            <Beauty>2</Beauty>
+            <AnnoyingVoice />
+        </forcedTraits>
+        <requiredWorkTags>
+            <li>Social</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    
+
+
+
     
 
 
     <!--
     Other Ideas:
-    Eden Seeker
-    Holy Land Seeker
     Hobbyist Composer 
-    Ship Mechanic
     Ship Captain
     Ship Engineer
     Ship Pilot
@@ -1202,11 +1288,9 @@
     Extraction Expert/Soldier
     Archeologist
     Wise Rebbe
-    Sage
+    Sage 
     Refugee
     Prophet
     Priest/Priestess  
-    Clerk
-    AnnoyingVoice/Beauty Pairing
     -->
 </Defs>

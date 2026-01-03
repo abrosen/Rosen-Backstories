@@ -335,8 +335,7 @@
         <titleShort>seamster</titleShort>
         <titleFemale>seamstress</titleFemale>
         <titleShortFemale>seamstress</titleShortFemale>
-        <description>[PAWN_nameDef] was a member of the Seamstresses' Guild in a large city.  However, anyone calling upon the guild to have their clothing mended would be disappointed, as the members of the guild were better known for performing services that didn't require any garments.
-        </description>
+        <description>[PAWN_nameDef] was a member of the Seamstresses' Guild in a large city.  However, anyone calling upon the guild to have their clothing mended would be disappointed, as the members of the guild were better known for performing services that didn't require any garments.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Social>6</Social>

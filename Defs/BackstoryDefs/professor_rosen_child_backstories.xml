@@ -368,7 +368,7 @@
         <title>apprentice blacksmith</title>  
         <titleShort>blacksmith</titleShort> 
         <slot>Childhood</slot>
-        <description>[PAWN_nameDef]'s parents recognized [PAWN_pronoun] had an affinity for metalwork and sent [PAWN_objective] to work under a blacksmith at an early age.</description>  
+        <description>[PAWN_nameDef]'s parents recognized [PAWN_pronoun] had an affinity for metalwork and sent [PAWN_objective] to work under a blacksmith.</description>  
         <skillGains>
             <Crafting>1</Crafting>
             <Melee>1</Melee>

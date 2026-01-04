@@ -148,6 +148,7 @@
         <description>[PAWN_nameDef] studied at a prestigious medical academy.  Despite glitterworld technology being able to heal the most grevious of wounds with the push of a button, [PAWN_possessive] university emphasized the need for the traditional, hands-on skills so many physicians had relied on over the millennia.</description>  
         <skillGains>
             <Crafting>1</Crafting>
+            <Artistic>1</Artistic>
             <Intellectual>1</Intellectual>
             <Medicine>3</Medicine>
         </skillGains>  

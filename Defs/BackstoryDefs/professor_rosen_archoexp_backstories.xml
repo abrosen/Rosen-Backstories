@@ -30,7 +30,7 @@
         <slot>Childhood</slot>
         <description>Born to an impovershed class on a crowded but technically advanced urbworld, [PAWN_nameDef] took the first possible shuttle offworld, joining a research expedition as an armed guard. When not on duty, [PAWN_nameDef] occupied [PAWN_objective]self with cultivating numerous potted plants and helping out in the hydroponics bay.</description>  
         <skillGains>
-            <Shooting>3</Shooting>
+            <Shooting>1</Shooting>
             <Plants>2</Plants>
             <Intellectual>1</Intellectual>
             <Medicine>1</Medicine>
@@ -164,7 +164,8 @@
             <Melee>4</Melee>
             <Construction>2</Construction>
             <Medicine>2</Medicine>
-            <Artistic>-4</Artistic>
+            <Crafting>2</Crafting>
+            <Artistic>-2</Artistic>
         </skillGains>
         <forcedTraits>
             <Transhumanist />

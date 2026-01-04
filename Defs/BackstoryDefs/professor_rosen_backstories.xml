@@ -1272,7 +1272,30 @@
     </BackstoryDef>
 
     
-
+    <!--MST3K 810-->
+    <BackstoryDef>
+        <defName>Rosen_MST3K810</defName>
+        <title>section 810 operative</title>
+        <titleShort>bugswatter</titleShort>
+        <description>[PAWN_nameDef] was part of a military team dispatched to handle an unknown threat in a small town. [PAWN_pronoun] barely managed to survive what later became recorded his planet's first contact with feralisks, a highly ferocious, genetically engineered breed of giant spider. [PAWN_possessive] world was overrun shortly thereafter.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>6</Melee>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <forcedTraits>
+            <Tough />
+        </forcedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+    </BackstoryDef>
 
 
     

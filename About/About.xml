@@ -11,7 +11,8 @@
 GNU Terry Pratchett.
     </description>
     <loadAfter>
-    <li>VanillaExpanded.VanillaTraitsExpanded</li>
-    <li>VanillaExpanded.VARME</li>
+        <li>VanillaExpanded.VanillaTraitsExpanded</li>
+        <li>VanillaExpanded.VARME</li>
+        <li>professor.rosen.traits.</li>
     </loadAfter>
 </ModMetaData>

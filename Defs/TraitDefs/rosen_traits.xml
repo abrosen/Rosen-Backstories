@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <!--
-    <TraitDef>
-    <defName>RosenADHDTest</defName>
-    <commonality>0.5</commonality>
-    <degreeDatas>
-      <li>
-        <label>ADHD</label>
-        <description>{PAWN_nameDef} has difficulties with executive functioning and maintaining focus.</description>
-        <statOffsets>
-          <JoyFallRateFactor>1</JoyFallRateFactor>
-        </statOffsets>
-      </li>
-    </degreeDatas>
-  </TraitDef>
+    
 
 
 
@@ -89,7 +77,7 @@
                 <ImmunityGainSpeed>0.1</ImmunityGainSpeed>
               </statOffsets>
               <statFactors>
-                  <RestFallRateFactor>0.9</RestFallRateFactor>
+                  <RestFallRateFactor>0.8</RestFallRateFactor>
               </statFactors>
               <hungerRateFactor>0.8</hungerRateFactor>
             </li>

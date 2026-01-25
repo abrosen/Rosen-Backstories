@@ -455,7 +455,7 @@
         <title>deathgame survivor</title>  
         <titleShort>survivor</titleShort> 
         <slot>Childhood</slot>
-        <description>The government of [PAWN_nameDef]'s planet ran an annual deathgame, where random children were sent to a remote location to face off against each other in a brutal contest. [PAWN_nameDef] was one of the few survivors, but [PAWN_possessive] was scarred.</description>  
+        <description>The government of [PAWN_nameDef]'s planet ran an annual deathgame, where random children were sent to a remote location to face off against each other in a brutal contest. [PAWN_nameDef] was one of the few survivors, but [PAWN_possessive] was left scarred by the experience.</description>  
         <skillGains>
             <Melee>2</Melee>
             <Construction>2</Construction>

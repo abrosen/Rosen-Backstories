@@ -1,39 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <BackstoryDef>
-        <slot>Adulthood</slot>
-        <title>Zoo interpreter</title>
-        <defName>Rosen_ZooInt</defName>
-        <titleShort>Interpreter</titleShort>
-        <description>[PAWN_nameDef] worked at a famous zoo as an educator, explaining the behavior of animals to guests. [PAWN_possessive] passion about wildlife was extremely contagious to everyone [PAWN_pronoun] met.</description>
-        <spawnCategories>
-            <li>Offworld</li>
-            <li>Outlander</li>
-            <li>Scientist</li>
-            <li>Researcher</li>
-        </spawnCategories>
-        <skillGains>
-            <Animals>4</Animals>
-            <Social>4</Social>
-            <Intellectual>2</Intellectual>
-        </skillGains>
-        <requiredWorkTags>
-            <li>Social</li>
-            <li>Animals</li>
-            <li>Intellectual</li>
-        </requiredWorkTags>
-        <disallowedTraits>
-            <Psychopath />
-            <Bloodlust />
-        </disallowedTraits>
-        <forcedTraits>
-            <VTE_Menagerist MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Menagerist>
-            <Nerves>1</Nerves>
-        </forcedTraits>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-    </BackstoryDef>
-
     <!-- Library of Babel-->
     <BackstoryDef>
         <defName>Rosen_BabelAgent</defName>
@@ -66,9 +32,9 @@
     </BackstoryDef>
 
     <BackstoryDef>
+        <defName>Rosen_SCA</defName>
         <slot>Adulthood</slot>
         <title>Medieval enthusiast</title>
-        <defName>Rosen_SCA</defName>
         <titleShort>Scadian</titleShort>
         <description>Teaching at a glitterworld university, [PAWN_nameDef]'s research focused on the history of combat techniques from thousands of years ago.  This may just have been an excuse for [PAWN_objective] to get paid for [PAWN_possessive] hobby of dressing up in armor and pretending to be a knight.\n\nWhile [PAWN_nameDef] spent a considerable amount of time outdoors thanks to [PAWN_possessive] hobby, very little of it was spent in green spaces or wilderness.</description>
         <spawnCategories>
@@ -575,45 +541,7 @@
     </BackstoryDef>
 
 
-    <!--Adapted from BiosphereManager95 in core
-    Differences is forced trait(which forces passion)
-    And this pawn can haul
-    And finally, also a researcher
-    -->
-    <BackstoryDef>
-        <defName>Rosen_NaturePreserveManager</defName>
-        <title>biosphere manager</title>
-        <titleShort>conservationist</titleShort>
-        <description>[PAWN_nameDef] lived on a section of a peaceful glitterworld where people lived in harmony with nature. [PAWN_pronoun] was in charge of maintaining one of the extremely large nature preserves on the planet's surface.  Drones and mechanoids handled most of the menial labor, which left [PAWN_nameDef] with plenty of time to study plant and animal life in the field.</description>
-        <slot>Adulthood</slot>
-        <skillGains>
-            <Shooting>-4</Shooting>
-            <Melee>-4</Melee>
-            <Animals>2</Animals>
-            <Plants>2</Plants>
-            <Intellectual>2</Intellectual>
-        </skillGains>
-        <forcedTraits>
-            <VTE_Ecologist MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Ecologist>
-        </forcedTraits>
-        <requiredWorkTags>
-            <li>PlantWork</li>
-            <li>Animals</li>
-            <li>Artistic</li>
-        </requiredWorkTags>
-        <workDisables>
-            <li>Cleaning</li>
-            <li>Crafting</li>
-            <li>Cooking</li>
-        </workDisables>
-        <spawnCategories>
-            <li>Offworld</li>
-            <li>Farmer</li>
-            <li>Researcher</li>
-        </spawnCategories>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-    </BackstoryDef>
+    
 
     <BackstoryDef>
         <defName>Rosen_Spy</defName>
@@ -919,6 +847,9 @@
         <requiredWorkTags>
             <li>Intellectual</li>
         </requiredWorkTags>
+        <possessions>
+            <Prometheum MayRequire="CETeam.CombatExtended">20</Prometheum>
+        </possessions>
     </BackstoryDef>
 
 

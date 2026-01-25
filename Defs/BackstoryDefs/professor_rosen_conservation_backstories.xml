@@ -196,7 +196,7 @@
         <slot>Adulthood</slot>
         <description>[PAWN_nameDef] was in charge of patrolling the border of a wide containment zone that was the home of numerous feral mechanoids.  If a particularly threatening specimen was spotted, [PAWN_pronoun] would organize a hunting party to neutralize it.</description>
         <skillGains>
-            <Shooting>4</Shooting>
+            <Shooting>2</Shooting>
             <Animals>2</Animals>
             <Crafting>2</Crafting>
             <Intellectual>2</Intellectual>
@@ -213,5 +213,54 @@
         <possessions>
             <Gun_BoltActionRifle />
         </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Veterinarian1</defName>
+        <title>veterinarian</title>
+        <titleShort>veterinarian</titleShort>
+        <slot>Adulthood</slot>
+        <description>[PAWN_nameDef] practiced the medical treatment of animals.  Most of [PAWN_possessive] patients were the typical cats and dogs, although occasionally [PAWN_pronoun] had the opportunity to work with more exotic species.</description>
+        <skillGains>
+            <Medicine>4</Medicine>
+            <Animals>4</Animals>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+        </spawnCategories>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <requiredWorkTags>
+            <li>Caring</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_NaturePreserver13</defName>
+        <title>preservation manager</title>
+        <titleShort>conservationist</titleShort>
+        <slot>Adulthood</slot>
+        <description>Some poachers assumed that because a nearby glitterworld was peaceful, its nature preserves would make easy hunting of rare (and thus valuable) animals.  [PAWN_nameDef] was in charge of maintaining one such nature preserve's biodiversity.  [PAWN_pronoun] educated the public on how important biodiversity was and fragile some ecosystems could be.  Poachers were taught a supplemental lesson on how other ecosystems were not so easy to disrupt.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Construction>2</Construction>
+            <Medicine>1</Medicine>
+            <Animals>4</Animals>
+            <Plants>4</Plants>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+        </spawnCategories>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <requiredWorkTags>
+            <li>Violent</li>
+            <li>Animals</li>
+            <li>PlantWork</li>
+            <li>Caring</li>
+        </requiredWorkTags>
     </BackstoryDef>
 </Defs>

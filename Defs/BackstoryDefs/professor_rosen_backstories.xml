@@ -339,7 +339,7 @@
         <defName>Rosen_Hippocratic</defName>
         <title>charitable physician</title>
         <titleShort>physician</titleShort>
-        <description>[PAWN_nameDef] would travel to settlements without medical infrastucture to provide care for those who would otherwise be unable to receive it.  Despite the constant danger, [PAWN_pronoun] abided by a millennia old oath to do no harm.\n\n[PAWN_possessive] patients would remember [PAWN_possessive] calm and kind demeanor years after.</description>
+        <description>[PAWN_nameDef] would travel to settlements without medical infrastructure to provide care for those who would otherwise be unable to receive it.  Despite the constant danger, [PAWN_pronoun] abided by a millennia old oath to do no harm.\n\n[PAWN_possessive] patients would remember [PAWN_possessive] calm and kind demeanor years after.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Medicine>8</Medicine>
@@ -1229,8 +1229,76 @@
     </BackstoryDef>
 
 
-    
+    <BackstoryDef>
+        <defName>Rosen_TreasureHunter1</defName>
+        <title>treasure hunter</title>
+        <titleShort>thief</titleShort>
+        <description>[PAWN_nameDef] was a self-proclaimed treasure hunter.  However, most of the treasure hunting [PAWN_pronoun] did was in other people's pockets. </description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <forcedTraits>
+            <SpeedOffset>2<SpeedOffset/>
+        </forcedTraits>
+        <possessions>
+            <MeleeWeapon_Knife />
+        </possessions>     
+    </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>Rosen_TreasureHunter2</defName>
+        <title>treasure hunter</title>
+        <titleShort>explorer</titleShort>
+        <description>[PAWN_nameDef] studied notes and reports from various expeditions, scientific surveys, and travel diaries, searching for signs of treasure and artifacts that remained unclaimed.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <forcedTraits>
+            <SpeedOffset>2<SpeedOffset/>
+        </forcedTraits>
+        <possessions>
+            <MeleeWeapon_Knife />
+        </possessions>     
+    </BackstoryDef>
+
+
+
+    <BackstoryDef>
+        <defName>Rosen_Engineer1</defName>
+        <title>constuction engineer</title>
+        <titleShort>engineer</titleShort>
+        <description>[PAWN_nameDef] oversaw and participated in the construction of large buildings.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>6</Construction>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Constructing</li>
+        </requiredWorkTags>
+    </BackstoryDef>
 
     <!--
     Other Ideas:

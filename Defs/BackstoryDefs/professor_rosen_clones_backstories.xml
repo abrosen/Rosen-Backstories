@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <BackstoryDef Name="Rosen_CloneChildAbstract" Abstract="True">
-        <slot>Childhood</slot>
-        <title>clone</title>
-        <titleShort>clone</titleShort>
-        <titleFemale>clone</titleFemale>
-        <titleShortFemale>clone</titleShortFemale>
-        <description>[PAWN_nameDef] was born as a clone of Gene Eric, considered to be the most ordinary person who ever lived.</description>
-        <spawnCategories>
-            <li>Offworld</li>
-        </spawnCategories>
-    </BackstoryDef>
-
     <BackstoryDef>
         <defName>Rosen_GeneticHeir</defName>
         <title>genetic heir</title>  
@@ -35,13 +23,27 @@
         </forcedTraits>
     </BackstoryDef>
 
-    <!-- 
-    clone soldier
-    clone soldier (Jango Fett)
-    clone miner
-    clone farmer
-    clone rebel - their generation's complaiance chips were faulty
-    -->
+    <BackstoryDef>
+        <defName>Rosen_CloneSoldier</defName>
+        <title>clone soldier</title>  
+        <titleShort>clone</titleShort> 
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] was created as a disposable soldier to fight in a vast interplanetary war.</description>  
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>4</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>ImperialFighter</li>
+            <li>Cult</li>
+        </spawnCategories>
+        <workDisables>
+            <li>ManualSkilled</li>
+        </workDisables>
+    </BackstoryDef>
+
 
 
 </Defs>

@@ -11,12 +11,11 @@
         <description>[PAWN_nameDef] worked at a famous zoo as an educator, explaining the behavior of animals to guests. [PAWN_possessive] passion about wildlife was extremely contagious to everyone [PAWN_pronoun] met.</description>
         <spawnCategories>
             <li>Offworld</li>
-            <li>Outlander</li>
             <li>Scientist</li>
             <li>Researcher</li>
         </spawnCategories>
         <skillGains>
-            <Animals>4</Animals>
+            <Animals>6</Animals>
             <Social>4</Social>
             <Intellectual>2</Intellectual>
         </skillGains>
@@ -39,6 +38,39 @@
             <TextBook>1</TextBook>
         </possessions>
     </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Zookeeper</defName>
+        <title>zookeeper</title>
+        <titleShort>zookeeper</titleShort>
+        <slot>Adulthood</slot>       
+        <description>[PAWN_nameDef] worked at a zoo, taking care of the animals and their habitats, ensuring the animals had a proper diet and enrichment.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Scientist</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Plants>2</Plants>
+            <Animals>6</Animals>
+            <Social>2</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Social</li>
+            <li>Animals</li>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <disallowedTraits>
+            <Psychopath />
+            <Bloodlust />
+        </disallowedTraits>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    
 
     <BackstoryDef>
         <defName>Rosen_HunterChild1</defName>

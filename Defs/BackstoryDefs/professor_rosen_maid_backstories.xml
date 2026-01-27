@@ -1,30 +1,84 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-     <BackstoryDef Name="Rosen_MaidAbstract" Abstract="True">
-        <slot>Adulthood</slot>
-        <title>housekeeper</title>
-        <titleShort>housekeeper</titleShort>
-        <titleFemale>housekeeper</titleFemale>
-        <titleShortFemale>housekeeper</titleShortFemale>
-        <description>A loyal housekeeper working for the Unimplemented Tag family.</description>
+
+    <BackstoryDef>
+        <defName>Rosen_MaidChild1</defName>
+        <slot>Childhood</slot>
+        <titleFemale>scullery maid</titleFemale>
+        <titleShortFemale>maid</titleShortFemale>
+        <title>hallboy</title>
+        <titleShort>hallboy</titleShort>
+        <description>[PAWN_nameDef] spent much of their early life as a low ranked domestic worker in service of a great house, doing some of least pleasant and menial jobs. [PAWN_pronoun] learned to do these tasks as quickly and efficiently as possible.</description>
         <spawnCategories>
             <li>Offworld</li>
+            <li>Pirate</li>
+            <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
         </spawnCategories>
         <skillGains>
-            <Cooking>2</Cooking>
             <Social>2</Social>
+            <Cooking>2</Cooking>
         </skillGains>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
+        <forcedTraits>
+            <CleaningSpeedOffset MayRequire="Aelanna.CleaningSpeed">1</CleaningSpeedOffset>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Housekeeper1</defName>
+        <slot>Adulthood</slot>
+        <titleFemale>housekeeper</titleFemale>
+        <titleShortFemale>housekeeper</titleShortFemale>
+        <title>butler</title>
+        <titleShort>butler</titleShort>
+        <description>[PAWN_nameDef] was the seniormost servant in a great house, responsible for the upkeep of estate and supervision of numerous other domestic workers.</description>
         <spawnCategories>
             <li>Offworld</li>
+            <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
         </spawnCategories>
+        <skillGains>
+            <Construction>4</Construction>
+            <Crafting>4</Crafting>
+            <Social>4</Social>
+            <Cooking>4</Cooking>
+        </skillGains>
         <requiredWorkTags>
-            <li>Cooking</li>
-            <li>Social</li>
-            <li>ManualDumb</li>
+            <li>AllWork</li>
         </requiredWorkTags>
-     </BackstoryDef>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_Maid1</defName>
+        <slot>Adulthood</slot>
+        <titleFemale>lady's maid</titleFemale>
+        <titleShortFemale>maid</titleShortFemale>
+        <title>valet</title>
+        <titleShort>valet</titleShort>
+        <description>[PAWN_nameDef] was a senior servant in a great house, responsible for the upkeep of  [PAWN_possessive] employer's clothing and personal items, grooming, and the handling of numerous other minor matters.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Social>6</Social>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <requiredWorkTags>
+            <li>ManualDumb</li>
+            <li>ManualSkilled</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+
+
 
     <!-- 
     Normal Maid 1

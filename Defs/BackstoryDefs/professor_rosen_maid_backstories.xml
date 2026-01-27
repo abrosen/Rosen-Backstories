@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+     <BackstoryDef Name="Rosen_MaidAbstract" Abstract="True">
+        <slot>Adulthood</slot>
+        <title>housekeeper</title>
+        <titleShort>housekeeper</titleShort>
+        <titleFemale>housekeeper</titleFemale>
+        <titleShortFemale>housekeeper</titleShortFemale>
+        <description>A loyal housekeeper working for the Unimplemented Tag family.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>2</Cooking>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Cooking</li>
+            <li>Social</li>
+            <li>ManualDumb</li>
+        </requiredWorkTags>
+     </BackstoryDef>
+
+    <!-- 
+    Normal Maid 1
+    Normal Maid 2
+    Super cleaner maid
+    Combat Maid
+    Bodyguard Maid
+    Cultist Maid
+    Rich Maid
+    -->
+
+
+</Defs>

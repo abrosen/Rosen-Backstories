@@ -67,28 +67,6 @@
         </forcedTraits>
     </BackstoryDef>
 
-    <BackstoryDef>
-        <defName>Rosen_GeneticHeir</defName>
-        <title>genetic heir</title>  
-        <titleShort>heir</titleShort> 
-        <slot>Childhood</slot>
-        <description>[PAWN_nameDef] was created as an almost perfect genetic clone of [PAWN_possessive] mother, altered to be more perfect in every way.  [PAWN_pronoun] spent most of [PAWN_possessive] childhood coming to terms with the insurmountable expectations placed upon [PAWN_objective].</description>  
-        <skillGains>
-            <Social>2</Social>
-            <Crafting>2</Crafting>
-            <Intellectual>2</Intellectual>
-        </skillGains>
-        <spawnCategories>
-            <li>Offworld</li>
-            <li>Researcher</li>
-            <li>Cult</li>
-            <li>ImperialRoyal</li>
-        </spawnCategories>
-        <forcedTraits>
-            <VTE_Perfectionist MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Perfectionist>
-            <!--<Rosen_Trait_Perfect /> Trollolololo-->
-        </forcedTraits>
-    </BackstoryDef>
 
     <BackstoryDef>
         <defName>Rosen_ShipbornEngineer</defName>

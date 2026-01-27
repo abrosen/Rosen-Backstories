@@ -155,7 +155,62 @@
     </BackstoryDef>
 
 
+    <BackstoryDef>
+        <defName>Rosen_exile1</defName>
+        <title>exile</title>
+        <titleShort>exile</titleShort>
+        <description>[PAWN_nameDef] was exiled from [PAWN_possessive] original tribe and learned how to survive on [PAWN_possessive] own before finding a new home.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+            <Plants>2</Plants>
+            <Construction>2</Construction>
+            <Cooking>2</Cooking>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Violent</li>
+            <li>Constructing</li>
+            <li>Cooking</li>
+            <li>Caring</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_healer1</defName>
+        <title>healer</title>
+        <titleShort>healer</titleShort>
+        <titleFemale>wisewoman</titleFemale>
+        <titleShortFemale>wisewoman</titleShortFemale>
+        <description>[PAWN_nameDef] learned the secrets of healing and tending to the sick passed down by the elders of [PAWN_possessive] tribe.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Cooking>4</Cooking>
+            <Medicine>4</Medicine>
+        </skillGains>
+        <spawnCategories>
+            <li>Tribal</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Cooking</li>
+            <li>Caring</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <possessions>
+            <MedicineHerbal>4~20</MedicineHerbal>
+        </possessions>
+    </BackstoryDef>
+
+
     <!-- Possible future tribal backstories:
+    refugee child
     Exile
     Wanderer
     Kinslayer

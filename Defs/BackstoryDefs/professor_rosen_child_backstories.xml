@@ -110,12 +110,71 @@
         <skillGains>
             <Artistic>3</Artistic>
         </skillGains>
-        <requiredWorkTags>
-            <li>Artistic</li>
-        </requiredWorkTags>
         <spawnCategories>
             <li>Offworld</li>
             <li>Outlander</li>
+            <li>Cult</li>
+            <li>ImperialRoyal</li>
+            <li>ImperialCommon</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Student1</defName>
+        <title>student</title>
+        <titleShort>student</titleShort>
+        <description>[PAWN_nameDef] was fortunate enough to be born where the majority of the population was able to receive a formal education.  [PAWN_pronoun] thrived in this environment and devloped a love of learning for learning's sake.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Cult</li>
+            <li>ImperialRoyal</li>
+            <li>ImperialCommon</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <forcedTraits>
+            <FastLearner />
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Student2</defName>
+        <title>stressed student</title>
+        <titleShort>student</titleShort>
+        <description>[PAWN_nameDef] was raised in an absurdly competitive enviroment, where even one's performance in daycare had a huge impact on one's future prospects.  [PAWN_nameDef] managed receive stellar marks in [PAWN_possessive] education, but the stress had a profound impact on [PAWN_possessive] mental health.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Cult</li>
+            <li>ImperialRoyal</li>
+            <li>ImperialCommon</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <forcedTraits>
+            <TooSmart />
+            <Neurotic>2</Neurotic>
+        </forcedTraits>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_Student3</defName>
+        <title>student</title>
+        <titleShort>student</titleShort>
+        <description>[PAWN_nameDef] received a formal education and performed neither notably well nor exceptionally poorly.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
             <li>Cult</li>
             <li>ImperialRoyal</li>
             <li>ImperialCommon</li>
@@ -351,9 +410,9 @@
         <title>art apprentice</title>  
         <titleShort>artist</titleShort> 
         <slot>Childhood</slot>
-        <description>[PAWN_nameDef] began their craft at an early age, and apprenticed under a skilled artist.</description>  
+        <description>[PAWN_nameDef] showed a natural talent for art at an early age and was taken under the wing of a skilled artist.</description>  
         <skillGains>
-            <Artistic>2</Artistic>
+            <Artistic>3</Artistic>
         </skillGains>
         <spawnCategories>
             <li>Offworld</li>
@@ -442,6 +501,28 @@
             <li>Outlander</li>
             <li>ImperialCommon</li>
         </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_MineChild2</defName>
+        <title>minor miner</title>  
+        <titleShort>miner</titleShort> 
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] grew up in an affluent community but yearned for the mines. [PAWN_pronoun] would often sneak off and explore the nearby abandoned mines.</description>  
+        <skillGains>
+            <Mining>2</Mining>
+            <Construction>1</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
+            <li>ImperialRoyal</li>
+        </spawnCategories>
+        <forcedTraits>
+            <Rosen_Motherlode MayRequire="professor.rosen.traits">0</Rosen_Motherlode>
+        </forcedTraits>
     </BackstoryDef>
 
     <BackstoryDef>

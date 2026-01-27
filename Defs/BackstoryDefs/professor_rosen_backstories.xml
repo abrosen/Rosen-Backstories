@@ -1463,6 +1463,53 @@
 
 
     <BackstoryDef>
+        <defName>Rosen_DystopianDissident3</defName>
+        <title>rebel leader</title>
+        <titleShort>dissident</titleShort>
+        <description>[PAWN_nameDef] was the leader of an armed cell in a broader violent resistance movement against an authoritarian and highly oppressive regime.  [PAWN_pronoun] personally led teams that carried out assassinations and bombings.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Crafting>4</Crafting>
+            <Social>6</Social>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+            <li>Crafting</li>
+            <li>Social</li>
+        </requiredWorkTags>
+        <possessions>
+            <Gun_BoltActionRifle/>
+        </possessions>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <!-- https://www.cia.gov/static/5c875f3ec660e092cf893f60b4a288df/SimpleSabotage.pdf -->
+        <defName>Rosen_DystopianDissident4</defName>
+        <title>disloyal clerk</title>
+        <titleShort>dissident</titleShort>
+        <description>[PAWN_nameDef] worked as one the of many cogs in a totalitarian regime's extensive bureaucracy, but secretly was part of a resistance cell.  Besides passing on intelligence, [PAWN_pronoun] also sabotaged the regime in tiny ways: calling unnecessary meetings, ensuring that communication was done through proper channels, and insisting on perfection on even the most insignificant tasks.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Crafting>4</Crafting>
+            <Social>6</Social>
+        </skillGains>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
         <defName>Rosen_Dictator1</defName>
         <title>former dictator</title>
         <titleShort>dictator</titleShort>
@@ -1487,6 +1534,63 @@
         </possessions>
     </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>Rosen_PerpetualStudent1</defName>
+        <title>perpetual student</title>
+        <titleShort>academic</titleShort>
+        <description>[PAWN_nameDef] never truly "grew up" and instead spent [PAWN_possessive] entire life as a student, relying on [PAWN_possessive] parents's largesse for support as [PAWN_pronoun] earned multiple degrees in various fields.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+            <li>ImperialRoyal</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>10</Intellectual>
+        </skillGains>
+        <forcedTraits>
+            <Industriousness>-1</Industriousness>
+        </forcedTraits>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_PerpetualStudent2</defName>
+        <title>glitterworld academic</title>
+        <titleShort>academic</titleShort>
+        <description>With drones, mechanoids, and other automatons doing most of the work, [PAWN_nameDef] grew up living a life of leisure and luxury. [PAWN_pronoun] spent the vast majority of [PAWN_possessive] time publishing papers, learning about and contributing to whatever particular field caught [PAWN_possessive] interest at the time.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+            <li>ImperialRoyal</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Plants>2</Plants>
+            <Animals>2</Animals>
+            <Social>2</Social>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <forcedTraits>
+            <FastLearner/>
+        </forcedTraits>
+        <workDisables>
+            <li>ManualDumb</li>
+        </workDisables>
+        <requiredWorkTags>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
 
 
 
@@ -1496,6 +1600,9 @@
 
     <!--
     Other Ideas:
+    Perpetual Studen bad
+    Perpertual student glitterworld good
+    woodworker
     Hobbyist Composer 
     Ship Captain
     Ship Engineer

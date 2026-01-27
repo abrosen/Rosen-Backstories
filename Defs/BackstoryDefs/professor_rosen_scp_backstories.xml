@@ -31,6 +31,9 @@
             <Shooting>4</Shooting>
             <Melee>2</Melee>
         </skillGains>
+        <possessions>
+            <Gun_HeavySMG/>
+        </possessions>
     </BackstoryDef>
 
      <BackstoryDef ParentName="RosenSCPOperative" MayRequire="Ludeon.RimWorld.Anomaly">
@@ -44,6 +47,9 @@
             <Shooting>6</Shooting>
             <Melee>6</Melee>
         </skillGains>
+        <possessions>
+            <Gun_HeavySMG/>
+        </possessions>
     </BackstoryDef>
 
     <BackstoryDef ParentName="RosenSCPOperative" MayRequire="Ludeon.RimWorld.Anomaly">
@@ -58,6 +64,9 @@
             <li>Intellectual</li>
             <li>Social</li>
         </requiredWorkTags>
+        <possessions>
+            <Gun_MachinePistol/>
+        </possessions>
     </BackstoryDef>
 
 </Defs>

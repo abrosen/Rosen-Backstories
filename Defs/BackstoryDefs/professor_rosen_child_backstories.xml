@@ -314,8 +314,9 @@
         <slot>Childhood</slot>
         <description>All the young people in [PAWN_nameDef]'s town, including [PAWN_objective] were rounded up and send to forced labor camps for the crime of belonging to the wrong ideoligion. [PAWN_nameDef] barely managed to survive the grueling conditions;  when asked how, [PAWN_pronoun] would only reply "by my wits."</description>  
         <skillGains>
-            <Construction>2</Construction>
-            <Intellectual>2</Intellectual>
+            <Construction>1</Construction>
+            <Mining>1</Mining>
+            <Intellectual>3</Intellectual>
         </skillGains>
         <spawnCategories>
             <li>Offworld</li>
@@ -422,6 +423,24 @@
             <li>ImperialRoyal</li>
             <li>Researcher</li>
             <li>MedievalHigh</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_MineChild1</defName>
+        <title>mine child</title>  
+        <titleShort>mine child</titleShort> 
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] grew up in a mining community and was expected to join the workforce at a young age.</description>  
+        <skillGains>
+            <Mining>2</Mining>
+            <Construction>1</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>ImperialCommon</li>
         </spawnCategories>
     </BackstoryDef>
 

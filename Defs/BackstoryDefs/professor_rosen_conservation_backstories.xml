@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <BackstoryDef>
-        <defName>Rosen_HunterChild1</defName>
-        <title>hunter</title>
-        <titleShort>hunter</titleShort>
-        <slot>Childhood</slot>
-        <description>Upon moving to a heavily forested area in [PAWN_possessive] teens, [PAWN_nameDef] quickly became obsessed with hunting.  The bigger the game, the better.</description>
-        <spawnCategories>
-            <li>Offworld</li>
-            <li>Researcher</li>
-            <li>ImperialRoyal</li>
-            <li>ImperialCommon</li>
-            <li>ImperialFighter</li>
-        </spawnCategories>
-        <skillGains>
-            <Shooting>2</Shooting>
-            <Animals>1</Animals>
-        </skillGains>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
-        <possessions>
-            <Gun_PumpShotgun/>
-        </possessions>
-    </BackstoryDef>
+    
 
     <BackstoryDef>
         <defName>Rosen_ZooInt</defName>
@@ -62,6 +40,30 @@
         </possessions>
     </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>Rosen_HunterChild1</defName>
+        <title>hunter</title>
+        <titleShort>hunter</titleShort>
+        <slot>Childhood</slot>
+        <description>Upon moving to a heavily forested area in [PAWN_possessive] teens, [PAWN_nameDef] quickly became obsessed with hunting.  The bigger the game, the better.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Researcher</li>
+            <li>ImperialRoyal</li>
+            <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Cooking>1</Cooking>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <possessions>
+            <Gun_PumpShotgun/>
+        </possessions>
+    </BackstoryDef>
 
     <BackstoryDef>
         <defName>Rosen_MechanoidHunter1</defName>
@@ -169,7 +171,7 @@
         <description>[PAWN_nameDef] hunted animals purely for profit, without a care for the law, morals, or sustainability of such practices.</description>
         <skillGains>
             <Shooting>4</Shooting>
-            <Melee>4</Melee>
+            <Cooking>2</Cooking>
             <Animals>4</Animals>
         </skillGains>
         <spawnCategories>

@@ -662,7 +662,7 @@
         <defName>Rosen_MoreDakka</defName>
         <title>gunner</title>
         <titleShort>gunner</titleShort>
-        <description>[PAWN_nameDef] firmly believed that any problem could be solved with the judicious application of more firepwower.  Unfortunately, [PAWN_possessive] passion for destruction left very little room any interest in construction.</description>
+        <description>[PAWN_nameDef] firmly believed that any problem could be solved with the judicious application of more firepower.  Unfortunately, [PAWN_possessive] passion for destruction left very little room any interest in construction.</description>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>Offworld</li>
@@ -727,6 +727,7 @@
         </requiredWorkTags>
         <skillGains>
             <Melee>6</Melee>
+            <Cooking>2</Cooking>
             <Plants>4</Plants>
             <Social>2</Social>
         </skillGains>
@@ -1049,10 +1050,10 @@
         <skillGains>
             <Intellectual>2</Intellectual>
             <Crafting>2</Crafting>
-            <Artistic>2</Artistic>
             <Social>2</Social>
             <Medicine>1</Medicine>
             <Plants>1</Plants>
+            <Cooking>1</Cooking>
         </skillGains>
         <requiredWorkTags>
             <li>Social</li>
@@ -1086,7 +1087,7 @@
         <defName>Rosen_Clerk3</defName>
         <title>clerk</title>
         <titleShort>clerk</titleShort>
-        <description>[PAWN_nameDef] worked a thankless job as a tiny cog in a large bureaucratic machine.   [PAWN_pronoun] overcompensated for spending most of [PAWN_possessive] day at a desk by keeping a vigorous exercise regimen. </description>
+        <description>[PAWN_nameDef] worked a thankless job as a tiny cog in a large bureaucratic machine.   [PAWN_pronoun] overcompensated for spending most of [PAWN_possessive] day at a desk by keeping a vigorous exercise regimen and diet.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Hulk</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -1096,13 +1097,14 @@
         <skillGains>
             <Melee>4</Melee>
             <Social>2</Social>
-            <Artistic>2</Artistic>
+            <Cooking>4</Cooking>
         </skillGains>
         <forcedTraits>
-            <Tough />
+            <Rosen_Burly MayRequire="professor.rosen.traits">2</Rosen_Burly>
         </forcedTraits>
         <requiredWorkTags>
             <li>Social</li>
+            <li>Cooking</li>
         </requiredWorkTags>
     </BackstoryDef>
 
@@ -1160,7 +1162,7 @@
         <defName>Rosen_Manager2</defName>
         <title>manager</title>
         <titleShort>manager</titleShort>
-        <description>[PAWN_nameDef] was rapidly promoted until, as per the Peter Principle, found themselves in a role [PAWN_pronoun] were completely unqualified for.  [PAWN_pronoun] never seemed to understand whey so many of [PAWN_possessive] subordinates quit their jobs.</description>
+        <description>[PAWN_nameDef] was rapidly promoted until, as per the Peter Principle, found themselves in a role [PAWN_pronoun] were completely unqualified for.  [PAWN_pronoun] never seemed to understand why so many of [PAWN_possessive] subordinates quit their jobs.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Fat</bodyTypeMale>
         <bodyTypeFemale>Fat</bodyTypeFemale>
@@ -1191,6 +1193,7 @@
         </spawnCategories>
         <skillGains>
             <Social>6</Social>
+            <Cooking>2</Cooking>
             <Artistic>6</Artistic>
         </skillGains>
         <forcedTraits>
@@ -1246,7 +1249,7 @@
             <Crafting>2</Crafting>
         </skillGains>
         <forcedTraits>
-            <SpeedOffset>2<SpeedOffset/>
+            <SpeedOffset>2</SpeedOffset>
         </forcedTraits>
         <possessions>
             <MeleeWeapon_Knife />
@@ -1269,9 +1272,6 @@
             <Melee>4</Melee>
             <Crafting>2</Crafting>
         </skillGains>
-        <forcedTraits>
-            <SpeedOffset>2<SpeedOffset/>
-        </forcedTraits>
         <possessions>
             <MeleeWeapon_Knife />
         </possessions>     
@@ -1299,6 +1299,193 @@
             <li>Constructing</li>
         </requiredWorkTags>
     </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Engineer2</defName>
+        <title>aerospace engineer</title>
+        <titleShort>engineer</titleShort>
+        <description>[PAWN_nameDef] worked as part of a team developing and building new aircraft.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>3</Construction>
+            <Crafting>3</Crafting>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Constructing</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_EngineeringProfessor1</defName>
+        <title>engineering professor</title>
+        <titleShort>professor</titleShort>
+        <description>[PAWN_nameDef] did research and taught introductory engineering classes at a moderately-sized university. While [PAWN_pronoun] enjoyed the freedom to research complex problems that being an academic afforded, [PAWN_pronoun] was much less thrilled with interacting with students.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>4</Construction>
+            <Crafting>2</Crafting>
+            <Social>-2</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <forcedTraits>
+            <Abrasive />
+        </forcedTraits>
+        <requiredWorkTags>
+            <li>Constructing</li>
+            <li>Intellectual</li>
+            <li>Social</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_FastFood1</defName>
+        <title>fast food worker</title>
+        <titleShort>cook</titleShort>
+        <description>[PAWN_nameDef] moved between jobs at various fast food establishments, desperately trying to make ends meet.  When [PAWN_pronoun] found an open position as a cook for a new colony, [PAWN_pronoun] jumped at the opportunity and somehow got the job.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>6</Cooking>
+            <Social>2</Social>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Cooking</li>
+            <li>Social</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Terraformer1</defName>
+        <title>terraforming engineer</title>
+        <titleShort>terraformer</titleShort>
+        <description>[PAWN_nameDef] was a member of a terraforming team, in charge of building and maintaining the equipment responsible for making a barren planetoid suitable for human habitation.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>4</Construction>
+            <Mining>4</Mining>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Constructing</li>
+            <li>Mining</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Terraformer2</defName>
+        <title>terraforming colonist</title>
+        <titleShort>cook</titleShort>
+        <description>[PAWN_nameDef] was a member of a terraforming support team, responsible for cooking, cleaning, and other miscellany so the terraforming engineers could focus on their work.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Social>2</Social>
+            <Construction>2</Construction>
+            <Mining>2</Mining>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Constructing</li>
+            <li>Mining</li>
+            <li>Cooking</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_DystopianDissident1</defName>
+        <title>dissident</title>
+        <titleShort>miner</titleShort>
+        <description>[PAWN_nameDef] spoke out against an oppressive regime and was sent to a mining colony where the sun never rose.  [PAWN_pronoun] kept [PAWN_possessive] head down and worked long hours in the mines, desperate to survive.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>6</Mining>
+            <Construction>3</Construction>
+        </skillGains>
+        <forcedTraits>
+            <NaturalMood>-1</NaturalMood>
+        </forcedTraits>
+        <requiredWorkTags>
+            <li>Constructing</li>
+            <li>Mining</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_DystopianDissident2</defName>
+        <title>dissident</title>
+        <titleShort>dissident</titleShort>
+        <description>[PAWN_nameDef] spoke out against an oppressive regime's policy of genetic manipulation, forced caste system, and enforced joywires for the lower classes.  The overseer gave [PAWN_possessive] the choice to be silent or to be sent into exile with other disruptive elements.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Dictator1</defName>
+        <title>former dictator</title>
+        <titleShort>dictator</titleShort>
+        <description>[PAWN_nameDef] once ruled an entire planet with an iron fist, but when [PAWN_pronoun] noticed that the latest round of protests were not so easily quelled, [PAWN_pronoun] secretly gathered [PAWN_possessive] riches and fled the planet.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>10</Social>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+            <li>Social</li>
+        </requiredWorkTags>
+        <possessions>
+            <Gold>1000~2000</Gold>
+            <Silver>1000~2000</Silver>
+            <Gun_Autopistol />
+        </possessions>
+    </BackstoryDef>
+
 
     <!--
     Other Ideas:

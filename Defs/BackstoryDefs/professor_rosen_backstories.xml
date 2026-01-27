@@ -1466,6 +1466,7 @@
         <defName>Rosen_Dictator1</defName>
         <title>former dictator</title>
         <titleShort>dictator</titleShort>
+        <description>[PAWN_nameDef] once ruled an entire planet with an iron fist, but when [PAWN_pronoun] learned that the latest round of protests were not so easily quelled, [PAWN_pronoun] secretly gathered [PAWN_possessive] ill-gotten riches and fled the planet.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>

@@ -889,6 +889,7 @@
         <spawnCategories>
             <li>Offworld</li>
             <li>Researcher</li>
+            <li>Pirate</li>
         </spawnCategories>
         <skillGains>
             <Social>4</Social>
@@ -914,6 +915,7 @@
         <spawnCategories>
             <li>Offworld</li>
             <li>Researcher</li>
+            <li>Pirate</li>
         </spawnCategories>
         <skillGains>
             <Intellectual>4</Intellectual>
@@ -1243,6 +1245,7 @@
         <spawnCategories>
             <li>Offworld</li>
             <li>Outlander</li>
+            <li>Pirate</li>
         </spawnCategories>
         <skillGains>
             <Melee>4</Melee>
@@ -1519,8 +1522,10 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
             <li>Offworld</li>
+            <li>Pirate</li>
         </spawnCategories>
         <skillGains>
+            <Shooting>4</Shooting>
             <Social>10</Social>
         </skillGains>
         <requiredWorkTags>

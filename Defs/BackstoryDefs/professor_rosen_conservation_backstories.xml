@@ -145,7 +145,7 @@
         </skillGains>
         <spawnCategories>
             <li>Offworld</li>
-            <li>Outlander</li>
+            <li>Pirate</li>
             <li>ImperialRoyal</li>
         </spawnCategories>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -176,8 +176,7 @@
         </skillGains>
         <spawnCategories>
             <li>Offworld</li>
-            <li>Outlander</li>
-            <li>ImperialFighter</li>
+            <li>Pirate</li>
         </spawnCategories>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>

@@ -500,6 +500,7 @@
             <li>Offworld</li>
             <li>Outlander</li>
             <li>ImperialCommon</li>
+            <li>Pirate</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -519,6 +520,7 @@
             <li>ImperialCommon</li>
             <li>ImperialFighter</li>
             <li>ImperialRoyal</li>
+            <li>Pirate</li>
         </spawnCategories>
         <forcedTraits>
             <Rosen_Motherlode MayRequire="professor.rosen.traits">0</Rosen_Motherlode>
@@ -547,6 +549,7 @@
             <li>Researcher</li>
             <li>MedievalCommon</li>
             <li>MedievalHigh</li>
+            <li>Pirate</li>
         </spawnCategories>
     </BackstoryDef>
 
@@ -565,6 +568,7 @@
         </forcedTraits>
         <spawnCategories>
             <li>Offworld</li>
+            <li>Pirate</li>
         </spawnCategories>
     </BackstoryDef>
 

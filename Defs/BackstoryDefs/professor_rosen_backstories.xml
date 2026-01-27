@@ -1583,7 +1583,7 @@
             <Plants>2</Plants>
             <Animals>2</Animals>
             <Social>2</Social>
-            <Intellectual>6</Intellectual>
+            <Intellectual>8</Intellectual>
         </skillGains>
         <forcedTraits>
             <FastLearner/>
@@ -1605,8 +1605,6 @@
 
     <!--
     Other Ideas:
-    Perpetual Studen bad
-    Perpertual student glitterworld good
     woodworker
     Hobbyist Composer 
     Ship Captain

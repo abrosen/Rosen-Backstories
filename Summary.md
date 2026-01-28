@@ -1,11 +1,8 @@
-Scrapper - [PAWN_nameDef] found [PAWN_objective]self supporting [PAWN_possessive] sick father at an early age.  [PAWN_pronoun] managed to scrape together a meager income joining teams that dug up and deconstructed ancient shipwrecks.
+Scrapper - [PAWN_nameDef] found [PAWN_objective]self supporting [PAWN_possessive] sick father at an early age.  [PAWN_pronoun] managed to scrape together a meager income joining teams that dug up and deconstructed ancient shipwrecks. 
 
 Expedition guard - Born to an impovershed class on a crowded but technically advanced urbworld, [PAWN_nameDef] took the first possible shuttle offworld, joining a research expedition as an armed guard. When not on duty, [PAWN_nameDef] occupied [PAWN_objective]self with cultivating numerous potted plants and helping out in the hydroponics bay.
 
-
 Enigma - Systems have almost no records of [PAWN_nameDef]'s childhood, nor any explanation of how [PAWN_pronoun] rose to such a high rank at such an early age.  The only thing sparse accounts can agree on is the [PAWN_nameDef] has always been preternaturally beautiful and always able to convince others to do exactly what [PAWN_pronoun] needed.
-
-Genetic heir - [PAWN_nameDef] was created as an almost perfect genetic clone of [PAWN_possessive] mother, altered to be more perfect in every way.  [PAWN_pronoun] spent most of [PAWN_possessive] childhood coming to terms with the insurmountable expectations placed upon [PAWN_objective].
 
 Shipborn engineer - Despite all the cautions, regulations, and prophylactics intended to prevent shipborn pregnancies, it is not uncommon for a child to be born on a ship during a long transit.\n\n[PAWN_nameDef] spent [PAWN_possessive] childhood aboard one such ship, obesssively learning the ins and outs of the engine room and all the maintenance required to keep [PAWN_possessive] home among the stars going.
 
@@ -29,7 +26,7 @@ Food chemist - [PAWN_nameDef] lived a life of luxury on a glitterworld. [PAWN_po
 
 Glitterworld librarian - [PAWN_nameDef] managed an enormous library on a glitterworld. [PAWN_possessive] ability to sift through billions of entries and materials in a matter of seconds was matched only by their complete incompetence in crafts.  There was nothing physical [PAWN_nameDef] could make that would not collapse in a matter of seconds.
 
-Inventive janitor - Held captive on a space satellite and forced by mad scientists to watch cheesy movies (the worst they could find) [PAWN_nameDef] was only able to keep [PAWN_possessive] sanity with the help of [PAWN_possessive] robot friends. [PAWN_nameDef] crafted the aforementioned robots [PAWN_possessive]self, using spare parts from the satellite \n\nDespite the dire, dangerous, and utterly bizarre conditions [PAWN_pronoun] found [PAWN_possessive]self in, [PAWN_nameDef] maintained a positive attitude throughout it all.
+Inventive janitor - Held captive on a space satellite and forced by mad scientists to watch cheesy movies (the worst they could find) [PAWN_nameDef] was only able to keep [PAWN_possessive] sanity with the help of [PAWN_possessive] robot friends. [PAWN_nameDef] crafted the aforementioned robots [PAWN_possessive]self, using spare parts from the satellite \n\nDespite the dire, dangerous, and utterly bizarre conditions [PAWN_pronoun] found [PAWN_possessive]self in, [PAWN_nameDef] maintained a positive attitude throughout it all.  
 
 Knight - [PAWN_nameDef] served in the army as a means to live the dream of being a knight. Wealthy, [PAWN_pronoun] could afford the most advanced powered armor to protect [PAWN_possessive] skin.
 
@@ -53,7 +50,7 @@ Infantry engineer - [PAWN_nameDef] served as an engineer in the army on a relati
 
 Mobile infantryman - [PAWN_nameDef]'s planet made some form of military or government service a requirement of gaining the right to vote. [PAWN_pronoun] joined the mobile infantry and took to maneuvering in powered armor like a fish to water.  The majority of [PAWN_possessive] deployment was spent fighting against an incursion of the Sorne geneline on nearby planets.  Despite the horrors of war, [PAWN_nameDef] maintained an unshakable confidence that [PAWN_pronoun] would pull through no matter what.
 
-Mobile infantryman - [PAWN_nameDef] joined the mobile infantry to fight the Sorne geneline's incursion on a nearby world.  [PAWN_possessive] first drop against the bugs ended in disaster, with [PAWN_nameDef] being the only survivor.  However, due to a computer glitch, [PAWN_pronoun] was sent on drops again and again without time for rest. By [PAWN_possessive] 20th drop, the glitch was discovered, but not before [PAWN_pronoun] had transformed into an emotionally damaged, but highly capable, killing machine.     
+Mobile infantryman - [PAWN_nameDef] joined the mobile infantry to fight the Sorne geneline's incursion on a nearby world.  [PAWN_possessive] first drop against the bugs ended in disaster, with [PAWN_nameDef] being the only survivor.  However, due to a computer glitch, [PAWN_pronoun] was sent on drops again and again without time for rest. By [PAWN_possessive] 20th drop, the glitch was discovered, but not before [PAWN_pronoun] had transformed into an emotionally damaged, but highly capable, killing machine.
 
 Spy - [PAWN_nameDef] was an extremely accomplished spy, specializing in impersonation and long-term infiltration.  [PAWN_possessive] career was interrupted by the sudden decline of their glitterworld.  [PAWN_nameDef]'s ideoligion made a convenient scapegoat and [PAWN_pronoun] was forced to flee the planet when their loyalty was called into question.
 
@@ -63,15 +60,15 @@ Glitterworld politician - [PAWN_nameDef] served as a democratically elected lead
 
 Duelist - While outlawed on some worlds, dueling remained a popular way to settle disputes on many others, especially among the nobility and upper classes.\n\n[PAWN_nameDef] gained renown on one such world for [PAWN_possessive] skill with the blade.  [PAWN_pronoun] spent much of their spare time honing their skills and studying ancient treatises.
 
-Gunner - [PAWN_nameDef] firmly believed that any problem could be solved with the judicious application of more firepwower.  Unfortunately, [PAWN_possessive] passion for destruction left very little room any interest in construction.
+Gunner - [PAWN_nameDef] firmly believed that any problem could be solved with the judicious application of more firepower.  Unfortunately, [PAWN_possessive] passion for destruction left very little room any interest in construction.
 
 Ordinary colonist - [PAWN_nameDef] records are startlingly unremarkable and contain no data of interest or importance.  It is not suspicious in the slightest.
 
-Blood knight - [PAWN_nameDef] wanted nothing more in life than a small farm to call [PAWN_possessive] own and a partner to settle down with.  Or so [PAWN_nameDef] believed until [PAWN_possessive] small village was attacked by a group of sanguophages.  After beheading three of them with nothing more than a farming implement, something awoke within [PAWN_objective].\n\nSince that day, [PAWN_nameDef] has been seeking out any excuse to get into danger, to feel that thrill of being on the knife's edge between life and death.
+Blood knight - [PAWN_nameDef] wanted nothing more in life than a small farm to call [PAWN_possessive] own and a partner to settle down with.  Or so [PAWN_nameDef] believed until [PAWN_possessive] small village was attacked by a group of sanguophages.  After beheading three of them with nothing more than a farming implement, something awoke within [PAWN_objective].\n\nSince that day, [PAWN_nameDef] has been seeking out any excuse to get into danger, to feel that thrill of being on the knife's edge between life and death.       
 
 Ship stealer - Despite being absolutely sickened by the idea of hurting another human, [PAWN_nameDef] became one of the most notorius and successful pirates of [PAWN_possessive] generation.  Once, alone, [PAWN_pronoun] even stole a large destroyer that required a thrity person crew.
 
-Ship's mechanic - [PAWN_nameDef] worked as a ships mechanic, repairing faulty equipment and doing general maintenance on long-haul trade ships between star systems.  The ship's cook was rarely out of cryosleep during the maintenance cycles, so [PAWN_nameDef] had to learn to cook their own food if they wanted to avoid the nutrient paste.      
+Ship's mechanic - [PAWN_nameDef] worked as a ships mechanic, repairing faulty equipment and doing general maintenance on long-haul trade ships between star systems.  The ship's cook was rarely out of cryosleep during the maintenance cycles, so [PAWN_nameDef] had to learn to cook their own food if they wanted to avoid the nutrient paste.
 
 Astronomer - [PAWN_nameDef] worked as an astronomer.  One day, during an analysis of prior routine observations, [PAWN_nameDef] abruptly quit [PAWN_possessive] job and booked the first ticket offworld available.  Hours later, [PAWN_possessive] home planet was reportedly destroyed by a previously undetected mass travelling at a relativistic speed.
 
@@ -79,7 +76,7 @@ Theoretical physicist - [PAWN_nameDef] was one of many scientists who devoted [P
 
 Blazebulb researcher - [PAWN_nameDef] worked on trying to develop a more stable strain of blazebulb that wouldn't ignite at room temperature.  Or from the mere hint of fire.  Or because [PAWN_pronoun] looked at it wrong.
 
-Comedian - [PAWN_nameDef] made a living as a comedian. [PAWN_pronoun] was noted for [PAWN_possessive] quick wit, insightful humor, and ability to liven up any situation.   
+Comedian - [PAWN_nameDef] made a living as a comedian. [PAWN_pronoun] was noted for [PAWN_possessive] quick wit, insightful humor, and ability to liven up any situation.
 
 Professional hacker - [PAWN_nameDef] made a living subtly extracting information from people and systems. [PAWN_pronoun] often found a guileless smile and forged work order opened many more doors than the most powerful suite of exploits.
 
@@ -95,17 +92,17 @@ Toymaker - [PAWN_nameDef] spent much of [PAWN_possessive] life designing and cre
 
 Clerk - [PAWN_nameDef] worked a thankless job as a tiny cog in a large bureaucratic machine.   [PAWN_pronoun] spent much of [PAWN_possessive] time discreetly listening to audiobooks while mindlessly plugging away at spreadsheets.  [PAWN_pronoun] learned surprising breadth of material from all that reading.
 
-Clerk - [PAWN_nameDef] worked a thankless job as a tiny cog in a large bureaucratic machine.   However, [PAWN_pronoun] had learned a smattering of programming and managed to automate most of [PAWN_possessive] work, allowing [PAWN_objective] spend most of their working hours looking at cat videos and arguing about politics with strangers.     
+Clerk - [PAWN_nameDef] worked a thankless job as a tiny cog in a large bureaucratic machine.   However, [PAWN_pronoun] had learned a smattering of programming and managed to automate most of [PAWN_possessive] work, allowing [PAWN_objective] spend most of their working hours looking at cat videos and arguing about politics with strangers.
 
-Clerk - [PAWN_nameDef] worked a thankless job as a tiny cog in a large bureaucratic machine.   [PAWN_pronoun] overcompensated for spending most of [PAWN_possessive] day at a desk by keeping a vigorous exercise regimen.
+Clerk - [PAWN_nameDef] worked a thankless job as a tiny cog in a large bureaucratic machine.   [PAWN_pronoun] overcompensated for spending most of [PAWN_possessive] day at a desk by keeping a vigorous exercise regimen and diet.
 
 Clerk - [PAWN_nameDef] was one of a faceless team of software engineers in a large and extremely powerful urbworld corporation. [PAWN_pronoun] was extremely well paid, but hated [PAWN_possessive] job.\n\nOne day, [PAWN_nameDef] realized that [PAWN_pronoun] could pay a programmer from the lower levels of the urbworld to do [PAWN_possessive] work for [PAWN_objective], leaving [PAWN_objective]self free to do as [PAWN_pronoun] pleased.
 
 Manager - [PAWN_nameDef] was rapidly promoted up the management chain due to a combination of charm, ruthlessness, and a talent for getting things done. [PAWN_pronoun] was particularily driven to get what [PAWN_pronoun] deserved, and wasn't above getting [PAWN_possessive] hands dirty if [PAWN_possessive] underlings were not up to the task at hand.
 
-Manager - [PAWN_nameDef] was rapidly promoted until, as per the Peter Principle, found themselves in a role [PAWN_pronoun] were completely unqualified for.  [PAWN_pronoun] never seemed to understand whey so many of [PAWN_possessive] subordinates quit their jobs.
+Manager - [PAWN_nameDef] was rapidly promoted until, as per the Peter Principle, found themselves in a role [PAWN_pronoun] were completely unqualified for.  [PAWN_pronoun] never seemed to understand why so many of [PAWN_possessive] subordinates quit their jobs.     
 
-Silent model - [PAWN_nameDef] was considered to be incredibly attractive, at least until [PAWN_pronoun] opened [PAWN_possessive] mouth. [PAWN_pronoun] made the most of it and made a living as a model and acting roles that didn't require [PAWN_pronoun] to speak.
+Silent model - [PAWN_nameDef] was considered to be incredibly attractive, at least until [PAWN_pronoun] opened [PAWN_possessive] mouth. [PAWN_pronoun] made the most of it and made a living as a model and acting roles that didn't require [PAWN_pronoun] to speak.     
 
 Section 810 operative - [PAWN_nameDef] was part of a military team dispatched to handle an unknown threat in a small town. [PAWN_pronoun] barely managed to survive what later became recorded his planet's first contact with feralisks, a highly ferocious, genetically engineered breed of giant spider. [PAWN_possessive] world was overrun shortly thereafter.
 
@@ -114,6 +111,30 @@ Treasure hunter - [PAWN_nameDef] was a self-proclaimed treasure hunter.  However
 Treasure hunter - [PAWN_nameDef] studied notes and reports from various expeditions, scientific surveys, and travel diaries, searching for signs of treasure and artifacts that remained unclaimed.
 
 Constuction engineer - [PAWN_nameDef] oversaw and participated in the construction of large buildings.
+
+Aerospace engineer - [PAWN_nameDef] worked as part of a team developing and building new aircraft.
+
+Engineering professor - [PAWN_nameDef] did research and taught introductory engineering classes at a moderately-sized university. While [PAWN_pronoun] enjoyed the freedom to research complex problems that being an academic afforded, [PAWN_pronoun] was much less thrilled with interacting with students.
+
+Fast food worker - [PAWN_nameDef] moved between jobs at various fast food establishments, desperately trying to make ends meet.  When [PAWN_pronoun] found an open position as a cook for a new colony, [PAWN_pronoun] jumped at the opportunity and somehow got the job. 
+
+Terraforming engineer - [PAWN_nameDef] was a member of a terraforming team, in charge of building and maintaining the equipment responsible for making a barren planetoid suitable for human habitation.
+
+Terraforming colonist - [PAWN_nameDef] was a member of a terraforming support team, responsible for cooking, cleaning, and other miscellany so the terraforming engineers could focus on their work.
+
+Dissident - [PAWN_nameDef] spoke out against an oppressive regime and was sent to a mining colony where the sun never rose.  [PAWN_pronoun] kept [PAWN_possessive] head down and worked long hours in the mines, desperate to survive.
+
+Dissident - [PAWN_nameDef] spoke out against an oppressive regime's policy of genetic manipulation, forced caste system, and enforced joywires for the lower classes.  The overseer gave [PAWN_possessive] the choice to be silent or to be sent into exile with other disruptive elements.
+
+Rebel leader - [PAWN_nameDef] was the leader of an armed cell in a broader violent resistance movement against an authoritarian and highly oppressive regime.  [PAWN_pronoun] personally led teams that carried out assassinations and bombings.
+
+Disloyal clerk - [PAWN_nameDef] worked as one the of many cogs in a totalitarian regime's extensive bureaucracy, but secretly was part of a resistance cell.  Besides passing on intelligence, [PAWN_pronoun] also sabotaged the regime in tiny ways: calling unnecessary meetings, ensuring that communication was done through proper channels, and insisting on perfection on even the most insignificant tasks.
+
+Former dictator - [PAWN_nameDef] once ruled an entire planet with an iron fist, but when [PAWN_pronoun] learned that the latest round of protests were not so easily quelled, [PAWN_pronoun] secretly gathered [PAWN_possessive] ill-gotten riches and fled the planet.   
+
+Perpetual student - [PAWN_nameDef] never truly "grew up" and instead spent [PAWN_possessive] entire life as a student, relying on [PAWN_possessive] parents's largesse for support as [PAWN_pronoun] earned multiple degrees in various fields.
+
+Glitterworld academic - With drones, mechanoids, and other automatons doing most of the work, [PAWN_nameDef] grew up living a life of leisure and luxury. [PAWN_pronoun] spent the vast majority of [PAWN_possessive] time publishing papers, learning about and contributing to whatever particular field caught [PAWN_possessive] interest at the time.
 
 Quarantine child - Before [PAWN_nameDef] could even speak, [PAWN_possessive] world was ravaged by worldwide pandemic. The next few years of [PAWN_possessive] life were spent in isolation with only [PAWN_possessive] parents for company. However, [PAWN_possessive] parents kept [PAWN_objective] busy, nurturing a natural talent for the arts and sciences.
 
@@ -124,6 +145,12 @@ Missionary - [PAWN_nameDef] spent over a year serving on a charitable mission on
 Daydreaming student - [PAWN_nameDef]'s spent much of [PAWN_possessive] time in school daydreaming about exploring strange new worlds, preferably on a five-year mission.  While [PAWN_possessive] performance in school was less than stellar, [PAWN_nameDef] always maintained a positive outlook on their future.
 
 Daydreaming student - [PAWN_nameDef] was convinced they were special and had hidden, yet to be unleashed, secret powers. [PAWN_pronoun] trained with sticks as if they were legendary weapons and invented ancient-sounding spells. Although psycaster powers never manifested themselves, [PAWN_possessive] fantasies were an outlet for [PAWN_possessive] considerable imagination.
+
+Student - [PAWN_nameDef] was fortunate enough to be born where the majority of the population was able to receive a formal education.  [PAWN_pronoun] thrived in this environment and devloped a love of learning for learning's sake.
+
+Stressed student - [PAWN_nameDef] was raised in an absurdly competitive enviroment, where even one's performance in daycare had a huge impact on one's future prospects.  [PAWN_nameDef] managed receive stellar marks in [PAWN_possessive] education, but the stress had a profound impact on [PAWN_possessive] mental health.
+
+Student - [PAWN_nameDef] received a formal education and performed neither notably well nor exceptionally poorly.
 
 Chosen one - [PAWN_nameDef]'s birth was heralded as the arrival of the Chosen One, [PAWN_pronoun] who was destined to drive the steel beasts back to the black skies. [PAWN_nameDef] trained in ancient rites and battle tactics in preparation for the day [PAWN_pronoun] would called upon to fulfill their destiny.
 
@@ -145,7 +172,7 @@ Refugee - All the young people in [PAWN_nameDef]'s town, including [PAWN_objecti
 
 Apprentice - [PAWN_nameDef] began their craft at an early age, and apprenticed under a skilled artisan.
 
-Art apprentice - [PAWN_nameDef] began their craft at an early age, and apprenticed under a skilled artist.
+Art apprentice - [PAWN_nameDef] showed a natural talent for art at an early age and was taken under the wing of a skilled artist.    
 
 Apprentice blacksmith - [PAWN_nameDef]'s parents recognized [PAWN_pronoun] had an affinity for metalwork and sent [PAWN_objective] to work under a blacksmith.
 
@@ -153,21 +180,31 @@ Apprentice carpenter - [PAWN_nameDef]'s parents recognized [PAWN_pronoun] had an
 
 Scribe - [PAWN_nameDef] was fascinated [PAWN_possessive] collection of illuminated manuscripts. That and [PAWN_possessive] affinity for the arts were quickly noticed by the local leaders of [PAWN_possessive] ideoligion, leading [PAWN_objective] to work as a scribe from an early age.
 
+Mine child - [PAWN_nameDef] grew up in a mining community and was expected to join the workforce at a young age.
+
+Minor miner - [PAWN_nameDef] grew up in an affluent community but yearned for the mines. [PAWN_pronoun] would often sneak off and explore the nearby abandoned mines.
+
 Plague survivor - [PAWN_nameDef]'s home was ravaged by a planet-wide plague. [PAWN_pronoun] survived, but [PAWN_possessive] immune system never truly recovered.
 
 Deathgame survivor - The government of [PAWN_nameDef]'s planet ran an annual deathgame, where random children were sent to a remote location to face off against each other in a brutal contest. [PAWN_nameDef] was one of the few survivors, but [PAWN_possessive] was left scarred by the experience.
 
-Hunter - Upon moving to a heavily forested area in [PAWN_possessive] teens, [PAWN_nameDef] quickly became obsessed with hunting.  The bigger the game, the better.
+Genetic heir - [PAWN_nameDef] was created as an almost perfect genetic clone of [PAWN_possessive] mother, altered to be more perfect in every way.  [PAWN_pronoun] spent most of [PAWN_possessive] childhood coming to terms with the insurmountable expectations placed upon [PAWN_objective].
+
+Clone soldier - [PAWN_nameDef] was created as a disposable soldier to fight in a vast interplanetary war.
 
 Zoo interpreter - [PAWN_nameDef] worked at a famous zoo as an educator, explaining the behavior of animals to guests. [PAWN_possessive] passion about wildlife was extremely contagious to everyone [PAWN_pronoun] met.
 
-Big game hunter - An avid hunter, [PAWN_nameDef] eventually found hunting wildlife to be cruel and lacking challenge.  Thus, [PAWN_pronoun] sold all [PAWN_possessive] possessions, purchased the largest rifle [PAWN_pronoun] could find, and began to hunt mechanoids.
+Zookeeper - [PAWN_nameDef] worked at a zoo, taking care of the animals and their habitats, ensuring the animals had a proper diet and enrichment.
+
+Hunter - Upon moving to a heavily forested area in [PAWN_possessive] teens, [PAWN_nameDef] quickly became obsessed with hunting.  The bigger the game, the better.
+
+Big game hunter - An avid hunter, [PAWN_nameDef] eventually found hunting wildlife to be cruel and lacking challenge.  Thus, [PAWN_pronoun] sold all [PAWN_possessive] possessions, purchased the largest rifle [PAWN_pronoun] could find, and began to hunt mechanoids.  
 
 Biosphere manager - [PAWN_nameDef] lived on a section of a peaceful glitterworld where people lived in harmony with nature. [PAWN_pronoun] was in charge of maintaining one of the extremely large nature preserves on the planet's surface.  Drones and mechanoids handled most of the menial labor, which left [PAWN_nameDef] with plenty of time to study plant and animal life in the field.
 
 Hunter - No matter what handicap [PAWN_possessive] imposed on himself, hunting animals proved no challenge whatsoever.  [PAWN_nameDef] resorted to abducting other humans and hunting them for sport.
 
-Poacher - [PAWN_nameDef] hunted animals purely for profit, without a care for the law, morals, or sustainability of such practices.
+Poacher - [PAWN_nameDef] hunted animals purely for profit, without a care for the law, morals, or sustainability of such practices.  
 
 Mech preserve manager - [PAWN_nameDef] was in charge of patrolling the border of a wide containment zone that was the home of numerous feral mechanoids.  If a particularly threatening specimen was spotted, [PAWN_pronoun] would organize a hunting party to neutralize it.
 
@@ -193,7 +230,7 @@ Cult enforcer - [PAWN_nameDef] served as part of the enforcement arm of a large 
 
 Cult enforcer - [PAWN_nameDef] served as part of the enforcement arm of a large cult, maintaining dicipline and "motivating" members to keep the faith.  This suited [PAWN_objective] well, as the screams of the faithful were as birdsong to their master.
 
-Cult enforcer - [PAWN_nameDef] served as part of the enforcement arm of a large cult, protecting the faithful from prying eyes of the law and facilitating unfortunate accidents for prying academics and dogged journalists who refused to stop asking questions.
+Cult enforcer - [PAWN_nameDef] served as part of the enforcement arm of a large cult, protecting the faithful from prying eyes of the law and facilitating unfortunate accidents for prying academics and dogged journalists who refused to stop asking questions.        
 
 Cult enforcer - [PAWN_nameDef] served as part of the enforcement arm of a large cult.  After [PAWN_pronoun] failed to complete a mission, [PAWN_possessive] superiors made an example of [PAWN_objective] to inspire the other faithful.  [PAWN_possessive] mind never truly recovered.
 
@@ -219,7 +256,7 @@ Cult prosyltizer - [PAWN_nameDef] recruited many believers into the true faith. 
 
 Seeker of the king - A high ranking member of a cult, [PAWN_nameDef] sought to find [PAWN_possessive] king.  Worse, [PAWN_pronoun] knew where to find him:\n\nAlong the shores the cloud waves break,\nthe twin suns sink behind the lake, \nthe shadows lengthen\nin Carcosa.
 
-Nemesis of reason - Words describing [PAWN_nameDef] fail. Tales recounting [PAWN_objective] end without warning. Data s̶̢̢̺̜̦̠̭̩̼͚̯͇̦̫̀̊̇̌͛ͅṫ̵̡̞̘̳̹͚̦̞̩͈͕͈͒́̾̂͌͛̄͑̕̕o̷͌́̀̄͋                                                  ̼͈̙̬͋͊̓̊̈́̓̎̇̈͒ŗ̷̨͈̬̯͓͖͈̺̮̫̳͕̾̈́͛̍̔͊̏̐̅̆̌̑̄̉͘ȅ̶͚̯̬̿̽̽̍̂̏͘͘͝d̵̛̤̑̀̍̋̄̈́ ̶͕̝̺̓̿̽̔̀̋̈̽͝ͅb̴̢̧̰̳͉͚͈̮͙̗͍͍̲̟́̏͊͒͒͜͠͝e̶͙͙̹̝͇̖̔̓c̶̨̬͖̙̲̰̝̪̠̳̭̟̠̹̹̼̪͑o̵̪̿͝m̴̢̙͕̜̤̗͓̙͖̣̥̹̮͈̽͌͂̇̀̚e̶͑͒̍͠                                                                                                                                                   ̢̛͎̝̳̫̜̦̟̖̙̲̘̀̾̿͆̑̀͗̅ͅş̷̡̮̪̺̹̼͈͚̯͑́̈̃̐͒̏̚ ̵̜̠̣̦͉͉̹̤̊̓̾͛́̌̓̒̕ć̴̨̧̹̗̥̖̯̯̫̭̪͌̌̄̔͒̽̈́̿̔̀̆̀̕ô̵̳̫̫͚̪͆̆͆͗̃͜r̶̢̢̡͍̟͇̳͇̺͈͈̻͇͒̔̑͒̀̍͜͜͝r̷̨͚̹̐̿̀̓̊̐̆̕ư̶͕̖̪̱̥̭̪̩̬͔̪͙̲̲͖͌͊̉̽ͅͅp̴̓͗̂́̒͐                                                                                                                                             ̢̩̟̺͓̟̥̭͚̙̺̔̿͂̿̐̄͘͘ẗ̷̲̮̟̮͎̣͉̜̹͚̹́̓̂͘͜ę̵̛͕̭̥͈͚̘͈̼̰͕͚͉͔̔̄̓̒͊̉̋͐̇̓̀̑̕͠͝d̸̥́́̂̃̓̔̆́̏͐͛͝.̷̡̯̲̿̅͊͒̈̈́͊̋̽͂̄̚̕
+Nemesis of reason - Words describing [PAWN_nameDef] fail. Tales recounting [PAWN_objective] end without warning. Data s̶̺̜̦̠̭̩̼̀̊̇̌͛ͅ             ̢̢̯͇̦̫ṫ̵̡̞̘̳̹͚̦̞̩͈͕͈͒́̾̂͌͛̄͑̕̕o̷̼͈̙̬͌́̀̄͋̀͋͊̓̊̈́̓̎̇̈͒ŗ̷̨͈̬̯͓͖͈̺̮̫̳͕̾̈́͛̍̔͊̏̐̅̆̌̑̄̉͘ȅ̶͚̯̬̿̽̽̍̂̏͘͘͝d̵̛̤̑̀̍̋̄̈́ ̶͕̝̺̓̿̽̔̀̋̈̽͝ͅb̴́̏͊͒͒͠͝                                                                                                                       ̢̧̳͉͚͈̮͙̗͍͍̲̟͜e̶͙͙̹̝͇̖̔̓c̶̨̬͖̙̲̰̝̪̠̳̭̟̠̹̹̼̪͑o̵̪̿͝m̴̢̙͕̜̤̗͓̙͖̣̥̹̮͈̽͌͂̇̀̚e̶̢̛͎̝̳̫̜̦̟̖̙̲̘͑͒̍̀̾̿͆̑̀͗̅͠͝ͅş̷̡̮̪̺̹̼͈͚̯͑́̈̃̐͒̏̚ ̵̜̊̓̾͛́̌̓̒̕                                                                                                               ̣̦͉͉̹̤ć̴̨̧̹̗̥̖̯̯̫̭̪͌̌̄̔͒̽̈́̿̔̀̆̀̕ô̵̳̫̫͚̪͆̆͆͗̃͜r̶̢̢̡͍̟͇̳͇̺͈͈̻͇͒̔̑͒̀̍͜͜͝r̷̨͚̹̐̿̀̓̊̐̆̕ư̶͕̖̪̱̥̭̪̩̬͔̪͙̲̲͖͌͊̉̽ͅͅp̴̢̩̟̺͓̟̥̓͗̂́̒͐͌̔̿͂̿̐̄͘͘                                                                                                                        ͚̙̺ẗ̷̲̮̟̮͎̣͉̜̹͚̹́̓̂͘͜ę̵̛͕̭̥͈͚̘͈̼̰͕͚͉͔̔̄̓̒͊̉̋͐̇̓̀̑̕͠͝d̸̥́́̂̃̓̔̆́̏͐͛͝.̷̡̯̲̿̅͊͒̈̈́͊̋̽͂̄̚̕
 
 Failed psycaster - After attending a university for psycasters, [PAWN_nameDef] discovered [PAWN_pronoun] was uniquely unqualified.  [PAWN_possessive] professors described [PAWN_objective] as the "psychic equivalent of the number zero."\n\nDespite having the spirit of a psycaster, [PAWN_possessive] survival was better attributed to having the body of a long distance sprinter.
 
@@ -243,13 +280,19 @@ Quartermaster - [PAWN_nameDef] served as quartermaster for a number of different
 
 Seamster - [PAWN_nameDef] was a member of the Seamstresses' Guild in a large city.  However, anyone calling upon the guild to have their clothing mended would be disappointed, as the members of the guild were better known for performing services that didn't require any garments.
 
+Hallboy - [PAWN_nameDef] spent much of their early life as a low ranked domestic worker in service of a great house, doing some of least pleasant and menial jobs. [PAWN_pronoun] learned to do these tasks as quickly and efficiently as possible.
+
+Butler - [PAWN_nameDef] was the seniormost servant in a great house, responsible for the upkeep of estate and supervision of numerous other domestic workers.
+
+Valet - [PAWN_nameDef] was a senior servant in a great house, responsible for the upkeep of  [PAWN_possessive] employer's clothing and personal items, grooming, and the handling of numerous other minor matters.
+
 Eden seeker - After years of meticulous study, [PAWN_nameDef] became convinced that [PAWN_possessive] ideoligion's holy land was a distant rimworld and left on a pilgrimage to settle on it.
 
 Scribe - [PAWN_nameDef] served as a scribe and copyist for their ideoligion.  [PAWN_pronoun]  was responsible for faithfully reproducing [PAWN_possessive] sacred texts by hand and without alteration or blemish.
 
 Theological scholar - [PAWN_nameDef] was a well respected scholar in [PAWN_possessive] ideoligion.  [PAWN_pronoun] served on a council to decide whether certain animals found on the Rim were acceptable to eat based on their ideoligion's existing dietary restrictions.
 
-Theologian - [PAWN_nameDef] became well known for [PAWN_possessive] extensive commentaries on [PAWN_possessive] ideoligion's sacred texts.  However, few knew that [PAWN_possessive] scholarship was merely a hobby, and that [PAWN_pronoun] made a living as a vintner.
+Theologian - [PAWN_nameDef] became well known for [PAWN_possessive] extensive commentaries on [PAWN_possessive] ideoligion's sacred texts.  However, few knew that [PAWN_possessive] scholarship was merely a hobby, and that [PAWN_pronoun] made a living as a vintner.  
 
 Task force operative - [PAWN_nameDef] served on a team that provided rapid response to anomalous threats.
 
@@ -257,7 +300,7 @@ Nine-tailed fox - [PAWN_nameDef] was a member of an elite mobile task force that
 
 Field analyst - [PAWN_nameDef] served on a rapid response team as a field researcher and technician.  [PAWN_possessive] role required [PAWN_objective] to analyze and document anomalous phenomena encountered in the field.
 
-Trial overseer - [PAWN_nameDef] oversaw the coming-of-age trials of [PAWN_possessive] tribe, guiding them through the wasteland. [PAWN_nameDef] knew it would only be a matter of time before the blood machines returned to raze their homes, so [PAWN_pronoun] taught [PAWN_possessive] charges how to survive in the harshest of environments.       
+Trial overseer - [PAWN_nameDef] oversaw the coming-of-age trials of [PAWN_possessive] tribe, guiding them through the wasteland. [PAWN_nameDef] knew it would only be a matter of time before the blood machines returned to raze their homes, so [PAWN_pronoun] taught [PAWN_possessive] charges how to survive in the harshest of environments.
 
 Promethean thief - [PAWN_nameDef] led many expeditions into the wastelands to steal the magic metal of the blood machines. Some of the things [PAWN_pronoun] brought back were magic torchs that would not go out and sticks that shot lightning.
 
@@ -267,6 +310,26 @@ Banished warrior - Despite being [PAWN_possessive] original tribe's most skilled
 
 Mushroom farmer - Hailing from the frozen north, [PAWN_nameDef] helped sustain [PAWN_possessive] tribe by digging large underground caves where they cultivated large quantities of fungus.
 
-Tribal hacker - Through extensive trial and error, [PAWN_nameDef] discovered many sealed iron doors could be opened by interacting with the glowscreen and gently pressing the upwards pointing glyph enough times, followed by a vigorous smash to the big red button.
+Tribal hacker - Through extensive trial and error, [PAWN_nameDef] discovered many sealed iron doors could be opened by interacting with the glowscreen and gently pressing the upwards pointing glyph enough times, followed by a vigorous smash to the big red button.   
 
-----------------Total: 135
+Exile - [PAWN_nameDef] was exiled from [PAWN_possessive] original tribe and learned how to survive on [PAWN_possessive] own before finding a new home.
+
+Healer - [PAWN_nameDef] learned the secrets of healing and tending to the sick passed down by the elders of [PAWN_possessive] tribe. 
+
+----------------Total: 159
+
+Core (shuffled) backstory count:  166
+Occurrences  of each skill in backstories:
+{'Cooking': 21, 'Intellectual': 31, 'Social': 47, 'Medicine': 20, 'Artistic': 22, 'Construction': 30, 'Mining': 30, 'Melee': 43, 'Shooting': 38, 'Animals': 20, 'Plants': 34, 'Crafting': 24}
+Skill average by skill:
+{'Cooking': 2.380952380952381, 'Intellectual': 2.4193548387096775, 'Social': 2.8085106382978724, 'Medicine': 2.9, 'Artistic': 4.136363636363637, 'Construction': 1.9333333333333333, 'Mining': 3.2333333333333334, 'Melee': 3.86046511627907, 'Shooting': 2.6578947368421053, 'Animals': 4.1, 'Plants': 3.764705882352941, 'Crafting': 2.3333333333333335}
+Skill averages across all backstories (no skill is 0):
+{'Cooking': 0.30120481927710846, 'Intellectual': 0.45180722891566266, 'Social': 0.7951807228915663, 'Medicine': 0.3493975903614458, 'Artistic': 0.5481927710843374, 'Construction': 0.3493975903614458, 'Mining': 0.5843373493975904, 'Melee': 1.0, 'Shooting': 0.608433734939759, 'Animals': 0.4939759036144578, 'Plants': 0.7710843373493976, 'Crafting': 0.3373493975903614}
+----------------
+My backstory count:  160
+Occurrences  of each skill in backstories:
+{'Mining': 13, 'Construction': 32, 'Intellectual': 75, 'Shooting': 45, 'Plants': 18, 'Medicine': 20, 'Social': 68, 'Crafting': 40, 'Melee': 53, 'Artistic': 22, 'Cooking': 19, 'Animals': 15}
+Skill average by skill:
+{'Mining': 3.076923076923077, 'Construction': 2.25, 'Intellectual': 3.4266666666666667, 'Shooting': 2.7777777777777777, 'Plants': 2.7777777777777777, 'Medicine': 3.05, 'Social': 3.2941176470588234, 'Crafting': 2.3, 'Melee': 2.981132075471698, 'Artistic': 2.5454545454545454, 'Cooking': 2.473684210526316, 'Animals': 3.2666666666666666}
+Skill averages across all backstories (no skill is 0):
+{'Mining': 0.25, 'Construction': 0.45, 'Intellectual': 1.60625, 'Shooting': 0.78125, 'Plants': 0.3125, 'Medicine': 0.38125, 'Social': 1.4, 'Crafting': 0.575, 'Melee': 0.9875, 'Artistic': 0.35, 'Cooking': 0.29375, 'Animals': 0.30625}

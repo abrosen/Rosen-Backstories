@@ -40,7 +40,7 @@
             <li>Cult</li>
         </spawnCategories>
         <workDisables>
-            <li>ManualSkilled</li>
+            <li>Intellectual</li>
         </workDisables>
     </BackstoryDef>
 

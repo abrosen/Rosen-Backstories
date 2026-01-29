@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs MayRequire="vanillaracesexpanded.android">
+
+    
+
+
+
+
+    <BackstoryDef  MayRequire="vanillaracesexpanded.android" ParentName="VREA_AndroidBackstoryBase">
+		<defName>Rosen_RoboMaid1</defName>
+		<title>maid</title>
+		<titleShort>maid</titleShort>
+		<titleFemale>maid</titleFemale>
+		<titleShortFemale>maid</titleShortFemale>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef] was designed to in the form of a victorian era maid, as seen from the distorted expectations of millenia later. [PAWN_pronoun] was expected to handle cooking, cleaning, gardening, caretaking, and the thousands of other tasks required to maintain a large estate.</baseDesc>
+		<spawnCategories>
+			<li>AwakenedAndroid</li>
+		</spawnCategories>
+		<skillGains>
+            <Social>8</Social>
+            <Cooking>8</Cooking>
+            <Crafting>5</Crafting>
+            <Construction>5</Construction>
+            <Plants>5</Plants>
+            <Medicine>5</Medicine>
+		</skillGains>
+        <forcedTraits>
+            <CleaningSpeedOffset MayRequire="Aelanna.CleaningSpeed">1</CleaningSpeedOffset>
+        </forcedTraits>
+	</BackstoryDef>
+
+    <BackstoryDef MayRequire="vanillaracesexpanded.android" ParentName="VREA_AndroidBackstoryBase">
+		<defName>Rosen_RoboGoverness1</defName>
+		<title>tutor</title>
+		<titleShort>tutor</titleShort>
+		<titleFemale>governess</titleFemale>
+		<titleShortFemale>governess</titleShortFemale>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef] was a high end android available for purchase on an advanced glitterworld.  [PAWN_possessive] advertised features included deep knowledge in a wide range of subject, proper etiquette, and the capability to use violence to defend [PAWN_possessive] charges.</baseDesc>
+		<spawnCategories>
+			<li>AwakenedAndroid</li>
+		</spawnCategories>
+		<skillGains>
+            <Shooting>6</Shooting>
+            <Melee>9</Melee>
+            <Social>12</Social>
+            <Crafting>4</Crafting>
+            <Medicine>8</Medicine>
+            <Intellectual>12</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+
+
+
+
+</Defs>

@@ -36,12 +36,33 @@
         </skillGains>
         <spawnCategories>
             <li>Offworld</li>
-            <li>ImperialFighter</li>
             <li>Cult</li>
         </spawnCategories>
         <workDisables>
             <li>Intellectual</li>
         </workDisables>
+    </BackstoryDef>
+    
+    <BackstoryDef>
+        <defName>Rosen_CloneSoldierAdult1</defName>
+        <title>clone soldier</title>  
+        <titleShort>clone</titleShort> 
+        <slot>Adulthood</slot>
+        <description>[PAWN_nameDef] believed [PAWN_pronoun] had joined their military to fight in a vast interplanetary war.  However, [PAWN_nameDef] eventually learned that [PAWN_pronoun] had been created in a lab as a disposable soldier. [PAWN_possessive] memories of [PAWN_possessive] childhood were simulated fabrications, as [PAWN_possessive] creators found this enabled their clones to integrate into military units better.\n\nThe abrupt end of the war cast [PAWN_nameDef] and a legion of other clones into society at large.</description>  
+        <skillGains>
+            <Shooting>8</Shooting>
+            <Melee>4</Melee>
+            <Construction>4</Construction>
+            <Medicine>3</Medicine>
+            <Social>-4</Social>
+            <Intellectual>-4</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
     </BackstoryDef>
 
 

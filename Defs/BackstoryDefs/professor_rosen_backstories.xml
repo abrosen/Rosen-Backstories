@@ -892,8 +892,8 @@
             <li>Pirate</li>
         </spawnCategories>
         <skillGains>
-            <Social>4</Social>
-            <Intellectual>4</Intellectual>
+            <Social>6</Social>
+            <Intellectual>6</Intellectual>
         </skillGains>
         <requiredWorkTags>
             <li>Social</li>
@@ -918,7 +918,7 @@
             <li>Pirate</li>
         </spawnCategories>
         <skillGains>
-            <Intellectual>4</Intellectual>
+            <Intellectual>6</Intellectual>
         </skillGains>
         <requiredWorkTags>
             <li>Intellectual</li>
@@ -926,6 +926,35 @@
         <forcedTraits>
             <Abrasive />
         </forcedTraits>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_Hacker3</defName>
+        <title>former hacker</title>
+        <titleShort>hacker</titleShort>
+        <description>[PAWN_nameDef] retired early from hacking after a short-lived but extremely lucrative career in corporate espionage.  [PAWN_pronoun] devoted [PAWN_possessive] newfound time to [PAWN_possessive] more recently discovered passion of hydroponics.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Cooking>2</Cooking>
+            <Plants>4</Plants>
+            <Social>4</Social>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Social</li>
+            <li>PlantWork</li>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <possessions>
+            <Schematic>1</Schematic>
+        </possessions>
     </BackstoryDef>
 
     <BackstoryDef>
@@ -944,7 +973,7 @@
             <Shooting>2</Shooting>
             <Crafting>2</Crafting>
             <Artistic>2</Artistic>
-            <Intellectual>4</Intellectual>
+            <Intellectual>6</Intellectual>
         </skillGains>
         <requiredWorkTags>
             <li>Intellectual</li>
@@ -1579,10 +1608,11 @@
             <li>ImperialRoyal</li>
         </spawnCategories>
         <skillGains>
+            <Cooking>4</Cooking>
             <Crafting>2</Crafting>
-            <Plants>2</Plants>
+            <Plants>4</Plants>
             <Animals>2</Animals>
-            <Social>2</Social>
+            <Social>4</Social>
             <Intellectual>8</Intellectual>
         </skillGains>
         <forcedTraits>

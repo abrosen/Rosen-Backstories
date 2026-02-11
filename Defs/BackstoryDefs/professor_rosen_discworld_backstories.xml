@@ -42,7 +42,7 @@
         <defName>Rosen_Twoflower</defName>
         <title>rimworld tourist</title>
         <titleShort>tourist</titleShort>
-        <description>[PAWN_nameDef] hailed from a world where gold was amazingly common. [PAWN_pronoun] travelled to many worlds and recorded [PAWN_possessive] experiences in the famous novel "What I Did on my Holidays."</description>
+        <description>[PAWN_nameDef] hailed from a world where gold was amazingly common where [PAWN_pronoun] worked as an "inn-sewer-ants" agent. [PAWN_pronoun] travelled to many worlds and recorded [PAWN_possessive] experiences in the famous novel "What I Did on my Holidays."</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Melee>-2</Melee> 
@@ -80,12 +80,10 @@
         <skillGains>
             <Shooting>2</Shooting>
             <Melee>2</Melee>
-            <Social>8</Social>
+            <Social>10</Social>
         </skillGains>
         <spawnCategories>
             <li>Offworld</li>
-            <li>Outlander</li>
-            <li>Medieval</li>
             <li>ImperialRoyal</li>
         </spawnCategories>
         <forcedTraits>
@@ -227,6 +225,7 @@
         </requiredWorkTags>
         <forcedTraits>
            <Kind />
+           <Rosen_Burly MayRequire="professor.rosen.traits">2</Rosen_Burly>
         </forcedTraits>
         <disallowedTraits>
             <Psychopath />
@@ -352,8 +351,32 @@
         <bodyTypeMale>Hulk</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
+    <!--
+    <BackstoryDef>
+        <defName>Rosen_BloodyStupidJohnson1</defName>
+        <title>deranged inventor</title>
+        <titleShort>inventor</titleShort>
+        <description>[PAWN_nameDef] was not an idiot; [PAWN_pronoun] was as far as from an idiot as it was possible to be, just from the complete opposite end of the spectrum as a genius.  After all, no idiot could have made explosive compounds out of common sand and water. No idiot could create architectural plans for a mansion that relied on triangles drawn with three right angles. </description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Construction>10</Construction>
+            <Crafting>10</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <requiredWorkTags>
+            <li>Constructing</li>
+            <li>Crafting</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+-->
+    <!--
+    Weatherwax
+    Nanny Oggs
+    Magrat 
 
-    
-
-
+    -->
 </Defs>

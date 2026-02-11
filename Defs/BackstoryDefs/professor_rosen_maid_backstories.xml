@@ -58,7 +58,7 @@
         <titleShortFemale>maid</titleShortFemale>
         <title>valet</title>
         <titleShort>valet</titleShort>
-        <description>[PAWN_nameDef] was a senior servant in a great house, responsible for the upkeep of  [PAWN_possessive] employer's clothing and personal items, grooming, and the handling of numerous other minor matters.</description>
+        <description>[PAWN_nameDef] was a senior servant in a great house, responsible for the upkeep of [PAWN_possessive] employer's clothing and personal items, grooming, and the handling of numerous other minor matters.</description>
         <spawnCategories>
             <li>Offworld</li>
             <li>ImperialCommon</li>
@@ -77,17 +77,39 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>Rosen_BattleMaid1</defName>
+        <slot>Adulthood</slot>
+        <titleFemale>battle maid</titleFemale>
+        <titleShortFemale>maid</titleShortFemale>
+        <title>footman</title>
+        <titleShort>footman</titleShort>
+        <description>[PAWN_nameDef] was ostensibly hired as a domestic servant by [PAWN_possessive] employer, but in truth was an extremely well trained bodyguard with a love of frilly dresses and sharp suits.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Social>6</Social>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+            <li>ManualDumb</li>
+            <li>ManualSkilled</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
 
 
 
     <!-- 
-    Normal Maid 1
-    Normal Maid 2
-    Super cleaner maid
-    Combat Maid
-    Bodyguard Maid
-    Cultist Maid
-    Rich Maid
+    Cultist Maid.
+    Rich Maid who's actually the mansion owner.
     -->
 
 

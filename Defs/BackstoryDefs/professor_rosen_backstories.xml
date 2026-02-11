@@ -1161,6 +1161,7 @@
         </forcedTraits>
         <requiredWorkTags>
             <li>Social</li>
+            <li>Intellectual</li>
         </requiredWorkTags>
     </BackstoryDef>
 
@@ -1168,12 +1169,13 @@
         <defName>Rosen_Manager1</defName>
         <title>manager</title>
         <titleShort>manager</titleShort>
-        <description>[PAWN_nameDef] was rapidly promoted up the management chain due to a combination of charm, ruthlessness, and a talent for getting things done. [PAWN_pronoun] was particularily driven to get what [PAWN_pronoun] deserved, and wasn't above getting [PAWN_possessive] hands dirty if [PAWN_possessive] underlings were not up to the task at hand.</description>
+        <description>[PAWN_nameDef] worked for a large corporation, where [PAWN_pronoun] was rapidly promoted up the management chain due to a combination of charm, ruthlessness, and a talent for getting things done. [PAWN_pronoun] was particularily driven to get what [PAWN_pronoun] deserved, and wasn't above getting [PAWN_possessive] hands dirty if [PAWN_possessive] underlings were not up to the task at hand.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Thin</bodyTypeMale>
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <spawnCategories>
             <li>Offworld</li>
+            <li>Pirate</li>
         </spawnCategories>
         <skillGains>
             <Intellectual>2</Intellectual>

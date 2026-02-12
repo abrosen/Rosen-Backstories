@@ -60,10 +60,11 @@
 
     <TraitDef>
     <defName>Rosen_Trait_Paragon</defName>
-        <commonality>0.1</commonality>
+        <commonality>0.05</commonality>
         <forcedPassions>
             <li>Artistic</li>
             <li>Crafting</li>
+            <li>Social</li>
             <li>Intellectual</li>
         </forcedPassions>
         <degreeDatas>

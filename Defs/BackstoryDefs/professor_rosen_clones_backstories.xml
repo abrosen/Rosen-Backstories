@@ -5,7 +5,7 @@
         <title>genetic heir</title>  
         <titleShort>heir</titleShort> 
         <slot>Childhood</slot>
-        <description>[PAWN_nameDef] was created as an almost perfect genetic clone of [PAWN_possessive] mother, altered to be more perfect in every way.  [PAWN_pronoun] spent most of [PAWN_possessive] childhood coming to terms with the insurmountable expectations placed upon [PAWN_objective].</description>  
+        <description>[PAWN_nameDef] was created as an almost identical genetic clone of [PAWN_possessive] mother, altered to be more perfect in every way.  [PAWN_pronoun] spent most of [PAWN_possessive] childhood coming to terms with the insurmountable expectations placed upon [PAWN_objective].</description>  
         <skillGains>
             <Social>2</Social>
             <Crafting>2</Crafting>

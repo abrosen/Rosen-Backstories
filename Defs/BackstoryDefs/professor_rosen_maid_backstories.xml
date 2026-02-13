@@ -91,9 +91,9 @@
             <li>ImperialFighter</li>
         </spawnCategories>
         <skillGains>
-            <Crafting>4</Crafting>
-            <Social>6</Social>
-            <Cooking>2</Cooking>
+            <Shooting>4</Shooting>
+            <Melee>4</Melee>
+            <Social>4</Social> 
         </skillGains>
         <requiredWorkTags>
             <li>Violent</li>

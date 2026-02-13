@@ -528,6 +528,26 @@
     </BackstoryDef>
 
     <BackstoryDef>
+        <defName>Rosen_MineChild3</defName>
+        <title>miner</title>  
+        <titleShort>miner</titleShort> 
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] was born into the underclasses of a highly authoritarian regime.  Forced to work the mines at a young age, [PAWN_pronoun] learned little but how to swing a pickaxe and stay alive.</description>  
+        <skillGains>
+            <Mining>4</Mining>
+            <Intellectual>-4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <forcedTraits>
+            <Rosen_Motherlode MayRequire="professor.rosen.traits">0</Rosen_Motherlode>
+        </forcedTraits>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
         <defName>Rosen_PlagueSurvivor1</defName>
         <title>plague survivor</title>  
         <titleShort>survivor</titleShort> 

@@ -23,7 +23,7 @@ def getBackstories(filenames, originalPath):
     backstories = []
     for filename in filenames:
         path = os.path.join(originalPath, filename)
-        print(path)
+        #print(path)
 
         
         tree = ET.parse(path)
@@ -101,25 +101,27 @@ def skillCount(backstories):
 path1 = 'C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Data/Core/Defs/BackstoryDefs/Shuffled/'
 path2 = "./Defs/BackstoryDefs/"
 
+
 files1 = getFileNames(path1)
-print(files1)
+#print(files1)
 files2 = getFileNames(path2)
-print(files2)
+#print(files2)
 backstories1 = getBackstories(files1, path1)
 backstories2 = getBackstories(files2, path2)
 print("Core (shuffled) backstory count: ", len(backstories1))
 print("Occurrences  of each skill in backstories:")
 print(skillCount(backstories1))
+"""
 print("Skill average by skill:")
 print(skillAverageBySkill(backstories1))
 print("Skill averages across all backstories (no skill is 0):")
 print(skillAverageAll(backstories1))
 print("----------------")
-
+"""
 print("My backstory count: ", len(backstories2))
 print("Occurrences  of each skill in backstories:")
 print(skillCount(backstories2))
-print("Skill average by skill:")
-print(skillAverageBySkill(backstories2))
-print("Skill averages across all backstories (no skill is 0):")
-print(skillAverageAll(backstories2))
+#print("Skill average by skill:")
+#print(skillAverageBySkill(backstories2))
+#print("Skill averages across all backstories (no skill is 0):")
+#print(skillAverageAll(backstories2))

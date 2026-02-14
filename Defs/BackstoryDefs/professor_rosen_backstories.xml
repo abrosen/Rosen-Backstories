@@ -22,10 +22,7 @@
             <VTE_Academian MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Academian>
         </forcedTraits>
         <possessions>
-            <Novel>1</Novel>
-            <TextBook>1</TextBook>
-            <Tome MayRequire="Ludeon.RimWorld.Anomaly">1</Tome>
-            <Schematic>1</Schematic>
+            <Novel>2</Novel>
         </possessions>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -56,11 +53,11 @@
         </workDisables>
         <possessions>
             <MeleeWeapon_LongSword>1</MeleeWeapon_LongSword>
-            <VAE_Apparel_QuiltedVest MayRequire="VanillaExpanded.VARME">1</VAE_Apparel_QuiltedVest>
             <VAE_Apparel_Chainmail MayRequire="VanillaExpanded.VARME">1</VAE_Apparel_Chainmail>
         </possessions>
         <forcedTraits>
             <VTE_Eccentric MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Eccentric>
+            <Rosen_Duelist MayRequire="professor.rosen.traits">0</Rosen_Duelist>
         </forcedTraits>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -121,6 +118,7 @@
             <Construction>-4</Construction>
             <Cooking>4</Cooking>
             <Intellectual>6</Intellectual>
+            <Artistic>2</Artistic>
         </skillGains>
         <requiredWorkTags>
             <li>Intellectual</li>
@@ -158,14 +156,17 @@
         <forcedTraits>
             <VTE_Academian MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Academian>
         </forcedTraits>
+        <possessions>
+            <Novel>2</Novel>
+        </possessions>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
 
     <BackstoryDef>
+        <defName>Rosen_MST3K</defName>
         <slot>Adulthood</slot>
         <title>inventive janitor</title>
-        <defName>Rosen_MST3K</defName>
         <titleShort>janitor</titleShort>
         <description>Held captive on a space satellite and forced by mad scientists to watch cheesy movies (the worst they could find) [PAWN_nameDef] was only able to keep [PAWN_possessive] sanity with the help of [PAWN_possessive] robot friends. [PAWN_nameDef] crafted the aforementioned robots [PAWN_possessive]self, using spare parts from the satellite \n\nDespite the dire, dangerous, and utterly bizarre conditions [PAWN_pronoun] found [PAWN_possessive]self in, [PAWN_nameDef] maintained a positive attitude throughout it all.</description>
         <spawnCategories>
@@ -174,14 +175,14 @@
             <li>Pirate</li>
         </spawnCategories>
         <skillGains>
-            <Crafting>3</Crafting>
-            <Artistic>3</Artistic>
-            <Social>3</Social>
+            <Crafting>6</Crafting>
+            <Artistic>4</Artistic>
+            <Construction>2</Construction>
         </skillGains>
         <requiredWorkTags>
             <li>Crafting</li>
             <li>Artistic</li>
-            <li>Social</li>
+            <li>Constructing</li>
         </requiredWorkTags>
         <forcedTraits><NaturalMood>1</NaturalMood></forcedTraits>
         <disallowedTraits>
@@ -236,8 +237,8 @@
             <li>Tribal</li>
         </spawnCategories>
         <forcedTraits>
-            <PsychicSensitivity>1</PsychicSensitivity>
             <VTE_Wanderlust MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Wanderlust>
+            <PsychicSensitivity>1</PsychicSensitivity>
         </forcedTraits>
         <possessions>
             <CE_Melee_QuarterStaff MayRequire="CETeam.CombatExtendedArmory">1</CE_Melee_QuarterStaff>
@@ -258,12 +259,10 @@
         <description>[PAWN_nameDef] studied the occult and the mysterious phenomena present in the folklore of various cultures on the Rim.  However, encountering an apparent supernatural event left [PAWN_objective] shaken after [PAWN_pronoun] was unable to explain it.</description>
         <slot>Adulthood</slot>
         <skillGains>
-            <Social>2</Social>
             <Intellectual>8</Intellectual>
         </skillGains>
         <spawnCategories>
             <li>Offworld</li>
-            <li>Outlander</li>
             <li>Scientist</li>
             <li>Researcher</li>
         </spawnCategories>
@@ -316,9 +315,9 @@
         <description>[PAWN_nameDef] worked as a programmer for a number years at a large corporation before abruptly quitting to cultivate [PAWN_possessive] own farm, a surprisingly common occurrence on many an urbworld and midworld.</description>
         <slot>Adulthood</slot>
         <skillGains>
-            <Animals>2</Animals>
-            <Plants>2</Plants>
-            <Intellectual>6</Intellectual>
+            <Animals>3</Animals>
+            <Plants>3</Plants>
+            <Intellectual>4</Intellectual>
         </skillGains>
         <spawnCategories>
             <li>Offworld</li>
@@ -435,7 +434,7 @@
         </spawnCategories>
         <bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
         <skillGains>
-            <Medicine>4</Medicine>
+            <Medicine>6</Medicine>
             <Intellectual>6</Intellectual>
         </skillGains>
         <requiredWorkTags>
@@ -462,7 +461,6 @@
         <description>[PAWN_nameDef] served as an engineer in the army on a relatively peaceful urbworld. Most of [PAWN_possessive] active service was spent in disaster recovery efforts. Fortunately many of the same skills needed to sap walls or build bridges and defenses were easily transferable to rescue operations and building shelters.  This was probably for the best, as [PAWN_pronoun] was barely able to take a punch from a genie.</description>
         <spawnCategories>
             <li>Offworld</li>
-            <li>Pirate</li>
         </spawnCategories>
         <bodyTypeMale>Male</bodyTypeMale><bodyTypeFemale>Female</bodyTypeFemale>
         <skillGains>
@@ -585,10 +583,9 @@
             <li>Pirate</li>
         </spawnCategories>
         <skillGains>
-            <Intellectual>2</Intellectual>
             <Social>2</Social>
-            <Shooting>2</Shooting>
-            <Melee>2</Melee>
+            <Shooting>4</Shooting>
+            <Melee>6</Melee>
         </skillGains>
         <requiredWorkTags>
             <li>Violent</li>
@@ -701,7 +698,7 @@
 			<li>SEX_MachinistBackstories</li>
         </spawnCategories>
         <skillGains>
-            <Shooting>4</Shooting>
+            <Shooting>6</Shooting>
             <Melee>2</Melee>
         </skillGains>
         <workDisables>
@@ -733,7 +730,7 @@
             <li>AllWork</li>
         </requiredWorkTags>
         <forcedTraits>
-            <FastLearner />
+            <Rosen_Trait_Paragon />
         </forcedTraits>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -758,7 +755,6 @@
             <Melee>6</Melee>
             <Cooking>2</Cooking>
             <Plants>4</Plants>
-            <Social>2</Social>
         </skillGains>
         <forcedTraits>
             <Bloodlust />
@@ -770,18 +766,19 @@
     <BackstoryDef>
         <defName>Rosen_ShipStealer</defName>
         <title>ship stealer</title>
-        <titleShort>hijacker</titleShort>
-        <description>Despite being absolutely sickened by the idea of hurting another human, [PAWN_nameDef] became one of the most notorius and successful pirates of [PAWN_possessive] generation.  Once, alone, [PAWN_pronoun] even stole a large destroyer that required a thrity person crew.</description>
+        <titleShort>pirate</titleShort>
+        <description>Despite being absolutely sickened by the idea of hurting another human, [PAWN_nameDef] became one of the most notorius and successful pirates of [PAWN_possessive] generation through nothing more than a quick wit, silver tongue, and shameless audacity.  Once, alone, [PAWN_pronoun] even stole a large grav-ship that required a thrity person crew.</description>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>Offworld</li>
         </spawnCategories>
         <requiredWorkTags>
             <li>Intellectual</li>
+            <li>Social</li>
         </requiredWorkTags>
         <skillGains>
-            <Intellectual>8</Intellectual>
-            <Social>4</Social>
+            <Intellectual>6</Intellectual>
+            <Social>6</Social>
         </skillGains>
         <workDisables>
             <li>Violent</li>
@@ -806,7 +803,7 @@
         <skillGains>
             <Crafting>2</Crafting>
             <Construction>4</Construction>
-            <Cooking>2</Cooking>
+            <Cooking>4</Cooking>
         </skillGains>
         <requiredWorkTags>
             <li>ManualSkilled</li>
@@ -849,8 +846,7 @@
             <li>Researcher</li>
         </spawnCategories>
         <skillGains>
-            <Social>2</Social>
-            <Intellectual>6</Intellectual>
+            <Intellectual>8</Intellectual>
         </skillGains>
         <requiredWorkTags>
             <li>Intellectual</li>
@@ -871,10 +867,12 @@
             <li>Farmer</li>
         </spawnCategories>
         <skillGains>
-            <Plants>4</Plants>
+            <Plants>6</Plants>
+            <Construction>2</Construction>
             <Intellectual>4</Intellectual>
         </skillGains>
         <requiredWorkTags>
+            <li>ManualSkilled</li>
             <li>Intellectual</li>
         </requiredWorkTags>
         <possessions>
@@ -952,6 +950,9 @@
         <requiredWorkTags>
             <li>Intellectual</li>
         </requiredWorkTags>
+        <workDisables>
+            <li>Cooking</li>
+        </workDisables>
         <forcedTraits>
             <Abrasive />
         </forcedTraits>
@@ -962,7 +963,7 @@
         <defName>Rosen_Hacker3</defName>
         <title>former hacker</title>
         <titleShort>hacker</titleShort>
-        <description>[PAWN_nameDef] retired early from hacking after a short-lived but extremely lucrative career in corporate espionage.  [PAWN_pronoun] devoted [PAWN_possessive] newfound time to [PAWN_possessive] more recently discovered passion of hydroponics.</description>
+        <description>[PAWN_nameDef] retired early from hacking after a short-lived but extremely lucrative career in corporate espionage. [PAWN_pronoun] devoted [PAWN_possessive] newfound time to [PAWN_possessive] more recently discovered passion of hydroponics.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Thin</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -971,7 +972,6 @@
         </spawnCategories>
         <skillGains>
             <Construction>2</Construction>
-            <Cooking>2</Cooking>
             <Plants>4</Plants>
             <Social>4</Social>
             <Intellectual>6</Intellectual>
@@ -1071,8 +1071,7 @@
         <skillGains>
             <Crafting>4</Crafting>
             <Artistic>4</Artistic>
-            <Social>2</Social>
-            <Intellectual>2</Intellectual>
+            <Social>4</Social>
         </skillGains>
         <requiredWorkTags>
             <li>Crafting</li>
@@ -1157,7 +1156,7 @@
         <skillGains>
             <Melee>4</Melee>
             <Social>2</Social>
-            <Cooking>4</Cooking>
+            <Cooking>6</Cooking>
         </skillGains>
         <forcedTraits>
             <Rosen_Burly MayRequire="professor.rosen.traits">2</Rosen_Burly>
@@ -1242,6 +1241,7 @@
         </requiredWorkTags>
     </BackstoryDef>
 
+    <!--https://www.reddit.com/r/RimWorld/comments/gcni7q/an_oddly_fitting_trait_combination/-->
     <BackstoryDef>
         <defName>Rosen_Uwu1</defName>
         <title>silent model</title>
@@ -1333,11 +1333,31 @@
         </spawnCategories>
         <skillGains>
             <Melee>4</Melee>
-            <Crafting>2</Crafting>
+            <Mining>2</Mining>
+            <Intellectual>4</Intellectual>
         </skillGains>
         <possessions>
             <MeleeWeapon_Knife />
         </possessions>     
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_TreasureHunter3</defName>
+        <title>treasure hunter</title>
+        <titleShort>digger</titleShort>
+        <description>[PAWN_nameDef] made a living searching for and digging up buried treasure.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Mining>6</Mining>
+            <Intellectual>4</Intellectual>
+        </skillGains>   
     </BackstoryDef>
 
 
@@ -1355,7 +1375,7 @@
             <li>Outlander</li>
         </spawnCategories>
         <skillGains>
-            <Construction>6</Construction>
+            <Construction>8</Construction>
             <Crafting>2</Crafting>
         </skillGains>
         <requiredWorkTags>
@@ -1376,12 +1396,34 @@
             <li>Outlander</li>
         </spawnCategories>
         <skillGains>
-            <Construction>3</Construction>
-            <Crafting>3</Crafting>
-            <Intellectual>3</Intellectual>
+            <Construction>4</Construction>
+            <Crafting>4</Crafting>
+            <Intellectual>4</Intellectual>
         </skillGains>
         <requiredWorkTags>
             <li>Constructing</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Excavator1</defName>
+        <title>excavator</title>
+        <titleShort>excavator</titleShort>
+        <description>[PAWN_nameDef] made a living operating large excavation equipment, demolishing buildings and digging foundations.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+
+        </spawnCategories>
+        <skillGains>
+            <Construction>4</Construction>
+            <Mining>4</Mining>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Constructing</li>
+            <li>Mining</li>
         </requiredWorkTags>
     </BackstoryDef>
 
@@ -1449,13 +1491,11 @@
         </spawnCategories>
         <skillGains>
             <Cooking>6</Cooking>
-            <Plants>4</Plants>
-            <Social>2</Social>
+            <Plants>6</Plants>
         </skillGains>
         <requiredWorkTags>
             <li>Cooking</li>
             <li>PlantWork</li>
-            <li>Social</li>
         </requiredWorkTags>
         <forcedTraits>
             <Rosen_Content MayRequire="professor.rosen.traits">2</Rosen_Content>
@@ -1478,7 +1518,7 @@
         </spawnCategories>
         <skillGains>
             <Plants>6</Plants>
-            <Construction>2</Construction>
+            <Construction>4</Construction>
         </skillGains>
         <requiredWorkTags>
             <li>PlantWork</li>
@@ -1510,6 +1550,59 @@
         </requiredWorkTags>
     </BackstoryDef>
 
+
+    <BackstoryDef>
+        <defName>Rosen_UrbworldMiner</defName>
+        <title>urbworld miner</title>
+        <titleShort>miner</titleShort>
+        <description>[PAWN_nameDef] spent [PAWN_possessive] in the deepest levels of an urbworld, extracting resources to feed the megacity's unstopping growth.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>6</Mining>
+            <Construction>4</Construction>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Mining</li>
+            <li>Constructing</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <Undergrounder>0</Undergrounder>
+        </forcedTraits>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_MST3K313</defName>
+        <title>exterminator</title>
+        <titleShort>exterminator</titleShort>
+        <description>[PAWN_nameDef] was a member of a large extermination team on a large urbworld.  They hunted down and killed feralisks that had somehow been illegally imported and now roamed the undercity caves.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>6</Mining>
+            <Animals>2</Animals>
+            <Shooting>4</Shooting>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Mining</li>
+            <li>Animals</li>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <possessions>
+            <VWE_Gun_Flamethrower MayRequire="VanillaExpanded.VWE">1</VWE_Gun_Flamethrower>
+        </possessions>
+    </BackstoryDef>
+
+
     <BackstoryDef>
         <defName>Rosen_Terraformer1</defName>
         <title>terraforming engineer</title>
@@ -1522,7 +1615,7 @@
             <li>Offworld</li>
         </spawnCategories>
         <skillGains>
-            <Construction>4</Construction>
+            <Construction>6</Construction>
             <Mining>4</Mining>
             <Intellectual>2</Intellectual>
         </skillGains>
@@ -1544,15 +1637,12 @@
             <li>Offworld</li>
         </spawnCategories>
         <skillGains>
-            <Cooking>3</Cooking>
-            <Social>2</Social>
+            <Cooking>2</Cooking>
             <Construction>2</Construction>
             <Mining>2</Mining>
         </skillGains>
         <requiredWorkTags>
-            <li>Constructing</li>
-            <li>Mining</li>
-            <li>Cooking</li>
+            <li>AllWork</li>
         </requiredWorkTags>
     </BackstoryDef>
 
@@ -1702,6 +1792,7 @@
         <spawnCategories>
             <li>Offworld</li>
             <li>Pirate</li>
+            <li>ImperialRoyal</li>
         </spawnCategories>
         <skillGains>
             <Shooting>2</Shooting>
@@ -1761,7 +1852,9 @@
             <Plants>2</Plants>
             <Animals>2</Animals>
             <Social>2</Social>
-            <Intellectual>4</Intellectual>
+            <Medicine>2</Medicine>
+            <Artistic>2</Artistic>
+            <Intellectual>2</Intellectual>
         </skillGains>
         <forcedTraits>
             <FastLearner/>
@@ -1771,6 +1864,7 @@
         </workDisables>
         <requiredWorkTags>
             <li>Intellectual</li>
+            <li>ManualSkilled</li>
         </requiredWorkTags>
     </BackstoryDef>
 

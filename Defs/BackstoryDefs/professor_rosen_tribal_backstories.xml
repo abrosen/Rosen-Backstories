@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <BackstoryDef>
+        <defName>Rosen_ChosenOne</defName>
+        <title>chosen one</title>
+        <titleShort>destined</titleShort>
+        <description>[PAWN_nameDef]'s birth was heralded as the arrival of the Chosen One, [PAWN_pronoun] who was destined to drive the steel beasts back to the black skies. [PAWN_nameDef] trained in ancient rites and battle tactics in preparation for the day [PAWN_pronoun] would called upon to fulfill their destiny.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Melee>3</Melee>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Tribal</li>
+            <li>TribalHunter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
         <defName>Rosen_TribalOverseer</defName>
         <title>trial overseer</title>
         <titleShort>overseer</titleShort>

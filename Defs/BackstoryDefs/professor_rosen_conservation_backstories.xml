@@ -103,6 +103,61 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Zookeeper3RamatGan</defName>
+        <title>zookeeper</title>
+        <titleShort>zookeeper</titleShort>
+        <slot>Adulthood</slot>       
+        <description>[PAWN_nameDef] helped maintain the grounds and care for the animals of an extremely large zoological park where visitors could drive through and see the animals in an extremely close approximation of a natural habitat.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Scientist</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>4</Construction>
+            <Animals>6</Animals>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Animals</li>
+            <li>ManualDumb</li>
+            <li>ManualSkilled</li>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <disallowedTraits>
+            <Psychopath />
+            <Bloodlust />
+        </disallowedTraits>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_ConservationistTeddy</defName>
+        <title>conservationist</title>
+        <titleShort>conservationist</titleShort>
+        <slot>Adulthood</slot>       
+        <description>[PAWN_nameDef] had a lifelong love of the outdoors, ranching, and hunting.  During [PAWN_possessive] tenure as a politician, [PAWN_pronoun] lobbied for and successfully passed legislation protecting large segments of [PAWN_possessive] urbworld's wilderness.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Scientist</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Shooting>4</Shooting>
+            <Animals>4</Animals>
+            <Melee>2</Melee>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Animals</li>
+            <li>Violent</li>
+            <li>Social</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
     
 
     <BackstoryDef>
@@ -312,13 +367,12 @@
         <skillGains>
             <Shooting>2</Shooting>
             <Construction>2</Construction>
-            <Medicine>1</Medicine>
+            <Medicine>2</Medicine>
             <Animals>4</Animals>
             <Plants>4</Plants>
         </skillGains>
         <spawnCategories>
             <li>Offworld</li>
-            <li>Outlander</li>
         </spawnCategories>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>

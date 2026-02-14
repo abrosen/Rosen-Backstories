@@ -78,6 +78,23 @@
         </spawnCategories>
     </BackstoryDef>
 
+
+    <BackstoryDef>
+        <defName>Rosen_CultChild6</defName>
+        <title>cult child</title>
+        <titleShort>escapee</titleShort>
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] was born into a large cult, working long hours extracting raw resources from the earth to build monuments for the true faith.  However, a chance unsecured logistics terminal gave [PAWN_nameDef] a glimpse into the outside world. [PAWN_possessive] eyes opened, [PAWN_pronoun] escaped the first opportunity [PAWN_pronoun] got. </description>  
+        <skillGains>
+            <Mining>2</Mining>
+            <Plants>2</Plants>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+        </spawnCategories>
+    </BackstoryDef>
+
     <BackstoryDef>
         <defName>Rosen_VatbornCultist1</defName>
         <title>vatborn cultist</title>
@@ -232,7 +249,26 @@
         <skillGains>
             <Shooting>6</Shooting>
             <Melee>2</Melee>
-            <Social>2</Social>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_CultTroubleshooter2</defName>
+        <title>cult troubleshooter</title>
+        <titleShort>cultist</titleShort>
+        <description>[PAWN_nameDef] served as part of the enforcement arm of a large cult.  [PAWN_nameDef] was called upon when threats to the true faith had grown to a level where discretion was no longer a factor.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Cult</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>6</Melee>
         </skillGains>
         <requiredWorkTags>
             <li>Violent</li>

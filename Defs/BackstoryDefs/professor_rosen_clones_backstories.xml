@@ -19,7 +19,7 @@
         </spawnCategories>
         <forcedTraits>
             <VTE_Perfectionist MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Perfectionist>
-            <Rosen_Trait_Paragon>0</Rosen_Trait_Paragon>
+            <Rosen_Trait_Paragon />
         </forcedTraits>
     </BackstoryDef>
 
@@ -28,7 +28,7 @@
         <title>clone</title>  
         <titleShort>clone</titleShort> 
         <slot>Childhood</slot>
-        <description>[PAWN_nameDef] was created to help rebuild and repopulate [PAWN_possessive] homeworld after an utterly devestating calamity.</description>  
+        <description>[PAWN_nameDef] was created to help rebuild and repopulate [PAWN_possessive] homeworld after an utterly devastating calamity.</description>  
         <skillGains>
             <Construction>4</Construction>
             <Social>-2</Social>
@@ -47,9 +47,30 @@
         <title>clone</title>  
         <titleShort>clone</titleShort> 
         <slot>Childhood</slot>
-        <description>[PAWN_nameDef] was created to repopulate [PAWN_possessive] homeworld after an utterly devestating calamity.  [PAWN_nameDef] was given a swift and implanted education on mining techniques and immediately put to work.</description>  
+        <description>[PAWN_nameDef] was created to repopulate [PAWN_possessive] homeworld after an utterly devastating calamity.  [PAWN_nameDef] was given a swift and implanted education on mining techniques and immediately put to work.</description>  
         <skillGains>
             <Mining>4</Mining>
+            <Social>-2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <workDisables>
+            <li>Intellectual</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_PostApocalypseClone3</defName>
+        <title>clone</title>  
+        <titleShort>clone</titleShort> 
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] was created to repopulate [PAWN_possessive] homeworld after an utterly devastating calamity.  [PAWN_nameDef] was given a swift education in mining and rockbreaking in order to clear some of the more war-torn areas blocking necessary transportation routes.</description>  
+        <skillGains>
+            <Mining>2</Mining>
+            <Construction>2</Construction>
+            <Crafting>2</Crafting>
             <Social>-2</Social>
         </skillGains>
         <spawnCategories>

@@ -24,6 +24,45 @@
     </BackstoryDef>
 
     <BackstoryDef>
+        <defName>Rosen_PostApocalypseClone1</defName>
+        <title>clone</title>  
+        <titleShort>clone</titleShort> 
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] was created to help rebuild and repopulate [PAWN_possessive] homeworld after an utterly devestating calamity.</description>  
+        <skillGains>
+            <Construction>4</Construction>
+            <Social>-2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <workDisables>
+            <li>Intellectual</li>
+        </workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_PostApocalypseClone2</defName>
+        <title>clone</title>  
+        <titleShort>clone</titleShort> 
+        <slot>Childhood</slot>
+        <description>[PAWN_nameDef] was created to repopulate [PAWN_possessive] homeworld after an utterly devestating calamity.  [PAWN_nameDef] was given a swift and implanted education on mining techniques and immediately put to work.</description>  
+        <skillGains>
+            <Mining>4</Mining>
+            <Social>-2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <workDisables>
+            <li>Intellectual</li>
+        </workDisables>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
         <defName>Rosen_CloneSoldier</defName>
         <title>clone soldier</title>  
         <titleShort>clone</titleShort> 
@@ -37,6 +76,7 @@
         <spawnCategories>
             <li>Offworld</li>
             <li>Cult</li>
+            <li>Pirate</li>
         </spawnCategories>
         <workDisables>
             <li>Intellectual</li>
@@ -62,6 +102,7 @@
         </requiredWorkTags>
         <spawnCategories>
             <li>Offworld</li>
+            <li>Pirate</li>
         </spawnCategories>
     </BackstoryDef>
 

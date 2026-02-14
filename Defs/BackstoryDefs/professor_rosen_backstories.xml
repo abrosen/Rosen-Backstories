@@ -647,12 +647,41 @@
             <li>ManualSkilled</li>
             <li>ManualDumb</li>
         </workDisables>
-        <possessions>
-            <MeleeWeapon_LongSword>1</MeleeWeapon_LongSword>
-            <MeleeWeapon_Gladius>1</MeleeWeapon_Gladius>
-        </possessions>
         <forcedTraits>
             <VTE_Snob MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Snob>
+            <Rosen_Duelist MayRequire="professor.rosen.traits">0</Rosen_Duelist>
+        </forcedTraits>
+        
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_Duelist2</defName>
+        <title>swordmaster</title>
+        <titleShort>swordmaster</titleShort>
+        <description>While never sure of the precise locations of the planets "Germany" or "Italy," [PAWN_nameDef] had nevertheless studied and mastered all the dueling treatises written by the swordmasters of those places, and supported [PAWN_objective]self as a professional duelist.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>Pirate</li>
+            <li>ImperialFighter</li>
+            <li>MedievalHigh</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Intellectual>2</Intellectual>
+            <Crafting>2</Crafting>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+            <li>ManualSkilled</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <Rosen_Duelist MayRequire="professor.rosen.traits">0</Rosen_Duelist>
         </forcedTraits>
         
     </BackstoryDef>

@@ -1396,7 +1396,6 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
             <li>Offworld</li>
-            <li>Outlander</li>
         </spawnCategories>
         <skillGains>
             <Construction>4</Construction>
@@ -1424,6 +1423,7 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
             <li>Offworld</li>
+            <li>Pirate</li>
         </spawnCategories>
         <skillGains>
             <Cooking>6</Cooking>
@@ -1432,6 +1432,81 @@
         <requiredWorkTags>
             <li>Cooking</li>
             <li>Social</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_FastFood2</defName>
+        <title>fast food worker</title>
+        <titleShort>cook</titleShort>
+        <description>Many urbworlds are harsh and extremely competitive.  The underlying reasons differ from world to world, but there is immense societal pressure to work long hours for effectively very little.\n\n[PAWN_nameDef] adjusted to this environment by focusing on what [PAWN_pronoun] could control and not participating in the rat race.  [PAWN_pronoun] lived very simply, tended to [PAWN_possessive] potted plants, and enjoyed [PAWN_possessive] job as a fast food cook.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>6</Cooking>
+            <Plants>4</Plants>
+            <Social>2</Social>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Cooking</li>
+            <li>PlantWork</li>
+            <li>Social</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <Rosen_Content MayRequire="professor.rosen.traits">2</Rosen_Content>
+            <Ascetic/>
+        </forcedTraits>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_UrbworldFarmer1</defName>
+        <title>urbworld farmer</title>
+        <titleShort>farmer</titleShort>
+        <description>While the term urbworld often conjures the image of a planet-spanning city, a number of urbworlds do have quite a fair amount of open space, but the population is almost entirely commpressed into megacities for more efficient infrastructure. Food is often grown in massive hydroponics skyscrapers, overseen by agricultural specialists such as [PAWN_nameDef].</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Farmer</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>6</Plants>
+            <Construction>2</Construction>
+        </skillGains>
+        <requiredWorkTags>
+            <li>PlantWork</li>
+            <li>Constructing</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_UrbworldFarmer2</defName>
+        <title>urbworld farmer</title>
+        <titleShort>farmer</titleShort>
+        <description>While the term urbworld often conjures the image of a planet-spanning city, a number of urbworlds do have quite a fair amount of open space, but the population is almost entirely commpressed into megacities for more efficient infrastructure. [PAWN_nameDef] lived outside of this system, escaping the harsh caves of steel for a more agrarian lifestyle.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Farmer</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>6</Plants>
+            <Animals>4</Animals>
+            <Construction>2</Construction>
+        </skillGains>
+        <requiredWorkTags>
+            <li>PlantWork</li>
+            <li>Animals</li>
+            <li>Constructing</li>
         </requiredWorkTags>
     </BackstoryDef>
 
@@ -1478,6 +1553,50 @@
             <li>Constructing</li>
             <li>Mining</li>
             <li>Cooking</li>
+        </requiredWorkTags>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Terraformer3</defName>
+        <title>terraforming rockbreaker</title>
+        <titleShort>terraformer</titleShort>
+        <description>[PAWN_nameDef] was a member of a terraforming team.  [PAWN_possessive] specific role was breaking up rocks and minerals to find suitable raw materials for the terraforming process, often manually.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>8</Mining>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Mining</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <Rosen_Burly MayRequire="professor.rosen.traits">3</Rosen_Burly>
+        </forcedTraits>
+    </BackstoryDef>
+
+
+    <BackstoryDef>
+        <defName>Rosen_Terraformer4</defName>
+        <title>terraforming botanist</title>
+        <titleShort>botanist</titleShort>
+        <description>[PAWN_nameDef] joined a terraforming team as a botanist and was responsible for jumpstarting the planet's oxygen cycle and maintaining the large-scale hydroponics bays.</description>
+        <slot>Adulthood</slot>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>6</Plants>
+            <Construction>4</Construction>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>PlantWork</li>
         </requiredWorkTags>
     </BackstoryDef>
 
@@ -1576,17 +1695,17 @@
         <defName>Rosen_Dictator1</defName>
         <title>former dictator</title>
         <titleShort>dictator</titleShort>
-        <description>[PAWN_nameDef] once ruled an entire planet with an iron fist, but when [PAWN_pronoun] learned that the latest round of protests were not so easily quelled, [PAWN_pronoun] secretly gathered [PAWN_possessive] ill-gotten riches and fled the planet.</description>
+        <description>[PAWN_nameDef] once ruled an entire planet with an iron appendage, but when [PAWN_pronoun] saw that the latest round of protests were not so easily quelled and [PAWN_possessive] supposedly loyal military was planning a coup, [PAWN_pronoun] secretly gathered [PAWN_possessive] ill-gotten riches and fled the planet.</description>
         <slot>Adulthood</slot>
-        <bodyTypeMale>Male</bodyTypeMale>
-        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
         <spawnCategories>
             <li>Offworld</li>
             <li>Pirate</li>
         </spawnCategories>
         <skillGains>
-            <Shooting>4</Shooting>
-            <Social>10</Social>
+            <Shooting>2</Shooting>
+            <Social>8</Social>
         </skillGains>
         <requiredWorkTags>
             <li>Violent</li>
@@ -1594,7 +1713,6 @@
         </requiredWorkTags>
         <possessions>
             <Gold>1000~2000</Gold>
-            <Silver>1000~2000</Silver>
             <Gun_Autopistol />
         </possessions>
     </BackstoryDef>
@@ -1613,8 +1731,7 @@
             <li>ImperialRoyal</li>
         </spawnCategories>
         <skillGains>
-            <Social>2</Social>
-            <Intellectual>10</Intellectual>
+            <Intellectual>6</Intellectual>
         </skillGains>
         <forcedTraits>
             <Industriousness>-1</Industriousness>
@@ -1639,12 +1756,12 @@
             <li>ImperialRoyal</li>
         </spawnCategories>
         <skillGains>
-            <Cooking>4</Cooking>
+            <Cooking>2</Cooking>
             <Crafting>2</Crafting>
-            <Plants>4</Plants>
+            <Plants>2</Plants>
             <Animals>2</Animals>
-            <Social>4</Social>
-            <Intellectual>8</Intellectual>
+            <Social>2</Social>
+            <Intellectual>4</Intellectual>
         </skillGains>
         <forcedTraits>
             <FastLearner/>

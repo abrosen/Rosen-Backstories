@@ -88,13 +88,10 @@ def skillAverageBySkill(backstories):
     return skillGainTotals
 
 def skillCount(backstories):
-    skillCounts = {}
+    skillCounts = {"Shooting":0,"Melee":0,"Construction":0,"Mining":0,"Cooking":0, "Plants":0,"Animals":0,"Crafting":0,"Artistic":0,"Medicine":0,"Social":0,"Intellectual":0}
     for backstory in backstories:
         for skill, gain in backstory.skillGains.items():
-            if skill in skillCounts:
-                skillCounts[skill] += 1
-            else:
-                skillCounts[skill] = 1
+            skillCounts[skill] += 1
     return skillCounts
 
 

@@ -190,7 +190,7 @@
         <defName>Rosen_Dealmaker</defName> <!--Dealmaker creepjoiner at home. -->
         <title>dealmaker</title>
         <titleShort>dealmaker</titleShort>
-        <description>Almost nothing is known about [PAWN_nameDef] save that [PAWN_pronoun] had some role in recruiting members of an ill-fated expedition to study an apparently dormant archotech.  All other records describing [PAWN_objective] have all been expunged. Two things, however, are certain: [PAWN_nameDef] never made a promise [PAWN_pronoun] couldn't keep and [PAWN_pronoun] never forgot a debt [PAWN_pronoun] owed.</description>
+        <description>Groomed from an early age to [PAWN_nameDef] to take over [PAWN_possessive] mother's organization, [PAWN_nameDef] was an effective leader and dealmaker, effectuating multiple mergers and acquisitions of competitors.  When some of the new internal intelligence they aquired from an aquisition pointed to an extremely large cache of archotech artifacts on a not too distant rimworld, [PAWN_pronoun] organized an expedition to retrieve and study them.  It was the only way for [PAWN_objective] to forge a path different than what her mother had created for her.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
@@ -199,9 +199,10 @@
             <li>Researcher</li>
         </spawnCategories>
         <skillGains>
+            <Shooting>2</Shooting>
+            <Mining>2</Mining>
             <Intellectual>4</Intellectual>
             <Social>4</Social>
-            <Shooting>4</Shooting>
         </skillGains>
         <requiredWorkTags>
             <li>AllWork</li>
@@ -214,6 +215,7 @@
             <VAE_Apparel_Trousers MayRequire="VanillaExpanded.VARME">1</VAE_Apparel_Trousers>
         </possessions>
     </BackstoryDef>
+    
     
 
     <BackstoryDef>

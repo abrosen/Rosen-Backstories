@@ -84,7 +84,7 @@
 
 
     <BackstoryDef>
-        <defName>Rosen_CloneSoldier</defName>
+        <defName>Rosen_CloneSoldierChild1</defName>
         <title>clone soldier</title>  
         <titleShort>clone</titleShort> 
         <slot>Childhood</slot>

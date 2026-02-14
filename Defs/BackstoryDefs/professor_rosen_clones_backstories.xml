@@ -19,7 +19,7 @@
         </spawnCategories>
         <forcedTraits>
             <VTE_Perfectionist MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Perfectionist>
-            <!--<Rosen_Trait_Perfect /> Trollolololo-->
+            <Rosen_Trait_Paragon>0</Rosen_Trait_Paragon>
         </forcedTraits>
     </BackstoryDef>
 

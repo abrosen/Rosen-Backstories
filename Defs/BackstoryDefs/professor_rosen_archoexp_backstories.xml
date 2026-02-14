@@ -218,7 +218,6 @@
             <GreatMemory />
         </forcedTraits>
         <possessions>
-            <Gun_Revolver />
             <VAE_Apparel_SuitJacket MayRequire="VanillaExpanded.VARME">1</VAE_Apparel_SuitJacket>
             <VAE_Apparel_Trousers MayRequire="VanillaExpanded.VARME">1</VAE_Apparel_Trousers>
         </possessions>

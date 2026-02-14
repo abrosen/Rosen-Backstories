@@ -70,6 +70,40 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
 
+
+    <BackstoryDef>
+        <defName>Rosen_Zookeeper2</defName>
+        <title>zookeeper</title>
+        <titleShort>zookeeper</titleShort>
+        <slot>Adulthood</slot>       
+        <description>[PAWN_nameDef] owned a large plot of land where [PAWN_pronoun] kept a variety displaced, exotic animals [PAWN_pronoun] had rescued.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Scientist</li>
+            <li>Researcher</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>6</Construction>
+            <Plants>4</Plants>
+            <Animals>8</Animals>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Animals</li>
+            <li>ManualDumb</li>
+            <li>ManualSkilled</li>
+            <li>Intellectual</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <VTE_Menagerist MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_Menagerist>
+        </forcedTraits>
+        <disallowedTraits>
+            <Psychopath />
+            <Bloodlust />
+        </disallowedTraits>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
     
 
     <BackstoryDef>

@@ -83,10 +83,9 @@
             <li>Researcher</li>
         </spawnCategories>
         <skillGains>
-            <Construction>6</Construction>
-            <Plants>4</Plants>
-            <Animals>8</Animals>
-            <Intellectual>2</Intellectual>
+            <Construction>4</Construction>
+            <Plants>2</Plants>
+            <Animals>6</Animals>
         </skillGains>
         <requiredWorkTags>
             <li>Animals</li>
@@ -205,8 +204,8 @@
         <slot>Adulthood</slot>
         <description>No matter what handicap [PAWN_possessive] imposed on himself, hunting animals proved no challenge whatsoever.  [PAWN_nameDef] resorted to abducting other humans and hunting them for sport.</description>
         <skillGains>
-            <Shooting>4</Shooting>
-            <Melee>4</Melee>
+            <Shooting>6</Shooting>
+            <Melee>2</Melee>
             <Animals>4</Animals>
         </skillGains>
         <spawnCategories>
@@ -236,7 +235,7 @@
         <slot>Adulthood</slot>
         <description>[PAWN_nameDef] hunted animals purely for profit, without a care for the law, morals, or sustainability of such practices.</description>
         <skillGains>
-            <Shooting>4</Shooting>
+            <Shooting>6</Shooting>
             <Cooking>2</Cooking>
             <Animals>4</Animals>
         </skillGains>

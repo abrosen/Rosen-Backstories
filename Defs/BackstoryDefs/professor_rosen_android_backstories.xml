@@ -13,7 +13,7 @@
 		<titleFemale>maid</titleFemale>
 		<titleShortFemale>maid</titleShortFemale>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] was designed in the form of a victorian era maid, as seen from the distorted expectations of millenia later. [PAWN_pronoun] was expected to handle cooking, cleaning, gardening, caretaking, and the thousands of other tasks required to maintain a large estate.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was designed in the form of a Victorian era maid, as seen from the distorted expectations of millennia later. [PAWN_pronoun] was expected to handle cooking, cleaning, gardening, caretaking, and the thousands of other tasks required to maintain a large estate.</baseDesc>
 		<spawnCategories>
 			<li>AwakenedAndroid</li>
 		</spawnCategories>

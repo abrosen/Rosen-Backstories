@@ -109,7 +109,7 @@
         <title>clone soldier</title>  
         <titleShort>clone</titleShort> 
         <slot>Adulthood</slot>
-        <description>[PAWN_nameDef] believed [PAWN_pronoun] had joined their military to fight in a vast interplanetary war.  However, [PAWN_nameDef] eventually learned that [PAWN_pronoun] had been created in a lab as a disposable soldier. [PAWN_possessive] memories of [PAWN_possessive] childhood were simulated fabrications, as [PAWN_possessive] creators found this enabled their clones to integrate into military units better.\n\nThe abrupt end of the war cast [PAWN_nameDef] and a legion of other clones into society at large.</description>  
+        <description>[PAWN_nameDef] believed [PAWN_pronoun] had enlisted their military to fight in a vast interplanetary war.  However, [PAWN_nameDef] eventually learned that [PAWN_pronoun] had been created in a lab as a disposable soldier. [PAWN_possessive] memories of [PAWN_possessive] childhood were simulated fabrications, as [PAWN_possessive] creators found this enabled their clones to integrate into military units better.\n\nThe abrupt end of the war cast [PAWN_nameDef] and a legion of other clones into society at large.</description>  
         <skillGains>
             <Shooting>8</Shooting>
             <Melee>4</Melee>

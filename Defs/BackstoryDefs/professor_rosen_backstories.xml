@@ -1868,12 +1868,94 @@
         </requiredWorkTags>
     </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>Rosen_DepressedClown</defName>
+        <slot>Adulthood</slot>
+        <title>depressed clown</title>
+        <titleShort>clown</titleShort>
+        <description>[PAWN_nameDef] was an amazingly skilled clown, but suffered from clinical depression. In an ironic twist of fate, most doctors [PAWN_pronoun] would consult would recommend a trip to the circus, as they had heard the amazing [PAWN_nameDef] was in town, and [PAWN_pronoun] would be sure to bring a smile to [PAWN_possessive] face.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Melee>4</Melee>
+        </skillGains>
+        <forcedTraits>
+            <NaturalMood>-2</NaturalMood>
+        </forcedTraits>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>Rosen_CircusClown</defName>
+        <slot>Adulthood</slot>
+        <title>circus clown</title>
+        <titleShort>clown</titleShort>
+        <description>[PAWN_nameDef] performed in a circus, doing physical comedy in outrageous outfits.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Artistic>2</Artistic>
+            <Animals>2</Animals>
+            <Crafting>2</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <forcedTraits>
+            <Nimble />
+        </forcedTraits>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>Rosen_VaninThief</defName>
+        <slot>Adulthood</slot>
+        <title>master horse thief</title>
+        <titleShort>horse thief</titleShort>
+        <description>Despite [PAWN_possessive] round, fat face and an uncanny resemblance to a sack of suet, [PAWN_nameDef] was one of the greatest horse thieves on the planet, possessing a level of stealth that should have been impossible for someone of [PAWN_possessive] frame.  As for why [PAWN_pronoun] took up such a trade, it beat what others called an honest day's work.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>8</Animals>
+            <Social>4</Social>
+        </skillGains>
+        <forcedTraits>
+            <Nimble />
+            <Industriousness>-1</Industriousness>
+        </forcedTraits>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+    </BackstoryDef>
 
-
-    
-
+    <BackstoryDef>
+        <defName>Rosen_Shaggy</defName>
+        <slot>Adulthood</slot>
+        <title>cowardly mystery solver</title>
+        <titleShort>mystery solver</titleShort>
+        <description>[PAWN_nameDef] and [PAWN_possessive] loyal hound were part of a traveling mystery solving troupe. Though [PAWN_nameDef] was primarily there for the new foods, [PAWN_pronoun] was somehow always the one that stumbled into trouble.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>6</Cooking>
+            <Social>6</Social>
+        </skillGains>
+        <forcedTraits>
+            <Gourmand />
+            <VTE_DogPerson MayRequire="VanillaExpanded.VanillaTraitsExpanded">0</VTE_DogPerson>
+        </forcedTraits>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
 
     <!--
     Other Ideas:

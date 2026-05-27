@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs MayRequire="vanillaracesexpanded.android">
 
-    
-
-
-
-
     <BackstoryDef  MayRequire="vanillaracesexpanded.android" ParentName="VREA_AndroidBackstoryBase">
 		<defName>Rosen_RoboMaid1</defName>
 		<title>maid</title>
@@ -37,7 +32,7 @@
 		<titleFemale>governess</titleFemale>
 		<titleShortFemale>governess</titleShortFemale>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] was a high end android available for purchase on an advanced glitterworld.  [PAWN_possessive] advertised features included deep knowledge in a wide range of subject, proper etiquette, and the capability to use violence to defend [PAWN_possessive] charges.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was a high end android available for purchase on an advanced glitterworld.  [PAWN_possessive] advertised features included deep knowledge in a wide range of subjects, proper etiquette, and the capability to use violence to defend [PAWN_possessive] charges.</baseDesc>
 		<spawnCategories>
 			<li>AwakenedAndroid</li>
 		</spawnCategories>

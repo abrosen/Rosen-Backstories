@@ -158,6 +158,18 @@ Perpetual student - [PAWN_nameDef] never truly "grew up" and instead spent [PAWN
 
 Glitterworld academic - With drones, mechanoids, and other automatons doing most of the work, [PAWN_nameDef] grew up living a life of leisure and luxury. [PAWN_pronoun] spent the vast majority of [PAWN_possessive] time publishing papers, learning about and contributing to whatever particular field caught [PAWN_possessive] interest at the time.
 
+Depressed clown - [PAWN_nameDef] was an amazingly skilled clown, but suffered from clinical depression. In an ironic twist of fate, most doctors [PAWN_pronoun] would consult would recommend a trip to the circus, as they had heard the amazing [PAWN_nameDef] was in town, and [PAWN_pronoun] would be sure to bring a smile to [PAWN_possessive] face.
+
+Circus clown - [PAWN_nameDef] performed in a circus, doing physical comedy in outrageous outfits.
+
+Master horse thief - Despite [PAWN_possessive] round, fat face and an uncanny resemblance to a sack of suet, [PAWN_nameDef] was one of the greatest horse thieves on the planet, possessing a level of stealth that should have been impossible for someone of [PAWN_possessive] frame.  As for why [PAWN_pronoun] took up such a trade, it beat what others called an honest day's work.
+
+Cowardly mystery solver - [PAWN_nameDef] and [PAWN_possessive] loyal hound were part of a traveling mystery solving troupe. Though [PAWN_nameDef] was primarily there for the new foods, [PAWN_pronoun] was somehow always the one that stumbled into trouble.
+
+Plumber - [PAWN_nameDef] was an extremely athletic plumber with a streak of heroism. [PAWN_pronoun] gained notoriety when [PAWN_pronoun] saved a princess from a pack of man-eating turtles, a surpringly common occurrence on the rim.
+
+Urbworld pizzaboy - [PAWN_nameDef] made a living performing one of the most stressful and dangerous jobs on an urbworld: high-speed pizza delivery. Guaranteed hot and within 30 minutes, or your pizza was free.
+
 Quarantine child - Before [PAWN_nameDef] could even speak, [PAWN_possessive] world was ravaged by worldwide pandemic. The next few years of [PAWN_possessive] life were spent in isolation with only [PAWN_possessive] parents for company. However, [PAWN_possessive] parents kept [PAWN_objective] busy, nurturing a natural talent for the arts and sciences.
 
 Troublesome child - Born into an extremely large family, [PAWN_nameDef] was starved for attention.  [PAWN_pronoun] solved this problem by creating a number of contraptions that made noises, created messes, and were otherwise generally quite meddlesome.

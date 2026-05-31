@@ -211,8 +211,8 @@
             <GreatMemory />
         </forcedTraits>
         <possessions>
-            <VAE_Apparel_SuitJacket MayRequire="VanillaExpanded.VARME">1</VAE_Apparel_SuitJacket>
-            <VAE_Apparel_Trousers MayRequire="VanillaExpanded.VARME">1</VAE_Apparel_Trousers>
+            <VAE_Apparel_SuitJacket MayRequire="VanillaExpanded.VAPPE">1</VAE_Apparel_SuitJacket>
+            <VAE_Apparel_Trousers MayRequire="VanillaExpanded.VAPPE">1</VAE_Apparel_Trousers>
         </possessions>
     </BackstoryDef>
     

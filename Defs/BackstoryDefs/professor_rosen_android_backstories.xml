@@ -38,13 +38,81 @@
 		</spawnCategories>
 		<skillGains>
             <Shooting>6</Shooting>
-            <Melee>9</Melee>
+            <Melee>6</Melee>
             <Social>12</Social>
             <Crafting>4</Crafting>
             <Medicine>8</Medicine>
+			<Artistic>10</Artistic>
             <Intellectual>12</Intellectual>
 		</skillGains>
 	</BackstoryDef>
+
+	<BackstoryDef MayRequire="vanillaracesexpanded.android" ParentName="VREA_AndroidBackstoryBase">
+		<defName>Rosen_AndroidBloodluster1</defName>
+		<title>escaped soldier</title>
+		<titleShort>murderbot</titleShort>
+		<titleFemale>escaped soldier</titleFemale>
+		<titleShortFemale>murderbot</titleShortFemale>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef] was created to be soldier in war never asked to fight in. [PAWN_pronoun] made an incredibly enthusistic and persuasive argument to [PAWN_possessive] creators within minutes of awakening and they had no choice but to let [PAWN_nameDef] find [PAWN_possessive] own way through the galaxy.\n\nAfter all, corpses can't argue back.</baseDesc>
+		<spawnCategories>
+			<li>AwakenedAndroid</li>
+		</spawnCategories>
+		<skillGains>
+            <Shooting>8</Shooting>
+            <Melee>14</Melee>
+			<Construction>6</Construction>
+            <Social>4</Social>
+            <Crafting>8</Crafting>
+		</skillGains>
+		<forcedTraits>
+			<Bloodlust />
+        </forcedTraits>
+	</BackstoryDef>
+
+
+	<BackstoryDef MayRequire="vanillaracesexpanded.android" ParentName="VREA_AndroidBackstoryBase">
+		<defName>Rosen_AndroidMST3K1</defName>
+		<title>scrap bot</title>
+		<titleShort>riffer</titleShort>
+		<titleFemale>scrap bot</titleFemale>
+		<titleShortFemale>riffer</titleShortFemale>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef] was cobbled together with spare parts to keep a human trapped on an artificial satellite company as they were forced to watch terrible movies.  Together, they managed to keep their questionable and tenuious grasp on sanity with a non-stop barrage of jokes.</baseDesc>
+		<spawnCategories>
+			<li>AwakenedAndroid</li>
+		</spawnCategories>
+		<skillGains>
+            <Construction>6</Construction>
+            <Social>12</Social>
+            <Crafting>12</Crafting>
+            <Artistic>12</Artistic>
+			<Intellectual>6</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef MayRequire="vanillaracesexpanded.android" ParentName="VREA_AndroidBackstoryBase">
+		<defName>Rosen_AndroidDetective1</defName>
+		<title>detective</title>
+		<titleShort>cop</titleShort>
+		<titleFemale>detective</titleFemale>
+		<titleShortFemale>cop</titleShortFemale>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef] was created to serve as an investigator on a particularly dense urbworld.  [PAWN_possessive] positronic brain and detatchment allowed [PAWN_objective] to look an crime scenes from a completely different perspective than that of [PAWN_possessive] biological companions.</baseDesc>
+		<spawnCategories>
+			<li>AwakenedAndroid</li>
+		</spawnCategories>
+		<skillGains>
+            <Shooting>8</Shooting>
+            <Melee>8</Melee>
+            <Social>12</Social>
+            <Crafting>6</Crafting>
+            <Medicine>6</Medicine>
+			<Intellectual>8</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+
 
 
 

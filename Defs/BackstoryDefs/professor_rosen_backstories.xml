@@ -1170,8 +1170,8 @@
 
     <BackstoryDef>
         <defName>Rosen_Clerk4</defName>
-        <title>clerk</title>
-        <titleShort>clerk</titleShort>
+        <title>software engineer</title>
+        <titleShort>programmer</titleShort>
         <description>[PAWN_nameDef] was one of a faceless team of software engineers in a large and extremely powerful urbworld corporation. [PAWN_pronoun] was extremely well paid, but hated [PAWN_possessive] job.\n\nOne day, [PAWN_nameDef] realized that [PAWN_pronoun] could pay a programmer from the lower levels of the urbworld to do [PAWN_possessive] work for [PAWN_objective], leaving [PAWN_objective]self free to do as [PAWN_pronoun] pleased.</description>
         <slot>Adulthood</slot>
         <bodyTypeMale>Thin</bodyTypeMale>
@@ -1957,6 +1957,69 @@
         <bodyTypeFemale>Thin</bodyTypeFemale>
     </BackstoryDef>
 
+
+    <BackstoryDef>
+        <defName>Rosen_DefinitelyNotMario1</defName>
+        <slot>Adulthood</slot>
+        <title>plumber</title>
+        <titleShort>plumber</titleShort>
+        <titleFemale>plumber</titleFemale>
+        <titleShortFemale>plumber</titleShortFemale>
+        <description>[PAWN_nameDef] was an extremely athletic plumber with a streak of heroism. [PAWN_pronoun] gained notoriety when [PAWN_pronoun] saved a princess from a pack of man-eating turtles, a surpringly common occurrence on the rim.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Construction>6</Construction>
+            <Melee>4</Melee>
+        </skillGains>
+        <forcedTraits>
+            <Nimble />
+        </forcedTraits>
+        <disallowedTraits>
+            <Bloodlust />
+            <Psychopath />
+        </disallowedTraits>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <possessions>
+            <RawFungus>150</RawFungus>
+            <Apparel_Cape MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">1</Apparel_Cape>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_SnowCrash1</defName>
+        <slot>Adulthood</slot>
+        <title>urbworld pizzaboy</title>
+        <titleShort>deliverator</titleShort>
+        <description>[PAWN_nameDef] made a living performing one of the most stressful and dangerous jobs on an urbworld: high-speed pizza delivery. Guaranteed hot and within 30 minutes, or your pizza was free.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>2</Shooting>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <forcedTraits>
+            <SpeedOffset>2</SpeedOffset>
+        </forcedTraits>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <possessions>
+            <MeleeWeapon_LongSword>1</MeleeWeapon_LongSword>
+        </possessions>
+    </BackstoryDef>
+
+
+    
     <!--
     Other Ideas:
     woodworker

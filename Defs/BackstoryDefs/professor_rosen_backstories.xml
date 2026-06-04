@@ -1279,6 +1279,7 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
             <li>Offworld</li>
+            <li>Pirate</li>
         </spawnCategories>
         <skillGains>
             <Shooting>4</Shooting>

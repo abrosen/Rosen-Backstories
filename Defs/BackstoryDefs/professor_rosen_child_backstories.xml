@@ -53,8 +53,8 @@
     <!-- This one is a reference to the LDS mission practice, made generic. -->
     <BackstoryDef>
         <defName>Rosen_MissionChild</defName>
-        <title>Missionary</title>
-        <titleShort>Missionary</titleShort>
+        <title>missionary</title>
+        <titleShort>missionary</titleShort>
         <description>[PAWN_nameDef] spent over a year serving on a charitable mission on behalf of [PAWN_possessive] ideoligion. The combination of charity work and proselytizing left [PAWN_nameDef] with a smattering of useful skills.</description>
         <slot>Childhood</slot>
         <skillGains>
@@ -77,9 +77,9 @@
     <!-- Weak stats, strong trait-->
     <BackstoryDef>
         <defName>Rosen_Daydream</defName>
-        <title>Daydreaming student</title>
-        <titleShort>Daydreamer</titleShort>
-        <description>[PAWN_nameDef]'s spent much of [PAWN_possessive] time in school daydreaming about exploring strange new worlds, preferably on a five-year mission.  While [PAWN_possessive] performance in school was less than stellar, [PAWN_nameDef] always maintained a positive outlook on their future.</description>
+        <title>daydreaming student</title>
+        <titleShort>daydreamer</titleShort>
+        <description>[PAWN_nameDef] spent much of [PAWN_possessive] time in school daydreaming about exploring strange new worlds, preferably on a five-year mission.  While [PAWN_possessive] performance in school was less than stellar, [PAWN_nameDef] always maintained a positive outlook on their future.</description>
         <slot>Childhood</slot>
         <skillGains>
             <Artistic>2</Artistic>
@@ -103,8 +103,8 @@
     <!-- 中二病 -->
     <BackstoryDef>
         <defName>Rosen_Chuunibyou</defName>
-        <title>Daydreaming student</title>
-        <titleShort>Chuunibyou</titleShort>
+        <title>daydreaming student</title>
+        <titleShort>chuunibyou</titleShort>
         <description>[PAWN_nameDef] was convinced they were special and had hidden, yet to be unleashed, secret powers. [PAWN_pronoun] trained with sticks as if they were legendary weapons and invented ancient-sounding spells. Although psycaster powers never manifested themselves, [PAWN_possessive] fantasies were an outlet for [PAWN_possessive] considerable imagination.</description>
         <slot>Childhood</slot>
         <skillGains>

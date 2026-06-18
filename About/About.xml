@@ -13,6 +13,7 @@ GNU Terry Pratchett.
     <loadAfter>
         <li>VanillaExpanded.VanillaTraitsExpanded</li>
         <li>VanillaExpanded.VARME</li>
-        <li>professor.rosen.traits.</li>
+        <li>professor.rosen.traits</li>
+        <li>vanillaracesexpanded.android</li>
     </loadAfter>
 </ModMetaData>

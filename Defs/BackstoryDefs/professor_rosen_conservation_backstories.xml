@@ -271,7 +271,7 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <forcedTraits>
-            <Psychopath />
+            <Bloodlust />
         </forcedTraits>
         <requiredWorkTags>
             <li>Violent</li>

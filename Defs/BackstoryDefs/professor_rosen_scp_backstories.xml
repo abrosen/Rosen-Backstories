@@ -69,4 +69,28 @@
         </possessions>
     </BackstoryDef>
 
+
+    <BackstoryDef ParentName="RosenSCPOperative" MayRequire="Ludeon.RimWorld.Anomaly">
+        <defName>Rosen_DeadlifeApocalypseSurvivor1</defName>
+        <title>deadlife survivor</title>
+        <titleShort>survivor</titleShort>
+        <description>Shortly after various nations on [PAWN_nameDef]'s homeworld discovered caches of deadlife dust, the nano-archites were weaponized to horrific effect.  In less than a year, 99% of all animal and human life had been wiped out.\n\n[PAWN_nameDef] survived through a mix of luck, cunning, and aquisition of miliary hardware.</description>
+        <spawnCategories>
+            <li>Pirate</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+            <Medicine>2</Medicine>
+            <Construction>2</Construction>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <possessions>
+            <Gun_HeavySMG/>
+        </possessions>
+    </BackstoryDef>
+
 </Defs>

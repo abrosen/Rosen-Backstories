@@ -416,6 +416,7 @@
             <li>Cult</li>
         </spawnCategories>
         <skillGains>
+            <Shooting>2</Shooting>
             <Social>4</Social>
         </skillGains>
         <forcedTraits>
@@ -502,7 +503,6 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <spawnCategories>
             <li>Cult</li>
-            <li>ImperialRoyal</li>
         </spawnCategories>
         <skillGains>
             <Shooting>4</Shooting>

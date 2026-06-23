@@ -104,4 +104,27 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
     </BackstoryDef>
 
+
+    <BackstoryDef>
+        <defName>Rosen_PilgrimGuard</defName> 
+        <title>pilgrimage guard</title>
+        <titleShort>guard</titleShort>
+        <description>[PAWN_nameDef] was assigned to guard members of [PAWN_possessive] ideoligion as they traveled from world to world on a pilgrimage.</description>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+            <li>ImperialFighter</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>6</Shooting>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
 </Defs>

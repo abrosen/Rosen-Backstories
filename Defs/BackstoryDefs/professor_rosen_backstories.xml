@@ -2019,6 +2019,53 @@
         </possessions>
     </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>Rosen_CarSalesman1</defName>
+        <slot>Adulthood</slot>
+        <title>car salesman</title>
+        <titleShort>salesman</titleShort>
+        <titleFemale>car saleswoman</titleFemale>
+        <titleFemaleShort>saleswoman</titleFemaleShort>
+        <description>The process of buying cars was universally painful on nearly every world on the Rim that rediscovered the internal combustion engine, remaining the single item on which buyers and sellers would haggle over even on worlds where the prices of all other objects were non-negotiable.\n\n[PAWN_nameDef] made a living convincing people they were getting the best deal possible on a vehicle purchase.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <skillGains> 
+            <Social>8</Social>
+        </skillGains>
+        <requiredWorkTags>
+            <li>Social</li>
+        </requiredWorkTags>
+        <workDisables>
+            <li>Intellectual</li>
+        </workDisables>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <possessions>
+            <VAE_Apparel_SuitJacket MayRequire="VanillaExpanded.VAPPE">1</VAE_Apparel_SuitJacket>
+        </possessions>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>Rosen_Modder1</defName>
+        <slot>Adulthood</slot>
+        <title>mod maker</title>
+        <titleShort>modder</titleShort>
+        <description>Not skilled enough to create games of their own, [PAWN_nameDef] spent much of [PAWN_possessive] free time deluding [PAWN_objective]self into believing they were exceptionally talented by creating mods for extremely niche colony simulators.</description>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+
 
     
     <!--

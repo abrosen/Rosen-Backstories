@@ -356,10 +356,7 @@
         <defName>Rosen_BloodyStupidJohnson1</defName>
         <title>deranged inventor</title>
         <titleShort>inventor</titleShort>
-        <description>[PAWN_nameDef] was not an idiot; [PAWN_pronoun] was as far as from an idiot as it was possible to be, just from the complete opposite end of the spectrum as a genius.  After all, no idiot could have made explosive compounds out of common sand and water. No idiot could create architectural plans for a mansion that relied on triangles drawn with three right angles.
-        
-        Presumeably, no force in the galaxy will save us when [PAWN_pronoun] discovers the heat pump.
-        </description>
+        <description>[PAWN_nameDef] was not an idiot; [PAWN_pronoun] was as far as from an idiot as it was possible to be, just from the complete opposite end of the spectrum as a genius.  After all, no idiot could have made explosive compounds out of common sand and water. No idiot could create architectural plans for a mansion that relied on triangles drawn with three right angles.\n\nPresumably, no force in the galaxy will save us when [PAWN_pronoun] discovers the heat pump.</description>
         <slot>Adulthood</slot>
         <skillGains>
             <Construction>8</Construction>

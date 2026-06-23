@@ -79,6 +79,7 @@
             <li>Offworld</li>
             <li>Researcher</li>
             <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
         </spawnCategories>
         <forcedTraits>
             <FastLearner />

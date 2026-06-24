@@ -2025,7 +2025,7 @@
         <title>car salesman</title>
         <titleShort>salesman</titleShort>
         <titleFemale>car saleswoman</titleFemale>
-        <titleFemaleShort>saleswoman</titleFemaleShort>
+        <titleShortFemale>saleswoman</titleShortFemale>
         <description>The process of buying cars was universally painful on nearly every world on the Rim that rediscovered the internal combustion engine, remaining the single item on which buyers and sellers would haggle over even on worlds where the prices of all other objects were non-negotiable.\n\n[PAWN_nameDef] made a living convincing people they were getting the best deal possible on a vehicle purchase.</description>
         <spawnCategories>
             <li>Offworld</li>
